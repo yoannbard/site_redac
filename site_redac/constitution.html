@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<!-- Navigation -->
+
+<div class="container_nav">
+<a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
+  <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
+    <a href="resolco.html" class="button_nav">Présentation</a>
+    <a href="constitution.html" class="button_nav">Constitution</a>
+    <a href="exploration.html" class="button_nav">Transcription</a>
+    <a href="exploration_coref.html" class="button_nav">Coréférence</a>
+    <a href="telechargement.html" class="button_nav">Téléchargement</a>
+</div>
+
+
+<!--Historique-->
+<div class="general-background">
+
+
+	<ul class="flex-container">
+
+	  <li class="flex-item">
+
+		<h1>Constitution du corpus RésolCo</h1>
+		<hr/>
+		<p>La constitution du corpus RésolCo répond à la volonté de mettre à disposition un corpus d'écrits scolaires et permettre d'effectuer des analyses sur différents aspects, comme l'orthographe ou les structures discursives. Pour ce faire il est nécessaire de digitaliser le copies manuscrites des élèves.<br/>
+		Précédemment appelé "corpus Charolles", en hommage aux travaux de Michel Charolles sur les procédés anaphoriques utilisés par des élèves de fin d’école primaire et de début de collège dans des textes narratifs rédigés à partir d’images (Charolles, 1988), le corpus était constitué d'une trentaine des textes manuscrits, non numérisés.<br/>
+		La numérisation de ces 30 textes et des nouvelles copies récoltées a été effectuée en suivant différentes étapes, qui vont de la transcription et encodage au format .xml jusqu'à l'analyse syntaxique automatique (<i>parsing</i>), en passant par une phrase de normalisation orthographique, comme illustré dans la chaîne de traitement ci-dessous.<br/>
+		</p>
+		
+			<img class="chaineTraitement" src="images/chaine_traitementEcalm.jpg" alt="">
+			
+		<p>La chaîne de traitement consiste en 7 étapes principales : 
+		<ol>
+			<li><b>Préparation</b> des copies : il s'agit de dissocier les scans reçus et de préparer les fichiers .xml, qui seront utilisés pour la transcription ;</li>
+			<li><b>Transcription</b> et <b>vérification</b> des transcription : la transcription et la vérification sont effectuées par deux personnes différentes ;</li>
+			<li><b>Génération</b> des fichiers pour l'annotation des erreurs d'orthographe : un script python permet de transformer les fichier .xml au format exploitable par l'interface d'annotation utilisée ;</li>
+			<li><b>Normalisation orthographique</b> : il s'agit d'annoter les erreurs d'orthographe et en indiquer la version corrigée. Si les annotateurs rencontrent des erreurs provenant de la transcription, on revient à l'étape 2 pour corriger les .xml ;</li>
+			<li><b>Génération</b> des fichiers normalisés : un script python permet de générer les fichiers normalisés, c'est-à-dire sans erreurs d'orthographe ;</li>
+			<li><b>Vérification</b> des fichiers normalisés : la vérification est effectuée par une personne différente de celle qui a réalisé l'annotation. Si des erreurs de normalisations sont rencontré, on revient à l'étape 4 ;</li>
+			<li><b>Parsing</b> des fichiers normalisés : pour le parsing nous utilisons <a href="http://redac.univ-tlse2.fr/applications/talismane.html">Talismane</a> (Urieli, 2013).</li>
+		</ol>
+		 </p>
+
+	</ul>
+	
+	<!--Transcription-->
+
+
+<!-- Description du processus de transcription -->
+
+<div class="general-background">
+	
+	<ul class="flex-container">
+		<li class="flex-item">
+		<h1>Transcription des textes d'élèves</h1>
+		<hr/>
+		<p>Afin de transformer les copies en une ressource exploitable par la communauté scientifique, et y appliquer des méthodes de linguistique de corpus et de TAL, il est nécessaire de passer par une étape de transcription des scans de copies. </p>
+		<p>Le format choisi pour la transcription est le format XML, selon la norme TEI-P5.
+		</p>
+		<p>Toute transcription est assortie de métadonnées fournissant des informations sur la collecte et la numérisation de la copie, sur les conditions d'écriture et sur l'école qui a participé à la récolte des copies.</p>
+		<p>Les transcriptions sont anonymisées.</p>
+		<p>Pour ce qui concerne le corps du texte, l'objectif de la transcription est de reproduire le plus fidèlement possible le texte de l'élève ou de l'étudiant. Afin d'obtenir une reproduction fidèle, la mise en page ligne par ligne est resneignée ainsi que toute trace du processus d'écriture comme les ratures, les ajouts, les soulignements, etc. Aucune erreur d'orthographe n'est corrigée lors de la transcription.</p>
+		<p>Toute transcription est vérifiée par une personne différente de celle qui a transcrit le texte.</p>
+		<p>
+			Pour plus de détails sur les éléments transcrits et les balises utilisées vous pouvez consulter : 
+			<ul>
+				<li>la version actuelle du <a href="docs/Guide_transcription.pdf"><b>guide de transcription</b></a> proposé dans le cadre du projet <a href="http://e-calm.huma-num.fr/" target="_blank">E:Calm</a> qui sera publié une fois finalisé sur le site du projet.</li>
+				<!--li><a href="docs/Frama_transcription.html">le <b>Framapad de transcription</b></a></li-->
+				<li>le <a href="docs/XX-XXX-20XX-XXX-RX-VX_T.tei.xml"><b>canevas</b></a> d'une transcription au format XML qui liste tous les éléments saisis dans le <i>teiHeader</i> qui contient les métadonnées associées à chaque copie.</li>
+				<li>la <b>vidéo</b> ci-dessous</li>
+			</ul>
+		</p>
+	</ul>
+	<h1 class="titre_video">Comment ont été transcrits les textes</h1>
+
+	<video width="800" height="450" controls src="images/Transcription.mp4" type="video/mp4"/> Your browser does not support HTML5 video.
+	</video>
+</div>
+		
+	<!-- Normalisation -->
+
+	<div class="general-background">
+	
+	<ul class="flex-container">
+		<li class="flex-item">
+		<h1>Normalisation des textes d'élèves</h1>
+		<hr/>
+		<p>Afin de faciliter l'analyse des erreurs orthographiques et pour pouvoir appliquer des méthodes de linguistique de corpus et de TAL, une étape de normalisation des transcriptions de copies a été prévue.<br/>
+		Cette phase consiste dans l'étiquetage des erreurs d'orthographe. Pour annoter ces erreurs on a choisi d'utiliser l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).
+		</p>
+
+		<p>Pour ce qui concerne l'annotation des erreurs d'orthographe, il a été décidé de ne pas classer les erreurs, en effet, la catégorisation des erreurs orthographiques sera effectuée par les experts du projet E-Calm qui travaillent sur cet aspect-là.<br/>
+		La normalisation du corpus RésolCo est effectuée par des annotateurs francophones. <br/>
+		En cas d'incertitude, les annotateurs peuvent indiquer une incertitude dans la détection, dans la correction de l'erreur ou bien une incertitude sur les deux.<br/>
+		Si plusieurs solutions de correction sont possibles, elles sont indiquées.<br/>
+		</p>
+		<p>Toute normalisation est vérifiée par une personne différente de celle qui a annoté le texte.</p>
+		<p>
+			Pour plus de détails sur les éléments normalisés et les décisions prises 
+			vous pouvez consulter : 
+			<ul>
+				<li><a href="docs/Guide_normalisation.pdf">la version actuelle du <b>guide de normalisation</b></a> proposé dans le cadre du projet <a href="http://e-calm.huma-num.fr/" target="_blank">E:Calm</a> qui sera publié une fois finalisé sur le site du projet.</li>
+				<!--li><a href="docs/Frama_normalisation.html">le <b>Framapad de normalisation</b></a></li-->
+				<li>la <b>vidéo</b> ci-dessous</li>
+			</ul>
+		</p>
+	</ul>
+		<h1 class="titre_video">Comment ont été normalisés les textes</h1>
+
+	<video width="800" height="450" controls src="images/Tuto_Glozz.mp4" type="video/mp4"/> Your browser does not support HTML5 video.
+	</video>
+	<br/>
+
+<ul class="flex-container">
+		<li class="flex-item">
+		<h1>Annotation de la continuité référentielle.</h1>
+		<hr/>
+		<p>
+		L'étude de la cohérence discursive dans les écrits d'élèves et d'étudiants fait partie des tâches principales au coeur du projet E-calm. Afin d'obtenir un aperçu de la maîtrise et de l'évolution de cette compétence parmi les rédacteurs, nous nous sommes concentrés sur des éléments de cohésion directement liés à la cohérence globale du récit et qui nous serviront d'indicateurs pertinents : les continuités référentielles (ou CR).  
+		</p>
+		Pour rappel : l'exercice d'écriture demandé dans les récits Resolco impose trois phrases à introduire dans l'ordre au cours d'un récit. Chaque phrase consigne contient un référent humain : "<i>Elle</i> habitait dans cette maison depuis longtemps" ; "<i>il</i> se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <i>les enfants</i> ne sortent plus la nuit".
+		<br/>
+		La consigne contraint (dans la grande majorité des cas) à placer ces référents humains au centre du récit et nous nous intéressons aux stratégies mises en place par le scripteur pour développer et gérer ces personnages de manière cohérente.
+		<p>
+		<p>Afin d'analyser ces éléments de cohésion discursive, une annotation de chaque "maillon" (ou référence) des chaînes de continuité référentielle correspondant aux trois référents humains de la consigne a été effectuée pour les copies normalisées grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).</p>
+		<p>Par exemple, tous les éléments référant au personnage <i>ELLE</i> sont annotés tel que :
+		</p>
+		<img src="images/3eR13_pronom_relatif.png" title="relative" style="width : 100%;max-width:800px;" />
+		<p>On obtient la <span style="color:#2e81f9">CR_ELLE</span> : <b>Elle - Cette femme mystérieuse et très âgée - dont - que.</b></p>
+		<p> Chaque copie a été annoté par un ou plusieurs annotateurs francophones et un "gold standard" (ou adjudication) a été décidé pour gérer des cas d'incertitude ou d'ambiguïté au sein de l'annotation.
+			<br/>
+		Pour plus de détails concernant l'annotation des chaînes de continuité référentielle vous pouvez consulter le <a href="https://hodaclm.github.io/resolco/">guide d'annotation</a> ainsi que le <a href="https://github.com/hodaclm/resolco/wiki/Cas-d'incertitudes-et-de-d%C3%A9saccord-dans-le-corpus-ResolCo">Wiki</a> pour des exemples de cas d'incertitudes gérés lors de l'adjudication.
+		</p>
+		<p>L'alignement de ces fichiers annotés avec les fichiers parsés sous talismane nous permet de récupérer les informations morpho-syntaxiques pour effectuer une analyse plus fine des chaines de continuité référentielle.</p>
+		
+		</p>
+	</ul>
+
+</div>
+				
+
+		</li>
+	</ul>
+</div>
+<div>
+<p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
+</div>
+</body>
+</html>

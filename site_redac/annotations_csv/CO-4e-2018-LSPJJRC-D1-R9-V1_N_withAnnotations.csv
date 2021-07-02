@@ -1,0 +1,297 @@
+1	Bonjour	bonjour	NC	NC	n=s|g=m	5	mod	5	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	1	1	8	_	1	8	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	,	PONCT	PONCT		1	ponct	1	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	8	1	9	_	8	9	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	je	je	CLS	CLS	n=s|p=1	5	suj	5	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	10	1	12	_	10	12	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	m'	me	CLO	CLO	n=s|p=1	5	obj	5	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	13	1	15	_	13	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	appelle	appeler	V	V	n=s|t=P,S|p=1,3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	15	1	22	present	15	22	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Camille	Camille	NPP	NPP	n=s	5	obj	5	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	23	1	30	_	23	30	_	subst	23-24	_	_	_	_	_	_	_	_	_	_	_
+7	,	,	PONCT	PONCT		6	ponct	6	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	30	1	31	_	30	31	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	j'	je	CLS	CLS	n=s|p=1	0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	32	1	34	_	32	34	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ai	avoir	V	V	n=s|t=P|p=1	0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	34	1	36	present	34	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	13	13	ADJ	ADJ		11	mod	11	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	37	1	39	_	37	39	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ans	an	NC	NC	n=p|g=m	9	obj	9	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	40	1	43	_	40	43	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	43	1	44	_	43	44	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Je	je	CLS	CLS	n=s|p=1	5	suj	5	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	45	1	47	_	45	47	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	me	me	CLR	CLR	n=s|p=1	5	aff	5	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	48	1	50	_	48	50	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	suis	être	V	V	n=s|t=P|p=1	5	aux_tps	5	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	51	1	55	present	51	55	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	toujours	toujours	ADV	ADV		5	mod	5	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	56	1	64	_	56	64	_	_	_	Err	toujour	56-64	_	_	_	_	_	_	_	_
+5	demandé	demander	VPP	VPP	n=s|g=m|t=K	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	65	1	72	_	65	72	_	_	_	Err	demander	65-72	_	_	_	_	_	_	_	_
+6	ce	ce	PRO	PRO	n=s	5	obj	5	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	73	1	75	_	73	75	_	_	_	Err	se	73-75	_	_	_	_	_	_	_	_
+7	que	que	PROREL	PROREL		9	obj	9	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	76	1	79	_	76	79	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ça	ça	PRO	PRO	n=s	9	suj	9	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	80	1	82	_	80	82	_	_	_	Err	sa	80-82	_	_	_	_	_	_	_	_
+9	faisait	faire	V	V	n=s|t=I|p=3	6	mod_rel	6	mod_rel	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	83	1	90	imparfait	83	90	_	_	_	Err	faiser	83-90	_	_	_	_	_	_	_	_
+10	d'	de	P	P		9	obj	9	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	91	1	93	_	91	93	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	habiter	habiter	VINF	VINF	t=W	10	prep	10	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	93	1	100	_	93	100	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dans	dans	P	P		11	mod	11	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	101	1	105	_	101	105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	une	une	DET	DET	n=s|g=f	14	det	14	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	106	1	109	_	106	109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	maison	maison	NC	NC	n=s|g=f	12	prep	12	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	110	1	116	_	110	116	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	hantée	hanter	VPP	VPP	n=s|g=f|t=K	14	mod	14	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	117	1	123	_	117	123	_	_	_	Err	hanté	117-123	_	_	_	_	_	_	_	_
+16	et	et	CC	CC		14	coord	14	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	124	1	126	_	124	126	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	un	un	DET	DET	n=s|g=m	18	det	18	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	127	1	129	_	127	129	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	jour	jour	NC	NC	n=s|g=m	16	dep_coord	16	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	130	1	134	_	130	134	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	j'	je	CLS	CLS	n=s|p=1	21	suj	21	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	135	1	137	_	135	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ai	avoir	V	V	n=s|t=P|p=1	21	aux_tps	21	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	137	1	139	present	137	139	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	eu	avoir	VPP	VPP	n=s|g=m|t=K	5	mod	5	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	140	1	142	_	140	142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	la	la	DET	DET	n=s|g=f	24	det	24	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	143	1	145	_	143	145	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	mauvaise	mauvais	ADJ	ADJ	n=s|g=f	24	mod	24	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	146	1	154	_	146	154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	chance	chance	NC	NC	n=s|g=f	21	obj	21	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	155	1	161	_	155	161	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	d'	de	P	P		21	mod	21	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	162	1	164	_	162	164	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	habiter	habiter	VINF	VINF	t=W	25	prep	25	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	164	1	171	_	164	171	_	_	_	Err	habité	164-171	_	_	_	_	_	_	_	_
+27	dans	dans	P	P		26	mod	26	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	172	1	176	_	172	176	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	une	un	PRO	PRO	n=s|g=f	27	prep	27	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	177	1	180	_	177	180	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	de	de	P	P		26	mod	26	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	181	1	183	_	181	183	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ces	ces	DET	DET	n=p	31	det	31	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	184	1	187	_	184	187	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	maisons	maison	NC	NC	n=p|g=f	29	prep	29	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	188	1	195	_	188	195	_	_	_	Err	maison	188-195	_	_	_	_	_	_	_	_
+32	.	.	PONCT	PONCT		31	ponct	31	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	195	1	196	_	195	196	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	L'	le	DET	DET	n=s	3	det	3	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	197	1	199	_	197	199	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	197-224	_	_	_	_	_	_
+2	ancienne	ancien	ADJ	ADJ	n=s|g=f	3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	199	1	207	_	199	207	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	197-224	_	_	_	_	_	_
+3	locataire	locataire	NC	NC	n=s	7	suj	7	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	208	1	217	_	208	217	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	197-224	_	_	_	_	_	_
+4	Emilie	Emilie	NPP	NPP	n=s|g=f	3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	218	1	224	_	218	224	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	197-224	_	_	_	_	_	_
+5	s'	se	CLR	CLR	n=p,s|p=3	7	aff	7	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	225	1	227	_	225	227	_	_	_	Err	c'etait	225-232	_	_	_	_	_	_	_	_
+6	était	être	V	V	n=s|t=I|p=3	7	aux_tps	7	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	227	1	232	imparfait	227	232	_	issubst	227-232	Err	c'etait	225-232	_	_	_	_	_	_	_	_
+7	fait	faire	VPP	VPP	n=s|g=m|t=K	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	233	1	237	_	233	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	tuer	tuer	VINF	VINF	t=W	7	obj	7	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	238	1	242	_	238	242	_	_	_	Err	tue	238-242	_	_	_	_	_	_	_	_
+9	sur	sur	P	P		8	mod	8	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	243	1	246	_	243	246	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	un	un	DET	DET	n=s|g=m	11	det	11	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	247	1	249	_	247	249	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	mur	mur	NC	NC	n=s|g=m	9	prep	9	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	250	1	253	_	250	253	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	;	;	PONCT	PONCT		11	ponct	11	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	254	1	255	_	254	255	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	elle	elle	CLS	CLS	n=s|g=f|p=3	14	suj	14	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	256	1	260	_	256	260	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	256-260	_	_	_	_	_	_
+14	habitait	habiter	V	V	n=s|t=I|p=3	7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	261	1	269	imparfait	261	269	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	dans	dans	P	P		14	mod	14	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	270	1	274	_	270	274	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	cette	cette	DET	DET	n=s|g=f	17	det	17	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	275	1	280	_	275	280	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	maison	maison	NC	NC	n=s|g=f	15	prep	15	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	281	1	287	_	281	287	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	depuis	depuis	P	P		14	mod	14	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	288	1	294	_	288	294	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	longtemps	longtemps	ADV	ADV		18	mod	18	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	295	1	304	_	295	304	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	.	PONCT	PONCT		19	ponct	19	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	304	1	305	_	304	305	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Les	les	DET	DET	n=p	4	det	4	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	306	1	309	_	306	309	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	deux	deux	ADJ	ADJ	s=card|n=p	4	mod	4	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	310	1	314	_	310	314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	premières	premier	ADJ	ADJ	n=p|g=f	4	mod	4	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	315	1	324	_	315	324	_	_	_	Err	premiere	315-328	_	_	_	_	_	_	_	_
+4	xxx	_	NPP	NPP		7	suj	7	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	325	1	328	_	325	328	_	_	_	Err	premiere	315-328	_	_	_	_	_	_	_	_
+5	tout	tout	PRO	PRO	n=s|g=m	4	mod	4	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	329	1	333	_	329	333	_	_	_	Err	tous	329-333	_	_	_	_	_	_	_	_
+6	se	se	CLR	CLR	n=p,s|p=3	7	aff	7	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	334	1	336	_	334	336	_	_	_	Err	ce	334-336	_	_	_	_	_	_	_	_
+7	passait	passer	V	V	n=s|t=I|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	337	1	344	imparfait	337	344	_	_	_	Err	passer	337-348	_	_	_	_	_	_	_	_
+8	xxx	_	ADV	ADV		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	345	1	348	_	345	348	_	_	_	Err	passer	337-348	_	_	_	_	_	_	_	_
+9	jusqu'	jusque	P	P		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	349	1	355	_	349	355	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	à	à	P	P		9	dep	9	dep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	355	1	356	_	355	356	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	la	la	DET	DET	n=s|g=f	12	det	12	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	357	1	359	_	357	359	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Toussaint	Toussaint	NPP	NPP	n=s|g=m	10	prep	10	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	360	1	369	_	360	369	_	_	_	Err	toussaint	360-369	_	_	_	_	_	_	_	_
+13	,	,	PONCT	PONCT		12	ponct	12	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	369	1	370	_	369	370	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	il	il	CLS	CLS	n=s|g=m|p=3	15	suj	15	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	371	1	373	_	371	373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	commença	commencer	V	V	n=s|t=J|p=3	7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	374	1	382	passeSimple	374	382	_	_	_	Err	commenca	374-382	_	_	_	_	_	_	_	_
+16	à	à	P	P		15	mod	15	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	383	1	384	_	383	384	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	se	se	CLR	CLR	n=p,s|p=3	18	aff	18	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	385	1	387	_	385	387	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	passer	passer	VINF	VINF	t=W	16	prep	16	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	388	1	394	_	388	394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	des	des	DET	DET	n=p	20	det	20	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	395	1	398	_	395	398	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	choses	chose	NC	NC	n=p|g=f	18	obj	18	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	399	1	405	_	399	405	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	étranges	étrange	ADJ	ADJ	n=p	20	mod	20	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	406	1	414	_	406	414	_	_	_	Err	étrang e	406-414	_	_	_	_	_	_	_	_
+22	comme	comme	P	P		18	mod	18	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	415	1	420	_	415	420	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	la	la	DET	DET	n=s|g=f	24	det	24	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	421	1	423	_	421	423	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	lumière	lumière	NC	NC	n=s|g=f	22	prep	22	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	424	1	431	_	424	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	qui	qui	PROREL	PROREL	n=s	27	suj	27	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	432	1	435	_	432	435	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	s'	se	CLR	CLR	n=p,s|p=3	27	aff	27	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	436	1	438	_	436	438	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	allume	allumer	V	V	n=s|t=P,S|p=1,3	24	mod_rel	24	mod_rel	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	1	438	1	444	present	438	444	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	comme	comme	P	P		0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	2	2	7	_	445	450	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	la	la	DET	DET	n=s|g=f	3	det	3	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	8	2	10	_	451	453	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	musique	musique	NC	NC	n=s|g=f	1	prep	1	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	11	2	18	_	454	461	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	et	et	CC	CC		1	coord	1	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	19	2	21	_	462	464	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	des	de	P+D	P+D	n=p	4	dep_coord	4	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	22	2	25	_	465	468	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	chaises	chaise	NC	NC	n=p|g=f	5	prep	5	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	26	2	33	_	469	476	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	cassées	casser	ADJ	ADJ	n=p|g=f|t=K	6	mod	6	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	34	2	41	_	477	484	_	_	_	Err	cassée	477-484	_	_	_	_	_	_	_	_
+8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	41	2	42	_	484	485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Un	un	DET	DET	n=s|g=m	2	det	2	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	43	2	45	_	486	488	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NC	NC	n=s|g=m	7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	46	2	50	_	489	493	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mon	mon	DET	DET	n=s|g=m|p=1|poss=s	4	det	4	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	51	2	54	_	494	497	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	494-508	_	_	_	_
+4	ami	ami	NC	NC	n=s|g=m	7	suj	7	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	55	2	58	_	498	501	_	_	_	Err	amie	498-501	_	_	in_GNon_incertDNon_incertRNon	494-508	_	_	_	_
+5	Melvin	Melvin	NPP	NPP	n=s|g=m	4	mod	4	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	59	2	65	_	502	508	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	494-508	_	_	_	_
+6	se	se	CLR	CLR	n=p,s|p=3	7	aff	7	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	66	2	68	_	509	511	_	_	_	Err	ce	509-511	_	_	_	_	_	_	_	_
+7	mit	mettre	V	V	n=s|t=J|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	69	2	72	passeSimple	512	515	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	à	à	P	P		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	73	2	74	_	516	517	_	_	_	Err	a	516-517	_	_	_	_	_	_	_	_
+9	rigoler	rigoler	VINF	VINF	t=W	8	prep	8	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	75	2	82	_	518	525	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	puis	puis	CC	CC		7	coord	7	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	83	2	87	_	526	530	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	il	il	CLS	CLS	n=s|g=m|p=3	13	suj	13	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	88	2	90	_	531	533	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	531-533	_	_	_	_
+12	se	se	CLR	CLR	n=p,s|p=3	13	aff	13	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	91	2	93	_	534	536	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	retourna	retourner	V	V	n=s|t=J|p=3	10	dep_coord	10	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	94	2	102	passeSimple	537	545	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	en	en	P	P		13	mod	13	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	103	2	105	_	546	548	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	entendant	entendre	VPR	VPR	t=G	14	prep	14	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	106	2	115	_	549	558	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ce	ce	DET	DET	n=s|g=m	18	det	18	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	116	2	118	_	559	561	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	grand	grand	ADJ	ADJ	n=s|g=m	18	mod	18	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	119	2	124	_	562	567	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	bruit	bruit	NC	NC	n=s|g=m	15	obj	15	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	125	2	130	_	568	573	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	,	PONCT	PONCT		18	ponct	18	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	130	2	131	_	573	574	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	et	et	CC	CC		13	coord	13	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	132	2	134	_	575	577	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	il	il	CLS	CLS	n=s|g=m|p=3	23	suj	23	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	135	2	137	_	578	580	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	578-580	_	_	_	_
+22	se	se	CLR	CLR	n=p,s|p=3	23	aff	23	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	138	2	140	_	581	583	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	mit	mettre	V	V	n=s|t=J|p=3	20	dep_coord	20	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	141	2	144	passeSimple	584	587	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	à	à	P	P		23	mod	23	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	145	2	146	_	588	589	_	_	_	Err	a	588-589	_	_	_	_	_	_	_	_
+25	crier	crier	VINF	VINF	t=W	24	prep	24	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	147	2	152	_	590	595	_	_	_	Err	criée	590-595	_	_	_	_	_	_	_	_
+26	,	,	PONCT	PONCT		25	ponct	25	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	152	2	153	_	595	596	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	je	je	CLS	CLS	n=s|p=1	29	suj	29	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	154	2	156	_	597	599	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	lui	lui	CLO	CLO	n=s|p=3	29	obj	29	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	157	2	160	_	600	603	_	_	_	Err	le	600-603	_	_	is_GNon_incertDNon_incertRNon	600-603	_	_	_	_
+29	disais	dire	V	V	n=s|t=I|p=1,2	23	mod	23	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	161	2	167	imparfait	604	610	_	_	_	Err	disai	604-610	_	_	_	_	_	_	_	_
+30	""""	""""	PONCT	PONCT		29	ponct	29	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	168	2	170	_	611	613	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	arrête	arrêter	V	V	n=s|t=P,S|p=1,3	29	mod	29	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	170	2	176	present	613	619	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	613-619	_	_	_	_
+32	qu'	que	CS	CS		31	obj	31	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	177	2	180	_	620	623	_	_	_	Err	ques-ce	620-629	_	_	_	_	_	_	_	_
+33	est-ce	_	ADV	ADV		0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	180	2	186	_	623	629	_	_	_	Err	ques-ce	620-629	_	_	_	_	_	_	_	_
+34	que	que	CS	CS		0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	187	2	190	_	630	633	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	tu	_	NC	NC		42	mod	42	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	191	2	193	_	634	636	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	634-636	_	_	_	_
+36	vois	_	NC	NC		35	mod	35	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	194	2	198	_	637	641	_	_	_	Err	vois	637-643	_	_	_	_	_	_	_	_
+37	?	?	PONCT	PONCT		36	ponct	36	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	199	2	200	_	642	643	_	_	_	Err	vois	637-643	_	_	_	_	_	_	_	_
+38	""""	""""	PONCT	PONCT		36	ponct	36	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	200	2	202	_	643	645	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	,	,	PONCT	PONCT		36	ponct	36	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	202	2	203	_	645	646	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	je	je	CLS	CLS	n=s|p=1	42	suj	42	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	204	2	206	_	647	649	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	ne	ne	ADV	ADV		42	mod	42	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	207	2	209	_	650	652	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	comprenais	comprendre	V	V	n=s|t=I|p=1,2	34	sub	34	sub	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	210	2	220	imparfait	653	663	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	pas	pas	ADV	ADV		42	mod	42	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	221	2	224	_	664	667	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	.	.	PONCT	PONCT		43	ponct	43	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	224	2	225	_	667	668	_	del	668-668	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Melvin	Melvin	NPP	NPP	n=s|g=m	3	suj	3	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	226	2	232	_	669	675	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	669-675	_	_	_	_
+2	me	me	CLO	CLO	n=s|p=1	3	obj	3	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	233	2	235	_	676	678	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dit	dire	V	V	n=s|t=J,P|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	236	2	239	present	679	682	_	subst	681-682	Err	disa	679-682	_	_	_	_	_	_	_	_
+4	""""	""""	PONCT	PONCT		3	ponct	3	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	240	2	242	_	683	685	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	j'	je	CLS	CLS	n=s|p=1	7	suj	7	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	242	2	244	_	685	687	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	685-687	_	_	_	_
+6	ai	avoir	V	V	n=s|t=P|p=1	7	aux_tps	7	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	244	2	246	present	687	689	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	vu	voir	VPP	VPP	n=s|g=m|t=K	3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	247	2	249	_	690	692	_	_	_	Err	vue	690-692	_	_	_	_	_	_	_	_
+8	une	une	DET	DET	n=s|g=f	9	det	9	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	250	2	253	_	693	696	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dame	dame	NC	NC	n=s|g=f	7	obj	7	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	254	2	258	_	697	701	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	avec	avec	P	P		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	259	2	263	_	702	706	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	du	du	DET	DET	n=s|g=m	12	det	12	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	264	2	266	_	707	709	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sang	sang	NC	NC	n=s|g=m	10	prep	10	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	267	2	271	_	710	714	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	,	PONCT	PONCT		12	ponct	12	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	271	2	272	_	714	715	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	je	je	CLS	CLS	n=s|p=1	15	suj	15	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	273	2	275	_	716	718	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	716-718	_	_	_	_
+15	veux	vouloir	V	V	n=s|t=P|p=1,2	3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	276	2	280	present	719	723	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	rentrer	rentrer	VINF	VINF	t=W	15	obj	15	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	281	2	288	_	724	731	_	_	_	Err	rentre	724-731	_	_	_	_	_	_	_	_
+17	chez	chez	P	P		16	mod	16	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	289	2	293	_	732	736	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	moi	moi	PRO	PRO	n=s|p=1	17	prep	17	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	294	2	297	_	737	740	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	""""	""""	PONCT	PONCT		18	ponct	18	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	297	2	299	_	740	742	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	.	PONCT	PONCT		18	ponct	18	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	299	2	300	_	742	743	_	del	743-743	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Ma	ma	DET	DET	n=s|g=f|p=1|poss=s	2	det	2	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	301	2	303	_	744	746	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	mère	mère	NC	NC	n=s|g=f	3	suj	3	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	304	2	308	_	747	751	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	appela	appeler	V	V	n=s|t=J|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	309	2	315	passeSimple	752	758	_	_	_	Err	appella	752-758	_	_	_	_	_	_	_	_
+4	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	5	det	5	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	316	2	318	_	759	761	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	759-761	_	_	_	_
+5	mère	mère	NC	NC	n=s|g=f	3	obj	3	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	319	2	323	_	762	766	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	,	PONCT	PONCT		5	ponct	5	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	323	2	324	_	766	767	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ils	ils	CLS	CLS	n=p|g=m|p=3	8	suj	8	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	325	2	328	_	768	771	_	_	_	Err	ils partit -- alternatives : il partit	768-781	_	_	is_GOui_incertDNon_incertRNon	768-771	_	_	_	_
+8	partirent	partir	V	V	n=p|t=J|p=3	3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	329	2	338	passeSimple	772	781	_	_	_	Err	ils partit -- alternatives : il partit	768-781	_	_	_	_	_	_	_	_
+9	de	de	P	P		8	mod	8	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	339	2	341	_	782	784	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	toute	toute	DET	DET	n=s|g=f	11	det	11	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	342	2	347	_	785	790	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	peur	peur	NC	NC	n=s|g=f	9	prep	9	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	348	2	352	_	791	795	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	352	2	353	_	795	796	_	del	796-796	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Je	je	CLS	CLS	n=s|p=1	3	suj	3	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	354	2	356	_	797	799	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	me	me	CLO	CLO	n=s|p=1	3	aff	3	aff	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	357	2	359	_	800	802	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mis	mettre	VPP	VPP	g=m|t=K	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	360	2	363	_	803	806	_	_	_	Err	mit	803-806	_	_	_	_	_	_	_	_
+4	en	en	P	P		3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	364	2	366	_	807	809	_	_	_	Err	enquête	807-815	_	_	_	_	_	_	_	_
+5	quête	quête	NC	NC	n=s|g=f	4	prep	4	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	367	2	372	_	810	815	_	_	_	Err	enquête	807-815	_	_	_	_	_	_	_	_
+6	sur	sur	P	P		3	mod	3	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	373	2	376	_	816	819	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ce	ce	DET	DET	n=s|g=m	0	_	0	_	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	2	377	2	379	_	820	822	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	le	le	DET	DET	n=s|g=m	2	det	2	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	3	3	5	_	824	826	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NC	NC	n=s|g=m	6	suj	6	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	6	3	10	_	827	831	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	même	même	ADJ	ADJ	n=s	2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	11	3	15	_	832	836	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	des	de	P+D	P+D	n=p	2	dep	2	dep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	16	3	19	_	837	840	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	articles	article	NC	NC	n=p|g=m	4	prep	4	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	20	3	28	_	841	849	_	_	_	Err	article	841-849	_	_	_	_	_	_	_	_
+6	disaient	dire	V	V	n=p|t=I|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	29	3	37	imparfait	850	858	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	qu'	que	CS	CS		6	obj	6	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	38	3	41	_	859	862	_	_	_	Err	quelle	859-866	_	_	_	_	_	_	_	_
+8	elle	elle	CLS	CLS	n=s|g=f|p=3	9	suj	9	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	41	3	45	_	862	866	_	_	_	Err	quelle	859-866	is_GNon_incertDNon_incertRNon	862-866	_	_	_	_	_	_
+9	était	être	V	V	n=s|t=I|p=3	7	sub	7	sub	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	46	3	51	imparfait	867	872	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	morte	mort	ADJ	ADJ	n=s|g=f|t=K	9	ats	9	ats	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	52	3	57	_	873	878	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	et	et	CC	CC		6	coord	6	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	58	3	60	_	879	881	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	que	que	CS	CS		11	dep_coord	11	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	61	3	64	_	882	885	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	la	la	DET	DET	n=s|g=f	14	det	14	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	65	3	67	_	886	888	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	trace	trace	NC	NC	n=s|g=f	18	suj	18	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	68	3	73	_	889	894	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	du	de	P+D	P+D	n=s|g=m	14	dep	14	dep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	74	3	76	_	895	897	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sang	sang	NC	NC	n=s|g=m	15	prep	15	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	77	3	81	_	898	902	_	subst	898-899	_	_	_	_	_	_	_	_	_	_	_
+17	était	être	V	V	n=s|t=I|p=3	18	aux_tps	18	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	82	3	87	imparfait	903	908	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	restée	rester	VPP	VPP	n=s|g=f|t=K	12	sub	12	sub	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	88	3	94	_	909	915	_	_	_	Err	rester	909-915	_	_	_	_	_	_	_	_
+19	sur	sur	P	P		18	mod	18	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	96	3	99	_	917	920	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	le	le	DET	DET	n=s|g=m	21	det	21	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	100	3	102	_	921	923	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mur	mur	NC	NC	n=s|g=m	19	prep	19	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	103	3	106	_	924	927	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	avec	avec	P	P		18	mod	18	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	107	3	111	_	928	932	_	in_add	928-945	_	_	_	_	_	_	_	_	_	_	_
+23	une	une	DET	DET	n=s|g=f	24	det	24	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	112	3	115	_	933	936	_	in_add	928-945	_	_	_	_	_	_	_	_	_	_	_
+24	fenêtre	fenêtre	NC	NC	n=s|g=f	22	prep	22	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	116	3	123	_	937	944	_	in_add	928-945	Err	fênetre	937-944	_	_	_	_	_	_	_	_
+25	qui	qui	PROREL	PROREL	n=s	26	suj	26	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	124	3	127	_	945	948	_	_	_	Err	. qui	944-948	_	_	_	_	_	_	_	_
+26	donnait	donner	V	V	n=s|t=I|p=3	24	mod_rel	24	mod_rel	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	128	3	135	imparfait	949	956	_	_	_	Err	donné	949-956	_	_	_	_	_	_	_	_
+27	sur	sur	P	P		26	mod	26	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	136	3	139	_	957	960	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	le	le	DET	DET	n=s|g=m	29	det	29	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	140	3	142	_	961	963	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	jardin	jardin	NC	NC	n=s|g=m	27	prep	27	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	143	3	149	_	964	970	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	.	PONCT	PONCT		29	ponct	29	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	3	149	3	150	_	970	971	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"
+1	Je	je	CLS	CLS	n=s|p=1	2	suj	2	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	1	4	3	_	971	973	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	commençais	commencer	V	V	n=s|t=I|p=1,2	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	4	4	14	imparfait	974	984	_	_	_	Err	commecais	974-984	_	_	_	_	_	_	_	_
+3	à	à	P	P		2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	15	4	16	_	985	986	_	_	_	Err	a	985-986	_	_	_	_	_	_	_	_
+4	déchirer	déchirer	VINF	VINF	t=W	3	prep	3	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	17	4	25	_	987	995	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	le	le	DET	DET	n=s|g=m	6	det	6	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	26	4	28	_	996	998	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	papier	papier	NC	NC	n=s|g=m	4	obj	4	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	29	4	35	_	999	1005	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	peint	peindre	VPP	VPP	n=s|g=m|t=K	6	mod	6	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	36	4	41	_	1006	1011	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	du	de	P+D	P+D	n=s|g=m	7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	42	4	44	_	1012	1014	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mur	mur	NC	NC	n=s|g=m	8	prep	8	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	45	4	48	_	1015	1018	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	,	PONCT	PONCT		9	ponct	9	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	48	4	49	_	1018	1019	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	il	il	CLS	CLS	n=s|g=m|p=3	14	suj	14	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	50	4	52	_	1020	1022	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	y	y	CLO	CLO		14	a_obj	14	a_obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	53	4	54	_	1023	1024	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	avait	avoir	V	V	n=s|t=I|p=3	14	aux_tps	14	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	55	4	60	imparfait	1025	1030	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	marqué	marquer	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	61	4	67	_	1031	1037	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	des	des	DET	DET	n=p	16	det	16	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	68	4	71	_	1038	1041	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	croix	croix	NC	NC	g=f	14	obj	14	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	72	4	77	_	1042	1047	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	à	à	P	P		14	mod	14	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	78	4	79	_	1048	1049	_	_	_	Err	a	1048-1049	_	_	_	_	_	_	_	_
+18	l'	le	DET	DET	n=s	19	det	19	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	80	4	82	_	1050	1052	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	envers	envers	NC	NC	g=m	17	prep	17	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	82	4	88	_	1052	1058	_	_	_	Err	envere	1052-1058	_	_	_	_	_	_	_	_
+20	et	et	CC	CC		14	coord	14	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	89	4	91	_	1059	1061	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	une	une	DET	DET	n=s|g=f	22	det	22	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	92	4	95	_	1062	1065	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	tache	tache	NC	NC	n=s|g=f	20	dep_coord	20	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	96	4	101	_	1066	1071	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	de	de	P	P		22	dep	22	dep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	102	4	104	_	1072	1074	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sang	sang	NC	NC	n=s|g=m	23	prep	23	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	105	4	109	_	1075	1079	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	,	PONCT	PONCT		24	ponct	24	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	109	4	110	_	1079	1080	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	j'	je	CLS	CLS	n=s|p=1	28	suj	28	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	111	4	113	_	1081	1083	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	ai	avoir	V	V	n=s|t=P|p=1	28	aux_tps	28	aux_tps	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	113	4	115	present	1083	1085	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	crié	crier	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	4	116	4	120	_	1086	1090	_	_	_	Err	criée	1086-1090	_	_	_	_	_	_	_	_
+"
+"
+1	Mes	mes	DET	DET	n=p|p=1|poss=s	2	det	2	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	5	2	5	5	_	1091	1094	_	_	_	Err	mais	1091-1094	_	_	_	_	_	_	_	_
+2	parents	parent	NC	NC	n=p|g=m	4	suj	4	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	5	6	5	13	_	1095	1102	_	_	_	Err	parent	1095-1102	_	_	_	_	_	_	_	_
+3	étaient	être	V	V	n=p|t=I|p=3	4	aux_pass	4	aux_pass	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	5	14	5	21	imparfait	1103	1110	_	_	_	Err	était	1103-1110	_	_	_	_	_	_	_	_
+4	étonnés	étonner	VPP	VPP	n=p|g=m|t=K	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	5	22	5	29	_	1111	1118	_	_	_	Err	étonner	1111-1118	_	_	_	_	_	_	_	_
+"
+"
+1	on	on	CLS	CLS	n=s|p=3	2	suj	2	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	2	6	4	_	1119	1121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	appelle	appeler	V	V	n=s|t=P,S|p=1,3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	5	6	12	present	1122	1129	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	la	la	DET	DET	n=s|g=f	4	det	4	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	13	6	15	_	1130	1132	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	police	police	NC	NC	n=s|g=f	2	obj	2	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	16	6	22	_	1133	1139	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	puis	puis	CC	CC		4	coord	4	coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	23	6	27	_	1140	1144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	1	1	ADJ	ADJ		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	28	6	29	_	1145	1146	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	semaine	semaine	NC	NC	n=s|g=f	5	dep_coord	5	dep_coord	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	30	6	37	_	1147	1154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	plus	plus	ADV	ADV		2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	38	6	42	_	1155	1159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	tard	tard	ADV	ADV		11	mod	11	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	43	6	47	_	1160	1164	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	on	on	CLS	CLS	n=s|p=3	11	suj	11	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	48	6	50	_	1165	1167	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	déménagea	déménager	V	V	n=s|t=J|p=3	2	mod	2	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	51	6	60	passeSimple	1168	1177	_	_	_	Err	démenaga	1168-1177	_	_	_	_	_	_	_	_
+12	à	à	P	P		11	mod	11	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	61	6	62	_	1178	1179	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Paris	Paris	NPP	NPP	n=s|g=m	12	prep	12	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	63	6	68	_	1180	1185	_	_	_	Err	Paris, Depuis	1180-1193	_	_	_	_	_	_	_	_
+14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	68	6	69	_	1185	1186	_	_	_	Err	Paris, Depuis	1180-1193	_	_	_	_	_	_	_	_
+"
+"
+1	Depuis	depuis	P	P		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	70	6	76	_	1187	1193	consigne	_	_	Err	Paris, Depuis	1180-1193	_	_	_	_	_	_	_	_
+2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	77	6	82	_	1194	1199	consigne	_	_	Err	cette	1194-1208	_	_	_	_	_	_	_	_
+3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	83	6	91	_	1200	1208	consigne	_	_	Err	cette	1194-1208	_	_	_	_	_	_	_	_
+4	les	les	DET	DET	n=p	5	det	5	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	92	6	95	_	1209	1212	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1209-1220	_	_
+5	enfants	enfant	NC	NC	n=p	7	suj	7	suj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	96	6	103	_	1213	1220	consigne	_	_	Err	enfant	1213-1220	_	_	_	_	in_GNon_incertDNon_incertRNon	1209-1220	_	_
+6	ne	ne	ADV	ADV		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	104	6	106	_	1221	1223	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	107	6	114	present	1224	1231	consigne	_	_	Err	sorte	1224-1231	_	_	_	_	_	_	_	_
+8	plus	plus	ADV	ADV		7	mod	7	mod	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	115	6	119	_	1232	1236	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	la	la	DET	DET	n=s|g=f	10	det	10	det	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	120	6	122	_	1237	1239	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nuit	nuit	NC	NC	n=s|g=f	7	obj	7	obj	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	123	6	127	_	1240	1244	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	.	PONCT	PONCT		10	ponct	10	ponct	CO-4e-2018-LSPJJRC-D1-R9-V1_N.ac	6	127	6	128	_	1244	1245	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+"
+"

@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- <link href="dist/css/tabulator.css" rel="stylesheet"> -->
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	<link href="https://unpkg.com/tabulator-tables@4.2.7/dist/css/tabulator.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.7/dist/js/tabulator.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+ -->
+
+
+</head>
+
+
+<body>
+
+<!-- Navigation -->
+
+<div class="container_nav">
+<a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
+  <div class="image_nav"><a href="resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
+    <a href="resolco.html" class="button_nav">Présentation</a>
+    <a href="constitution.html" class="button_nav">Constitution</a>
+    <a href="exploration.html" class="button_nav">Transcription</a>
+    <a href="exploration_coref.html" class="button_nav">Coréférence</a>
+    <a href="telechargement.html" class="button_nav">Téléchargement</a>
+</div>
+
+<!-- Les tableaux -->
+
+<div class="tables">
+   <ul class="flex-container2">
+
+<!-- Comment lire les noms des fichiers -->
+
+<div class="general-background page-transcriptions-background">
+
+ <ul class="flex-container">
+<a name="liste"/>
+	<li class="flex-item nom-des-fichiers">
+		
+			<h1>Exploration de la coréférence</h1>
+			<hr/>
+			<p>Cette page vous permet d'explorer les copies normalisées et annotées du corpus RésolCo.</p>
+			<p>Un <b><a href="#filtre">tableau d'interrogation</a></b> est proposé en bas de cette page et permet une exploration et une sélection des copies.</p>
+			<p>La <b><a href="#liste">liste des identifiants</a></b> donne accès à toutes les versions digitalisées disponibles. Cliquer sur l'identifiant de la copie donne accès à une visualisation en parallèle du texte annoté et du scan de la copie.</p>
+			<p> Les maillons des chaînes de continuité référentielle (CR) correspondant aux trois référents de la consigne ainsi que les trois phrases consignes P1, P2 et P3 ont été annotées selon le code couleur ci-dessous :</p>
+			<ul>
+				<li style="color:#2e81f9">CR_ELLE</li>
+				<li style="color:#2fcf42">CR_IL</li>
+				<li style="color:#ff8d33">CR_LesEnfants</li>
+				<li style="color:#cbcbcb">Phrases consigne</li>
+			</ul>
+			<p> Voir la page <a href="constitution.html">Constitution</a> pour plus d'explications sur l'annotation.</p>
+	</li>
+	</ul>
+	
+	<ul class="flex-container">
+
+
+
+
+	<!-- Tabulator -->
+<div class="general-background"><a name="filtre"/>
+			<ul class="flex-container">
+			<li class="flex-item">
+	<!--<li class="flex-item Tabulator">-->
+		
+		<h1>Filtrer les copies</h1>
+		<hr/>
+		<p>Le <b>tableau d'interrogation</b> du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
+		<p>358 textes sont actuellement interrogeables, ce qui correspond au nombre de copies transcrites, normalisées et annotées. D'autres copies actuellement en cours de traitement seront ajoutées ultérieurement.</p> 
+
+		<p>Ce tableau permet de filtrer les textes selon leur nombre minimum de maillons et le nombre minimum de maillons avec le trait groupe par CR.</p> 
+		<p>Il est également possible de filtrer les textes selon la position du premier maillon d'une CR (équivalent à son introduction dans le texte) par rapport à la position des différentes phrases consignes.
+		<br/>Grâce à ce filtre on peut sélectionner des copies où les élèves ont mis en place certaines stratégies pour introduire les personnages ; par exemple une stratégie de <i>planification</i> où les trois référents sont introduits en tout début de texte (donc avant P1).
+	</p>
+	<p>
+		Le filtre fonctionne avec trois opérateurs :
+		<ul class="operators">
+			<li> <b> < </b> : le maillon 1 est avant P</li>
+			<li> <b> = </b> : le maillon 1 est le même que P</li>
+			<li> <b> > </b> : le maillon 1 est après P</li>
+		</ul>
+		</p>
+		</li>
+		</ul>
+		
+
+		<div>
+  <select id="filter-ref">
+    <option></option>
+    <option value="elle_start">Référent ELLE</option>
+  </select>
+
+  <select id="filter-compar">
+  	<option value="=">=</option>
+    <option value="<"><</option>
+    <option value=">">></option>
+  </select>
+
+  <select id="filter-consigne">
+  <option value="P1">P1</option>
+    <option value="P2">P2</option>
+    <option value="P3">P3</option>
+</select>
+<br/>
+<select id="filter-ref_2">
+    <option></option>
+    <option value="il_start">Référent IL</option>
+  </select>
+
+  <select id="filter-compar_2">
+  	<option value="=">=</option>
+    <option value="<"><</option>
+    <option value=">">></option>
+  </select>
+
+  <select id="filter-consigne_2">
+  <option value="P1">P1</option>
+    <option value="P2">P2</option>
+    <option value="P3">P3</option>
+</select>
+<br/>
+<select id="filter-ref_3">
+    <option></option>
+    <option value="lenf_start">Référent Les enfants</option>
+  </select>
+
+  <select id="filter-compar_3">
+  	<option value="=">=</option>
+    <option value="<"><</option>
+    <option value=">">></option>
+  </select>
+
+  <select id="filter-consigne_3">
+  <option value="P1">P1</option>
+    <option value="P2">P2</option>
+    <option value="P3">P3</option>
+</select>
+<br/>
+<button id="filter-clear"
+        type="button">
+    clear filter
+</button>
+</div>
+		
+		<div id="tabulator-table"></div>
+	</li>
+
+	<script type="text/javascript">
+
+//var url_json="https://raw.githubusercontent.com/hodaclm/resolco/master/site_redac/resolco.json";
+
+var local_data = [{"id": "CO-3e-2018-FSBJC6-D1-R8-V1_N", "nb_elle": [22, 0], "nb_il": [0, 0], "nb_lenf": [0, 0], "P1": "5", "P2": null, "P3": null, "elle_start": "5", "il_start": null, "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R9-V1_N", "nb_elle": [9, 0], "nb_il": [22, 3], "nb_lenf": [0, 0], "P1": "1167", "P2": "2938", "P3": null, "elle_start": "64", "il_start": "847", "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R2-V1_N", "nb_elle": [26, 5], "nb_il": [30, 5], "nb_lenf": [14, 0], "P1": "78", "P2": "1712", "P3": "1712", "elle_start": "23", "il_start": "165", "lenf_start": "183"}, {"id": "CO-3e-2018-FSBJC6-D1-R14-V1_N", "nb_elle": [41, 5], "nb_il": [38, 8], "nb_lenf": [9, 0], "P1": "94", "P2": "1780", "P3": "2042", "elle_start": "5", "il_start": "13", "lenf_start": "5"}, {"id": "CO-3e-2018-FSBJC6-D1-R11-V1_N", "nb_elle": [0, 0], "nb_il": [0, 0], "nb_lenf": [0, 0], "P1": null, "P2": null, "P3": null, "elle_start": null, "il_start": null, "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R6-V1_N", "nb_elle": [37, 4], "nb_il": [37, 4], "nb_lenf": [0, 0], "P1": "178", "P2": "1809", "P3": null, "elle_start": "23", "il_start": "60", "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R7-V1_N", "nb_elle": [25, 2], "nb_il": [0, 0], "nb_lenf": [0, 0], "P1": "639", "P2": null, "P3": null, "elle_start": "45", "il_start": null, "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R10-V1_N", "nb_elle": [26, 1], "nb_il": [12, 0], "nb_lenf": [0, 0], "P1": "280", "P2": "848", "P3": null, "elle_start": "27", "il_start": "745", "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R5-V1_N", "nb_elle": [13, 2], "nb_il": [22, 5], "nb_lenf": [0, 0], "P1": "1192", "P2": "1408", "P3": null, "elle_start": "886", "il_start": "38", "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R12-V1_N", "nb_elle": [44, 0], "nb_il": [13, 0], "nb_lenf": [1, 0], "P1": "1", "P2": "1015", "P3": "2233", "elle_start": "1", "il_start": "898", "lenf_start": "2233"}, {"id": "CO-3e-2018-FSBJC6-D1-R13-V1_N", "nb_elle": [0, 0], "nb_il": [9, 1], "nb_lenf": [0, 0], "P1": null, "P2": null, "P3": null, "elle_start": null, "il_start": "676", "lenf_start": null}, {"id": "CO-3e-2018-FSBJC6-D1-R4-V1_N", "nb_elle": [9, 0], "nb_il": [21, 1], "nb_lenf": [3, 0], "P1": "513", "P2": null, "P3": "2622", "elle_start": "439", "il_start": "804", "lenf_start": "91"}, {"id": "CO-3e-2018-VTAC305-D1-R14-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [16, 1], "P1": "939", "P2": "1163", "P3": "1386", "elle_start": "929", "il_start": "1163", "lenf_start": "232"}, {"id": "CO-3e-2018-VTAC305-D1-R6-V1_N", "nb_elle": [30, 3], "nb_il": [46, 3], "nb_lenf": [1, 0], "P1": "1", "P2": "1280", "P3": "2630", "elle_start": "1", "il_start": "176", "lenf_start": "2630"}, {"id": "CO-3e-2018-VTAC305-D1-R7-V1_N", "nb_elle": [4, 0], "nb_il": [20, 7], "nb_lenf": [1, 0], "P1": "796", "P2": "1602", "P3": "2123", "elle_start": "768", "il_start": "78", "lenf_start": "2123"}, {"id": "CO-3e-2018-VTAC305-D1-R15-V1_N", "nb_elle": [26, 1], "nb_il": [14, 3], "nb_lenf": [1, 0], "P1": "5", "P2": "689", "P3": "1211", "elle_start": "5", "il_start": "101", "lenf_start": "1211"}, {"id": "CO-3e-2018-VTAC305-D1-R5-V1_N", "nb_elle": [34, 10], "nb_il": [36, 4], "nb_lenf": [20, 2], "P1": "553", "P2": "1846", "P3": "2543", "elle_start": "20", "il_start": "183", "lenf_start": "382"}, {"id": "CO-3e-2018-VTAC305-D1-R17-V1_N", "nb_elle": [5, 0], "nb_il": [15, 4], "nb_lenf": [10, 0], "P1": "198", "P2": "625", "P3": "835", "elle_start": "148", "il_start": "23", "lenf_start": "23"}, {"id": "CO-3e-2018-VTAC305-D1-R16-V1_N", "nb_elle": [9, 0], "nb_il": [5, 0], "nb_lenf": [9, 0], "P1": "2", "P2": "135", "P3": "935", "elle_start": "2", "il_start": "60", "lenf_start": "103"}, {"id": "CO-3e-2018-VTAC305-D1-R4-V1_N", "nb_elle": [13, 0], "nb_il": [38, 2], "nb_lenf": [1, 0], "P1": "366", "P2": "1401", "P3": "2835", "elle_start": "339", "il_start": "177", "lenf_start": "2835"}, {"id": "CO-3e-2018-VTAC305-D1-R1-V1_N", "nb_elle": [25, 2], "nb_il": [63, 3], "nb_lenf": [6, 0], "P1": "157", "P2": "1072", "P3": "4693", "elle_start": "27", "il_start": "5", "lenf_start": "322"}, {"id": "CO-3e-2018-VTAC305-D1-R13-V1_N", "nb_elle": [4, 0], "nb_il": [21, 3], "nb_lenf": [9, 1], "P1": "475", "P2": "1119", "P3": "1345", "elle_start": "419", "il_start": "37", "lenf_start": "37"}, {"id": "CO-3e-2018-VTAC305-D1-R8-V1_N", "nb_elle": [13, 1], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "293", "P2": "523", "P3": "633", "elle_start": "19", "il_start": "523", "lenf_start": "633"}, {"id": "CO-3e-2018-VTAC305-D1-R12-V1_N", "nb_elle": [23, 0], "nb_il": [9, 0], "nb_lenf": [20, 0], "P1": "259", "P2": "566", "P3": "1469", "elle_start": "21", "il_start": "65", "lenf_start": "36"}, {"id": "CO-3e-2018-VTAC305-D1-R9-V1_N", "nb_elle": [57, 7], "nb_il": [24, 17], "nb_lenf": [13, 0], "P1": "101", "P2": "1786", "P3": "2123", "elle_start": "20", "il_start": "314", "lenf_start": "1263"}, {"id": "CO-3e-2018-VTAC305-D1-R10-V1_N", "nb_elle": [40, 1], "nb_il": [22, 3], "nb_lenf": [2, 0], "P1": "2", "P2": "885", "P3": "1958", "elle_start": "2", "il_start": "137", "lenf_start": "1339"}, {"id": "CO-3e-2018-VTAC305-D1-R2-V1_N", "nb_elle": [5, 0], "nb_il": [27, 7], "nb_lenf": [15, 0], "P1": "817", "P2": "1221", "P3": "2115", "elle_start": "749", "il_start": "11", "lenf_start": "11"}, {"id": "CO-3e-2018-VTAC305-D1-R18-V1_N", "nb_elle": [20, 0], "nb_il": [17, 0], "nb_lenf": [3, 0], "P1": "87", "P2": "511", "P3": "1016", "elle_start": "20", "il_start": "249", "lenf_start": "1016"}, {"id": "CO-3e-2018-VTAC305-D1-R3-V1_N", "nb_elle": [8, 1], "nb_il": [21, 7], "nb_lenf": [14, 2], "P1": "597", "P2": "968", "P3": "1406", "elle_start": "148", "il_start": "27", "lenf_start": "27"}, {"id": "CO-3e-2018-VTAC305-D1-R11-V1_N", "nb_elle": [4, 0], "nb_il": [5, 0], "nb_lenf": [10, 1], "P1": "219", "P2": "730", "P3": "1208", "elle_start": "198", "il_start": "576", "lenf_start": "499"}, {"id": "EC-CM2-2016-SGLEB-D1-R15-V1_N", "nb_elle": [8, 0], "nb_il": [18, 0], "nb_lenf": [1, 0], "P1": "154", "P2": "689", "P3": "1127", "elle_start": "1", "il_start": "225", "lenf_start": "1127"}, {"id": "EC-CM2-2016-SGLEB-D1-R4-V1_N", "nb_elle": [6, 0], "nb_il": [16, 0], "nb_lenf": [5, 0], "P1": "75", "P2": "315", "P3": "659", "elle_start": "16", "il_start": "125", "lenf_start": "418"}, {"id": "EC-CM2-2016-SGLEB-D1-R5-V1_N", "nb_elle": [14, 1], "nb_il": [16, 1], "nb_lenf": [1, 0], "P1": "17", "P2": "324", "P3": "574", "elle_start": "17", "il_start": "99", "lenf_start": "574"}, {"id": "EC-CM2-2016-SGLEB-D1-R14-V1_N", "nb_elle": [17, 0], "nb_il": [29, 0], "nb_lenf": [1, 0], "P1": "120", "P2": "474", "P3": "1374", "elle_start": "40", "il_start": "201", "lenf_start": "1374"}, {"id": "EC-CM2-2016-SGLEB-D1-R20-V1_N", "nb_elle": [3, 0], "nb_il": [14, 3], "nb_lenf": [12, 1], "P1": "320", "P2": "495", "P3": "732", "elle_start": "251", "il_start": "15", "lenf_start": "15"}, {"id": "EC-CM2-2016-SGLEB-D1-R7-V1_N", "nb_elle": [5, 0], "nb_il": [4, 0], "nb_lenf": [14, 0], "P1": "328", "P2": "963", "P3": "1093", "elle_start": "12", "il_start": "930", "lenf_start": "24"}, {"id": "EC-CM2-2016-SGLEB-D1-R16-V1_N", "nb_elle": [31, 1], "nb_il": [27, 1], "nb_lenf": [5, 0], "P1": "109", "P2": "501", "P3": "1024", "elle_start": "1", "il_start": "289", "lenf_start": "893"}, {"id": "EC-CM2-2016-SGLEB-D1-R17-V1_N", "nb_elle": [12, 0], "nb_il": [16, 1], "nb_lenf": [12, 0], "P1": "334", "P2": "795", "P3": "1163", "elle_start": "1", "il_start": "514", "lenf_start": "514"}, {"id": "EC-CM2-2016-SGLEB-D1-R21-V1_N", "nb_elle": [5, 0], "nb_il": [8, 0], "nb_lenf": [1, 0], "P1": "82", "P2": "329", "P3": "608", "elle_start": "33", "il_start": "157", "lenf_start": "608"}, {"id": "EC-CM2-2016-SGLEB-D1-R6-V1_N", "nb_elle": [3, 0], "nb_il": [6, 0], "nb_lenf": [4, 0], "P1": "10", "P2": "134", "P3": "253", "elle_start": "10", "il_start": "125", "lenf_start": "253"}, {"id": "EC-CM2-2016-SGLEB-D1-R3-V1_N", "nb_elle": [8, 0], "nb_il": [4, 0], "nb_lenf": [1, 0], "P1": "64", "P2": "233", "P3": "463", "elle_start": "1", "il_start": "130", "lenf_start": "463"}, {"id": "EC-CM2-2016-SGLEB-D1-R24-V1_N", "nb_elle": [24, 0], "nb_il": [18, 1], "nb_lenf": [21, 1], "P1": "454", "P2": "1352", "P3": "2319", "elle_start": "20", "il_start": "624", "lenf_start": "788"}, {"id": "EC-CM2-2016-SGLEB-D1-R12-V1_N", "nb_elle": [26, 2], "nb_il": [18, 2], "nb_lenf": [6, 0], "P1": "145", "P2": "398", "P3": "1022", "elle_start": "22", "il_start": "249", "lenf_start": "460"}, {"id": "EC-CM2-2016-SGLEB-D1-R13-V1_N", "nb_elle": [14, 0], "nb_il": [7, 0], "nb_lenf": [1, 0], "P1": "111", "P2": "700", "P3": "919", "elle_start": "42", "il_start": "566", "lenf_start": "919"}, {"id": "EC-CM2-2016-SGLEB-D1-R2-V1_N", "nb_elle": [1, 0], "nb_il": [27, 6], "nb_lenf": [12, 0], "P1": "64", "P2": "492", "P3": "1153", "elle_start": "64", "il_start": "22", "lenf_start": "15"}, {"id": "EC-CM2-2016-SGLEB-D1-R25-V1_N", "nb_elle": [10, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "19", "P2": "244", "P3": null, "elle_start": "1", "il_start": "195", "lenf_start": "331"}, {"id": "EC-CM2-2016-SGLEB-D1-R9-V1_N", "nb_elle": [1, 0], "nb_il": [1, 0], "nb_lenf": [2, 0], "P1": "22", "P2": "94", "P3": "123", "elle_start": "22", "il_start": "94", "lenf_start": "123"}, {"id": "EC-CM2-2016-SGLEB-D1-R18-V1_N", "nb_elle": [23, 0], "nb_il": [9, 1], "nb_lenf": [3, 0], "P1": "44", "P2": "239", "P3": "735", "elle_start": "15", "il_start": "125", "lenf_start": "125"}, {"id": "EC-CM2-2016-SGLEB-D1-R1-V1_N", "nb_elle": [12, 0], "nb_il": [25, 0], "nb_lenf": [4, 0], "P1": "75", "P2": "613", "P3": "891", "elle_start": "43", "il_start": "228", "lenf_start": "458"}, {"id": "EC-CM2-2016-SGLEB-D1-R10-V1_N", "nb_elle": [22, 1], "nb_il": [12, 1], "nb_lenf": [3, 0], "P1": "283", "P2": "618", "P3": "842", "elle_start": "25", "il_start": "391", "lenf_start": "526"}, {"id": "EC-CM2-2016-VRX-D1-R4-V1_N", "nb_elle": [17, 3], "nb_il": [16, 4], "nb_lenf": [8, 0], "P1": "133", "P2": "441", "P3": "695", "elle_start": "20", "il_start": "35", "lenf_start": "19"}, {"id": "EC-CM2-2016-VRX-D1-R1-V1_N", "nb_elle": [14, 0], "nb_il": [24, 5], "nb_lenf": [15, 0], "P1": "97", "P2": "839", "P3": "1523", "elle_start": "39", "il_start": "160", "lenf_start": "160"}, {"id": "EC-CM2-2016-VRX-D1-R3-V1_N", "nb_elle": [48, 3], "nb_il": [36, 3], "nb_lenf": [19, 0], "P1": "201", "P2": "913", "P3": "2693", "elle_start": "1", "il_start": "175", "lenf_start": "251"}, {"id": "EC-CM2-2016-VRX-D1-R2-V1_N", "nb_elle": [9, 1], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "68", "P2": "267", "P3": "515", "elle_start": "47", "il_start": "267", "lenf_start": "515"}, {"id": "EC-CM2-2016-SGLEA-D1-R20-V1_N", "nb_elle": [26, 4], "nb_il": [18, 4], "nb_lenf": [7, 0], "P1": "150", "P2": "598", "P3": "1125", "elle_start": "49", "il_start": "90", "lenf_start": "323"}, {"id": "EC-CM2-2016-SGLEA-D1-R16-V1_N", "nb_elle": [24, 1], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "143", "P2": "990", "P3": "1136", "elle_start": "24", "il_start": "990", "lenf_start": "1136"}, {"id": "EC-CM2-2016-SGLEA-D1-R5-V1_N", "nb_elle": [15, 4], "nb_il": [11, 4], "nb_lenf": [15, 4], "P1": "225", "P2": "767", "P3": "989", "elle_start": "20", "il_start": "20", "lenf_start": "20"}, {"id": "EC-CM2-2016-SGLEA-D1-R17-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": null, "P2": "53", "P3": "659", "elle_start": "207", "il_start": "53", "lenf_start": "659"}, {"id": "EC-CM2-2016-SGLEA-D1-R4-V1_N", "nb_elle": [10, 0], "nb_il": [13, 3], "nb_lenf": [7, 0], "P1": "134", "P2": "480", "P3": "728", "elle_start": "110", "il_start": "43", "lenf_start": "43"}, {"id": "EC-CM2-2016-SGLEA-D1-R21-V1_N", "nb_elle": [22, 6], "nb_il": [19, 6], "nb_lenf": [13, 0], "P1": "1066", "P2": "776", "P3": "1066", "elle_start": "58", "il_start": "58", "lenf_start": "58"}, {"id": "EC-CM2-2016-SGLEA-D1-R6-V1_N", "nb_elle": [2, 0], "nb_il": [10, 2], "nb_lenf": [4, 0], "P1": "9", "P2": "227", "P3": "375", "elle_start": "9", "il_start": "70", "lenf_start": "70"}, {"id": "EC-CM2-2016-SGLEA-D1-R15-V1_N", "nb_elle": [3, 0], "nb_il": [9, 0], "nb_lenf": [1, 0], "P1": "81", "P2": "264", "P3": "503", "elle_start": "9", "il_start": "31", "lenf_start": "503"}, {"id": "EC-CM2-2016-SGLEA-D1-R23-V1_N", "nb_elle": [4, 0], "nb_il": [10, 1], "nb_lenf": [5, 0], "P1": "289", "P2": "448", "P3": "707", "elle_start": "254", "il_start": "339", "lenf_start": "635"}, {"id": "EC-CM2-2016-SGLEA-D1-R22-V1_N", "nb_elle": [11, 0], "nb_il": [19, 6], "nb_lenf": [16, 0], "P1": "242", "P2": "375", "P3": "997", "elle_start": "205", "il_start": "45", "lenf_start": "45"}, {"id": "EC-CM2-2016-SGLEA-D1-R7-V1_N", "nb_elle": [13, 0], "nb_il": [6, 0], "nb_lenf": [11, 0], "P1": "2", "P2": "360", "P3": "360", "elle_start": "2", "il_start": "181", "lenf_start": "107"}, {"id": "EC-CM2-2016-SGLEA-D1-R14-V1_N", "nb_elle": [3, 0], "nb_il": [5, 1], "nb_lenf": [2, 0], "P1": "17", "P2": "540", "P3": "771", "elle_start": "17", "il_start": "245", "lenf_start": "719"}, {"id": "EC-CM2-2016-SGLEA-D1-R2-V1_N", "nb_elle": [30, 1], "nb_il": [8, 0], "nb_lenf": [1, 0], "P1": "84", "P2": "1357", "P3": "1520", "elle_start": "15", "il_start": "1028", "lenf_start": "1520"}, {"id": "EC-CM2-2016-SGLEA-D1-R11-V1_N", "nb_elle": [15, 3], "nb_il": [19, 3], "nb_lenf": [6, 0], "P1": "76", "P2": "246", "P3": "848", "elle_start": "20", "il_start": "190", "lenf_start": "555"}, {"id": "EC-CM2-2016-SGLEA-D1-R19-V1_N", "nb_elle": [9, 0], "nb_il": [29, 0], "nb_lenf": [1, 0], "P1": "409", "P2": "773", "P3": "1229", "elle_start": "257", "il_start": "37", "lenf_start": "1229"}, {"id": "EC-CM2-2016-SGLEA-D1-R3-V1_N", "nb_elle": [19, 0], "nb_il": [7, 0], "nb_lenf": [1, 0], "P1": "95", "P2": "478", "P3": "708", "elle_start": "19", "il_start": "351", "lenf_start": "708"}, {"id": "EC-CM2-2016-SGLEA-D1-R10-V1_N", "nb_elle": [1, 0], "nb_il": [12, 1], "nb_lenf": [5, 0], "P1": "21", "P2": "325", "P3": "583", "elle_start": "21", "il_start": "92", "lenf_start": "92"}, {"id": "EC-CM2-2016-SGLEA-D1-R24-V1_N", "nb_elle": [3, 0], "nb_il": [17, 0], "nb_lenf": [1, 0], "P1": "108", "P2": "579", "P3": "837", "elle_start": "64", "il_start": "49", "lenf_start": "837"}, {"id": "EC-CM2-2016-SGLEA-D1-R8-V1_N", "nb_elle": [5, 0], "nb_il": [8, 0], "nb_lenf": [8, 0], "P1": "61", "P2": "217", "P3": "217", "elle_start": "1", "il_start": "125", "lenf_start": "125"}, {"id": "EC-CM2-2016-SGLEA-D1-R1-V1_N", "nb_elle": [4, 0], "nb_il": [22, 1], "nb_lenf": [7, 0], "P1": "591", "P2": "683", "P3": "804", "elle_start": "433", "il_start": "52", "lenf_start": "31"}, {"id": "EC-CM2-2016-SGLEA-D1-R13-V1_N", "nb_elle": [3, 0], "nb_il": [9, 4], "nb_lenf": [6, 0], "P1": "124", "P2": "271", "P3": "496", "elle_start": "93", "il_start": "106", "lenf_start": "106"}, {"id": "EC-CM2-2016-SGLEA-D1-R9-V1_N", "nb_elle": [4, 0], "nb_il": [14, 3], "nb_lenf": [7, 0], "P1": "180", "P2": "438", "P3": "613", "elle_start": "170", "il_start": "29", "lenf_start": "29"}, {"id": "EC-CM2-2016-MQRVX-D1-R13-V1_N", "nb_elle": [4, 0], "nb_il": [10, 1], "nb_lenf": [3, 0], "P1": "182", "P2": "357", "P3": "634", "elle_start": "27", "il_start": "242", "lenf_start": "172"}, {"id": "EC-CM2-2016-MQRVX-D1-R6-V1_N", "nb_elle": [11, 1], "nb_il": [6, 1], "nb_lenf": [5, 0], "P1": "83", "P2": "409", "P3": "409", "elle_start": "38", "il_start": "341", "lenf_start": "352"}, {"id": "EC-CM2-2016-MQRVX-D1-R12-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [6, 0], "P1": "54", "P2": "231", "P3": "522", "elle_start": "54", "il_start": "231", "lenf_start": "361"}, {"id": "EC-CM2-2016-MQRVX-D1-R7-V1_N", "nb_elle": [19, 2], "nb_il": [14, 3], "nb_lenf": [5, 0], "P1": "163", "P2": "568", "P3": "856", "elle_start": "44", "il_start": "375", "lenf_start": "629"}, {"id": "EC-CM2-2016-MQRVX-D1-R10-V1_N", "nb_elle": [2, 0], "nb_il": [13, 0], "nb_lenf": [1, 0], "P1": "72", "P2": null, "P3": "526", "elle_start": "54", "il_start": "1", "lenf_start": "526"}, {"id": "EC-CM2-2016-MQRVX-D1-R4-V1_N", "nb_elle": [13, 1], "nb_il": [9, 1], "nb_lenf": [2, 0], "P1": "81", "P2": null, "P3": "696", "elle_start": "35", "il_start": "386", "lenf_start": "629"}, {"id": "EC-CM2-2016-MQRVX-D1-R11-V1_N", "nb_elle": [11, 0], "nb_il": [2, 0], "nb_lenf": [1, 0], "P1": "132", "P2": "505", "P3": "653", "elle_start": "84", "il_start": "464", "lenf_start": "653"}, {"id": "EC-CM2-2016-MQRVX-D1-R14-V1_N", "nb_elle": [5, 0], "nb_il": [9, 0], "nb_lenf": [1, 0], "P1": "182", "P2": "307", "P3": "688", "elle_start": "148", "il_start": "240", "lenf_start": "688"}, {"id": "EC-CM2-2016-MQRVX-D1-R9-V1_N", "nb_elle": [15, 2], "nb_il": [0, 0], "nb_lenf": [2, 0], "P1": "55", "P2": null, "P3": "341", "elle_start": "19", "il_start": null, "lenf_start": "341"}, {"id": "EC-CM2-2016-MQRVX-D1-R2-V1_N", "nb_elle": [26, 1], "nb_il": [22, 1], "nb_lenf": [6, 0], "P1": "95", "P2": "897", "P3": "1183", "elle_start": "43", "il_start": "429", "lenf_start": "625"}, {"id": "EC-CM2-2016-MQRVX-D1-R3-V1_N", "nb_elle": [5, 0], "nb_il": [11, 6], "nb_lenf": [9, 0], "P1": "135", "P2": "280", "P3": "596", "elle_start": "38", "il_start": "1", "lenf_start": "1"}, {"id": "CO-4e-2018-LSPJJRD-D1-R14-V1_N", "nb_elle": [22, 0], "nb_il": [8, 0], "nb_lenf": [3, 0], "P1": "3", "P2": "1074", "P3": "1274", "elle_start": "3", "il_start": "958", "lenf_start": "1176"}, {"id": "CO-4e-2018-LSPJJRD-D1-R2-V1_N", "nb_elle": [6, 0], "nb_il": [7, 0], "nb_lenf": [5, 0], "P1": "197", "P2": "921", "P3": "1275", "elle_start": "63", "il_start": "694", "lenf_start": "1085"}, {"id": "CO-4e-2018-LSPJJRD-D1-R15-V1_N", "nb_elle": [14, 1], "nb_il": [28, 7], "nb_lenf": [12, 3], "P1": "324", "P2": "1070", "P3": "1551", "elle_start": "125", "il_start": "167", "lenf_start": "167"}, {"id": "CO-4e-2018-LSPJJRD-D1-R3-V1_N", "nb_elle": [23, 4], "nb_il": [17, 4], "nb_lenf": [14, 0], "P1": "141", "P2": "341", "P3": "468", "elle_start": "36", "il_start": "286", "lenf_start": "385"}, {"id": "CO-4e-2018-LSPJJRD-D1-R17-V1_N", "nb_elle": [9, 0], "nb_il": [53, 9], "nb_lenf": [31, 1], "P1": "114", "P2": "1631", "P3": "2647", "elle_start": "1", "il_start": "455", "lenf_start": "455"}, {"id": "CO-4e-2018-LSPJJRD-D1-R1-V1_N", "nb_elle": [4, 0], "nb_il": [6, 0], "nb_lenf": [4, 0], "P1": "102", "P2": "490", "P3": "629", "elle_start": "25", "il_start": "380", "lenf_start": "166"}, {"id": "CO-4e-2018-LSPJJRD-D1-R8-V1_N", "nb_elle": [6, 0], "nb_il": [13, 0], "nb_lenf": [7, 0], "P1": "21", "P2": "321", "P3": "656", "elle_start": "1", "il_start": "217", "lenf_start": "82"}, {"id": "CO-4e-2018-LSPJJRD-D1-R9-V1_N", "nb_elle": [8, 0], "nb_il": [9, 4], "nb_lenf": [7, 0], "P1": "227", "P2": "481", "P3": "794", "elle_start": "44", "il_start": "123", "lenf_start": "104"}, {"id": "CO-4e-2018-LSPJJRD-D1-R16-V1_N", "nb_elle": [10, 0], "nb_il": [31, 6], "nb_lenf": [1, 0], "P1": "167", "P2": null, "P3": "2191", "elle_start": "51", "il_start": "366", "lenf_start": "2191"}, {"id": "CO-4e-2018-LSPJJRD-D1-R5-V1_N", "nb_elle": [24, 0], "nb_il": [15, 0], "nb_lenf": [1, 0], "P1": "188", "P2": "1150", "P3": "1511", "elle_start": "19", "il_start": "857", "lenf_start": "1511"}, {"id": "CO-4e-2018-LSPJJRD-D1-R13-V1_N", "nb_elle": [5, 2], "nb_il": [20, 6], "nb_lenf": [9, 2], "P1": "145", "P2": "586", "P3": "901", "elle_start": "38", "il_start": "38", "lenf_start": "38"}, {"id": "CO-4e-2018-LSPJJRD-D1-R4-V1_N", "nb_elle": [2, 0], "nb_il": [9, 2], "nb_lenf": [3, 0], "P1": "66", "P2": "706", "P3": "822", "elle_start": "56", "il_start": "399", "lenf_start": "398"}, {"id": "CO-4e-2018-LSPJJRD-D1-R12-V1_N", "nb_elle": [14, 0], "nb_il": [16, 4], "nb_lenf": [12, 0], "P1": "2", "P2": "604", "P3": "1144", "elle_start": "2", "il_start": "478", "lenf_start": "478"}, {"id": "CO-4e-2018-LSPJJRD-D1-R6-V1_N", "nb_elle": [14, 0], "nb_il": [0, 0], "nb_lenf": [4, 0], "P1": "53", "P2": null, "P3": "505", "elle_start": "18", "il_start": null, "lenf_start": "339"}, {"id": "CO-4e-2018-LSPJJRD-D1-R10-V1_N", "nb_elle": [16, 1], "nb_il": [22, 1], "nb_lenf": [9, 0], "P1": "86", "P2": "566", "P3": "1082", "elle_start": "47", "il_start": "57", "lenf_start": "47"}, {"id": "CO-4e-2018-LSPJJRD-D1-R7-V1_N", "nb_elle": [26, 0], "nb_il": [0, 0], "nb_lenf": [0, 0], "P1": "44", "P2": null, "P3": null, "elle_start": "17", "il_start": null, "lenf_start": null}, {"id": "CO-4e-2018-LSPJJRD-D1-R11-V1_N", "nb_elle": [25, 1], "nb_il": [20, 1], "nb_lenf": [10, 0], "P1": "311", "P2": "671", "P3": "1031", "elle_start": "1", "il_start": "497", "lenf_start": "508"}, {"id": "CO-4e-2018-LSPJJRD-D1-R18-V1_N", "nb_elle": [37, 1], "nb_il": [31, 1], "nb_lenf": [11, 0], "P1": "140", "P2": "333", "P3": "1586", "elle_start": "67", "il_start": "20", "lenf_start": "1083"}, {"id": "CO-4e-2018-LSPJJRC-D1-R14-V1_N", "nb_elle": [3, 1], "nb_il": [20, 3], "nb_lenf": [7, 2], "P1": "2", "P2": "654", "P3": "1031", "elle_start": "2", "il_start": "52", "lenf_start": "52"}, {"id": "CO-4e-2018-LSPJJRC-D1-R3-V1_N", "nb_elle": [37, 5], "nb_il": [36, 5], "nb_lenf": [33, 7], "P1": "145", "P2": "566", "P3": "1748", "elle_start": "19", "il_start": "82", "lenf_start": "94"}, {"id": "CO-4e-2018-LSPJJRC-D1-R22-V1_N", "nb_elle": [56, 1], "nb_il": [27, 1], "nb_lenf": [11, 0], "P1": "69", "P2": "1560", "P3": "2173", "elle_start": "11", "il_start": "45", "lenf_start": "124"}, {"id": "CO-4e-2018-LSPJJRC-D1-R2-V1_N", "nb_elle": [6, 0], "nb_il": [13, 1], "nb_lenf": [5, 0], "P1": "885", "P2": "1309", "P3": "1789", "elle_start": "873", "il_start": "1179", "lenf_start": "1454"}, {"id": "CO-4e-2018-LSPJJRC-D1-R23-V1_N", "nb_elle": [8, 1], "nb_il": [27, 3], "nb_lenf": [8, 1], "P1": "332", "P2": "1157", "P3": "1585", "elle_start": "22", "il_start": "22", "lenf_start": "22"}, {"id": "CO-4e-2018-LSPJJRC-D1-R15-V1_N", "nb_elle": [9, 0], "nb_il": [35, 1], "nb_lenf": [10, 0], "P1": "2", "P2": "908", "P3": "1670", "elle_start": "2", "il_start": "203", "lenf_start": "209"}, {"id": "CO-4e-2018-LSPJJRC-D1-R21-V1_N", "nb_elle": [16, 0], "nb_il": [30, 8], "nb_lenf": [26, 0], "P1": "48", "P2": "638", "P3": "1311", "elle_start": "20", "il_start": "35", "lenf_start": "35"}, {"id": "CO-4e-2018-LSPJJRC-D1-R9-V1_N", "nb_elle": [3, 0], "nb_il": [11, 0], "nb_lenf": [1, 0], "P1": "256", "P2": "531", "P3": "1209", "elle_start": "197", "il_start": "494", "lenf_start": "1209"}, {"id": "CO-4e-2018-LSPJJRC-D1-R17-V1_N", "nb_elle": [37, 1], "nb_il": [42, 1], "nb_lenf": [11, 0], "P1": "247", "P2": "1219", "P3": "1714", "elle_start": "20", "il_start": "123", "lenf_start": "1391"}, {"id": "CO-4e-2018-LSPJJRC-D1-R28-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [22, 0], "P1": "2", "P2": "1360", "P3": "1530", "elle_start": "2", "il_start": "1360", "lenf_start": "190"}, {"id": "CO-4e-2018-LSPJJRC-D1-R8-V1_N", "nb_elle": [17, 1], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "1068", "P2": "1558", "P3": "2115", "elle_start": "481", "il_start": "1558", "lenf_start": "2115"}, {"id": "CO-4e-2018-LSPJJRC-D1-R16-V1_N", "nb_elle": [17, 0], "nb_il": [4, 0], "nb_lenf": [2, 0], "P1": "96", "P2": "500", "P3": "748", "elle_start": "20", "il_start": "172", "lenf_start": "657"}, {"id": "CO-4e-2018-LSPJJRC-D1-R29-V1_N", "nb_elle": [35, 1], "nb_il": [20, 1], "nb_lenf": [3, 0], "P1": "111", "P2": "1092", "P3": "1848", "elle_start": "30", "il_start": "319", "lenf_start": "1749"}, {"id": "CO-4e-2018-LSPJJRC-D1-R20-V1_N", "nb_elle": [8, 0], "nb_il": [19, 2], "nb_lenf": [17, 0], "P1": "104", "P2": "564", "P3": "1015", "elle_start": "79", "il_start": "21", "lenf_start": "21"}, {"id": "CO-4e-2018-LSPJJRC-D1-R4-V1_N", "nb_elle": [14, 0], "nb_il": [26, 9], "nb_lenf": [23, 0], "P1": "102", "P2": "718", "P3": "1443", "elle_start": "20", "il_start": "176", "lenf_start": "176"}, {"id": "CO-4e-2018-LSPJJRC-D1-R13-V1_N", "nb_elle": [15, 0], "nb_il": [12, 3], "nb_lenf": [5, 0], "P1": "278", "P2": "561", "P3": "728", "elle_start": "20", "il_start": "43", "lenf_start": "43"}, {"id": "CO-4e-2018-LSPJJRC-D1-R12-V1_N", "nb_elle": [19, 0], "nb_il": [15, 0], "nb_lenf": [7, 0], "P1": "108", "P2": "444", "P3": "832", "elle_start": "24", "il_start": "198", "lenf_start": "615"}, {"id": "CO-4e-2018-LSPJJRC-D1-R24-V1_N", "nb_elle": [27, 0], "nb_il": [15, 5], "nb_lenf": [7, 0], "P1": "49", "P2": "626", "P3": "1111", "elle_start": "20", "il_start": "35", "lenf_start": "35"}, {"id": "CO-4e-2018-LSPJJRC-D1-R5-V1_N", "nb_elle": [11, 0], "nb_il": [3, 0], "nb_lenf": [18, 0], "P1": "1149", "P2": "1365", "P3": "1698", "elle_start": "621", "il_start": "1315", "lenf_start": "482"}, {"id": "CO-4e-2018-LSPJJRC-D1-R10-V1_N", "nb_elle": [7, 0], "nb_il": [26, 3], "nb_lenf": [12, 0], "P1": "135", "P2": "796", "P3": null, "elle_start": "20", "il_start": "55", "lenf_start": "55"}, {"id": "CO-4e-2018-LSPJJRC-D1-R26-V1_N", "nb_elle": [9, 0], "nb_il": [42, 4], "nb_lenf": [12, 0], "P1": "1163", "P2": "496", "P3": "1797", "elle_start": "406", "il_start": "21", "lenf_start": "21"}, {"id": "CO-4e-2018-LSPJJRC-D1-R7-V1_N", "nb_elle": [5, 0], "nb_il": [27, 6], "nb_lenf": [17, 2], "P1": "68", "P2": "68", "P3": "68", "elle_start": "1", "il_start": "1", "lenf_start": "1"}, {"id": "CO-4e-2018-LSPJJRC-D1-R19-V1_N", "nb_elle": [12, 0], "nb_il": [1, 0], "nb_lenf": [14, 3], "P1": "2", "P2": "489", "P3": "994", "elle_start": "2", "il_start": "489", "lenf_start": "205"}, {"id": "CO-4e-2018-LSPJJRC-D1-R27-V1_N", "nb_elle": [5, 0], "nb_il": [33, 2], "nb_lenf": [2, 0], "P1": "29", "P2": "1353", "P3": "1647", "elle_start": "9", "il_start": "149", "lenf_start": "1647"}, {"id": "CO-4e-2018-LSPJJRC-D1-R6-V1_N", "nb_elle": [20, 0], "nb_il": [21, 5], "nb_lenf": [17, 1], "P1": "227", "P2": "1214", "P3": "1724", "elle_start": "124", "il_start": "96", "lenf_start": "95"}, {"id": "CO-4e-2018-LSPJJRC-D1-R18-V1_N", "nb_elle": [17, 0], "nb_il": [14, 0], "nb_lenf": [7, 0], "P1": "271", "P2": "573", "P3": "1020", "elle_start": "51", "il_start": "119", "lenf_start": "776"}, {"id": "CO-4e-2018-LSPJJRC-D1-R11-V1_N", "nb_elle": [2, 0], "nb_il": [1, 0], "nb_lenf": [16, 1], "P1": "119", "P2": null, "P3": "119", "elle_start": "58", "il_start": "830", "lenf_start": "58"}, {"id": "CO-6e-2016-PJPR4-D1-R3-V1_N", "nb_elle": [18, 2], "nb_il": [18, 2], "nb_lenf": [12, 0], "P1": "86", "P2": "493", "P3": "913", "elle_start": "19", "il_start": "168", "lenf_start": "150"}, {"id": "CO-6e-2016-PJPR4-D1-R2-V1_N", "nb_elle": [13, 4], "nb_il": [14, 4], "nb_lenf": [6, 0], "P1": "64", "P2": "514", "P3": "719", "elle_start": "19", "il_start": "129", "lenf_start": "232"}, {"id": "CO-6e-2016-PJPR4-D1-R1-V1_N", "nb_elle": [29, 0], "nb_il": [16, 5], "nb_lenf": [1, 0], "P1": "125", "P2": "899", "P3": "1094", "elle_start": "19", "il_start": "202", "lenf_start": "1094"}, {"id": "CO-6e-2016-PJPR4-D1-R4-V1_N", "nb_elle": [24, 3], "nb_il": [3, 1], "nb_lenf": [13, 1], "P1": "30", "P2": "684", "P3": "1197", "elle_start": "30", "il_start": "665", "lenf_start": "408"}, {"id": "CO-6e-2016-PJPR4-D1-R5-V1_N", "nb_elle": [3, 0], "nb_il": [1, 0], "nb_lenf": [4, 0], "P1": "65", "P2": "208", "P3": "284", "elle_start": "52", "il_start": "208", "lenf_start": "1"}, {"id": "CO-6e-2018-VTAC605-D1-R3-V1_N", "nb_elle": [8, 0], "nb_il": [1, 0], "nb_lenf": [3, 1], "P1": "78", "P2": "240", "P3": "307", "elle_start": "19", "il_start": "240", "lenf_start": "171"}, {"id": "CO-6e-2018-VTAC605-D1-R15-V1_N", "nb_elle": [12, 1], "nb_il": [6, 1], "nb_lenf": [1, 0], "P1": "2", "P2": "355", "P3": "641", "elle_start": "2", "il_start": "225", "lenf_start": "641"}, {"id": "CO-6e-2018-VTAC605-D1-R14-V1_N", "nb_elle": [11, 0], "nb_il": [27, 2], "nb_lenf": [15, 0], "P1": "417", "P2": "803", "P3": "1257", "elle_start": "121", "il_start": "20", "lenf_start": "10"}, {"id": "CO-6e-2018-VTAC605-D1-R22-V1_N", "nb_elle": [10, 0], "nb_il": [17, 0], "nb_lenf": [1, 0], "P1": "222", "P2": "512", "P3": "806", "elle_start": "42", "il_start": "71", "lenf_start": "806"}, {"id": "CO-6e-2018-VTAC605-D1-R2-V1_N", "nb_elle": [11, 1], "nb_il": [22, 5], "nb_lenf": [11, 1], "P1": "69", "P2": "741", "P3": "1255", "elle_start": "1", "il_start": "126", "lenf_start": "126"}, {"id": "CO-6e-2018-VTAC605-D1-R16-V1_N", "nb_elle": [21, 2], "nb_il": [19, 2], "nb_lenf": [4, 0], "P1": "446", "P2": "612", "P3": "1018", "elle_start": "1", "il_start": "59", "lenf_start": "973"}, {"id": "CO-6e-2018-VTAC605-D1-R9-V1_N", "nb_elle": [17, 0], "nb_il": [4, 0], "nb_lenf": [5, 0], "P1": "53", "P2": "279", "P3": "695", "elle_start": "20", "il_start": "228", "lenf_start": "393"}, {"id": "CO-6e-2018-VTAC605-D1-R20-V1_N", "nb_elle": [23, 2], "nb_il": [34, 11], "nb_lenf": [32, 2], "P1": "184", "P2": "543", "P3": "1867", "elle_start": "19", "il_start": "39", "lenf_start": "39"}, {"id": "CO-6e-2018-VTAC605-D1-R1-V1_N", "nb_elle": [11, 0], "nb_il": [11, 0], "nb_lenf": [1, 0], "P1": "61", "P2": "243", "P3": "432", "elle_start": "19", "il_start": "169", "lenf_start": "432"}, {"id": "CO-6e-2018-VTAC605-D1-R21-V1_N", "nb_elle": [10, 0], "nb_il": [26, 3], "nb_lenf": [10, 0], "P1": "95", "P2": "330", "P3": "1082", "elle_start": "19", "il_start": "34", "lenf_start": "34"}, {"id": "CO-6e-2018-VTAC605-D1-R17-V1_N", "nb_elle": [4, 0], "nb_il": [9, 4], "nb_lenf": [7, 0], "P1": "158", "P2": "291", "P3": "775", "elle_start": "143", "il_start": "236", "lenf_start": "19"}, {"id": "CO-6e-2018-VTAC605-D1-R8-V1_N", "nb_elle": [25, 5], "nb_il": [25, 1], "nb_lenf": [4, 0], "P1": "148", "P2": "1053", "P3": "1273", "elle_start": "37", "il_start": "524", "lenf_start": "553"}, {"id": "CO-6e-2018-VTAC605-D1-R12-V1_N", "nb_elle": [9, 0], "nb_il": [9, 3], "nb_lenf": [4, 0], "P1": "74", "P2": "279", "P3": "487", "elle_start": "1", "il_start": "151", "lenf_start": "151"}, {"id": "CO-6e-2018-VTAC605-D1-R4-V1_N", "nb_elle": [6, 0], "nb_il": [9, 0], "nb_lenf": [7, 0], "P1": "68", "P2": "250", "P3": "497", "elle_start": "19", "il_start": "158", "lenf_start": "314"}, {"id": "CO-6e-2018-VTAC605-D1-R24-V1_N", "nb_elle": [11, 0], "nb_il": [24, 2], "nb_lenf": [5, 0], "P1": null, "P2": "1499", "P3": null, "elle_start": "1", "il_start": "54", "lenf_start": "36"}, {"id": "CO-6e-2018-VTAC605-D1-R5-V1_N", "nb_elle": [4, 0], "nb_il": [11, 3], "nb_lenf": [5, 0], "P1": "97", "P2": "397", "P3": "577", "elle_start": "40", "il_start": "206", "lenf_start": "186"}, {"id": "CO-6e-2018-VTAC605-D1-R25-V1_N", "nb_elle": [9, 1], "nb_il": [12, 1], "nb_lenf": [1, 0], "P1": "221", "P2": "618", "P3": "618", "elle_start": "56", "il_start": "129", "lenf_start": "618"}, {"id": "CO-6e-2018-VTAC605-D1-R13-V1_N", "nb_elle": [3, 0], "nb_il": [13, 3], "nb_lenf": [8, 0], "P1": "272", "P2": "426", "P3": "653", "elle_start": "155", "il_start": "19", "lenf_start": "19"}, {"id": "CO-6e-2018-VTAC605-D1-R7-V1_N", "nb_elle": [2, 0], "nb_il": [16, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "646", "elle_start": "185", "il_start": "19", "lenf_start": "646"}, {"id": "CO-6e-2018-VTAC605-D1-R18-V1_N", "nb_elle": [20, 0], "nb_il": [19, 0], "nb_lenf": [1, 0], "P1": "125", "P2": "514", "P3": "801", "elle_start": "19", "il_start": "259", "lenf_start": "801"}, {"id": "CO-6e-2018-VTAC605-D1-R11-V1_N", "nb_elle": [3, 0], "nb_il": [12, 3], "nb_lenf": [7, 0], "P1": "134", "P2": "354", "P3": "509", "elle_start": "99", "il_start": "45", "lenf_start": "33"}, {"id": "CO-6e-2018-VTAC605-D1-R10-V1_N", "nb_elle": [11, 1], "nb_il": [9, 1], "nb_lenf": [4, 0], "P1": "51", "P2": "335", "P3": "565", "elle_start": "20", "il_start": "156", "lenf_start": "207"}, {"id": "CO-6e-2018-VTAC605-D1-R6-V1_N", "nb_elle": [2, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "2", "P2": "93", "P3": "234", "elle_start": "2", "il_start": "52", "lenf_start": "234"}, {"id": "CO-6e-2018-VTAC605-D1-R19-V1_N", "nb_elle": [6, 1], "nb_il": [4, 1], "nb_lenf": [2, 0], "P1": "44", "P2": "152", "P3": "261", "elle_start": "1", "il_start": "119", "lenf_start": "196"}, {"id": "CO-6e-2016-PJPR5-D1-R12-V1_N", "nb_elle": [12, 1], "nb_il": [6, 0], "nb_lenf": [2, 0], "P1": "2", "P2": "274", "P3": "597", "elle_start": "2", "il_start": "274", "lenf_start": "549"}, {"id": "CO-6e-2016-PJPR5-D1-R6-V1_N", "nb_elle": [3, 0], "nb_il": [2, 0], "nb_lenf": [5, 0], "P1": "4", "P2": "176", "P3": "307", "elle_start": "4", "il_start": "176", "lenf_start": "101"}, {"id": "CO-6e-2016-PJPR5-D1-R13-V1_N", "nb_elle": [7, 0], "nb_il": [6, 0], "nb_lenf": [2, 0], "P1": "51", "P2": "221", "P3": "430", "elle_start": "20", "il_start": "116", "lenf_start": "430"}, {"id": "CO-6e-2016-PJPR5-D1-R7-V1_N", "nb_elle": [11, 3], "nb_il": [11, 3], "nb_lenf": [7, 0], "P1": "237", "P2": "341", "P3": "451", "elle_start": "21", "il_start": "21", "lenf_start": "21"}, {"id": "CO-6e-2016-PJPR5-D1-R11-V1_N", "nb_elle": [2, 0], "nb_il": [14, 0], "nb_lenf": [1, 0], "P1": "425", "P2": "2", "P3": "538", "elle_start": "425", "il_start": "2", "lenf_start": "538"}, {"id": "CO-6e-2016-PJPR5-D1-R5-V1_N", "nb_elle": [14, 2], "nb_il": [12, 2], "nb_lenf": [5, 0], "P1": "425", "P2": "708", "P3": "898", "elle_start": "274", "il_start": "274", "lenf_start": "274"}, {"id": "CO-6e-2016-PJPR5-D1-R10-V1_N", "nb_elle": [33, 0], "nb_il": [4, 0], "nb_lenf": [27, 0], "P1": "125", "P2": "329", "P3": "1961", "elle_start": "1", "il_start": "249", "lenf_start": "615"}, {"id": "CO-6e-2016-PJPR5-D1-R4-V1_N", "nb_elle": [17, 0], "nb_il": [18, 2], "nb_lenf": [1, 0], "P1": "52", "P2": "601", "P3": "1795", "elle_start": "28", "il_start": "245", "lenf_start": "1795"}, {"id": "CO-6e-2016-PJPR5-D1-R8-V1_N", "nb_elle": [16, 2], "nb_il": [3, 0], "nb_lenf": [13, 0], "P1": "107", "P2": "293", "P3": "703", "elle_start": "85", "il_start": "293", "lenf_start": "85"}, {"id": "CO-6e-2016-PJPR5-D1-R1-V1_N", "nb_elle": [19, 1], "nb_il": [18, 1], "nb_lenf": [4, 0], "P1": "88", "P2": "380", "P3": "777", "elle_start": "19", "il_start": "160", "lenf_start": "183"}, {"id": "CO-6e-2016-PJPR5-D1-R15-V1_N", "nb_elle": [11, 0], "nb_il": [26, 4], "nb_lenf": [24, 0], "P1": "1", "P2": "809", "P3": "1175", "elle_start": "1", "il_start": "248", "lenf_start": "248"}, {"id": "CO-6e-2016-PJPR5-D1-R14-V1_N", "nb_elle": [18, 1], "nb_il": [11, 1], "nb_lenf": [8, 0], "P1": "64", "P2": "297", "P3": "506", "elle_start": "19", "il_start": "39", "lenf_start": "19"}, {"id": "CO-6e-2016-PJPR5-D1-R9-V1_N", "nb_elle": [30, 2], "nb_il": [12, 2], "nb_lenf": [0, 0], "P1": "1", "P2": "564", "P3": null, "elle_start": "1", "il_start": "490", "lenf_start": null}, {"id": "CO-6e-2016-PJPR5-D1-R16-V1_N", "nb_elle": [21, 0], "nb_il": [20, 2], "nb_lenf": [0, 0], "P1": "152", "P2": "604", "P3": null, "elle_start": "70", "il_start": "323", "lenf_start": null}, {"id": "CO-6e-2016-PJPR5-D1-R3-V1_N", "nb_elle": [2, 0], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "3", "P2": "83", "P3": "191", "elle_start": "3", "il_start": "83", "lenf_start": "191"}, {"id": "CO-6e-2016-PJPR1-D1-R6-V1_N", "nb_elle": [7, 1], "nb_il": [12, 1], "nb_lenf": [1, 0], "P1": "70", "P2": "391", "P3": "391", "elle_start": "19", "il_start": "32", "lenf_start": "391"}, {"id": "CO-6e-2016-PJPR1-D1-R11-V1_N", "nb_elle": [17, 2], "nb_il": [10, 3], "nb_lenf": [5, 0], "P1": "138", "P2": "516", "P3": "711", "elle_start": "70", "il_start": "414", "lenf_start": "578"}, {"id": "CO-6e-2016-PJPR1-D1-R18-V1_N", "nb_elle": [7, 0], "nb_il": [17, 0], "nb_lenf": [3, 0], "P1": "71", "P2": "343", "P3": "1065", "elle_start": "19", "il_start": "141", "lenf_start": "971"}, {"id": "CO-6e-2016-PJPR1-D1-R19-V1_N", "nb_elle": [5, 0], "nb_il": [5, 0], "nb_lenf": [1, 0], "P1": "58", "P2": "333", "P3": "491", "elle_start": "17", "il_start": "284", "lenf_start": "491"}, {"id": "CO-6e-2016-PJPR1-D1-R7-V1_N", "nb_elle": [20, 0], "nb_il": [6, 0], "nb_lenf": [1, 0], "P1": "79", "P2": "554", "P3": "757", "elle_start": "19", "il_start": "315", "lenf_start": "757"}, {"id": "CO-6e-2016-PJPR1-D1-R10-V1_N", "nb_elle": [3, 0], "nb_il": [0, 0], "nb_lenf": [0, 0], "P1": "703", "P2": null, "P3": null, "elle_start": "676", "il_start": null, "lenf_start": null}, {"id": "CO-6e-2016-PJPR1-D1-R24-V1_N", "nb_elle": [4, 0], "nb_il": [26, 0], "nb_lenf": [1, 0], "P1": "530", "P2": "637", "P3": "1211", "elle_start": "483", "il_start": "19", "lenf_start": "1211"}, {"id": "CO-6e-2016-PJPR1-D1-R5-V1_N", "nb_elle": [8, 2], "nb_il": [2, 0], "nb_lenf": [2, 0], "P1": "54", "P2": "214", "P3": "581", "elle_start": "19", "il_start": "148", "lenf_start": "404"}, {"id": "CO-6e-2016-PJPR1-D1-R12-V1_N", "nb_elle": [8, 1], "nb_il": [13, 5], "nb_lenf": [8, 1], "P1": "112", "P2": "605", "P3": "747", "elle_start": "1", "il_start": "32", "lenf_start": "32"}, {"id": "CO-6e-2016-PJPR1-D1-R4-V1_N", "nb_elle": [12, 1], "nb_il": [12, 1], "nb_lenf": [1, 0], "P1": "73", "P2": "364", "P3": "566", "elle_start": "19", "il_start": "143", "lenf_start": "566"}, {"id": "CO-6e-2016-PJPR1-D1-R13-V1_N", "nb_elle": [17, 3], "nb_il": [15, 3], "nb_lenf": [22, 1], "P1": "120", "P2": "463", "P3": "1194", "elle_start": "19", "il_start": "279", "lenf_start": "61"}, {"id": "CO-6e-2016-PJPR1-D1-R8-V1_N", "nb_elle": [17, 0], "nb_il": [11, 1], "nb_lenf": [1, 0], "P1": "72", "P2": "199", "P3": "605", "elle_start": "19", "il_start": "185", "lenf_start": "605"}, {"id": "CO-6e-2016-PJPR1-D1-R20-V1_N", "nb_elle": [17, 1], "nb_il": [11, 1], "nb_lenf": [7, 0], "P1": "92", "P2": "341", "P3": "536", "elle_start": "19", "il_start": "72", "lenf_start": "141"}, {"id": "CO-6e-2016-PJPR1-D1-R16-V1_N", "nb_elle": [7, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "20", "P2": "157", "P3": "394", "elle_start": "20", "il_start": "147", "lenf_start": "394"}, {"id": "CO-6e-2016-PJPR1-D1-R1-V1_N", "nb_elle": [12, 2], "nb_il": [11, 2], "nb_lenf": [1, 0], "P1": "260", "P2": "546", "P3": "999", "elle_start": "19", "il_start": "86", "lenf_start": "999"}, {"id": "CO-6e-2016-PJPR1-D1-R17-V1_N", "nb_elle": [7, 1], "nb_il": [12, 1], "nb_lenf": [2, 0], "P1": "44", "P2": "249", "P3": "438", "elle_start": "1", "il_start": "111", "lenf_start": "122"}, {"id": "CO-6e-2016-PJPR1-D1-R9-V1_N", "nb_elle": [10, 0], "nb_il": [4, 0], "nb_lenf": [3, 0], "P1": "49", "P2": "183", "P3": "400", "elle_start": "19", "il_start": "107", "lenf_start": "339"}, {"id": "CO-6e-2016-PJPR1-D1-R21-V1_N", "nb_elle": [9, 0], "nb_il": [29, 1], "nb_lenf": [1, 0], "P1": "102", "P2": "506", "P3": "1226", "elle_start": "51", "il_start": "192", "lenf_start": "1226"}, {"id": "CO-6e-2016-PJPR1-D1-R15-V1_N", "nb_elle": [18, 0], "nb_il": [15, 0], "nb_lenf": [9, 0], "P1": "40", "P2": "206", "P3": "875", "elle_start": "1", "il_start": "149", "lenf_start": "568"}, {"id": "CO-6e-2016-PJPR1-D1-R2-V1_N", "nb_elle": [10, 0], "nb_il": [15, 4], "nb_lenf": [10, 0], "P1": "469", "P2": "605", "P3": "881", "elle_start": "338", "il_start": "19", "lenf_start": "19"}, {"id": "CO-6e-2016-PJPR1-D1-R23-V1_N", "nb_elle": [21, 4], "nb_il": [10, 3], "nb_lenf": [6, 0], "P1": "143", "P2": "497", "P3": "765", "elle_start": "19", "il_start": "100", "lenf_start": "277"}, {"id": "CO-6e-2016-PJPR1-D1-R22-V1_N", "nb_elle": [21, 2], "nb_il": [12, 3], "nb_lenf": [6, 0], "P1": "209", "P2": "1127", "P3": "1450", "elle_start": "65", "il_start": "136", "lenf_start": "1214"}, {"id": "CO-6e-2016-PJPR1-D1-R14-V1_N", "nb_elle": [16, 0], "nb_il": [13, 2], "nb_lenf": [11, 0], "P1": "98", "P2": "258", "P3": "627", "elle_start": "19", "il_start": "176", "lenf_start": "176"}, {"id": "CO-6e-2016-PJPR1-D1-R3-V1_N", "nb_elle": [8, 0], "nb_il": [7, 0], "nb_lenf": [9, 0], "P1": "50", "P2": "364", "P3": "618", "elle_start": "9", "il_start": "254", "lenf_start": "132"}, {"id": "CO-6e-2016-VTAC603-D1-R23-V1_N", "nb_elle": [24, 1], "nb_il": [13, 1], "nb_lenf": [1, 0], "P1": "55", "P2": "733", "P3": "1484", "elle_start": "19", "il_start": "672", "lenf_start": "1484"}, {"id": "CO-6e-2016-VTAC603-D1-R5-V1_N", "nb_elle": [29, 7], "nb_il": [28, 7], "nb_lenf": [16, 0], "P1": "68", "P2": "580", "P3": "1161", "elle_start": "9", "il_start": "160", "lenf_start": "374"}, {"id": "CO-6e-2016-VTAC603-D1-R15-V1_N", "nb_elle": [25, 1], "nb_il": [11, 1], "nb_lenf": [13, 1], "P1": "1007", "P2": "273", "P3": "1140", "elle_start": "42", "il_start": "42", "lenf_start": "42"}, {"id": "CO-6e-2016-VTAC603-D1-R4-V1_N", "nb_elle": [13, 0], "nb_il": [13, 1], "nb_lenf": [3, 0], "P1": "2", "P2": null, "P3": "655", "elle_start": "2", "il_start": "204", "lenf_start": "625"}, {"id": "CO-6e-2016-VTAC603-D1-R14-V1_N", "nb_elle": [5, 1], "nb_il": [4, 1], "nb_lenf": [1, 0], "P1": "66", "P2": "180", "P3": "247", "elle_start": "19", "il_start": "127", "lenf_start": "247"}, {"id": "CO-6e-2016-VTAC603-D1-R22-V1_N", "nb_elle": [9, 1], "nb_il": [12, 1], "nb_lenf": [1, 0], "P1": "102", "P2": "329", "P3": "626", "elle_start": "52", "il_start": "189", "lenf_start": "626"}, {"id": "CO-6e-2016-VTAC603-D1-R20-V1_N", "nb_elle": [12, 0], "nb_il": [16, 5], "nb_lenf": [9, 0], "P1": "112", "P2": "468", "P3": "610", "elle_start": "1", "il_start": "8", "lenf_start": "8"}, {"id": "CO-6e-2016-VTAC603-D1-R21-V1_N", "nb_elle": [24, 4], "nb_il": [21, 5], "nb_lenf": [16, 0], "P1": "56", "P2": "312", "P3": "1301", "elle_start": "19", "il_start": "138", "lenf_start": "172"}, {"id": "CO-6e-2016-VTAC603-D1-R7-V1_N", "nb_elle": [6, 0], "nb_il": [5, 0], "nb_lenf": [2, 0], "P1": "79", "P2": "190", "P3": "345", "elle_start": "19", "il_start": "171", "lenf_start": "345"}, {"id": "CO-6e-2016-VTAC603-D1-R2-V1_N", "nb_elle": [17, 0], "nb_il": [20, 0], "nb_lenf": [1, 0], "P1": "205", "P2": "498", "P3": "1342", "elle_start": "35", "il_start": "9", "lenf_start": "1342"}, {"id": "CO-6e-2016-VTAC603-D1-R13-V1_N", "nb_elle": [9, 0], "nb_il": [29, 5], "nb_lenf": [23, 0], "P1": "51", "P2": "934", "P3": "1157", "elle_start": "20", "il_start": "112", "lenf_start": "112"}, {"id": "CO-6e-2016-VTAC603-D1-R3-V1_N", "nb_elle": [7, 1], "nb_il": [0, 0], "nb_lenf": [1, 0], "P1": "664", "P2": null, "P3": "834", "elle_start": "430", "il_start": null, "lenf_start": "834"}, {"id": "CO-6e-2016-VTAC603-D1-R18-V1_N", "nb_elle": [16, 0], "nb_il": [18, 3], "nb_lenf": [2, 0], "P1": "77", "P2": "288", "P3": "826", "elle_start": "21", "il_start": "64", "lenf_start": "64"}, {"id": "CO-6e-2016-VTAC603-D1-R8-V1_N", "nb_elle": [0, 0], "nb_il": [0, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "348", "elle_start": null, "il_start": null, "lenf_start": "348"}, {"id": "CO-6e-2016-VTAC603-D1-R1-V1_N", "nb_elle": [14, 1], "nb_il": [14, 1], "nb_lenf": [1, 0], "P1": "720", "P2": "1270", "P3": "2133", "elle_start": "544", "il_start": "925", "lenf_start": "2133"}, {"id": "CO-6e-2016-VTAC603-D1-R11-V1_N", "nb_elle": [41, 4], "nb_il": [33, 4], "nb_lenf": [21, 0], "P1": "2", "P2": "702", "P3": "1827", "elle_start": "2", "il_start": "138", "lenf_start": "302"}, {"id": "CO-6e-2016-VTAC603-D1-R10-V1_N", "nb_elle": [15, 1], "nb_il": [12, 1], "nb_lenf": [7, 0], "P1": "110", "P2": "521", "P3": "626", "elle_start": "1", "il_start": "193", "lenf_start": "263"}, {"id": "CO-6e-2016-VTAC603-D1-R19-V1_N", "nb_elle": [19, 0], "nb_il": [13, 5], "nb_lenf": [10, 0], "P1": "285", "P2": "1001", "P3": "1707", "elle_start": "94", "il_start": "972", "lenf_start": "1352"}, {"id": "CO-6e-2016-VTAC603-D1-R9-V1_N", "nb_elle": [2, 0], "nb_il": [5, 0], "nb_lenf": [4, 0], "P1": "1", "P2": "176", "P3": "298", "elle_start": "1", "il_start": "143", "lenf_start": "298"}, {"id": "CO-6e-2017-VTAC602-D1-R7-V1_N", "nb_elle": [23, 3], "nb_il": [20, 3], "nb_lenf": [5, 0], "P1": "119", "P2": "896", "P3": "1137", "elle_start": "1", "il_start": "249", "lenf_start": "287"}, {"id": "CO-6e-2017-VTAC602-D1-R20-V1_N", "nb_elle": [5, 1], "nb_il": [11, 1], "nb_lenf": [1, 0], "P1": "37", "P2": "103", "P3": "523", "elle_start": "19", "il_start": "92", "lenf_start": "523"}, {"id": "CO-6e-2017-VTAC602-D1-R21-V1_N", "nb_elle": [9, 0], "nb_il": [17, 0], "nb_lenf": [1, 0], "P1": "118", "P2": "185", "P3": "661", "elle_start": "34", "il_start": "176", "lenf_start": "661"}, {"id": "CO-6e-2017-VTAC602-D1-R6-V1_N", "nb_elle": [1, 0], "nb_il": [17, 1], "nb_lenf": [5, 0], "P1": "640", "P2": "731", "P3": "837", "elle_start": "640", "il_start": "10", "lenf_start": "331"}, {"id": "CO-6e-2017-VTAC602-D1-R17-V1_N", "nb_elle": [19, 0], "nb_il": [24, 9], "nb_lenf": [12, 0], "P1": "51", "P2": "1335", "P3": "1702", "elle_start": "26", "il_start": "383", "lenf_start": "383"}, {"id": "CO-6e-2017-VTAC602-D1-R4-V1_N", "nb_elle": [28, 3], "nb_il": [27, 3], "nb_lenf": [14, 0], "P1": "199", "P2": "892", "P3": "1246", "elle_start": "1", "il_start": "11", "lenf_start": "1"}, {"id": "CO-6e-2017-VTAC602-D1-R15-V1_N", "nb_elle": [4, 0], "nb_il": [15, 4], "nb_lenf": [10, 0], "P1": "133", "P2": "434", "P3": "646", "elle_start": "120", "il_start": "1", "lenf_start": "1"}, {"id": "CO-6e-2017-VTAC602-D1-R5-V1_N", "nb_elle": [16, 4], "nb_il": [12, 4], "nb_lenf": [4, 0], "P1": "58", "P2": "296", "P3": "855", "elle_start": "1", "il_start": "244", "lenf_start": "728"}, {"id": "CO-6e-2017-VTAC602-D1-R14-V1_N", "nb_elle": [15, 0], "nb_il": [9, 0], "nb_lenf": [1, 0], "P1": "32", "P2": "515", "P3": "837", "elle_start": "1", "il_start": "177", "lenf_start": "837"}, {"id": "CO-6e-2017-VTAC602-D1-R22-V1_N", "nb_elle": [5, 0], "nb_il": [11, 2], "nb_lenf": [6, 0], "P1": "74", "P2": "298", "P3": "697", "elle_start": "11", "il_start": "191", "lenf_start": "191"}, {"id": "CO-6e-2017-VTAC602-D1-R18-V1_N", "nb_elle": [31, 4], "nb_il": [34, 4], "nb_lenf": [21, 0], "P1": "88", "P2": "1244", "P3": "2139", "elle_start": "1", "il_start": "145", "lenf_start": "211"}, {"id": "CO-6e-2017-VTAC602-D1-R10-V1_N", "nb_elle": [25, 1], "nb_il": [22, 1], "nb_lenf": [5, 0], "P1": "1", "P2": "602", "P3": "992", "elle_start": "1", "il_start": "238", "lenf_start": "261"}, {"id": "CO-6e-2017-VTAC602-D1-R1-V1_N", "nb_elle": [6, 1], "nb_il": [1, 0], "nb_lenf": [20, 1], "P1": "88", "P2": "595", "P3": "639", "elle_start": "55", "il_start": "595", "lenf_start": "22"}, {"id": "CO-6e-2017-VTAC602-D1-R19-V1_N", "nb_elle": [40, 1], "nb_il": [32, 1], "nb_lenf": [13, 0], "P1": "1", "P2": "1733", "P3": "1869", "elle_start": "1", "il_start": "162", "lenf_start": "162"}, {"id": "CO-6e-2017-VTAC602-D1-R8-V1_N", "nb_elle": [3, 0], "nb_il": [12, 0], "nb_lenf": [5, 0], "P1": "1", "P2": "247", "P3": "519", "elle_start": "1", "il_start": "83", "lenf_start": "55"}, {"id": "CO-6e-2017-VTAC602-D1-R12-V1_N", "nb_elle": [1, 0], "nb_il": [6, 0], "nb_lenf": [1, 0], "P1": "9", "P2": "185", "P3": "372", "elle_start": "9", "il_start": "156", "lenf_start": "372"}, {"id": "CO-6e-2017-VTAC602-D1-R3-V1_N", "nb_elle": [12, 0], "nb_il": [32, 7], "nb_lenf": [26, 0], "P1": "83", "P2": "328", "P3": "1435", "elle_start": "44", "il_start": "196", "lenf_start": "196"}, {"id": "CO-6e-2017-VTAC602-D1-R13-V1_N", "nb_elle": [14, 3], "nb_il": [0, 0], "nb_lenf": [5, 0], "P1": "149", "P2": null, "P3": "651", "elle_start": "1", "il_start": null, "lenf_start": "40"}, {"id": "CO-6e-2017-VTAC602-D1-R2-V1_N", "nb_elle": [10, 0], "nb_il": [12, 2], "nb_lenf": [5, 0], "P1": "212", "P2": "651", "P3": "762", "elle_start": "20", "il_start": "36", "lenf_start": "36"}, {"id": "CO-5e-2018-IJLM-D1-R1-V1_N", "nb_elle": [27, 1], "nb_il": [22, 1], "nb_lenf": [1, 0], "P1": "114", "P2": "1182", "P3": "1935", "elle_start": "8", "il_start": "578", "lenf_start": "1935"}, {"id": "CO-5e-2018-IJLM-D1-R2-V1_N", "nb_elle": [14, 0], "nb_il": [14, 0], "nb_lenf": [1, 0], "P1": "349", "P2": "1077", "P3": "2107", "elle_start": "256", "il_start": "690", "lenf_start": "2107"}, {"id": "CO-5e-2018-IJLM-D1-R3-V1_N", "nb_elle": [6, 0], "nb_il": [5, 0], "nb_lenf": [2, 0], "P1": "8", "P2": "193", "P3": "438", "elle_start": "8", "il_start": "118", "lenf_start": "290"}, {"id": "CO-5e-2018-IJLM-D1-R4-V1_N", "nb_elle": [23, 4], "nb_il": [12, 8], "nb_lenf": [10, 2], "P1": "99", "P2": "869", "P3": "1205", "elle_start": "20", "il_start": "403", "lenf_start": "403"}, {"id": "EC-CM1-2017-TBZX-D1-R4-V1_N", "nb_elle": [10, 0], "nb_il": [7, 0], "nb_lenf": [1, 0], "P1": "124", "P2": "406", "P3": "572", "elle_start": "19", "il_start": "316", "lenf_start": "572"}, {"id": "EC-CM1-2017-TBZX-D1-R5-V1_N", "nb_elle": [7, 0], "nb_il": [21, 0], "nb_lenf": [1, 0], "P1": "168", "P2": "621", "P3": "974", "elle_start": "20", "il_start": "237", "lenf_start": "974"}, {"id": "EC-CM1-2017-TBZX-D1-R6-V1_N", "nb_elle": [17, 1], "nb_il": [14, 1], "nb_lenf": [4, 0], "P1": "2", "P2": "364", "P3": "816", "elle_start": "2", "il_start": "119", "lenf_start": "144"}, {"id": "EC-CM1-2017-TBZX-D1-R3-V1_N", "nb_elle": [13, 8], "nb_il": [9, 7], "nb_lenf": [7, 0], "P1": "41", "P2": "728", "P3": "728", "elle_start": "41", "il_start": "126", "lenf_start": "239"}, {"id": "EC-CM1-2017-TBZX-D1-R2-V1_N", "nb_elle": [5, 0], "nb_il": [9, 0], "nb_lenf": [1, 0], "P1": "127", "P2": "483", "P3": "625", "elle_start": "19", "il_start": "239", "lenf_start": "625"}, {"id": "EC-CM1-2017-TBZX-D1-R1-V1_N", "nb_elle": [13, 5], "nb_il": [1, 0], "nb_lenf": [6, 0], "P1": "169", "P2": "540", "P3": "747", "elle_start": "42", "il_start": "540", "lenf_start": "300"}, {"id": "EC-CM1-2018-SEZB-D1-R11-V1_N", "nb_elle": [2, 0], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "233", "elle_start": "3", "il_start": "129", "lenf_start": "233"}, {"id": "EC-CM1-2018-SEZB-D1-R18-V1_N", "nb_elle": [8, 1], "nb_il": [4, 0], "nb_lenf": [1, 0], "P1": "60", "P2": "157", "P3": "302", "elle_start": "20", "il_start": "127", "lenf_start": "302"}, {"id": "EC-CM1-2018-SEZB-D1-R3-V1_N", "nb_elle": [4, 1], "nb_il": [2, 1], "nb_lenf": [1, 0], "P1": "27", "P2": "77", "P3": "148", "elle_start": "11", "il_start": "77", "lenf_start": "148"}, {"id": "EC-CM1-2018-SEZB-D1-R2-V1_N", "nb_elle": [4, 2], "nb_il": [4, 2], "nb_lenf": [3, 0], "P1": "200", "P2": "200", "P3": "200", "elle_start": "46", "il_start": "38", "lenf_start": "38"}, {"id": "EC-CM1-2018-SEZB-D1-R10-V1_N", "nb_elle": [0, 0], "nb_il": [0, 0], "nb_lenf": [13, 0], "P1": null, "P2": null, "P3": "775", "elle_start": null, "il_start": null, "lenf_start": "14"}, {"id": "EC-CM1-2018-SEZB-D1-R9-V1_N", "nb_elle": [9, 0], "nb_il": [12, 3], "nb_lenf": [9, 0], "P1": "101", "P2": "205", "P3": "582", "elle_start": "30", "il_start": "82", "lenf_start": "82"}, {"id": "EC-CM1-2018-SEZB-D1-R13-V1_N", "nb_elle": [13, 1], "nb_il": [16, 1], "nb_lenf": [4, 0], "P1": "22", "P2": "154", "P3": "620", "elle_start": "1", "il_start": "9", "lenf_start": "1"}, {"id": "EC-CM1-2018-SEZB-D1-R8-V1_N", "nb_elle": [0, 0], "nb_il": [0, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "194", "elle_start": null, "il_start": null, "lenf_start": "194"}, {"id": "EC-CM1-2018-SEZB-D1-R1-V1_N", "nb_elle": [0, 0], "nb_il": [0, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "768", "elle_start": null, "il_start": null, "lenf_start": "768"}, {"id": "EC-CM1-2018-SEZB-D1-R4-V1_N", "nb_elle": [8, 2], "nb_il": [9, 2], "nb_lenf": [6, 0], "P1": "319", "P2": "211", "P3": "319", "elle_start": "21", "il_start": "21", "lenf_start": "21"}, {"id": "EC-CM1-2018-SEZB-D1-R20-V1_N", "nb_elle": [0, 0], "nb_il": [3, 0], "nb_lenf": [3, 0], "P1": null, "P2": "153", "P3": "255", "elle_start": null, "il_start": "153", "lenf_start": "21"}, {"id": "EC-CM1-2018-SEZB-D1-R16-V1_N", "nb_elle": [4, 0], "nb_il": [5, 0], "nb_lenf": [1, 0], "P1": "36", "P2": "134", "P3": "281", "elle_start": "36", "il_start": "118", "lenf_start": "281"}, {"id": "EC-CM1-2018-SEZB-D1-R17-V1_N", "nb_elle": [6, 2], "nb_il": [6, 2], "nb_lenf": [4, 0], "P1": "54", "P2": "54", "P3": "280", "elle_start": "19", "il_start": "54", "lenf_start": "107"}, {"id": "EC-CM1-2018-SEZB-D1-R7-V1_N", "nb_elle": [9, 5], "nb_il": [1, 0], "nb_lenf": [7, 0], "P1": "405", "P2": "147", "P3": "405", "elle_start": "1", "il_start": "147", "lenf_start": "2"}, {"id": "EC-CM1-2018-SEZB-D1-R6-V1_N", "nb_elle": [3, 0], "nb_il": [5, 0], "nb_lenf": [2, 0], "P1": null, "P2": "108", "P3": null, "elle_start": "1", "il_start": "74", "lenf_start": "178"}, {"id": "EC-CM1-2018-SEZB-D1-R14-V1_N", "nb_elle": [4, 1], "nb_il": [6, 1], "nb_lenf": [2, 0], "P1": "52", "P2": "65", "P3": "52", "elle_start": "3", "il_start": "32", "lenf_start": "3"}, {"id": "EC-CM1-2015-TFGLX-D1-R3-V1_N", "nb_elle": [1, 0], "nb_il": [8, 0], "nb_lenf": [4, 0], "P1": "417", "P2": "236", "P3": "108", "elle_start": "417", "il_start": "211", "lenf_start": "19"}, {"id": "EC-CM1-2015-TFGLX-D1-R17-V1_N", "nb_elle": [7, 1], "nb_il": [6, 1], "nb_lenf": [3, 0], "P1": "2", "P2": "151", "P3": "307", "elle_start": "2", "il_start": "80", "lenf_start": "195"}, {"id": "EC-CM1-2015-TFGLX-D1-R16-V1_N", "nb_elle": [11, 0], "nb_il": [8, 0], "nb_lenf": [7, 0], "P1": "47", "P2": "246", "P3": "625", "elle_start": "1", "il_start": "202", "lenf_start": "97"}, {"id": "EC-CM1-2015-TFGLX-D1-R2-V1_N", "nb_elle": [1, 0], "nb_il": [2, 0], "nb_lenf": [1, 0], "P1": null, "P2": null, "P3": "236", "elle_start": "82", "il_start": "137", "lenf_start": "236"}, {"id": "EC-CM1-2015-TFGLX-D1-R20-V1_N", "nb_elle": [3, 0], "nb_il": [2, 0], "nb_lenf": [1, 0], "P1": "2", "P2": "124", "P3": "316", "elle_start": "2", "il_start": "124", "lenf_start": "316"}, {"id": "EC-CM1-2015-TFGLX-D1-R9-V1_N", "nb_elle": [2, 0], "nb_il": [3, 0], "nb_lenf": [3, 0], "P1": "2", "P2": "93", "P3": "186", "elle_start": "2", "il_start": "57", "lenf_start": "80"}, {"id": "EC-CM1-2015-TFGLX-D1-R14-V1_N", "nb_elle": [1, 0], "nb_il": [7, 0], "nb_lenf": [1, 0], "P1": "2", "P2": "121", "P3": "376", "elle_start": "2", "il_start": "96", "lenf_start": "376"}, {"id": "EC-CM1-2015-TFGLX-D1-R1-V1_N", "nb_elle": [16, 4], "nb_il": [18, 4], "nb_lenf": [10, 0], "P1": "94", "P2": "502", "P3": "861", "elle_start": "94", "il_start": "260", "lenf_start": "349"}, {"id": "EC-CM1-2015-TFGLX-D1-R8-V1_N", "nb_elle": [4, 0], "nb_il": [10, 0], "nb_lenf": [13, 1], "P1": "49", "P2": "386", "P3": "1046", "elle_start": "1", "il_start": "227", "lenf_start": "532"}, {"id": "EC-CM1-2015-TFGLX-D1-R15-V1_N", "nb_elle": [11, 1], "nb_il": [10, 1], "nb_lenf": [9, 0], "P1": "2", "P2": "90", "P3": "476", "elle_start": "2", "il_start": "90", "lenf_start": "134"}, {"id": "EC-CM1-2015-TFGLX-D1-R10-V1_N", "nb_elle": [15, 2], "nb_il": [19, 2], "nb_lenf": [9, 0], "P1": "39", "P2": "518", "P3": "978", "elle_start": "1", "il_start": "172", "lenf_start": "220"}, {"id": "EC-CM1-2015-TFGLX-D1-R19-V1_N", "nb_elle": [6, 0], "nb_il": [15, 5], "nb_lenf": [6, 0], "P1": "88", "P2": "396", "P3": "638", "elle_start": "1", "il_start": "37", "lenf_start": "37"}, {"id": "EC-CM1-2015-TFGLX-D1-R4-V1_N", "nb_elle": [7, 0], "nb_il": [1, 0], "nb_lenf": [6, 0], "P1": "4", "P2": "585", "P3": "508", "elle_start": "4", "il_start": "585", "lenf_start": "183"}, {"id": "EC-CM1-2015-TFGLX-D1-R18-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [6, 0], "P1": "77", "P2": "194", "P3": "486", "elle_start": "47", "il_start": "194", "lenf_start": "10"}, {"id": "EC-CM1-2015-TFGLX-D1-R5-V1_N", "nb_elle": [19, 4], "nb_il": [24, 4], "nb_lenf": [11, 0], "P1": "238", "P2": "611", "P3": "1000", "elle_start": "144", "il_start": "40", "lenf_start": "386"}, {"id": "EC-CM1-2015-TFGLX-D1-R11-V1_N", "nb_elle": [3, 0], "nb_il": [11, 0], "nb_lenf": [1, 0], "P1": "2", "P2": "129", "P3": "526", "elle_start": "2", "il_start": "69", "lenf_start": "526"}, {"id": "EC-CM1-2015-TFGLX-D1-R7-V1_N", "nb_elle": [5, 0], "nb_il": [9, 0], "nb_lenf": [7, 0], "P1": "2", "P2": "121", "P3": "465", "elle_start": "2", "il_start": "83", "lenf_start": "218"}, {"id": "EC-CM1-2015-TFGLX-D1-R13-V1_N", "nb_elle": [9, 0], "nb_il": [27, 3], "nb_lenf": [4, 0], "P1": "182", "P2": "507", "P3": "1126", "elle_start": "131", "il_start": "240", "lenf_start": "719"}, {"id": "EC-CM1-2015-TFGLX-D1-R12-V1_N", "nb_elle": [11, 1], "nb_il": [11, 1], "nb_lenf": [7, 0], "P1": "125", "P2": "193", "P3": "404", "elle_start": "1", "il_start": "12", "lenf_start": "1"}, {"id": "EC-CM1-2015-TFGLX-D1-R6-V1_N", "nb_elle": [22, 1], "nb_il": [2, 0], "nb_lenf": [7, 0], "P1": "118", "P2": "552", "P3": "942", "elle_start": "97", "il_start": "530", "lenf_start": "596"}, {"id": "EC-CM1-2016-BRX-D1-R2-V1_N", "nb_elle": [7, 1], "nb_il": [4, 1], "nb_lenf": [2, 0], "P1": "90", "P2": "157", "P3": "247", "elle_start": "3", "il_start": "135", "lenf_start": "201"}, {"id": "EC-CM1-2016-BRX-D1-R1-V1_N", "nb_elle": [13, 0], "nb_il": [12, 0], "nb_lenf": [1, 0], "P1": "92", "P2": "394", "P3": "506", "elle_start": "7", "il_start": "15", "lenf_start": "506"}, {"id": "EC-CM1-2016-VRX-D1-R6-V1_N", "nb_elle": [8, 0], "nb_il": [3, 0], "nb_lenf": [2, 0], "P1": "129", "P2": "271", "P3": "412", "elle_start": "19", "il_start": "271", "lenf_start": "250"}, {"id": "EC-CM1-2016-VRX-D1-R5-V1_N", "nb_elle": [6, 0], "nb_il": [1, 0], "nb_lenf": [4, 0], "P1": "75", "P2": "319", "P3": "441", "elle_start": "19", "il_start": "319", "lenf_start": "228"}, {"id": "EC-CM1-2016-VRX-D1-R4-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [8, 0], "P1": "923", "P2": "1454", "P3": "1834", "elle_start": "20", "il_start": "1454", "lenf_start": "1177"}, {"id": "EC-CM1-2016-VRX-D1-R1-V1_N", "nb_elle": [8, 1], "nb_il": [10, 1], "nb_lenf": [1, 0], "P1": "129", "P2": "345", "P3": "449", "elle_start": "60", "il_start": "190", "lenf_start": "449"}, {"id": "EC-CM1-2016-VRX-D1-R2-V1_N", "nb_elle": [5, 0], "nb_il": [12, 1], "nb_lenf": [2, 0], "P1": "39", "P2": "236", "P3": "413", "elle_start": "2", "il_start": "115", "lenf_start": "372"}, {"id": "EC-CM1-2016-VRX-D1-R3-V1_N", "nb_elle": [4, 0], "nb_il": [9, 2], "nb_lenf": [4, 0], "P1": "186", "P2": "502", "P3": "674", "elle_start": "124", "il_start": "32", "lenf_start": "32"}, {"id": "UN-M2-2018-TUTJ2-D1-R13-V1_N", "nb_elle": [24, 3], "nb_il": [17, 3], "nb_lenf": [9, 1], "P1": "364", "P2": "1373", "P3": "2074", "elle_start": "1", "il_start": "490", "lenf_start": "803"}, {"id": "UN-M2-2018-TUTJ2-D1-R7-V1_N", "nb_elle": [24, 0], "nb_il": [11, 2], "nb_lenf": [2, 0], "P1": "194", "P2": "1186", "P3": "2413", "elle_start": "41", "il_start": "618", "lenf_start": "2343"}, {"id": "UN-M2-2018-TUTJ2-D1-R12-V1_N", "nb_elle": [3, 0], "nb_il": [21, 5], "nb_lenf": [12, 0], "P1": "1001", "P2": "1234", "P3": "1392", "elle_start": "970", "il_start": "10", "lenf_start": "10"}, {"id": "UN-M2-2018-TUTJ2-D1-R6-V1_N", "nb_elle": [3, 0], "nb_il": [21, 0], "nb_lenf": [2, 1], "P1": "26", "P2": "451", "P3": "962", "elle_start": "1", "il_start": "76", "lenf_start": "911"}, {"id": "UN-M2-2018-TUTJ2-D1-R4-V1_N", "nb_elle": [15, 0], "nb_il": [16, 1], "nb_lenf": [19, 1], "P1": "175", "P2": "994", "P3": "2254", "elle_start": "158", "il_start": "84", "lenf_start": "92"}, {"id": "UN-M2-2018-TUTJ2-D1-R10-V1_N", "nb_elle": [24, 4], "nb_il": [25, 5], "nb_lenf": [10, 0], "P1": "347", "P2": "1872", "P3": "2776", "elle_start": "1", "il_start": "121", "lenf_start": "910"}, {"id": "UN-M2-2018-TUTJ2-D1-R5-V1_N", "nb_elle": [24, 0], "nb_il": [11, 0], "nb_lenf": [4, 1], "P1": "261", "P2": "873", "P3": "1903", "elle_start": "1", "il_start": "417", "lenf_start": "503"}, {"id": "UN-M2-2018-TUTJ2-D1-R11-V1_N", "nb_elle": [14, 0], "nb_il": [44, 8], "nb_lenf": [39, 0], "P1": "88", "P2": "1031", "P3": "2285", "elle_start": "1", "il_start": "29", "lenf_start": "29"}, {"id": "UN-M2-2018-TUTJ2-D1-R9-V1_N", "nb_elle": [11, 0], "nb_il": [47, 0], "nb_lenf": [30, 0], "P1": "312", "P2": "2366", "P3": "3050", "elle_start": "70", "il_start": "387", "lenf_start": "976"}, {"id": "UN-M2-2018-TUTJ2-D1-R8-V1_N", "nb_elle": [29, 1], "nb_il": [15, 1], "nb_lenf": [1, 0], "P1": "252", "P2": "1618", "P3": "1854", "elle_start": "95", "il_start": "312", "lenf_start": "1854"}, {"id": "UN-M2-2018-TUTJ2-D1-R1-V1_N", "nb_elle": [33, 9], "nb_il": [9, 0], "nb_lenf": [30, 0], "P1": "1", "P2": "1842", "P3": "2256", "elle_start": "1", "il_start": "1428", "lenf_start": "161"}, {"id": "UN-M2-2018-TUTJ2-D1-R3-V1_N", "nb_elle": [12, 0], "nb_il": [23, 0], "nb_lenf": [8, 0], "P1": "136", "P2": "1099", "P3": "1631", "elle_start": "1", "il_start": "302", "lenf_start": "391"}, {"id": "UN-M2-2018-TUTJ2-D1-R2-V1_N", "nb_elle": [4, 0], "nb_il": [21, 4], "nb_lenf": [9, 0], "P1": "546", "P2": "1304", "P3": "1625", "elle_start": "378", "il_start": "80", "lenf_start": "719"}, {"id": "EC-CE2-2015-PBOX-D1-R16-V1_N", "nb_elle": [13, 1], "nb_il": [10, 1], "nb_lenf": [6, 0], "P1": "118", "P2": "290", "P3": "619", "elle_start": "15", "il_start": "23", "lenf_start": "15"}, {"id": "EC-CE2-2015-PBOX-D1-R7-V1_N", "nb_elle": [12, 1], "nb_il": [10, 1], "nb_lenf": [5, 0], "P1": "233", "P2": "347", "P3": "670", "elle_start": "14", "il_start": "42", "lenf_start": "442"}, {"id": "EC-CE2-2015-PBOX-D1-R20-V1_N", "nb_elle": [11, 0], "nb_il": [4, 0], "nb_lenf": [1, 0], "P1": "33", "P2": "351", "P3": "521", "elle_start": "15", "il_start": "261", "lenf_start": "521"}, {"id": "EC-CE2-2015-PBOX-D1-R6-V1_N", "nb_elle": [14, 1], "nb_il": [11, 1], "nb_lenf": [5, 0], "P1": "56", "P2": "216", "P3": "450", "elle_start": "20", "il_start": "130", "lenf_start": "320"}, {"id": "EC-CE2-2015-PBOX-D1-R21-V1_N", "nb_elle": [5, 0], "nb_il": [10, 3], "nb_lenf": [7, 0], "P1": "55", "P2": "214", "P3": "360", "elle_start": "11", "il_start": "35", "lenf_start": "35"}, {"id": "EC-CE2-2015-PBOX-D1-R17-V1_N", "nb_elle": [2, 0], "nb_il": [1, 0], "nb_lenf": [2, 0], "P1": "2", "P2": "84", "P3": "190", "elle_start": "2", "il_start": "84", "lenf_start": "190"}, {"id": "EC-CE2-2015-PBOX-D1-R4-V1_N", "nb_elle": [1, 0], "nb_il": [10, 2], "nb_lenf": [6, 0], "P1": "2", "P2": "219", "P3": "357", "elle_start": "2", "il_start": "74", "lenf_start": "74"}, {"id": "EC-CE2-2015-PBOX-D1-R15-V1_N", "nb_elle": [2, 0], "nb_il": [3, 0], "nb_lenf": [2, 0], "P1": "2", "P2": "128", "P3": "251", "elle_start": "2", "il_start": "90", "lenf_start": "201"}, {"id": "EC-CE2-2015-PBOX-D1-R14-V1_N", "nb_elle": [6, 2], "nb_il": [7, 2], "nb_lenf": [3, 1], "P1": "98", "P2": "272", "P3": "413", "elle_start": "23", "il_start": "23", "lenf_start": "23"}, {"id": "EC-CE2-2015-PBOX-D1-R5-V1_N", "nb_elle": [1, 0], "nb_il": [11, 1], "nb_lenf": [4, 0], "P1": "57", "P2": "229", "P3": "435", "elle_start": "57", "il_start": "116", "lenf_start": "106"}, {"id": "EC-CE2-2015-PBOX-D1-R18-V1_N", "nb_elle": [7, 0], "nb_il": [2, 0], "nb_lenf": [2, 0], "P1": "2", "P2": "148", "P3": "334", "elle_start": "2", "il_start": "109", "lenf_start": "334"}, {"id": "EC-CE2-2015-PBOX-D1-R11-V1_N", "nb_elle": [6, 0], "nb_il": [1, 0], "nb_lenf": [5, 0], "P1": "82", "P2": "374", "P3": "506", "elle_start": "25", "il_start": "374", "lenf_start": "131"}, {"id": "EC-CE2-2015-PBOX-D1-R9-V1_N", "nb_elle": [6, 0], "nb_il": [2, 0], "nb_lenf": [2, 0], "P1": "234", "P2": "308", "P3": "408", "elle_start": "1", "il_start": "284", "lenf_start": "363"}, {"id": "EC-CE2-2015-PBOX-D1-R10-V1_N", "nb_elle": [22, 1], "nb_il": [14, 1], "nb_lenf": [4, 0], "P1": "290", "P2": "569", "P3": "760", "elle_start": "34", "il_start": "357", "lenf_start": "642"}, {"id": "EC-CE2-2015-PBOX-D1-R8-V1_N", "nb_elle": [1, 0], "nb_il": [7, 1], "nb_lenf": [1, 0], "P1": "2", "P2": "112", "P3": "235", "elle_start": "2", "il_start": "51", "lenf_start": "235"}, {"id": "EC-CE2-2015-PBOX-D1-R1-V1_N", "nb_elle": [2, 0], "nb_il": [10, 2], "nb_lenf": [4, 0], "P1": "86", "P2": "227", "P3": "366", "elle_start": "30", "il_start": "143", "lenf_start": "143"}, {"id": "EC-CE2-2015-PBOX-D1-R19-V1_N", "nb_elle": [18, 1], "nb_il": [19, 1], "nb_lenf": [8, 0], "P1": "207", "P2": "416", "P3": "593", "elle_start": "1", "il_start": "10", "lenf_start": "1"}, {"id": "EC-CE2-2015-PBOX-D1-R12-V1_N", "nb_elle": [9, 2], "nb_il": [6, 1], "nb_lenf": [3, 0], "P1": "74", "P2": "230", "P3": "361", "elle_start": "16", "il_start": "153", "lenf_start": "361"}, {"id": "EC-CE2-2015-PBOX-D1-R3-V1_N", "nb_elle": [1, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "26", "P2": "95", "P3": "314", "elle_start": "26", "il_start": "77", "lenf_start": "314"}, {"id": "EC-CE2-2015-PBOX-D1-R2-V1_N", "nb_elle": [4, 0], "nb_il": [1, 0], "nb_lenf": [2, 0], "P1": "77", "P2": "164", "P3": "285", "elle_start": "12", "il_start": "164", "lenf_start": "144"}, {"id": "EC-CE2-2015-PBOX-D1-R13-V1_N", "nb_elle": [4, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "2", "P2": "145", "P3": "371", "elle_start": "2", "il_start": "81", "lenf_start": "371"}, {"id": "EC-CE2-2016-VRX-D1-R4-V1_N", "nb_elle": [3, 0], "nb_il": [12, 3], "nb_lenf": [5, 0], "P1": "155", "P2": "246", "P3": "554", "elle_start": "46", "il_start": "92", "lenf_start": "425"}, {"id": "EC-CE2-2016-VRX-D1-R3-V1_N", "nb_elle": [7, 0], "nb_il": [1, 0], "nb_lenf": [7, 0], "P1": "68", "P2": "204", "P3": "345", "elle_start": "1", "il_start": "204", "lenf_start": "53"}, {"id": "EC-CE2-2016-VRX-D1-R2-V1_N", "nb_elle": [7, 0], "nb_il": [2, 0], "nb_lenf": [1, 0], "P1": "110", "P2": "215", "P3": "332", "elle_start": "19", "il_start": "177", "lenf_start": "332"}, {"id": "EC-CE2-2016-VRX-D1-R1-V1_N", "nb_elle": [16, 2], "nb_il": [15, 2], "nb_lenf": [11, 0], "P1": "55", "P2": "271", "P3": "608", "elle_start": "19", "il_start": "116", "lenf_start": "143"}, {"id": "EC-CE2-2017-TBZX-D1-R6-V1_N", "nb_elle": [5, 0], "nb_il": [10, 4], "nb_lenf": [7, 0], "P1": null, "P2": "256", "P3": "515", "elle_start": "19", "il_start": "119", "lenf_start": "119"}, {"id": "EC-CE2-2017-TBZX-D1-R7-V1_N", "nb_elle": [5, 0], "nb_il": [2, 0], "nb_lenf": [1, 0], "P1": "30", "P2": "172", "P3": "241", "elle_start": "19", "il_start": "80", "lenf_start": "241"}, {"id": "EC-CE2-2017-TBZX-D1-R4-V1_N", "nb_elle": [13, 3], "nb_il": [10, 2], "nb_lenf": [4, 0], "P1": "77", "P2": "250", "P3": "515", "elle_start": "19", "il_start": "51", "lenf_start": "392"}, {"id": "EC-CE2-2017-TBZX-D1-R8-V1_N", "nb_elle": [1, 0], "nb_il": [1, 0], "nb_lenf": [2, 0], "P1": "26", "P2": "118", "P3": "209", "elle_start": "26", "il_start": "118", "lenf_start": "161"}, {"id": "EC-CE2-2017-TBZX-D1-R1-V1_N", "nb_elle": [7, 0], "nb_il": [13, 0], "nb_lenf": [5, 0], "P1": "98", "P2": "293", "P3": "644", "elle_start": "1", "il_start": "24", "lenf_start": "518"}, {"id": "EC-CE2-2017-TBZX-D1-R2-V1_N", "nb_elle": [31, 5], "nb_il": [1, 0], "nb_lenf": [21, 0], "P1": "108", "P2": "363", "P3": "1093", "elle_start": "67", "il_start": "363", "lenf_start": "417"}, {"id": "EC-CE2-2018-TFPPX-D1-R6-V1_N", "nb_elle": [5, 1], "nb_il": [3, 1], "nb_lenf": [1, 0], "P1": "26", "P2": "130", "P3": "292", "elle_start": "26", "il_start": "106", "lenf_start": "292"}, {"id": "EC-CE2-2018-TFPPX-D1-R17-V1_N", "nb_elle": [3, 0], "nb_il": [9, 0], "nb_lenf": [1, 0], "P1": "14", "P2": "277", "P3": "536", "elle_start": "9", "il_start": "139", "lenf_start": "536"}, {"id": "EC-CE2-2018-TFPPX-D1-R16-V1_N", "nb_elle": [2, 0], "nb_il": [6, 2], "nb_lenf": [3, 0], "P1": "40", "P2": "152", "P3": "241", "elle_start": "9", "il_start": "105", "lenf_start": "105"}, {"id": "EC-CE2-2018-TFPPX-D1-R7-V1_N", "nb_elle": [19, 0], "nb_il": [10, 0], "nb_lenf": [4, 0], "P1": "12", "P2": "353", "P3": "950", "elle_start": "1", "il_start": "304", "lenf_start": "621"}, {"id": "EC-CE2-2018-TFPPX-D1-R14-V1_N", "nb_elle": [6, 0], "nb_il": [1, 0], "nb_lenf": [4, 0], "P1": "18", "P2": "231", "P3": "394", "elle_start": "18", "il_start": "231", "lenf_start": "183"}, {"id": "EC-CE2-2018-TFPPX-D1-R5-V1_N", "nb_elle": [9, 0], "nb_il": [26, 2], "nb_lenf": [5, 0], "P1": "178", "P2": "904", "P3": "1080", "elle_start": "67", "il_start": "383", "lenf_start": "699"}, {"id": "EC-CE2-2018-TFPPX-D1-R22-V1_N", "nb_elle": [1, 0], "nb_il": [2, 0], "nb_lenf": [2, 0], "P1": null, "P2": "301", "P3": "431", "elle_start": "133", "il_start": "274", "lenf_start": "363"}, {"id": "EC-CE2-2018-TFPPX-D1-R23-V1_N", "nb_elle": [10, 1], "nb_il": [8, 1], "nb_lenf": [5, 0], "P1": "50", "P2": "271", "P3": "568", "elle_start": "35", "il_start": "191", "lenf_start": "351"}, {"id": "EC-CE2-2018-TFPPX-D1-R15-V1_N", "nb_elle": [18, 4], "nb_il": [7, 0], "nb_lenf": [6, 0], "P1": "84", "P2": "400", "P3": "720", "elle_start": "19", "il_start": "256", "lenf_start": "326"}, {"id": "EC-CE2-2018-TFPPX-D1-R8-V1_N", "nb_elle": [11, 1], "nb_il": [7, 1], "nb_lenf": [5, 0], "P1": "59", "P2": "176", "P3": "332", "elle_start": "19", "il_start": "128", "lenf_start": "272"}, {"id": "EC-CE2-2018-TFPPX-D1-R10-V1_N", "nb_elle": [16, 0], "nb_il": [3, 0], "nb_lenf": [1, 0], "P1": "110", "P2": "520", "P3": "692", "elle_start": "17", "il_start": "507", "lenf_start": "692"}, {"id": "EC-CE2-2018-TFPPX-D1-R1-V1_N", "nb_elle": [17, 1], "nb_il": [6, 2], "nb_lenf": [10, 0], "P1": "198", "P2": "643", "P3": "1014", "elle_start": "18", "il_start": "546", "lenf_start": "18"}, {"id": "EC-CE2-2018-TFPPX-D1-R19-V1_N", "nb_elle": [11, 0], "nb_il": [5, 0], "nb_lenf": [8, 0], "P1": "159", "P2": "475", "P3": "854", "elle_start": "1", "il_start": "69", "lenf_start": "87"}, {"id": "EC-CE2-2018-TFPPX-D1-R18-V1_N", "nb_elle": [8, 0], "nb_il": [4, 0], "nb_lenf": [1, 0], "P1": "150", "P2": "350", "P3": "471", "elle_start": "1", "il_start": "303", "lenf_start": "471"}, {"id": "EC-CE2-2018-TFPPX-D1-R11-V1_N", "nb_elle": [12, 1], "nb_il": [8, 1], "nb_lenf": [3, 0], "P1": "2", "P2": "251", "P3": "499", "elle_start": "2", "il_start": "240", "lenf_start": "324"}, {"id": "EC-CE2-2018-TFPPX-D1-R9-V1_N", "nb_elle": [8, 1], "nb_il": [6, 1], "nb_lenf": [3, 0], "P1": "26", "P2": "211", "P3": "371", "elle_start": "26", "il_start": "139", "lenf_start": "155"}, {"id": "EC-CE2-2018-TFPPX-D1-R2-V1_N", "nb_elle": [16, 0], "nb_il": [2, 0], "nb_lenf": [6, 0], "P1": "61", "P2": "406", "P3": "723", "elle_start": "43", "il_start": "358", "lenf_start": "513"}, {"id": "EC-CE2-2018-TFPPX-D1-R13-V1_N", "nb_elle": [9, 0], "nb_il": [1, 0], "nb_lenf": [1, 0], "P1": "142", "P2": "239", "P3": "444", "elle_start": "19", "il_start": "239", "lenf_start": "444"}, {"id": "EC-CE2-2018-TFPPX-D1-R12-V1_N", "nb_elle": [6, 0], "nb_il": [22, 6], "nb_lenf": [10, 0], "P1": "157", "P2": "554", "P3": "1118", "elle_start": "117", "il_start": "19", "lenf_start": "19"}, {"id": "EC-CE2-2018-TFPPX-D1-R3-V1_N", "nb_elle": [13, 1], "nb_il": [16, 1], "nb_lenf": [2, 0], "P1": "107", "P2": "421", "P3": "698", "elle_start": "107", "il_start": "238", "lenf_start": "293"}, {"id": "EC-CE2-2016-SGLEB-D1-R2-V1_N", "nb_elle": [7, 2], "nb_il": [8, 2], "nb_lenf": [5, 0], "P1": "96", "P2": "321", "P3": "405", "elle_start": "51", "il_start": "19", "lenf_start": "19"}, {"id": "EC-CE2-2016-SGLEB-D1-R1-V1_N", "nb_elle": [10, 3], "nb_il": [11, 3], "nb_lenf": [5, 0], "P1": "86", "P2": "346", "P3": "500", "elle_start": "20", "il_start": "170", "lenf_start": "201"}];  
+
+//<!-- name inside json file -->
+
+
+		//custom max min header filter
+	var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParams){
+
+		var end;
+
+		var container = document.createElement("span");
+
+		//create and style inputs
+		var start = document.createElement("input");
+		start.setAttribute("type", "number");
+		start.setAttribute("placeholder", "Min");
+		start.setAttribute("min", 0);
+		start.setAttribute("max", 100);
+		start.style.padding = "4px";
+		start.style.width = "50%";
+		start.style.boxSizing = "border-box";
+
+		start.value = cell.getValue();
+		//console.log(start.value)
+
+		function buildValues(){
+			success({
+				start:start.value,
+				end:end.value,
+			});
+		}
+
+		function keypress(e){
+			if(e.keyCode == 13){
+				buildValues();
+			}
+
+			if(e.keyCode == 27){
+				cancel();
+			}
+		}
+
+		end = start.cloneNode();
+		end.value=cell.getValue()[1]
+		end.setAttribute("placeholder", "Group");
+
+		start.addEventListener("change", buildValues);
+		start.addEventListener("blur", buildValues);
+		start.addEventListener("keydown", keypress);
+
+		end.addEventListener("change", buildValues);
+		end.addEventListener("blur", buildValues);
+		end.addEventListener("keydown", keypress);
+
+
+		container.appendChild(start);
+		container.appendChild(end);
+
+		return container;
+	 };
+
+	//custom max min filter function
+	function minMaxFilterFunction(headerValue, rowValue, rowData, filterParams){
+		//headerValue - the value of the header filter element
+		//rowValue - the value of the column in this row
+		//rowData - the data for the row being filtered
+		//filterParams - params object passed to the headerFilterFuncParams property
+
+			if(rowValue){
+				if(headerValue.start != "" && headerValue.end !=""){
+						return rowValue[0] >= headerValue.start && rowValue[1] >= headerValue.end;
+				}else{
+					if(headerValue.end != ""){
+						//console.log(rowValue[1])
+						return rowValue[1] >= headerValue.end;
+					}
+					if(headerValue.start != ""){
+						return rowValue[0] >= headerValue.start;
+					}
+				}
+			}
+
+		return false; //must return a boolean, true if it passes the filter.
+	};
+
+// ajouter le parsing des fichiers input pour remplir le tableau tabulator en JS 
+// ajouter les fonctions qui calculent les nouveaux attributs pour l'exploration
+
+
+
+//on change les valeurs str en int dans le dic resolco
+
+
+function str2int(copies){
+	var new_copies=[];
+	const regex = new RegExp("^\\d+$");
+	for (var dic of copies){
+		//console.log(dic)
+		var new_dic={}
+		for (var [clef, valeur] of Object.entries(dic)) {
+			var trouve= String(valeur).match(regex)
+  			if (trouve){
+  				var new_val=parseInt(String(valeur));
+  			}else{
+  				var new_val=valeur
+  			}
+  		new_dic[clef]=new_val
+		}
+	new_copies.push(new_dic)
+	}
+	return new_copies
+}
+
+
+var resolco=str2int(local_data)
+
+
+var table = new Tabulator("#tabulator-table", {
+		data:resolco,
+		height:"311px",
+		width:"100px",
+		layout:"fitColumns",
+		columns:[
+			{title:"ID", field:"id", width: 275,formatter:"link", formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_normalise/"+cell.getValue()+".html"}}},
+			{title:"NB ELLE", field:"nb_elle", width: 110,formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
+			{title:"NB IL", field:"nb_il", width: 110,formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
+			{title:"NB Les enfants", field:"nb_lenf", width: 110,formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
+			
+			
+			
+
+		],
+
+
+	});
+
+//Define variables for input elements
+var ref = document.getElementById("filter-ref");
+var compar = document.getElementById("filter-compar");
+var consigne = document.getElementById("filter-consigne");
+
+var ref_il = document.getElementById("filter-ref_2");
+var compar_il = document.getElementById("filter-compar_2");
+var consigne_il = document.getElementById("filter-consigne_2");
+
+var ref_lenf = document.getElementById("filter-ref_3");
+var compar_lenf = document.getElementById("filter-compar_3");
+var consigne_lenf = document.getElementById("filter-consigne_3");
+
+
+
+//Update filters on value change
+document.getElementById("filter-ref").addEventListener("change", updateFilter);
+document.getElementById("filter-compar").addEventListener("change", updateFilter);
+document.getElementById("filter-consigne").addEventListener("change", updateFilter);
+
+// //Update filters on value change
+document.getElementById("filter-ref_2").addEventListener("change", updateFilter_il);
+document.getElementById("filter-compar_2").addEventListener("change", updateFilter_il);
+document.getElementById("filter-consigne_2").addEventListener("change", updateFilter_il);
+
+document.getElementById("filter-ref_3").addEventListener("change", updateFilter_lenf);
+document.getElementById("filter-compar_3").addEventListener("change", updateFilter_lenf);
+document.getElementById("filter-consigne_3").addEventListener("change", updateFilter_lenf);
+
+//Clear filters on "Clear Filters" button click
+document.getElementById("filter-clear").addEventListener("click", function(){
+  ref.value = "";
+  compar.value = "=";
+  consigne.value = "";
+
+   ref_il.value = "";
+  compar_il.value = "=";
+  consigne_il.value = "";
+
+    ref_lenf.value = "";
+  compar_lenf.value = "=";
+  consigne_lenf.value = "";
+
+  table.clearFilter();
+});
+
+
+
+//Trigger setFilter function with correct parameters
+function updateFilter(){
+  var reftype = ref.options[ref.selectedIndex].value;
+  var compartype = compar.options[compar.selectedIndex].value;
+  var p= consigne.options[consigne.selectedIndex].value
+
+  if(ref && p){
+  	//console.log("nouveau filtre")
+  	//console.log(reftype,compartype,p)
+  	var filters=table.getFilters();
+  	//console.log(filters)
+  	for (var j = 0; j < filters.length; j++){
+  		var obj=filters[j]
+  		
+	if (String(obj.type.filterref)==reftype){
+		//console.log("ancien filtre : ")
+		//console.log(obj.type.filterref,obj.type.filtercompar,obj.type.filterconsigne)
+		table.removeFilter(filterPosition,obj.type);
+		var new_filters=table.getFilters()
+		//console.log(new_filters)
+	}
+
+	}
+
+    table.addFilter(filterPosition,{filterref:reftype,filtercompar:compartype,filterconsigne:p});
+    console.log(table.getFilters())
+  }
+}
+
+function updateFilter_il(){
+  var reftype = ref_il.options[ref_il.selectedIndex].value;
+  var compartype = compar_il.options[compar_il.selectedIndex].value;
+  var p= consigne_il.options[consigne_il.selectedIndex].value
+
+  if(ref && p){
+  	var filters=table.getFilters();
+  	for (var j = 0; j < filters.length; j++){
+  		var obj=filters[j]
+  		
+	if (String(obj.type.filterref)==reftype){
+		table.removeFilter(filterPosition,obj.type);
+		var new_filters=table.getFilters()
+	}
+
+	}
+
+    table.addFilter(filterPosition,{filterref:reftype,filtercompar:compartype,filterconsigne:p});
+    console.log(table.getFilters())
+  }
+}
+
+function updateFilter_lenf(){
+  var reftype = ref_lenf.options[ref_lenf.selectedIndex].value;
+  var compartype = compar_lenf.options[compar_lenf.selectedIndex].value;
+  var p= consigne_lenf.options[consigne_lenf.selectedIndex].value
+
+  if(ref && p){
+  	var filters=table.getFilters();
+  	for (var j = 0; j < filters.length; j++){
+  		var obj=filters[j]
+  		
+	if (String(obj.type.filterref)==reftype){
+		table.removeFilter(filterPosition,obj.type);
+		var new_filters=table.getFilters()
+	}
+
+	}
+
+    table.addFilter(filterPosition,{filterref:reftype,filtercompar:compartype,filterconsigne:p});
+    console.log(table.getFilters())
+  }
+}
+
+function filterPosition(data, filterParams){
+    //data - the data for the row being filtered
+    //filterParams - params object passed to the filter
+    var ref_start=filterParams.filterref
+    var typ_compar=filterParams.filtercompar
+    var p = filterParams.filterconsigne
+
+    //console.log(ref_start,typ_compar,p)
+    
+
+    if (data[ref_start] && data[p] != null){
+    if (typ_compar=="="){
+
+    	//console.log(data[ref_start] == data[p])
+    	return data[ref_start] == data[p]
+    	
+    }
+    if (typ_compar==">"){
+    	//console.log(data[ref_start] > data[p])
+    	return data[ref_start] > data[p]
+
+    	
+    }
+    if (typ_compar=="<"){
+    	//console.log(data[ref_start] < data[p])
+    	return data[ref_start] < data[p]
+    	
+    }
+}
+}
+
+
+
+
+</script>
+
+
+
+
+<script>$('#search').keyup(function() {
+	  var regex = new RegExp($('#search').val(), "i");
+	  var rows = $('table tr:gt(0)');
+	  rows.each(function (index) {
+		title = $(this).children("#title").html()
+		if (title.search(regex) != -1) {
+		  $(this).show();
+		} else {
+		  $(this).hide();
+		}
+	  });
+	});
+</script>
+</div>
+</div>
+
+	</ul>
+</li>
+		</ul>
+		</div>
+<div>
+<p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
+</div>
+</body>
+</html>

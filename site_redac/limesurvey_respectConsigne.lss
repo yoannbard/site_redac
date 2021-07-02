@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>365</DBVersion>
+ <languages>
+  <language>fr</language>
+ </languages>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[27599]]></gid>
+    <sid><![CDATA[952215]]></sid>
+    <group_name><![CDATA[Textes produits à diagnostiquer]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description><![CDATA[<p>En cliquant sur suivant, vous allez visualiser des textes d'élèves dans leur version transcrite et scannée.</p>
+
+<p>En dessous de chaque texte, plusieurs critères de diagnostic seront proposés pour évaluer la réussite de l'élève p.r. à la consigne Resolco. Pour chaque critère, un commentaire est possible.</p>
+]]></description>
+    <language><![CDATA[fr]]></language>
+    <randomization_group><![CDATA[textes]]></randomization_group>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[558047]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[P]]></type>
+    <title><![CDATA[CO3eVTAC305D1R10]]></title>
+    <question><![CDATA[<table border="1">
+	<tbody>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td width="50%">
+			<h1> </h1>
+
+			<p style="margin-top: 3%;">Moi et mes amis étions <s><font color="gray"><i>o</i></font>nt</s> en colonie de vancance<br />Et c'est à mon tour de raconter une histoire.<br />Il était une fois une très belle femme qui s'app<font color="gray"><i>e</i></font>lait<br />Christine. <s>Elle habitait dans cette maison depuis</s><br /><s>longtemps<font color="gray"><i>.</i></font> Elle a acheté<font color="gray"><i>xx</i></font> une grande maison</s><br /><s>avec son mari.</s> Qui décida d'acheté<s>r</s> une maison<br />à une veille fenme. |<u>Elle habitait dans cette<br />maison</u> depuis longtemps. Mais d'après la<br />vielle <font color="gray"><i>xx</i></font> fenme, sa maison est hantée. C'est<br />pour sa qu'elle la vend. Mais Christine ne croyai<s>s</s> |<sup><u>t</u></sup> pas<br />à sa. Elle décida de s'installer dans cette maison<br />avec son mari et ses enfants. Ils pri<font color="gray"><i>e</i></font>nt<font color="gray"><i>▮</i></font>une semaine<br />pour s'installer. Ils vivaient bien dans leur<s>s</s><br />nouvelle maison. Jusqu'aux jour où les<br />enfants virent dans la rue, une ombre qui<br />faisait peur. Donc ils appel<font color="gray"><i>è</i></font>rent leur père pour<br />voir dehors<font color="gray"><i>.</i></font> |<u>Il se retourna en entandant<br />ce grand bruit</u><font color="gray"><i>.</i></font> Il vit<br />un fanth<font color="gray"><i>ô</i></font>me. Il croyait pas ce qu'il a vue<br />Il alla tout raconter à sa famille. |<u>Depuis cette<br />aventure, les enfants ne so<font color="gray"><i>r</i></font>tent plus la nuit</u></p>
+			</td>
+			<td><img src="http://redac.univ-tlse2.fr/corpus/resolco/copies/scans/CO-3e-2016-VTAC305-D1-R10-V1_S.png" width="100%" /></td>
+		</tr>
+		<tr>
+			<td><font color="gray" face="Courier New">- Dans la copie certains passages ont été supprimés via un effaceur/correcteur blanc.</font></td>
+			<td><font color="gray">Si vous voyez une erreur dans la transcription, merci d'envoyer un mail à <a href="mailto:hodac@univ-tlse2.fr">hodac@univ-tlse2.fr</a></font></td>
+		</tr>
+	</tbody>
+</table>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[Y]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[558049]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Elle]]></title>
+    <question><![CDATA[Problème d'intégration du pronom "Elle" de P1]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558050]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[habitait]]></title>
+    <question><![CDATA[Problème d'intégration de l'imparfait "habitait"]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558051]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[cetteMaison]]></title>
+    <question><![CDATA[Problème d'intégration du démonstratif "cette maison" de P1]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558052]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[depuisLongtemps]]></title>
+    <question><![CDATA[Problème d'intégration de la circonstance temporelle "depuis longtemps" de P1]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558053]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P1]]></title>
+    <question><![CDATA[Autre(s) problème(s) d'intégration de P1]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558054]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Il]]></title>
+    <question><![CDATA[Problème d'intégration du pronom "Il" de P2]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558055]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[retourna]]></title>
+    <question><![CDATA[Problème d'intégration du passé simple "se retourna" de P2]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558056]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[ceBruit]]></title>
+    <question><![CDATA[Problème d'intégration du démonstratif "ce grand bruit" de P2]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558057]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P2]]></title>
+    <question><![CDATA[Autre(s) problème(s) d'intégration de P2]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558058]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[lesEnfants]]></title>
+    <question><![CDATA[Problème d'intégration du SN "les enfants" de P3]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558059]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[cetteAventure]]></title>
+    <question><![CDATA[Problème d'intégration du démonstratif "cette aventure" de P3]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558060]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[laNuit]]></title>
+    <question><![CDATA[Problème d'intégration du SN "la nuit" de P3]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[12]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[558061]]></qid>
+    <sid><![CDATA[952215]]></sid>
+    <gid><![CDATA[27599]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P3]]></title>
+    <question><![CDATA[Autre(s) problème(s) d'intégration de P3]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[13]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <parent_qid><![CDATA[558047]]></parent_qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[558047]]></qid>
+    <attribute><![CDATA[commented_checkbox_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[558047]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[558047]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[558047]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value><![CDATA[textes]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>gsid</fieldname>
+   <fieldname>showsurveypolicynotice</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[952215]]></sid>
+    <admin><![CDATA[Lydia mai Ho dac]]></admin>
+    <adminemail><![CDATA[lydia-mai.ho-dac@univ-tlse2.fr]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto/>
+    <format><![CDATA[S]]></format>
+    <template><![CDATA[ut2j_basique]]></template>
+    <language><![CDATA[fr]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[N]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[Y]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[N]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <bounce_email><![CDATA[lydia-mai.ho-dac@univ-tlse2.fr]]></bounce_email>
+    <assessments><![CDATA[N]]></assessments>
+    <usetokens><![CDATA[N]]></usetokens>
+    <emailresponseto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <savetimings><![CDATA[N]]></savetimings>
+    <showxquestions><![CDATA[Y]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <emailnotificationto/>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <questionindex><![CDATA[0]]></questionindex>
+    <gsid><![CDATA[1]]></gsid>
+    <showsurveypolicynotice><![CDATA[0]]></showsurveypolicynotice>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>attachments</fieldname>
+   <fieldname>surveyls_policy_notice</fieldname>
+   <fieldname>surveyls_policy_error</fieldname>
+   <fieldname>surveyls_policy_notice_label</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[952215]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[fr]]></surveyls_language>
+    <surveyls_title><![CDATA[Evaluer le respect de la consigne Resolco]]></surveyls_title>
+    <surveyls_description/>
+    <surveyls_welcometext/>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation à participer à un questionnaire]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité(e) à participer à un questionnaire.<br />
+<br />
+Celui-ci est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour remplir ce questionnaire :<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}<br />
+<br />
+Si vous êtes sur liste noire mais que vous voulez participer à ce questionnaire et recevoir les invitations, merci de cliquer sur le lien suivant :<br />
+{OPTINURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Rappel pour participer à un questionnaire]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Cher(e) {FIRSTNAME},<br />
+<br />
+Vous avez été invité(e) à participer à un questionnaire récemment.<br />
+<br />
+Nous avons pris en compte que vous n’avez pas encore complété le questionnaire, et nous vous rappelons que celui-ci est toujours disponible si vous souhaitez participer.<br />
+<br />
+Le questionnaire est intitulé :<br />
+"{SURVEYNAME}"<br />
+<br />
+"{SURVEYDESCRIPTION}"<br />
+<br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME} ({ADMINEMAIL})<br />
+<br />
+----------------------------------------------<br />
+Cliquez ici pour faire le questionnaire :<br />
+{SURVEYURL}<br />
+<br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Confirmation d’enregistrement pour le questionnaire]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Vous (ou quelqu’un utilisant votre adresse électronique) vous êtes enregistré pour participer à un questionnaire en ligne intitulé {SURVEYNAME}.<br />
+<br />
+Pour compléter ce questionnaire, cliquez sur le lien suivant :<br />
+{SURVEYURL}<br />
+<br />
+Si vous avez des questions à propos de ce questionnaire, ou si vous ne vous êtes pas enregistré pour participer à celui-ci et croyez que ce message est une erreur, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation de votre participation à notre questionnaire]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Bonjour {FIRSTNAME},<br />
+<br />
+Ce message vous confirme que vous avez complété le questionnaire intitulé {SURVEYNAME} et que votre réponse a été enregistrée. Merci pour votre participation.<br />
+<br />
+Si vous avez des questions à propos de ce message, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}.<br />
+<br />
+Cordialement,<br />
+<br />
+{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_url/>
+    <surveyls_endtext/>
+    <surveyls_dateformat><![CDATA[1]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_responses_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME} avec résultats]]></email_admin_responses_subj>
+    <email_admin_notification><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquez sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquez sur le lien suivant pour éditer la réponse :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualisez les statistiques en cliquant ici :<br />
+{STATISTICSURL}]]></email_admin_notification>
+    <email_admin_responses><![CDATA[Bonjour,<br />
+<br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br />
+<br />
+Cliquez sur le lien suivant pour voir cette réponse :<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Cliquez sur le lien suivant pour éditer cette réponse individuelle :<br />
+{EDITRESPONSEURL}<br />
+<br />
+Visualisez les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+Les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+ <themes>
+  <theme>
+   <sid>952215</sid>
+   <template_name>ut2j_basique</template_name>
+   <config>
+    <options>inherit</options>
+   </config>
+  </theme>
+ </themes>
+ <themes_inherited>
+  <theme>
+   <sid>952215</sid>
+   <template_name>ut2j_basique</template_name>
+   <config>
+    <options>
+     <animatebody>off</animatebody>
+     <hideprivacyinfo>off</hideprivacyinfo>
+     <container>on</container>
+     <bodyanimation>fadeInRight</bodyanimation>
+     <brandlogo>on</brandlogo>
+     <brandlogofile>./files/logo.png</brandlogofile>
+     <font>noto</font>
+     <showpopups>1</showpopups>
+     <fixnumauto>off</fixnumauto>
+    </options>
+   </config>
+  </theme>
+ </themes_inherited>
+</document>
