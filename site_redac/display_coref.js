@@ -1,8 +1,9 @@
 
 var copie=document.querySelector("title").textContent;
 
-var url="https://raw.githubusercontent.com/hodaclm/resolco/master/site_redac/annotations_csv/"+copie+"_N_withAnnotations.csv";
+var url="https://raw.githubusercontent.com/yoannbard/site_redac/main/site_redac/annotations_csv/"+copie+"_N_withAnnotations.csv";
 
+//https://github.com/yoannbard/site_redac/tree/main/site_redac/annotations_csv
 //console.log(url);
 
 chargeCSV(url,displayHTMLTable);

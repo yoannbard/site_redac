@@ -251,10 +251,10 @@ td p{
 				
 				<tr>
 					<td>
-						<p>Il est possible de télécharger la ressource sur cette 
+						<p>Il est possible de télécharger la ressource sur la page 
 						<xsl:element name="a">
 						<xsl:attribute name="href">../../telechargement.html</xsl:attribute>
-						<xsl:text>page</xsl:text>						
+						<xsl:text>Téléchargement</xsl:text>						
 					</xsl:element>
 						</p>
 					</td>
