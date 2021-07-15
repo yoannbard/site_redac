@@ -11,11 +11,20 @@
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
   <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
-    <a href="resolco.html" class="button_nav">Présentation</a>
-    <a href="constitution.html" class="button_nav">Constitution</a>
-    <a href="exploration.html" class="button_nav">Transcription</a>
-    <a href="exploration_coref.html" class="button_nav">Coréférence</a>
-    <a href="telechargement.html" class="button_nav">Téléchargement</a>
+    <ul id="menu-demo2">
+	<li><a href="./resolco.html">Présentation</a>
+	</li>
+	<li><a href="./constitution.html">Constitution</a>
+	</li>
+	<li><a href="#">Exploration</a>
+		<ul>
+			<li><a href="exploration.html">Transcription</a></li>
+			<li><a href="exploration_coref.html">Continuité référentielle</a></li>
+		</ul>
+	</li>
+	<li><a href="./telechargement.html">Téléchargement</a>
+	</li>
+</ul>
 </div>
 
 
@@ -24,6 +33,32 @@
 
 
 	<ul class="flex-container">
+
+<li class="flex-item">
+		   <h1>Consigne</h1>
+				<hr/>
+				<p>L'originalité et la particularité du corpus RésolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.</p>
+				<p>Celle-ci est une tâche-problème imposant aux élèves la résolution de problèmes de cohésion textuelle (<a title="La gestion de la cohésion textuelle  par des élèves de 11-12 ans&nbsp;: réussites et difficultés" href="https://www.linguistiquefrancaise.org/articles/shsconf/pdf/2014/05/shsconf_cmlf14_01349.pdf" target="blank">Garcia-Debanc et Bonnemaison, 2014</a> ; <a title="Vers une cartographie des compétences de cohérence et  de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 -12 ans: indicateurs de maitrise et progressivité " href="https://hal.archives-ouvertes.fr/hal-01987031/" target="blank">Garcia-Debanc et Bras, 2016</a>)</p>
+				<p>L'objectif de cette consigne, fournie ci-dessous, est de provoquer chez le scripteur la mise en oeuvre de stratégies de résolution des problèmes de cohérence soulevés par l'intégration de trois phrases.</p>
+				<table align="center" border="1" width="70%">
+				<tr>
+					<td>
+					<i>
+				<p><font size="-.5"><b>Consigne&nbsp;:</b> Racontez une histoire dans laquelle vous insérerez, séparément et dans l'ordre donné, les trois phrases suivantes&nbsp;:</font></p>	
+				<p><img src="images/3phrases.png" width="90%"/></p>
+				<p><font size="-.5">Vous pouvez découper les bandelettes contenant les phrases ci-dessous ou bien recopier chaque phrase avec soin à l'identique de celles qui vous sont données.</font></p></i></td>
+				</tr>
+				</table>
+				<p>Les trois phrases en jeu dans cette consigne impliquent des stratégies discursives variées, amenant le scripteur à gérer plusieurs continuités référentielles et planifier son discours afin d'assurer la cohérence de son texte (<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank">Garcia-Debanc et al. 2017</a>).</p>
+
+				<!--img src="images/versionJolie.png" alt=""-->
+				<p>Ci-dessous un exemple de copie récoltée en 2016 dans une classe de CM2.</p>
+					<a href="copies/html_transcript/EC-CM2-2016-VRX-D1-R4-V1_T.html"><img width="100%" title="EC-CM2-2016-VRX-D1-R4-V1-P1_S" src="copies/scans/EC-CM2-2016-VRX-D1-R4-V1-P1_S.png"/></a>.
+				
+			  </li>
+		</ul>
+
+<ul class="flex-container">
 
 	  <li class="flex-item">
 
@@ -44,7 +79,8 @@
 			<li><b>Normalisation orthographique</b> : il s'agit d'annoter les erreurs d'orthographe et en indiquer la version corrigée. Si les annotateurs rencontrent des erreurs provenant de la transcription, on revient à l'étape 2 pour corriger les .xml ;</li>
 			<li><b>Génération</b> des fichiers normalisés : un script python permet de générer les fichiers normalisés, c'est-à-dire sans erreurs d'orthographe ;</li>
 			<li><b>Vérification</b> des fichiers normalisés : la vérification est effectuée par une personne différente de celle qui a réalisé l'annotation. Si des erreurs de normalisations sont rencontré, on revient à l'étape 4 ;</li>
-			<li><b>Parsing</b> des fichiers normalisés : pour le parsing nous utilisons <a href="http://redac.univ-tlse2.fr/applications/talismane.html">Talismane</a> (Urieli, 2013).</li>
+			<li><b>Parsing</b> des fichiers normalisés : pour le parsing nous utilisons <a href="https://stanfordnlp.github.io/stanza/index.html">Stanza</a> (Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning. 2020. Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. In Association for Computational Linguistics (ACL) System Demonstrations. 2020. ).</li>
+			<li><b>Annotation de la continuité référentielle</b> des textes normalisés grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).</li>
 		</ol>
 		 </p>
 
@@ -74,14 +110,10 @@
 				<li>la version actuelle du <a href="docs/Guide_transcription.pdf"><b>guide de transcription</b></a> proposé dans le cadre du projet <a href="http://e-calm.huma-num.fr/" target="_blank">E:Calm</a> qui sera publié une fois finalisé sur le site du projet.</li>
 				<!--li><a href="docs/Frama_transcription.html">le <b>Framapad de transcription</b></a></li-->
 				<li>le <a href="docs/XX-XXX-20XX-XXX-RX-VX_T.tei.xml"><b>canevas</b></a> d'une transcription au format XML qui liste tous les éléments saisis dans le <i>teiHeader</i> qui contient les métadonnées associées à chaque copie.</li>
-				<li>la <b>vidéo</b> ci-dessous</li>
+				<li>l'exploration du <a href="exploration.html"><b>corpus transcrit</b></a></li>
 			</ul>
 		</p>
 	</ul>
-	<h1 class="titre_video">Comment ont été transcrits les textes</h1>
-
-	<video width="800" height="450" controls src="images/Transcription.mp4" type="video/mp4"/> Your browser does not support HTML5 video.
-	</video>
 </div>
 		
 	<!-- Normalisation -->
@@ -108,15 +140,11 @@
 			<ul>
 				<li><a href="docs/Guide_normalisation.pdf">la version actuelle du <b>guide de normalisation</b></a> proposé dans le cadre du projet <a href="http://e-calm.huma-num.fr/" target="_blank">E:Calm</a> qui sera publié une fois finalisé sur le site du projet.</li>
 				<!--li><a href="docs/Frama_normalisation.html">le <b>Framapad de normalisation</b></a></li-->
-				<li>la <b>vidéo</b> ci-dessous</li>
+				
 			</ul>
 		</p>
 	</ul>
-		<h1 class="titre_video">Comment ont été normalisés les textes</h1>
-
-	<video width="800" height="450" controls src="images/Tuto_Glozz.mp4" type="video/mp4"/> Your browser does not support HTML5 video.
-	</video>
-	<br/>
+		
 
 <ul class="flex-container">
 		<li class="flex-item">
@@ -125,20 +153,14 @@
 		<p>
 		L'étude de la cohérence discursive dans les écrits d'élèves et d'étudiants fait partie des tâches principales au coeur du projet E-calm. Afin d'obtenir un aperçu de la maîtrise et de l'évolution de cette compétence parmi les rédacteurs, nous nous sommes concentrés sur des éléments de cohésion directement liés à la cohérence globale du récit et qui nous serviront d'indicateurs pertinents : les continuités référentielles (ou CR).  
 		</p>
-		Pour rappel : l'exercice d'écriture demandé dans les récits Resolco impose trois phrases à introduire dans l'ordre au cours d'un récit. Chaque phrase consigne contient un référent humain : "<i>Elle</i> habitait dans cette maison depuis longtemps" ; "<i>il</i> se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <i>les enfants</i> ne sortent plus la nuit".
-		<br/>
-		La consigne contraint (dans la grande majorité des cas) à placer ces référents humains au centre du récit et nous nous intéressons aux stratégies mises en place par le scripteur pour développer et gérer ces personnages de manière cohérente.
-		<p>
-		<p>Afin d'analyser ces éléments de cohésion discursive, une annotation de chaque "maillon" (ou référence) des chaînes de continuité référentielle correspondant aux trois référents humains de la consigne a été effectuée pour les copies normalisées grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).</p>
-		<p>Par exemple, tous les éléments référant au personnage <i>ELLE</i> sont annotés tel que :
-		</p>
-		<img src="images/3eR13_pronom_relatif.png" title="relative" style="width : 100%;max-width:800px;" />
-		<p>On obtient la <span style="color:#2e81f9">CR_ELLE</span> : <b>Elle - Cette femme mystérieuse et très âgée - dont - que.</b></p>
-		<p> Chaque copie a été annoté par un ou plusieurs annotateurs francophones et un "gold standard" (ou adjudication) a été décidé pour gérer des cas d'incertitude ou d'ambiguïté au sein de l'annotation.
+		<p>Afin d'analyser ces éléments de cohésion discursive, une annotation de chaque "maillon" (ou référence) des chaînes de continuité référentielle correspondant aux trois référents humains de la consigne a été effectuée pour les copies normalisées grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).
 			<br/>
-		Pour plus de détails concernant l'annotation des chaînes de continuité référentielle vous pouvez consulter le <a href="https://hodaclm.github.io/resolco/">guide d'annotation</a> ainsi que le <a href="https://github.com/hodaclm/resolco/wiki/Cas-d'incertitudes-et-de-d%C3%A9saccord-dans-le-corpus-ResolCo">Wiki</a> pour des exemples de cas d'incertitudes gérés lors de l'adjudication.
-		</p>
-		<p>L'alignement de ces fichiers annotés avec les fichiers parsés sous talismane nous permet de récupérer les informations morpho-syntaxiques pour effectuer une analyse plus fine des chaines de continuité référentielle.</p>
+
+		<p>L'alignement de ces textes annotés avec les textes parsés sous Stanza nous permet de récupérer les informations morpho-syntaxiques pour effectuer une analyse plus fine des chaines de continuité référentielle.</p>
+
+		<p>Pour plus de détail concernant l'annotation ou pour explorer le corpus normalisé et annoté veuillez consulter la page <a href="exploration_coref.html"><b>Exploration CR</b></a></p>
+
+		
 		
 		</p>
 	</ul>

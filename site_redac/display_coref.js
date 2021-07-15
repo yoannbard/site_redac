@@ -62,11 +62,11 @@ function displayHTMLTable(data){
 			var word=row[1];
 			var num=row[0]
       		//console.log(word);
-        var consigne =row[18]
+        var consigne =row[10]
 
-      		var annot_elle=row[24];
-      		var annot_il=row[26];
-		    var annot_lenf=row[28]
+      		var annot_elle=row[16];
+      		var annot_il=row[18];
+		    var annot_lenf=row[20];
 		    // cas 1 : on tombe sur une annotation ELLE
 		   	if (annot_elle!="_"){
 		    word='<mark name="ref_elle" style="background:transparent ;" >'+word+' </mark>'

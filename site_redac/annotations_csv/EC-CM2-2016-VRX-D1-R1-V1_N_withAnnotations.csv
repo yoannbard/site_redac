@@ -1,362 +1,314 @@
-1	La	la	DET	DET	n=s|g=f	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	1	1	1	3	_	1	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	forêt	forêt	NC	NC	n=s|g=f	0	_	0	_	EC-CM2-2016-VRX-D1-R1-V1_N.ac	1	4	1	9	_	4	9	_	_	_	Err	fôret	4-9	_	_	_	_	_	_	_	_
-3	aux	à	P+D	P+D	n=p	2	dep	2	dep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	1	10	1	13	_	10	13	_	_	_	Err	au	10-13	_	_	_	_	_	_	_	_
-4	zombies	zombie	NC	NC	n=p|g=m	3	prep	3	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	1	14	1	21	_	14	21	_	_	_	Err	Zombis	14-21	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	1	2	3	_	21	23	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	4	2	9	imparfait	24	29	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	une	une	DET	DET	n=s|g=f	4	det	4	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	10	2	13	_	30	33	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	fois	fois	NC	NC	g=f	2	obj	2	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	14	2	18	_	34	38	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	une	une	DET	DET	n=s|g=f	7	det	7	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	19	2	22	_	39	42	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	39-61	_	_	_	_	_	_
-6	vieille	vieux	ADJ	ADJ	n=s|g=f	7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	23	2	30	_	43	50	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	39-61	_	_	_	_	_	_
-7	demoiselle	demoiselle	NC	NC	n=s|g=f	2	mod	2	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	31	2	41	_	51	61	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	39-61	_	_	_	_	_	_
-8	qui	qui	PROREL	PROREL	n=s	9	suj	9	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	42	2	45	_	62	65	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	62-65	_	_	_	_	_	_
-9	vivait	vivre	V	V	n=s|t=I|p=3	7	mod_rel	7	mod_rel	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	46	2	52	imparfait	66	72	_	_	_	Err	vivé	66-72	_	_	_	_	_	_	_	_
-10	dans	dans	P	P		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	53	2	57	_	73	77	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	une	une	DET	DET	n=s|g=f	13	det	13	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	58	2	61	_	78	81	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	grande	grand	ADJ	ADJ	n=s|g=f	13	mod	13	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	62	2	68	_	82	88	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	maison	maison	NC	NC	n=s|g=f	10	prep	10	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	69	2	75	_	89	95	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	.	.	PONCT	PONCT		13	ponct	13	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	75	2	76	_	95	96	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	77	2	81	_	97	101	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	97-101	_	_	_	_	_	_
-2	habitait	habiter	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	82	2	90	imparfait	102	110	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	91	2	95	_	111	115	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	cette	DET	DET	n=s|g=f	5	det	5	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	96	2	101	_	116	121	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	102	2	108	_	122	128	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	P	P		2	mod	2	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	109	2	115	_	129	135	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV		6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	116	2	125	_	136	145	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	125	2	126	_	145	146	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Mais	mais	CC	CC		0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	127	2	131	_	147	151	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	un	un	DET	DET	n=s|g=m	3	det	3	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	132	2	134	_	152	154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	jour	jour	NC	NC	n=s|g=m	7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	135	2	139	_	155	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	ses	ses	DET	DET	n=p|p=3|poss=s	6	det	6	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	140	2	143	_	160	163	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	160-163	in_GOui_incertDNon_incertRNon	160-178	in_GNon_incertDNon_incertRNon	160-178	_	_
-5	petits	petit	ADJ	ADJ	n=p|g=m	6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	144	2	150	_	164	170	_	_	_	Err	petit	164-170	_	_	in_GOui_incertDNon_incertRNon	160-178	in_GNon_incertDNon_incertRNon	160-178	_	_
-6	enfants	enfant	NC	NC	n=p	3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	151	2	158	_	171	178	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	160-178	in_GNon_incertDNon_incertRNon	160-178	_	_
-7	viennent	venir	V	V	n=p|t=P,S|p=3	1	dep_coord	1	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	159	2	167	present	179	187	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	lui	lui	CLO	CLO	n=s|p=3	0	_	0	_	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	168	2	171	_	188	191	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	188-191	_	_	_	_	_	_
-9	rendre	rendre	VINF	VINF	t=W	0	_	0	_	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	172	2	178	_	192	198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	visite	visite	NC	NC	n=s|g=f	9	obj	9	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	179	2	185	_	199	205	_	in_add	198-205	_	_	_	_	_	_	_	_	_	_	_
-11	.	.	PONCT	PONCT		10	ponct	10	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	185	2	186	_	205	206	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Ils	ils	CLS	CLS	n=p|g=m|p=3	3	suj	3	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	187	2	190	_	207	210	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	207-210	is_GNon_incertDNon_incertRNon	207-210	_	_
-2	s'	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	191	2	193	_	211	213	_	_	_	Err	s'appelles	211-222	_	_	_	_	_	_	_	_
-3	appellent	appeler	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	193	2	202	present	213	222	_	_	_	Err	s'appelles	211-222	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	202	2	203	_	222	223	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	Maria	Maria	NPP	NPP	n=s|g=f	3	obj	3	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	204	2	209	_	224	229	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-6	,	,	PONCT	PONCT		5	ponct	5	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	209	2	210	_	229	230	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-7	Lali	_	NPP	NPP		5	coord	5	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	211	2	215	_	231	235	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-8	,	,	PONCT	PONCT		7	ponct	7	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	215	2	216	_	235	236	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-9	Remi	_	NPP	NPP		7	coord	7	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	217	2	221	_	237	241	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-10	et	et	CC	CC		9	coord	9	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	222	2	224	_	242	244	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	224-249	_	_
-11	Hugo	Hugo	NPP	NPP	n=s|g=m	10	dep_coord	10	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	225	2	229	_	245	249	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	245-249	in_GNon_incertDNon_incertRNon	224-249	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	229	2	230	_	249	250	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	La	la	DET	DET	n=s|g=f	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	231	2	233	_	251	253	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	251-259	_	_	_	_	_	_
-2	mamie	mamie	NC	NC	n=s|g=f	4	suj	4	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	234	2	239	_	254	259	_	_	_	Err	mami	254-259	in_GNon_incertDNon_incertRNon	251-259	_	_	_	_	_	_
-3	leur	leur	CLO	CLO	n=p|p=3	4	obj	4	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	240	2	244	_	260	264	_	_	_	Err	leurs	260-264	_	_	is_GOui_incertDNon_incertRNon	260-264	is_GNon_incertDNon_incertRNon	260-264	_	_
-4	racontait	raconter	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	245	2	254	imparfait	265	274	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	de	de	P	P		4	mod	4	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	255	2	257	_	275	277	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	terribles	terrible	ADJ	ADJ	n=p	5	prep	5	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	258	2	267	_	278	287	_	_	_	Err	térible	278-287	_	_	_	_	_	_	_	_
-7	histoires	histoire	NC	NC	n=p|g=f	5	prep	5	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	2	268	2	277	_	288	297	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	par	par	P	P		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	2	3	5	_	298	301	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	exemple	exemple	NC	NC	n=s|g=m	1	prep	1	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	6	3	13	_	302	309	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	le	le	DET	DET	n=s|g=m	5	det	5	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	14	3	16	_	310	312	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	troisième	troisième	ADJ	ADJ	n=s	5	mod	5	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	17	3	26	_	313	322	_	_	_	Err	troisieme	313-322	_	_	_	_	_	_	_	_
-5	soir	soir	NC	NC	n=s|g=m	9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	27	3	31	_	323	327	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	elle	elle	CLS	CLS	n=s|g=f|p=3	9	suj	9	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	32	3	36	_	328	332	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	328-332	_	_	_	_	_	_
-7	leur	leur	CLO	CLO	n=p|p=3	9	a_obj	9	a_obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	37	3	41	_	333	337	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	333-337	is_GNon_incertDNon_incertRNon	333-337	_	_
-8	avait	avoir	V	V	n=s|t=I|p=3	9	aux_tps	9	aux_tps	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	42	3	47	imparfait	338	343	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	raconté	raconter	VPP	VPP	n=s|g=m|t=K	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	48	3	55	_	344	351	_	_	_	Err	racontait	344-351	_	_	_	_	_	_	_	_
-10	une	une	DET	DET	n=s|g=f	11	det	11	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	56	3	59	_	352	355	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	histoire	histoire	NC	NC	n=s|g=f	9	obj	9	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	60	3	68	_	356	364	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	sur	sur	P	P		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	69	3	72	_	365	368	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	des	des	DET	DET	n=p	14	det	14	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	73	3	76	_	369	372	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	zombies	zombie	NC	NC	n=p|g=m	12	prep	12	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	77	3	84	_	373	380	_	_	_	Err	Zombis	373-380	_	_	_	_	_	_	_	_
-15	:	:	PONCT	PONCT		14	ponct	14	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	85	3	86	_	381	382	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	elle	elle	CLS	CLS	n=s|g=f|p=3	17	suj	17	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	87	3	91	_	383	387	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	383-387	_	_	_	_	_	_
-17	disait	dire	V	V	n=s|t=I|p=3	9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	92	3	98	imparfait	388	394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	qu'	que	CS	CS		17	obj	17	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	99	3	102	_	395	398	_	_	_	Err	qui	395-401	_	_	_	_	_	_	_	_
-19	ils	ils	CLS	CLS	n=p|g=m|p=3	20	suj	20	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	102	3	105	_	398	401	_	_	_	Err	qui	395-401	_	_	_	_	_	_	_	_
-20	venaient	venir	V	V	n=p|t=I|p=3	18	sub	18	sub	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	106	3	114	imparfait	402	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	une	une	DET	DET	n=s|g=f	22	det	22	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	115	3	118	_	411	414	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	fois	fois	NC	NC	g=f	20	obj	20	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	119	3	123	_	415	419	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	par	par	P	P		22	dep	22	dep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	124	3	127	_	420	423	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	année	année	NC	NC	n=s|g=f	23	prep	23	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	128	3	133	_	424	429	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	.	.	PONCT	PONCT		24	ponct	24	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	133	3	134	_	429	430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Le	le	DET	DET	n=s|g=m	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	135	3	137	_	431	433	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	soir	soir	NC	NC	n=s|g=m	11	suj	11	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	138	3	142	_	434	438	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	du	de	P+D	P+D	n=s|g=m	2	dep	2	dep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	143	3	145	_	439	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cinquième	cinquième	ADJ	ADJ	n=s	5	mod	5	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	146	3	155	_	442	451	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	jour	jour	NC	NC	n=s|g=m	3	prep	3	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	156	3	160	_	452	456	_	_	_	Err	jours	452-456	_	_	_	_	_	_	_	_
-6	,	,	PONCT	PONCT		5	ponct	5	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	160	3	161	_	456	457	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	Lali	_	NPP	NPP		5	mod	5	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	162	3	166	_	458	462	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	458-471
-8	et	et	CC	CC		7	coord	7	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	167	3	169	_	463	465	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	458-471
-9	Maria	Maria	NPP	NPP	n=s|g=f	8	dep_coord	8	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	170	3	175	_	466	471	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	458-471
-10	ont	avoir	V	V	n=p|t=P|p=3	11	aux_tps	11	aux_tps	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	176	3	179	present	472	475	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	dit	dire	VPP	VPP	n=s|g=m|t=K	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	180	3	183	_	476	479	_	_	_	Err	dis	476-479	_	_	_	_	_	_	_	_
-12	qu'	que	CS	CS		11	mod	11	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	184	3	187	_	480	483	_	_	_	Err	quelles	480-488	_	_	_	_	_	_	_	_
-13	elles	elles	CLS	CLS	n=p|g=f|p=3	15	suj	15	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	187	3	192	_	483	488	_	_	_	Err	quelles	480-488	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	483-488
-14	avaient	avoir	V	V	n=p|t=I|p=3	15	aux_tps	15	aux_tps	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	193	3	200	imparfait	489	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	lu	lire	VPP	VPP	n=s|g=m|t=K	12	sub	12	sub	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	201	3	203	_	497	499	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	dans	dans	P	P		15	mod	15	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	204	3	208	_	500	504	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	un	un	DET	DET	n=s|g=m	18	det	18	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	209	3	211	_	505	507	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	grimoire	grimoire	NC	NC	n=s|g=m	16	prep	16	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	212	3	220	_	508	516	_	_	_	Err	manoire -- alternatives : manoir	508-516	_	_	_	_	_	_	_	_
-19	que	que	CS	CS		15	mod	15	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	221	3	224	_	517	520	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	les	les	DET	DET	n=p	21	det	21	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	225	3	228	_	521	524	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	zombies	zombie	NC	NC	n=p|g=m	22	suj	22	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	229	3	236	_	525	532	_	_	_	Err	Zombis	525-532	_	_	_	_	_	_	_	_
-22	sortaient	sortir	V	V	n=p|t=I|p=3	19	sub	19	sub	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	237	3	246	imparfait	533	542	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	de	de	P	P		22	mod	22	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	247	3	249	_	543	545	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	leurs	leurs	DET	DET	n=p|p=3|poss=p	25	det	25	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	250	3	255	_	546	551	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	tombes	tombe	NC	NC	n=p|g=f	23	prep	23	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	256	3	262	_	552	558	_	_	_	Err	tombe	552-558	_	_	_	_	_	_	_	_
-26	le	le	DET	DET	n=s|g=m	28	det	28	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	263	3	265	_	559	561	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	25	25	ADJ	ADJ		28	mod	28	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	266	3	268	_	562	564	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	mars	mars	NC	NC	g=m	22	obj	22	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	269	3	273	_	565	569	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	à	à	P	P		22	mod	22	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	274	3	275	_	570	571	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	0h00	_	NC	NC		29	prep	29	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	276	3	280	_	572	576	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-31	.	.	PONCT	PONCT		30	ponct	30	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	3	280	3	281	_	576	577	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	1	4	3	_	577	579	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	c'	ce	CLS	CLS		3	suj	3	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	4	4	6	_	580	582	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	était	être	V	V	n=s|t=I|p=3	1	dep_coord	1	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	6	4	11	imparfait	582	587	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	le	le	DET	DET	n=s|g=m	6	det	6	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	12	4	14	_	588	590	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	25	25	ADJ	ADJ		6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	15	4	17	_	591	593	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	mars	mars	NC	NC	g=m	3	obj	3	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	18	4	22	_	594	598	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	,	,	PONCT	PONCT		6	ponct	6	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	22	4	23	_	598	599	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	alors	alors	ADV	ADV		10	mod	10	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	24	4	29	_	600	605	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	les	les	DET	DET	n=p	10	det	10	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	30	4	33	_	606	609	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	606-617	_	_	_	_
-10	garçons	garçon	NC	NC	n=p|g=m	3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	34	4	41	_	610	617	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	606-617	_	_	_	_
-11	voulaient	vouloir	V	V	n=p|t=I|p=3	3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	42	4	51	imparfait	618	627	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	aller	aller	VINF	VINF	t=W	11	obj	11	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	52	4	57	_	628	633	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	dehors	dehors	NC	NC	g=m	12	obj	12	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	58	4	64	_	634	640	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	mais	mais	CC	CC		11	coord	11	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	65	4	69	_	641	645	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	les	les	DET	DET	n=p	16	det	16	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	70	4	73	_	646	649	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	646-656
-16	filles	fille	NC	NC	n=p|g=f	18	suj	18	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	74	4	80	_	650	656	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	646-656
-17	ne	ne	ADV	ADV		18	mod	18	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	81	4	83	_	657	659	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	veulent	vouloir	V	V	n=p|t=P|p=3	14	dep_coord	14	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	84	4	91	present	660	667	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	pas	pas	ADV	ADV		18	mod	18	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	92	4	95	_	668	671	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	.	.	PONCT	PONCT		19	ponct	19	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	95	4	96	_	671	672	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Mais	mais	CC	CC		0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	97	4	101	_	673	677	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	à	à	P	P		7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	102	4	103	_	678	679	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	la	la	DET	DET	n=s|g=f	4	det	4	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	104	4	106	_	680	682	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	fin	fin	NC	NC	n=s	2	prep	2	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	107	4	110	_	683	686	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	111	4	114	_	687	690	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	687-698	_	_	_	_
-6	garçons	garçon	NC	NC	n=p|g=m	7	suj	7	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	115	4	122	_	691	698	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	687-698	_	_	_	_
-7	arrivent	arriver	V	V	n=p|t=P,S|p=3	1	dep_coord	1	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	123	4	131	present	699	707	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	à	à	P	P		7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	132	4	133	_	708	709	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	les	les	CLO	CLO	n=p|p=3	10	obj	10	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	134	4	137	_	710	713	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	710-713
-10	convaincre	convaincre	VINF	VINF	t=W	8	prep	8	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	138	4	148	_	714	724	_	_	_	Err	convingre	714-724	_	_	_	_	_	_	_	_
-11	.	.	PONCT	PONCT		10	ponct	10	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	148	4	149	_	724	725	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Lali	_	NPP	NPP		4	suj	4	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	150	4	154	_	726	730	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	726-730
-2	et	et	CC	CC		1	coord	1	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	155	4	157	_	731	733	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	Hugo	Hugo	NPP	NPP	n=s|g=m	2	dep_coord	2	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	158	4	162	_	734	738	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	734-738	_	_	_	_
-4	partent	partir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	163	4	170	present	739	746	_	_	_	Err	partes	739-746	_	_	_	_	_	_	_	_
-5	ensemble	ensemble	ADV	ADV		4	mod	4	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	171	4	179	_	747	755	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	dans	dans	P	P		4	mod	4	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	180	4	184	_	756	760	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	la	la	DET	DET	n=s|g=f	8	det	8	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	185	4	187	_	761	763	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	forêt	forêt	NC	NC	n=s|g=f	6	prep	6	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	4	188	4	193	_	764	769	_	_	_	Err	foret	764-769	_	_	_	_	_	_	_	_
-"
-"
-1	Maria	_	NPP	NPP		6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	2	5	7	_	770	775	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	770-783
-2	et	et	CC	CC		1	coord	1	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	8	5	10	_	776	778	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	770-783
-3	Rémi	Rémi	NPP	NPP	n=s|g=m	2	dep_coord	2	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	11	5	15	_	779	783	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	770-783
-4	eux	eux	PRO	PRO	n=p|g=m|p=3	1	mod	1	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	16	5	19	_	784	787	_	_	_	Err	eu	784-787	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	784-787
-5	sont	être	V	V	n=p|t=P|p=3	6	aux_pass	6	aux_pass	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	20	5	24	present	788	792	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	partis	partir	VPP	VPP	n=p|g=m|t=K	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	25	5	31	_	793	799	_	subst	797-798	_	_	_	_	_	_	_	_	_	_	_
-7	dans	dans	P	P		6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	32	5	36	_	800	804	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	le	le	DET	DET	n=s|g=m	9	det	9	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	37	5	39	_	805	807	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	village	village	NC	NC	n=s|g=m	7	prep	7	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	40	5	47	_	808	815	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	.	.	PONCT	PONCT		9	ponct	9	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	5	47	5	48	_	815	816	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Hugo	Hugo	NPP	NPP	n=s|g=m	2	suj	2	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	6	1	6	5	_	816	820	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	816-820	_	_	_	_
-2	entendit	entendre	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	6	6	6	14	passeSimple	821	829	_	_	_	Err	entendent -- alternatives : entendant	821-829	_	_	_	_	_	_	_	_
-3	un	un	DET	DET	n=s|g=m	4	det	4	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	6	15	6	17	_	830	832	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	bruit	bruit	NC	NC	n=s|g=m	2	obj	2	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	6	18	6	23	_	833	838	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	.	.	PONCT	PONCT		4	ponct	4	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	6	23	6	24	_	838	839	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	1	7	3	_	839	841	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	839-841	_	_	_	_
-2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	4	7	6	_	842	844	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	7	7	15	passeSimple	845	853	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	P	P		3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	16	7	18	_	854	856	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VPR	VPR	t=G	4	prep	4	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	19	7	28	_	857	866	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	n=s|g=m	8	det	8	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	29	7	31	_	867	869	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	n=s|g=m	8	mod	8	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	32	7	37	_	870	875	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	38	7	43	_	876	881	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	.	.	PONCT	PONCT		8	ponct	8	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	43	7	44	_	881	882	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Dans	dans	P	P		6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	45	7	49	_	883	887	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	le	le	DET	DET	n=s|g=m	3	det	3	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	50	7	52	_	888	890	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	village	village	NC	NC	n=s|g=m	1	prep	1	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	53	7	60	_	891	898	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	l'	le	DET	DET	n=s	5	det	5	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	61	7	63	_	899	901	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	horloge	horloge	NC	NC	n=s|g=f	6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	63	7	70	_	901	908	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	sonne	sonner	V	V	n=s|t=P,S|p=1,3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	71	7	76	present	909	914	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	.	.	PONCT	PONCT		6	ponct	6	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	76	7	77	_	914	915	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	C'	ce	DET	DET	n=s|g=m	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	78	7	80	_	916	918	_	_	_	Err	C'est à dire	916-928	_	_	_	_	_	_	_	_
-2	est-à-dire	_	NC	NC		5	suj	5	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	80	7	90	_	918	928	_	_	_	Err	C'est à dire	916-928	_	_	_	_	_	_	_	_
-3	qu'	que	PROREL	PROREL		5	mod	5	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	91	7	94	_	929	932	_	_	_	Err	qu il	929-934	_	_	_	_	_	_	_	_
-4	il	il	CLS	CLS	n=s|g=m|p=3	5	suj	5	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	94	7	96	_	932	934	_	_	_	Err	qu il	929-934	_	_	_	_	_	_	_	_
-5	est	être	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	97	7	100	present	935	938	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	minuit	minuit	NC	NC	n=s|g=m	5	ats	5	ats	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	101	7	107	_	939	945	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	.	.	PONCT	PONCT		6	ponct	6	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	107	7	108	_	945	946	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Maria	_	NPP	NPP		4	suj	4	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	109	7	114	_	947	952	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	947-960
-2	et	et	CC	CC		1	coord	1	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	115	7	117	_	953	955	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	947-960
-3	Rémi	Rémi	NPP	NPP	n=s|g=m	2	dep_coord	2	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	118	7	122	_	956	960	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	947-960
-4	appellent	appeler	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	123	7	132	present	961	970	_	_	_	Err	appelle	961-970	_	_	_	_	_	_	_	_
-5	Lali	_	NPP	NPP		4	obj	4	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	133	7	137	_	971	975	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	971-975
-6	mais	mais	CC	CC		4	coord	4	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	138	7	142	_	976	980	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	elle	elle	CLS	CLS	n=s|g=f|p=3	9	suj	9	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	143	7	147	_	981	985	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	981-985
-8	ne	ne	ADV	ADV		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	148	7	150	_	986	988	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	répond	répondre	V	V	n=s|t=P|p=3	6	dep_coord	6	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	151	7	157	present	989	995	_	_	_	Err	répont	989-995	_	_	_	_	_	_	_	_
-10	pas	pas	ADV	ADV		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	158	7	161	_	996	999	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	alors	alors	ADV	ADV		9	mod	9	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	162	7	167	_	1000	1005	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	Maria	Maria	NPP	NPP	n=s|g=f	9	obj	9	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	168	7	173	_	1006	1011	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1006-1011
-13	a	avoir	V	V	n=s|t=P|p=3	4	mod	4	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	174	7	175	present	1012	1013	_	_	_	Err	à	1012-1013	_	_	_	_	_	_	_	_
-14	peur	peur	NC	NC	n=s|g=f	13	obj	13	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	7	176	7	180	_	1014	1018	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	elle	elle	CLS	CLS	n=s|g=f|p=3	6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	2	8	6	_	1019	1023	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1019-1023
-2	les	les	DET	DET	n=p	3	det	3	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	7	8	10	_	1024	1027	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1024-1027	_	_	_	_
-3	rejoint	_	NC	NC		6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	11	8	18	_	1028	1035	_	_	_	Err	rejoin	1028-1035	_	_	_	_	_	_	_	_
-4	mais	mais	CC	CC		3	ponct	3	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	19	8	23	_	1036	1040	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	elle	elle	CLS	CLS	n=s|g=f|p=3	6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	24	8	28	_	1041	1045	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1041-1045
-6	entend	entendre	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	29	8	35	present	1046	1052	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	des	des	DET	DET	n=p	8	det	8	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	36	8	39	_	1053	1056	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	cris	cri	NC	NC	n=p|g=m	6	obj	6	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	8	40	8	44	_	1057	1061	_	_	_	Err	crie	1057-1061	_	_	_	_	_	_	_	_
-"
-"
-1	Rémi	Rémi	NPP	NPP	n=s|g=m	3	suj	3	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	2	9	6	_	1062	1066	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1062-1066
-2	lui	lui	CLO	CLO	n=s|p=3	3	a_obj	3	a_obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	7	9	10	_	1067	1070	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1067-1070
-3	dit	dire	V	V	n=s|t=J,P|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	11	9	14	present	1071	1074	_	_	_	Err	dis	1071-1074	_	_	_	_	_	_	_	_
-4	vite	vite	ADV	ADV		3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	15	9	19	_	1075	1079	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	cours	cour	NC	NC	n=p|g=f	3	obj	3	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	20	9	25	_	1080	1085	_	_	_	Err	cour	1080-1085	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1080-1085
-6	il	il	CLS	CLS	n=s|g=m|p=3	7	suj	7	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	26	9	28	_	1086	1088	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1086-1088	_	_	_	_
-7	vont	aller	V	V	n=p|t=P|p=3	3	mod	3	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	29	9	33	present	1089	1093	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	peut-être	peut-être	ADV	ADV		7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	34	9	43	_	1094	1103	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	mourir	mourir	VINF	VINF	t=W	7	obj	7	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	44	9	50	_	1104	1110	_	_	_	Err	meririrs	1104-1110	_	_	_	_	_	_	_	_
-10	.	.	PONCT	PONCT		9	ponct	9	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	50	9	51	_	1110	1111	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Lali	_	NPP	NPP		4	suj	4	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	52	9	56	_	1112	1116	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1112-1116
-2	et	et	CC	CC		1	coord	1	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	57	9	59	_	1117	1119	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	Hugo	Hugo	NPP	NPP	n=s|g=m	2	dep_coord	2	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	60	9	64	_	1120	1124	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1120-1124	_	_	_	_
-4	courent	courir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	65	9	72	present	1125	1132	_	_	_	Err	cour	1125-1132	_	_	_	_	_	_	_	_
-5	mais	mais	CC	CC		4	coord	4	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	73	9	77	_	1133	1137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ils	ils	CLS	CLS	n=p|g=m|p=3	8	suj	8	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	78	9	81	_	1138	1141	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1138-1141	_	_	_	_
-7	se	se	CLR	CLR	n=p,s|p=3	8	aff	8	aff	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	82	9	84	_	1142	1144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	cognent	cogner	V	V	n=p|t=P,S|p=3	5	dep_coord	5	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	85	9	92	present	1145	1152	_	_	_	Err	caugne	1145-1152	_	_	_	_	_	_	_	_
-9	à	à	P	P		8	mod	8	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	93	9	94	_	1153	1154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	Rémi	Rémi	NPP	NPP	n=s|g=m	9	prep	9	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	95	9	99	_	1155	1159	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1155-1168
-11	et	et	CC	CC		8	coord	8	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	100	9	102	_	1160	1162	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1155-1168
-12	Maria	Maria	NPP	NPP	n=s|g=f	11	dep_coord	11	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	103	9	108	_	1163	1168	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1155-1168
-13	.	.	PONCT	PONCT		12	ponct	12	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	108	9	109	_	1168	1169	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Le	le	DET	DET	n=s|g=m	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	110	9	112	_	1170	1172	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	lendemain	lendemain	NC	NC	n=s|g=m	7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	113	9	122	_	1173	1182	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	la	la	DET	DET	n=s|g=f	4	det	4	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	123	9	125	_	1183	1185	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1183-1200	_	_	_	_	_	_
-4	mère	mère	NC	NC	n=s|g=f	7	suj	7	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	126	9	130	_	1186	1190	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1183-1200	_	_	_	_	_	_
-5	des	de	P+D	P+D	n=p	4	dep	4	dep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	131	9	134	_	1191	1194	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1183-1200	_	_	_	_	_	_
-6	mères	mère	NC	NC	n=p|g=f	5	prep	5	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	135	9	140	_	1195	1200	_	_	_	Err	mère	1195-1200	in_GNon_incertDNon_incertRNon	1183-1200	_	_	_	_	_	_
-7	va	aller	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	141	9	143	present	1201	1203	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	les	les	CLO	CLO	n=p|p=3	9	obj	9	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	144	9	147	_	1204	1207	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1204-1207	is_GNon_incertDNon_incertRNon	1204-1207	_	_
-9	chercher	chercher	VINF	VINF	t=W	7	obj	7	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	148	9	156	_	1208	1216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	mais	mais	CC	CC		7	coord	7	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	157	9	161	_	1217	1221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	ils	ils	CLS	CLS	n=p|g=m|p=3	13	suj	13	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	162	9	165	_	1222	1225	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1222-1225	is_GNon_incertDNon_incertRNon	1222-1225	_	_
-12	ne	ne	ADV	ADV		13	mod	13	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	166	9	168	_	1226	1228	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	sont	être	V	V	n=p|t=P|p=3	10	dep_coord	10	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	169	9	173	present	1229	1233	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	pas	pas	ADV	ADV		13	mod	13	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	174	9	177	_	1234	1237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	là	là	ADV	ADV		13	mod	13	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	178	9	180	_	1238	1240	_	_	_	Err	la	1238-1240	_	_	_	_	_	_	_	_
-16	,	,	PONCT	PONCT		15	ponct	15	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	180	9	181	_	1240	1241	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	alors	alors	ADV	ADV		19	mod	19	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	182	9	187	_	1242	1247	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	elle	elle	CLS	CLS	n=s|g=f|p=3	19	suj	19	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	188	9	192	_	1248	1252	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1248-1252	_	_	_	_	_	_
-19	va	aller	V	V	n=s|t=P|p=3	13	mod	13	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	193	9	195	present	1253	1255	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	les	les	CLO	CLO	n=p|p=3	21	obj	21	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	196	9	199	_	1256	1259	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1256-1259	is_GNon_incertDNon_incertRNon	1256-1259	_	_
-21	chercher	chercher	VINF	VINF	t=W	19	obj	19	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	200	9	208	_	1260	1268	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	dans	dans	P	P		21	mod	21	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	209	9	213	_	1269	1273	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	le	le	DET	DET	n=s|g=m	24	det	24	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	214	9	216	_	1274	1276	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	village	village	NC	NC	n=s|g=m	22	prep	22	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	217	9	224	_	1277	1284	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	puis	puis	CC	CC		22	coord	22	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	225	9	229	_	1285	1289	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	dans	dans	P	P		25	dep_coord	25	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	230	9	234	_	1290	1294	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	la	la	DET	DET	n=s|g=f	28	det	28	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	235	9	237	_	1295	1297	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	forêt	forêt	NC	NC	n=s|g=f	26	prep	26	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	238	9	243	_	1298	1303	_	_	_	Err	fôret	1298-1303	_	_	_	_	_	_	_	_
-29	.	.	PONCT	PONCT		28	ponct	28	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	243	9	244	_	1303	1304	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Maria	_	NPP	NPP		2	suj	2	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	245	9	250	_	1305	1310	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1305-1310
-2	cria	crier	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	251	9	255	passeSimple	1311	1315	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	au	à	P+D	P+D	n=s|g=m	2	mod	2	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	256	9	258	_	1316	1318	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	secours	secours	NC	NC	g=m	3	prep	3	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	259	9	266	_	1319	1326	_	_	_	Err	secour##	1319-1326	_	_	_	_	_	_	_	_
-5	on	on	CLS	CLS	n=s|p=3	6	suj	6	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	267	9	269	_	1327	1329	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1327-1329	is_GNon_incertDNon_incertRNon	1327-1329	_	_
-6	a	avoir	V	V	n=s|t=P|p=3	2	mod	2	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	270	9	271	present	1330	1331	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	besoin	besoin	NC	NC	n=s|g=m	6	obj	6	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	272	9	278	_	1332	1338	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	d'	de	P	P		6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	279	9	281	_	1339	1341	_	_	_	Err	d'aîde	1339-1345	_	_	_	_	_	_	_	_
-9	aide	aide	NC	NC	n=s	8	prep	8	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	281	9	285	_	1341	1345	_	_	_	Err	d'aîde	1339-1345	_	_	_	_	_	_	_	_
-10	,	,	PONCT	PONCT		9	ponct	9	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	285	9	286	_	1345	1346	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	leur	leur	DET	DET	n=s|p=3|poss=p	12	det	12	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	287	9	291	_	1347	1351	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1347-1357	is_GOui_incertDNon_incertRNon	1347-1351	is_GNon_incertDNon_incertRNon	1347-1351	_	_
-12	maman	maman	NC	NC	n=s|g=f	6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	292	9	297	_	1352	1357	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1347-1357	_	_	_	_	_	_
-13	les	les	CLO	CLO	n=p|p=3	14	obj	14	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	298	9	301	_	1358	1361	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1358-1361	is_GNon_incertDNon_incertRNon	1358-1361	_	_
-14	retrouve	retrouver	V	V	n=s|t=P,S|p=1,3	6	coord	6	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	302	9	310	present	1362	1370	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	par	par	P	P		14	mod	14	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	311	9	314	_	1371	1374	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	terre	terre	NC	NC	n=s|g=f	15	prep	15	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	315	9	320	_	1375	1380	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	elle	elle	CLS	CLS	n=s|g=f|p=3	19	suj	19	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	321	9	325	_	1381	1385	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1381-1385	_	_	_	_	_	_
-18	les	les	CLO	CLO	n=p|p=3	19	aff	19	aff	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	326	9	329	_	1386	1389	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1386-1389	is_GNon_incertDNon_incertRNon	1386-1389	_	_
-19	met	mettre	V	V	n=s|t=P|p=3	6	mod	6	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	330	9	333	present	1390	1393	_	_	_	Err	mets	1390-1393	_	_	_	_	_	_	_	_
-20	alors	alors	ADV	ADV		19	mod	19	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	334	9	339	_	1394	1399	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	dans	dans	P	P		19	mod	19	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	340	9	344	_	1400	1404	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	23	det	23	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	345	9	347	_	1405	1407	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1405-1407	_	_	_	_	_	_
-23	voiture	voiture	NC	NC	n=s|g=f	21	prep	21	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	348	9	355	_	1408	1415	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	et	et	CC	CC		19	coord	19	coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	356	9	358	_	1416	1418	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	les	les	CLO	CLO	n=p|p=3	26	obj	26	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	359	9	362	_	1419	1422	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1419-1422	is_GNon_incertDNon_incertRNon	1419-1422	_	_
-26	emmène	emmener	V	V	n=s|t=P,S|p=1,3	24	dep_coord	24	dep_coord	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	363	9	369	present	1423	1429	_	_	_	Err	emmaine	1423-1429	is_GNon_incertDNon_incertRNon	1423-1429	_	_	_	_	_	_
-27	au	à	P+D	P+D	n=s|g=m	26	mod	26	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	370	9	372	_	1430	1432	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	docteur	docteur	NC	NC	n=s|g=m	27	prep	27	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	373	9	380	_	1433	1440	_	_	_	Err	docteur Deux	1433-1446	_	_	_	_	_	_	_	_
-29	.	.	PONCT	PONCT		28	ponct	28	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	380	9	381	_	1440	1441	_	_	_	Err	docteur Deux	1433-1446	_	_	_	_	_	_	_	_
-"
-"
-1	Deux	deux	DET	DET	s=card|n=p	2	det	2	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	382	9	386	_	1442	1446	_	_	_	Err	docteur Deux	1433-1446	_	_	_	_	_	_	_	_
-2	mois	mois	NC	NC	g=m	7	suj	7	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	387	9	391	_	1447	1451	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	plus	plus	ADV	ADV		4	mod	4	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	392	9	396	_	1452	1456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	tard	tard	ADV	ADV		7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	397	9	401	_	1457	1461	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	402	9	405	_	1462	1465	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1462-1473	in_GNon_incertDNon_incertRNon	1462-1473	_	_
-6	enfants	enfant	NC	NC	n=p	7	suj	7	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	406	9	413	_	1466	1473	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1462-1473	in_GNon_incertDNon_incertRNon	1462-1473	_	_
-7	étaient	être	V	V	n=p|t=I|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	414	9	421	imparfait	1474	1481	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	toujours	toujours	ADV	ADV		7	mod	7	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	422	9	430	_	1482	1490	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	malades	malade	ADJ	ADJ	n=p	7	ats	7	ats	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	431	9	438	_	1491	1498	_	_	_	Err	malade Depuis	1491-1506	_	_	_	_	_	_	_	_
-10	.	.	PONCT	PONCT		9	ponct	9	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	438	9	439	_	1498	1499	consigne	_	_	Err	malade Depuis	1491-1506	_	_	_	_	_	_	_	_
-"
-"
-1	Depuis	depuis	P	P		8	mod	8	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	440	9	446	_	1500	1506	consigne	_	_	Err	malade Depuis	1491-1506	_	_	_	_	_	_	_	_
-2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	447	9	452	_	1507	1512	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	453	9	461	_	1513	1521	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	461	9	462	_	1521	1522	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	463	9	466	_	1523	1526	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1523-1534	in_GNon_incertDNon_incertRNon	1523-1534	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	467	9	474	_	1527	1534	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1523-1534	in_GNon_incertDNon_incertRNon	1523-1534	_	_
-7	ne	ne	ADV	ADV		8	mod	8	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	475	9	477	_	1535	1537	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	478	9	485	present	1538	1545	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV		8	mod	8	mod	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	486	9	490	_	1546	1550	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	11	det	11	det	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	491	9	493	_	1551	1553	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	494	9	498	_	1554	1558	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	EC-CM2-2016-VRX-D1-R1-V1_N.ac	9	498	9	499	_	1558	1559	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
+1	La	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	2	0	2	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	11	3	8	_	_	_	Err	fôret	3-8	_	_	_	_	_	_	_	_
+3	à	à	ADP	ADP	_	case	5	10	10	_	_	_	Err	au	9-12	_	_	_	_	_	_	_	_
+4	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	5	11	11	_	_	_	Err	au	9-12	_	_	_	_	_	_	_	_
+5	zombiesIl	zombiesIl	NOUN	NOUN	Gender=Masc|Number=Plur	nmod	2	13	22	_	_	_	Err	Zombis	13-20	_	_	_	_	_	_	_	_
+6	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	11	23	28	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	advmod	11	29	32	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	fois	fois	NOUN	NOUN	Gender=Fem|Number=Sing	fixed	7	33	37	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	11	38	41	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	38-60	_	_	_	_	_	_
+10	vieille	vieux	ADJ	ADJ	Gender=Fem|Number=Sing	amod	11	42	49	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	38-60	_	_	_	_	_	_
+11	demoiselle	demoiselle	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	50	60	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	38-60	_	_	_	_	_	_
+12	qui	qui	PRON	PRON	PronType=Rel	nsubj	13	61	64	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	61-64	_	_	_	_	_	_
+13	vivait	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	11	65	71	_	_	_	Err	vivé	65-71	_	_	_	_	_	_	_	_
+14	dans	dans	ADP	ADP	_	case	17	72	76	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	17	77	80	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	grande	grand	ADJ	ADJ	Gender=Fem|Number=Sing	amod	17	81	87	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	13	88	94	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	.	PUNCT	PUNCT	_	punct	11	94	95	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	96	100	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	96-100	_	_	_	_	_	_
+2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	101	109	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	110	114	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	115	120	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	121	127	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	ADP	_	case	7	128	134	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	135	144	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	punct	2	144	145	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Mais	mais	CCONJ	CCONJ	_	cc	7	146	150	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	3	151	153	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	7	154	158	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	6	159	162	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	159-162	in_GOui_incertDNon_incertRNon	159-177	in_GNon_incertDNon_incertRNon	159-177	_	_
+5	petits	petit	ADJ	ADJ	Gender=Masc|Number=Plur	amod	6	163	169	_	_	_	Err	petit	163-169	_	_	in_GOui_incertDNon_incertRNon	159-177	in_GNon_incertDNon_incertRNon	159-177	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	7	170	177	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	159-177	in_GNon_incertDNon_incertRNon	159-177	_	_
+7	viennent	venir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	178	186	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	9	187	190	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	187-190	_	_	_	_	_	_
+9	rendre	rendre	VERB	VERB	VerbForm=Inf	xcomp	7	191	197	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	visite	visite	NOUN	NOUN	Gender=Fem|Number=Sing	obj:lvc	9	198	204	_	in_add	197-204	_	_	_	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	7	204	205	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	3	206	209	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	206-209	is_GNon_incertDNon_incertRNon	206-209	_	_
+2	s'	se	PRON	PRON	Person=3|PronType=Prs	obj	3	210	212	_	_	_	Err	s'appelles	210-221	_	_	_	_	_	_	_	_
+3	appellent	appeler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	212	221	_	_	_	Err	s'appelles	210-221	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	5	221	222	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Maria	Maria	PROPN	PROPN	_	conj	3	223	228	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+6	,	,	PUNCT	PUNCT	_	punct	7	228	229	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+7	Lali	Lali	PROPN	PROPN	_	conj	5	230	234	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+8	,	,	PUNCT	PUNCT	_	punct	9	234	235	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+9	Remi	Remi	PROPN	PROPN	_	conj	5	236	240	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+10	et	et	CCONJ	CCONJ	_	cc	11	241	243	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	223-248	_	_
+11	Hugo	Hugo	PROPN	PROPN	_	conj	5	244	248	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	244-248	in_GNon_incertDNon_incertRNon	223-248	_	_
+12	.	.	PUNCT	PUNCT	_	punct	3	248	249	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	La	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	2	250	252	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	250-258	_	_	_	_	_	_
+2	mamie	mamie	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	4	253	258	_	_	_	Err	mami	253-258	in_GNon_incertDNon_incertRNon	250-258	_	_	_	_	_	_
+3	leur	lui	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obl:arg	4	259	263	_	_	_	Err	leurs	259-263	_	_	is_GOui_incertDNon_incertRNon	259-263	is_GNon_incertDNon_incertRNon	259-263	_	_
+4	racontait	raconter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	264	273	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	de	un	DET	DET	Definite=Ind|Number=Plur|PronType=Art	det	7	274	276	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	terribles	terrible	ADJ	ADJ	Gender=Fem|Number=Plur	amod	7	277	286	_	_	_	Err	térible	277-286	_	_	_	_	_	_	_	_
+7	histoires	histoire	NOUN	NOUN	Gender=Fem|Number=Plur	obj	4	287	296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	par	par	ADP	ADP	_	advmod	16	297	300	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	exemple	exemple	NOUN	NOUN	Gender=Masc|Number=Sing	fixed	8	301	308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	12	309	311	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	troisième	troisième	ADJ	ADJ	Gender=Masc|Number=Sing	amod	12	312	321	_	_	_	Err	troisieme	312-321	_	_	_	_	_	_	_	_
+12	soir	soir	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	16	322	326	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	16	327	331	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	327-331	_	_	_	_	_	_
+14	leur	lui	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obl:arg	16	332	336	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	332-336	is_GNon_incertDNon_incertRNon	332-336	_	_
+15	avait	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	16	337	342	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	raconté	raconter	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	4	343	350	_	_	_	Err	racontait	343-350	_	_	_	_	_	_	_	_
+17	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	18	351	354	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	histoire	histoire	NOUN	NOUN	Gender=Fem|Number=Sing	obj	16	355	363	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sur	sur	ADP	ADP	_	case	21	364	367	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	des	un	DET	DET	Definite=Ind|Number=Plur|PronType=Art	det	21	368	371	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	zombies	zombie	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	16	372	379	_	_	_	Err	Zombis	372-379	_	_	_	_	_	_	_	_
+22	:	:	PUNCT	PUNCT	_	punct	24	380	381	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	24	382	386	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	382-386	_	_	_	_	_	_
+24	disait	dire	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	parataxis	4	387	393	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	qu'	que	SCONJ	SCONJ	_	mark	27	394	397	_	_	_	Err	qui	394-400	_	_	_	_	_	_	_	_
+26	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	27	397	400	_	_	_	Err	qui	394-400	_	_	_	_	_	_	_	_
+27	venaient	venir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	ccomp	24	401	409	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	29	410	413	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	fois	fois	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	27	414	418	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	par	par	ADP	ADP	_	case	31	419	422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	année	année	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	27	423	428	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	.	.	PUNCT	PUNCT	_	punct	4	428	429	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	2	430	432	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	soir	soir	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	12	433	437	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	case	6	439	439	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	6	440	440	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	cinquième	cinquième	ADJ	ADJ	Gender=Masc|Number=Sing	amod	6	441	450	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	2	451	455	_	_	_	Err	jours	451-455	_	_	_	_	_	_	_	_
+7	,	,	PUNCT	PUNCT	_	punct	2	455	456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Lali	Lali	PROPN	PROPN	_	nsubj	12	457	461	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	457-470
+9	et	et	CCONJ	CCONJ	_	cc	10	462	464	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	457-470
+10	Maria	Maria	PROPN	PROPN	_	conj	8	465	470	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	457-470
+11	ont	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	12	471	474	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dit	dire	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	root	0	475	478	_	_	_	Err	dis	475-478	_	_	_	_	_	_	_	_
+13	qu'	que	SCONJ	SCONJ	_	mark	16	479	482	_	_	_	Err	quelles	479-487	_	_	_	_	_	_	_	_
+14	elles	il	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	nsubj	16	482	487	_	_	_	Err	quelles	479-487	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	482-487
+15	avaient	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	16	488	495	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	lu	lire	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	ccomp	12	496	498	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dans	dans	ADP	ADP	_	case	19	499	503	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	19	504	506	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	grimoire	grimoire	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	16	507	515	_	_	_	Err	manoire -- alternatives : manoir	507-515	_	_	_	_	_	_	_	_
+20	que	que	PRON	PRON	PronType=Rel	obj	23	516	519	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	22	520	523	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	zombies	zombie	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	23	524	531	_	_	_	Err	Zombis	524-531	_	_	_	_	_	_	_	_
+23	sortaient	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	19	532	541	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	case	26	542	544	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	leurs	son	DET	DET	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	det	26	545	550	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	tombes	tombe	NOUN	NOUN	Gender=Fem|Number=Plur	obl:arg	23	551	557	_	_	_	Err	tombe	551-557	_	_	_	_	_	_	_	_
+27	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	28	558	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	25	25	NUM	NUM	Number=Sing	obl:mod	23	561	563	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	mars	mars	NOUN	NOUN	Gender=Masc	nmod	28	564	568	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	à	à	ADP	ADP	_	case	31	569	570	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	0h00	0h00	NUM	NUM	Number=Plur	nmod	28	571	575	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	5	576	578	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	5	579	581	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	5	581	586	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	587	589	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	25	25	NUM	NUM	Number=Sing	root	0	590	592	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mars	mars	NOUN	NOUN	Gender=Masc	nmod	5	593	597	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	,	PUNCT	PUNCT	_	punct	11	597	598	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	alors	alors	ADV	ADV	_	advmod	11	599	604	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	10	605	608	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	605-616	_	_	_	_
+10	garçons	garçon	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	11	609	616	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	605-616	_	_	_	_
+11	voulaient	vouloir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	advcl:cleft	5	617	626	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	aller	aller	VERB	VERB	VerbForm=Inf	xcomp	11	627	632	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dehors	dehors	ADV	ADV	_	advmod	12	633	639	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	mais	mais	CCONJ	CCONJ	_	cc	18	640	644	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	16	645	648	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	645-655
+16	filles	fille	NOUN	NOUN	Gender=Fem|Number=Plur	nsubj	18	649	655	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	645-655
+17	ne	ne	ADV	ADV	Polarity=Neg	advmod	18	656	658	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	veulent	vouloir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	12	659	666	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	pas	pas	ADV	ADV	Polarity=Neg	advmod	18	667	670	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	.	PUNCT	PUNCT	_	punct	5	670	671	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Mais	mais	CCONJ	CCONJ	_	cc	7	672	676	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	à	à	ADP	ADP	_	case	4	677	678	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	4	679	681	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	fin	fin	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	7	682	685	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	686	689	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	686-697	_	_	_	_
+6	garçons	garçon	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	7	690	697	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	686-697	_	_	_	_
+7	arrivent	arriver	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	698	706	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	à	à	ADP	ADP	_	mark	10	707	708	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	10	709	712	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	709-712
+10	convaincre	convaincre	VERB	VERB	VerbForm=Inf	xcomp	7	713	723	_	_	_	Err	convingre	713-723	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	7	723	724	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Lali	Lali	PROPN	PROPN	_	nsubj	4	725	729	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	725-729
+2	et	et	CCONJ	CCONJ	_	cc	3	730	732	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Hugo	Hugo	PROPN	PROPN	_	conj	1	733	737	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	733-737	_	_	_	_
+4	partent	partir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	738	745	_	_	_	Err	partes	738-745	_	_	_	_	_	_	_	_
+5	ensemble	ensemble	ADV	ADV	_	advmod	4	746	754	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dans	dans	ADP	ADP	_	case	8	755	759	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	8	760	762	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	4	763	768	_	_	_	Err	foret	763-768	_	_	_	_	_	_	_	_
+9	Maria	Maria	PROPN	PROPN	_	appos	8	769	774	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	769-782
+10	et	et	CCONJ	CCONJ	_	cc	14	775	777	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	769-782
+11	Rémi	Rémi	PROPN	PROPN	_	nsubj	14	778	782	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	769-782
+12	eux	lui	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	obl:arg	14	783	786	_	_	_	Err	eu	783-786	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	783-786
+13	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	14	787	791	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	partis	partir	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	conj	4	792	798	_	subst	796-797	_	_	_	_	_	_	_	_	_	_	_
+15	dans	dans	ADP	ADP	_	case	17	799	803	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	17	804	806	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	village	village	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	14	807	814	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Hugo	Hugo	PROPN	PROPN	_	nsubj	19	815	819	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	815-819	_	_	_	_
+19	entendit	entendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	4	820	828	_	_	_	Err	entendent -- alternatives : entendant	820-828	_	_	_	_	_	_	_	_
+20	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	21	829	831	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	19	832	837	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	838	840	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	838-840	_	_	_	_
+2	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	3	841	843	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	844	852	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	ADP	ADP	_	mark	5	853	855	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	856	865	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	866	868	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	8	869	874	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	5	875	880	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	PUNCT	_	punct	3	880	881	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Dans	dans	ADP	ADP	_	case	3	882	886	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	3	887	889	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	village	village	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	6	890	897	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	5	898	900	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	horloge	horloge	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	6	900	907	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sonne	sonner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	908	913	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	punct	6	913	914	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	C'est-à-dire	c'est-à-dire	CCONJ	CCONJ	_	cc	5	915	927	_	_	_	Err	C'est à dire	915-927	_	_	_	_	_	_	_	_
+2	qu'	que	SCONJ	SCONJ	_	mark	5	928	931	_	_	_	Err	qu il	928-933	_	_	_	_	_	_	_	_
+3	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	5	931	933	_	_	_	Err	qu il	928-933	_	_	_	_	_	_	_	_
+4	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	5	934	937	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	minuit	minuit	ADJ	ADJ	Gender=Masc|Number=Sing	root	0	938	944	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	PUNCT	_	punct	5	944	945	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Maria	Maria	PROPN	PROPN	_	nsubj	4	946	951	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	946-959
+2	et	et	CCONJ	CCONJ	_	cc	3	952	954	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	946-959
+3	Rémi	Rémi	PROPN	PROPN	_	conj	1	955	959	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	946-959
+4	appellent	appeler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	960	969	_	_	_	Err	appelle	960-969	_	_	_	_	_	_	_	_
+5	Lali	Lali	PROPN	PROPN	_	obj	4	970	974	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	970-974
+6	mais	mais	CCONJ	CCONJ	_	cc	9	975	979	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	9	980	984	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	980-984
+8	ne	ne	ADV	ADV	Polarity=Neg	advmod	9	985	987	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	répond	répondre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	4	988	994	_	_	_	Err	répont	988-994	_	_	_	_	_	_	_	_
+10	pas	pas	ADV	ADV	Polarity=Neg	advmod	9	995	998	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	alors	alors	ADV	ADV	_	advmod	9	999	1004	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Maria	Maria	PROPN	PROPN	_	nsubj	9	1005	1010	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1005-1010
+13	a	à	ADP	ADP	_	case	14	1011	1012	_	_	_	Err	à	1011-1012	_	_	_	_	_	_	_	_
+14	peur	peur	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	9	1013	1017	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	17	1018	1022	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1018-1022
+16	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	17	1023	1026	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1023-1026	_	_	_	_
+17	rejoint	rejoindre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	4	1027	1034	_	_	_	Err	rejoin	1027-1034	_	_	_	_	_	_	_	_
+18	mais	mais	CCONJ	CCONJ	_	cc	20	1035	1039	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	20	1040	1044	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1040-1044
+20	entend	entendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	17	1045	1051	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	des	un	DET	DET	Definite=Ind|Number=Plur|PronType=Art	det	22	1052	1055	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	cris	cri	NOUN	NOUN	Gender=Masc|Number=Plur	obj	20	1056	1060	_	_	_	Err	crie	1056-1060	_	_	_	_	_	_	_	_
+23	Rémi	Rémi	PROPN	PROPN	_	appos	22	1061	1065	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1061-1065
+24	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	25	1066	1069	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1066-1069
+25	dit	dire	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	20	1070	1073	_	_	_	Err	dis	1070-1073	_	_	_	_	_	_	_	_
+26	vite	vite	ADV	ADV	_	advmod	25	1074	1078	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	cours	cours	NOUN	NOUN	Gender=Masc	obl:mod	29	1079	1084	_	_	_	Err	cour	1079-1084	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1079-1084
+28	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	29	1085	1087	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1085-1087	_	_	_	_
+29	vont	aller	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	25	1088	1092	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	peut-être	peut-être	ADV	ADV	_	advmod	29	1093	1102	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	mourir	mourir	VERB	VERB	VerbForm=Inf	xcomp	29	1103	1109	_	_	_	Err	meririrs	1103-1109	_	_	_	_	_	_	_	_
+32	.	.	PUNCT	PUNCT	_	punct	4	1109	1110	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Lali	Lali	PROPN	PROPN	_	nsubj	4	1111	1115	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1111-1115
+2	et	et	CCONJ	CCONJ	_	cc	3	1116	1118	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Hugo	Hugo	PROPN	PROPN	_	conj	1	1119	1123	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1119-1123	_	_	_	_
+4	courent	courir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1124	1131	_	_	_	Err	cour	1124-1131	_	_	_	_	_	_	_	_
+5	mais	mais	CCONJ	CCONJ	_	cc	8	1132	1136	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	8	1137	1140	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1137-1140	_	_	_	_
+7	se	se	PRON	PRON	Person=3|PronType=Prs	obj	8	1141	1143	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	cognent	cogner	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	4	1144	1151	_	_	_	Err	caugne	1144-1151	_	_	_	_	_	_	_	_
+9	à	à	ADP	ADP	_	case	10	1152	1153	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Rémi	Rémi	PROPN	PROPN	_	obl:arg	8	1154	1158	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1154-1167
+11	et	et	CCONJ	CCONJ	_	cc	12	1159	1161	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1154-1167
+12	Maria	Maria	PROPN	PROPN	_	conj	10	1162	1167	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1154-1167
+13	.	.	PUNCT	PUNCT	_	punct	4	1167	1168	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	2	1169	1171	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	lendemain	lendemain	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	8	1172	1181	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	4	1182	1184	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1182-1199	_	_	_	_	_	_
+4	mère	mère	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	8	1185	1189	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1182-1199	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	case	7	1191	1191	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1182-1199	_	_	_	_	_	_
+6	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	7	1192	1192	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1182-1199	_	_	_	_	_	_
+7	mères	mère	NOUN	NOUN	Gender=Fem|Number=Plur	nmod	4	1194	1199	_	_	_	Err	mère	1194-1199	in_GNon_incertDNon_incertRNon	1182-1199	_	_	_	_	_	_
+8	va	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	1200	1202	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	10	1203	1206	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1203-1206	is_GNon_incertDNon_incertRNon	1203-1206	_	_
+10	chercher	chercher	VERB	VERB	VerbForm=Inf	xcomp	8	1207	1215	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	mais	mais	CCONJ	CCONJ	_	cc	14	1216	1220	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	14	1221	1224	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1221-1224	is_GNon_incertDNon_incertRNon	1221-1224	_	_
+13	ne	ne	ADV	ADV	Polarity=Neg	advmod	14	1225	1227	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	8	1228	1232	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	pas	pas	ADV	ADV	Polarity=Neg	advmod	14	1233	1236	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	là	là	ADV	ADV	_	advmod	14	1237	1239	_	_	_	Err	la	1237-1239	_	_	_	_	_	_	_	_
+17	,	,	PUNCT	PUNCT	_	punct	20	1239	1240	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	alors	alors	ADV	ADV	_	advmod	20	1241	1246	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	20	1247	1251	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1247-1251	_	_	_	_	_	_
+20	va	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	8	1252	1254	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	22	1255	1258	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1255-1258	is_GNon_incertDNon_incertRNon	1255-1258	_	_
+22	chercher	chercher	VERB	VERB	VerbForm=Inf	xcomp	20	1259	1267	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	dans	dans	ADP	ADP	_	case	25	1268	1272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	25	1273	1275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	village	village	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	22	1276	1283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	puis	puis	CCONJ	CCONJ	_	cc	29	1284	1288	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	dans	dans	ADP	ADP	_	case	29	1289	1293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	29	1294	1296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	conj	25	1297	1302	_	_	_	Err	fôret	1297-1302	_	_	_	_	_	_	_	_
+30	.	.	PUNCT	PUNCT	_	punct	8	1302	1303	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Maria	Maria	PROPN	PROPN	_	nsubj	2	1304	1309	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1304-1309
+2	cria	crier	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	1310	1314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	à	à	ADP	ADP	_	case	5	1316	1316	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	1317	1317	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	secours	secours	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	2	1318	1325	_	_	_	Err	secour##	1318-1325	_	_	_	_	_	_	_	_
+6	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	7	1326	1328	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1326-1328	is_GNon_incertDNon_incertRNon	1326-1328	_	_
+7	a	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	ccomp	2	1329	1330	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	besoin	besoin	NOUN	NOUN	Gender=Masc|Number=Sing	obj:lvc	7	1331	1337	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	d'	de	ADP	ADP	_	case	10	1338	1340	_	_	_	Err	d'aîde	1338-1344	_	_	_	_	_	_	_	_
+10	aide	aide	NOUN	NOUN	Gender=Fem|Number=Sing	dep:comp	8	1340	1344	_	_	_	Err	d'aîde	1338-1344	_	_	_	_	_	_	_	_
+11	,	,	PUNCT	PUNCT	_	punct	15	1344	1345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	leur	son	DET	DET	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	det	13	1346	1350	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1346-1356	is_GOui_incertDNon_incertRNon	1346-1350	is_GNon_incertDNon_incertRNon	1346-1350	_	_
+13	maman	maman	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	15	1351	1356	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1346-1356	_	_	_	_	_	_
+14	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	15	1357	1360	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1357-1360	is_GNon_incertDNon_incertRNon	1357-1360	_	_
+15	retrouve	retrouver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	1361	1369	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	par	par	ADP	ADP	_	case	17	1370	1373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	terre	terre	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	15	1374	1379	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	20	1380	1384	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1380-1384	_	_	_	_	_	_
+19	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	20	1385	1388	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1385-1388	is_GNon_incertDNon_incertRNon	1385-1388	_	_
+20	met	mettre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	1389	1392	_	_	_	Err	mets	1389-1392	_	_	_	_	_	_	_	_
+21	alors	alors	ADV	ADV	_	advmod	20	1393	1398	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	dans	dans	ADP	ADP	_	case	24	1399	1403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	24	1404	1406	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1404-1406	_	_	_	_	_	_
+24	voiture	voiture	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	20	1407	1414	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	et	et	CCONJ	CCONJ	_	cc	27	1415	1417	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	27	1418	1421	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1418-1421	is_GNon_incertDNon_incertRNon	1418-1421	_	_
+27	emmène	emmener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	20	1422	1428	_	_	_	Err	emmaine	1422-1428	is_GNon_incertDNon_incertRNon	1422-1428	_	_	_	_	_	_
+28	à	à	ADP	ADP	_	case	30	1430	1430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	30	1431	1431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	docteur	docteur	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	27	1432	1439	_	_	_	Err	docteur Deux	1432-1445	_	_	_	_	_	_	_	_
+31	.	.	PUNCT	PUNCT	_	punct	2	1439	1440	_	_	_	Err	docteur Deux	1432-1445	_	_	_	_	_	_	_	_
+1	Deux	deux	NUM	NUM	Number=Plur	nummod	2	1441	1445	_	_	_	Err	docteur Deux	1432-1445	_	_	_	_	_	_	_	_
+2	mois	mois	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	9	1446	1450	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	plus	plus	ADV	ADV	_	advmod	4	1451	1455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tard	tard	ADV	ADV	_	advmod	2	1456	1460	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	1461	1464	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1461-1472	in_GNon_incertDNon_incertRNon	1461-1472	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	9	1465	1472	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1461-1472	in_GNon_incertDNon_incertRNon	1461-1472	_	_
+7	étaient	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	cop	9	1473	1480	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	toujours	toujours	ADV	ADV	_	advmod	9	1481	1489	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	malades	malade	ADJ	ADJ	Gender=Masc|Number=Plur	root	0	1490	1497	_	_	_	Err	malade Depuis	1490-1505	_	_	_	_	_	_	_	_
+10	.	.	PUNCT	PUNCT	_	punct	9	1497	1498	consigne	_	_	Err	malade Depuis	1490-1505	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	1499	1505	consigne	_	_	Err	malade Depuis	1490-1505	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	1506	1511	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	1512	1520	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	1520	1521	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	1522	1525	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1522-1533	in_GNon_incertDNon_incertRNon	1522-1533	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	1526	1533	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1522-1533	in_GNon_incertDNon_incertRNon	1522-1533	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	1534	1536	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1537	1544	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	1545	1549	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	1550	1552	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	1553	1557	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	1557	1558	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_

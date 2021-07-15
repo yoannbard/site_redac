@@ -1,185 +1,156 @@
-1	La	la	DET	DET	n=s|g=f	2	det	2	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	1	1	1	3	_	1	3	_	_	_	Err	la	1-3	_	_	_	_	_	_	_	_
-2	nuit	nuit	NC	NC	n=s|g=f	0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	1	4	1	8	_	4	8	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	d'	de	P	P		2	dep	2	dep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	1	9	1	11	_	9	11	_	del	10-10	Err	d'	9-11	_	_	_	_	_	_	_	_
-4	horreur	horreur	NC	NC	n=s|g=f	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	1	11	1	18	_	11	18	_	del	18-18	Err	horeur	11-18	_	_	_	_	_	_	_	_
-"
-"
-1	C'	ce	CLS	CLS		2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	1	2	3	_	18	20	_	del	18-18	_	_	_	_	_	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	3	2	8	imparfait	20	25	_	_	_	Err	étais	20-25	_	_	_	_	_	_	_	_
-3	la	la	DET	DET	n=s|g=f	4	det	4	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	9	2	11	_	26	28	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	nuit	nuit	NC	NC	n=s|g=f	2	obj	2	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	12	2	16	_	29	33	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	17	2	20	_	34	37	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	parents	parent	NC	NC	n=p|g=m	2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	21	2	28	_	38	45	_	_	_	Err	parent	38-45	_	_	_	_	_	_	_	_
-7	avaient	avoir	V	V	n=p|t=I|p=3	8	aux_tps	8	aux_tps	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	29	2	36	imparfait	46	53	_	in_subst	45-60	Err	avez	46-53	_	_	_	_	_	_	_	_
-8	disparu	disparaître	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	37	2	44	_	54	61	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	dans	dans	P	P		8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	45	2	49	_	62	66	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	12	det	12	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	50	2	52	_	67	69	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	petite	petit	ADJ	ADJ	n=s|g=f	12	mod	12	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	53	2	59	_	70	76	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	maison	maison	NC	NC	n=s|g=f	9	prep	9	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	60	2	66	_	77	83	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	au	à	P+D	P+D	n=s|g=m	8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	67	2	69	_	84	86	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	milieu	milieu	NC	NC	n=s|g=m	13	prep	13	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	70	2	76	_	87	93	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	de	de	P	P		8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	77	2	79	_	94	96	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	la	la	DET	DET	n=s|g=f	17	det	17	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	80	2	82	_	97	99	_	del	99-99	_	_	_	_	_	_	_	_	_	_	_
-17	forêt	forêt	NC	NC	n=s|g=f	15	prep	15	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	83	2	88	_	100	105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	.	.	PONCT	PONCT		17	ponct	17	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	88	2	89	_	105	106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	90	2	94	_	107	111	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	107-111	_	_	_	_	_	_
-2	habitait	habiter	V	V	n=s|t=I|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	95	2	103	imparfait	112	120	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	104	2	108	_	121	125	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	cette	DET	DET	n=s|g=f	5	det	5	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	109	2	114	_	126	131	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	115	2	121	_	132	138	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	122	2	128	_	139	145	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV		6	mod	6	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	129	2	138	_	146	155	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	138	2	139	_	155	156	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	C'	ce	CLS	CLS		2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	140	2	142	_	157	159	_	_	_	Err	Cetais	157-164	_	_	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	142	2	147	imparfait	159	164	_	_	_	Err	Cetais	157-164	_	_	_	_	_	_	_	_
-3	une	une	DET	DET	n=s|g=f	5	det	5	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	148	2	151	_	165	168	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	165-181	_	_	_	_	_	_
-4	petite	petit	ADJ	ADJ	n=s|g=f	5	mod	5	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	152	2	158	_	169	175	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	165-181	_	_	_	_	_	_
-5	fille	fille	NC	NC	n=s|g=f	2	obj	2	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	159	2	164	_	176	181	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	165-181	_	_	_	_	_	_
-6	qui	qui	PROREL	PROREL	n=s	8	suj	8	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	165	2	168	_	182	185	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	182-185	_	_	_	_	_	_
-7	s'	se	CLR	CLR	n=p,s|p=3	8	aff	8	aff	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	169	2	171	_	186	188	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	appelait	appeler	V	V	n=s|t=I|p=3	5	mod_rel	5	mod_rel	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	171	2	179	imparfait	188	196	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	Sandra	Sandra	NPP	NPP	n=s|g=f	8	suj	8	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	2	180	2	186	_	197	203	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	197-203	_	_	_	_	_	_
-"
-"
-1	elle	elle	CLS	CLS	n=s|g=f|p=3	0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	3	2	3	6	_	204	208	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	204-208	_	_	_	_	_	_
-2	avait	avoir	V	V	n=s|t=I|p=3	0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	3	7	3	12	imparfait	209	214	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	10	10	ADJ	ADJ		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	3	13	3	15	_	215	217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	ans	an	NC	NC	n=p|g=m	2	obj	2	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	3	16	3	19	_	218	221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	2	4	6	_	222	226	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	222-226	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	7	4	12	imparfait	227	232	_	_	_	Err	etait	227-232	_	_	_	_	_	_	_	_
-3	avec	avec	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	13	4	17	_	233	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	son	son	DET	DET	n=s|g=m|p=3|poss=s	6	det	6	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	18	4	21	_	238	241	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	238-241	in_GNon_incertDNon_incertRNon	238-253	_	_	_	_
-5	petit	petit	ADJ	ADJ	n=s|g=m	6	mod	6	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	22	4	27	_	242	247	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	238-253	_	_	_	_
-6	frère	frère	NC	NC	n=s|g=m	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	28	4	33	_	248	253	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	238-253	_	_	_	_
-7	qui	qui	PROREL	PROREL	n=s	9	suj	9	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	34	4	37	_	254	257	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	254-257	_	_	_	_
-8	s'	se	CLR	CLR	n=p,s|p=3	9	aff	9	aff	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	38	4	40	_	258	260	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	appelait	appeler	V	V	n=s|t=I|p=3	6	mod_rel	6	mod_rel	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	40	4	48	imparfait	260	268	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	Laurent	Laurent	NPP	NPP	n=s|g=m	9	suj	9	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	4	49	4	56	_	269	276	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	269-276	_	_	_	_
-"
-"
-1	il	il	CLS	CLS	n=s|g=m|p=3	0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	2	5	4	_	277	279	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	277-279	_	_	_	_
-2	avait	avoir	V	V	n=s|t=I|p=3	0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	5	5	10	imparfait	280	285	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	4	4	ADJ	ADJ		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	11	5	12	_	286	287	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	ans	an	NC	NC	n=p|g=m	2	obj	2	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	13	5	16	_	288	291	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	.	.	PONCT	PONCT		4	ponct	4	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	16	5	17	_	291	292	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Ils	ils	CLS	CLS	n=p|g=m|p=3	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	18	5	21	_	293	296	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	293-296	is_GOui_incertDNon_incertRNon	293-296	is_GNon_incertDNon_incertRNon	293-296	_	_
-2	sortirent	sortir	V	V	n=p|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	22	5	31	passeSimple	297	306	_	_	_	Err	sortit	297-306	_	_	_	_	_	_	_	_
-3	en	en	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	32	5	34	_	307	309	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	douce	douce	NC	NC	n=s|g=f	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	35	5	40	_	310	315	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	dans	dans	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	41	5	45	_	316	320	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	la	la	DET	DET	n=s|g=f	7	det	7	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	46	5	48	_	321	323	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	forêt	forêt	NC	NC	n=s|g=f	5	prep	5	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	49	5	54	_	324	329	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	54	5	55	_	329	330	_	del	330-330	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Sandra	Sandra	NPP	NPP	n=s|g=f	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	56	5	62	_	331	337	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	331-337	_	_	_	_	_	_
-2	commençait	commencer	V	V	n=s|t=I|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	63	5	73	imparfait	338	348	_	_	_	Err	comnencai	338-348	_	_	_	_	_	_	_	_
-3	à	à	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	74	5	75	_	349	350	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	courir	courir	VINF	VINF	t=W	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	76	5	82	_	351	357	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	de	de	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	83	5	85	_	358	360	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	plus	plus	ADV	ADV		0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	86	5	90	_	361	365	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	en	en	P	P		0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	91	5	93	_	366	368	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	plus	plus	ADV	ADV		0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	94	5	98	_	369	373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	vite	vite	ADV	ADV		0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	5	99	5	103	_	374	378	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Laurent	Laurent	NPP	NPP	n=s|g=m	3	suj	3	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	2	6	9	_	379	386	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	379-386	_	_	_	_
-2	la	la	CLO	CLO	n=s|g=f|p=3	3	obj	3	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	10	6	12	_	387	389	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	387-389	_	_	_	_	_	_
-3	perdit	perdre	V	V	n=s|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	13	6	19	passeSimple	390	396	_	_	_	Err	perda	390-396	_	_	_	_	_	_	_	_
-4	de	de	P	P		3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	20	6	22	_	397	399	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	vue	vue	NC	NC	n=s|g=f	4	prep	4	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	23	6	26	_	400	403	_	_	_	Err	vu	400-403	_	_	_	_	_	_	_	_
-6	quand	quand	CS	CS		3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	27	6	32	_	404	409	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	soudain	soudain	ADV	ADV		0	_	0	_	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	33	6	40	_	410	417	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	...	...	PONCT	PONCT		7	ponct	7	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	40	6	43	_	417	420	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	44	6	46	_	421	423	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	421-423	_	_	_	_
-2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	47	6	49	_	424	426	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	50	6	58	passeSimple	427	435	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	P	P		3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	59	6	61	_	436	438	consigne	del	437-437	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VPR	VPR	t=G	4	prep	4	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	62	6	71	_	439	448	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	n=s|g=m	8	det	8	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	72	6	74	_	449	451	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	n=s|g=m	8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	75	6	80	_	452	457	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	81	6	86	_	458	463	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	.	.	PONCT	PONCT		8	ponct	8	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	86	6	87	_	463	464	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	88	6	90	_	465	467	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	465-467	_	_	_	_
-2	commença	commencer	V	V	n=s|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	91	6	99	passeSimple	468	476	_	_	_	Err	commenca	468-476	_	_	_	_	_	_	_	_
-3	à	à	P	P		2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	100	6	101	_	477	478	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	courir	courir	VINF	VINF	t=W	3	prep	3	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	102	6	108	_	479	485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	(	(	PONCT	PONCT		4	ponct	4	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	109	6	110	_	486	487	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	plus	plus	ADV	ADV		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	110	6	114	_	487	491	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	à	à	P	P		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	115	6	116	_	492	493	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	la	la	DET	DET	n=s|g=f	9	det	9	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	117	6	119	_	494	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	vitesse	vitesse	NC	NC	n=s|g=f	7	prep	7	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	120	6	127	_	497	504	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	d'	de	P	P		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	128	6	130	_	505	507	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	un	un	DET	DET	n=s|g=m	12	det	12	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	130	6	132	_	507	509	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	507-525	_	_	_	_
-12	enfant	enfant	NC	NC	n=s	10	prep	10	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	133	6	139	_	510	516	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	507-525	_	_	_	_
-13	de	de	P	P		4	mod	4	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	140	6	142	_	517	519	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	507-525	_	_	_	_
-14	4	4	ADJ	ADJ		15	mod	15	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	143	6	144	_	520	521	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	507-525	_	_	_	_
-15	ans	an	NC	NC	n=p|g=m	13	prep	13	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	145	6	148	_	522	525	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	507-525	_	_	_	_
-16	)	)	PONCT	PONCT		15	ponct	15	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	148	6	149	_	525	526	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	il	il	CLS	CLS	n=s|g=m|p=3	18	suj	18	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	150	6	152	_	527	529	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	527-529	_	_	_	_
-18	vit	vivre	V	V	n=s|t=P|p=3	2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	153	6	156	present	530	533	_	_	_	Err	vue	530-533	_	_	_	_	_	_	_	_
-19	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	20	det	20	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	157	6	159	_	534	536	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	534-541	is_GNon_incertDNon_incertRNon	534-536	_	_	_	_
-20	sœur	_	NC	NC		18	obj	18	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	160	6	164	_	537	541	_	_	_	Err	soeur	537-541	in_GNon_incertDNon_incertRNon	534-541	_	_	_	_	_	_
-21	entre	entre	P	P		18	mod	18	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	165	6	170	_	542	547	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	les	les	DET	DET	n=p	23	det	23	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	171	6	174	_	548	551	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	mains	main	NC	NC	n=p|g=f	21	prep	21	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	175	6	180	_	552	557	_	_	_	Err	main	552-557	_	_	_	_	_	_	_	_
-24	d'	de	P	P		18	mod	18	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	181	6	183	_	558	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	un	un	DET	DET	n=s|g=m	26	det	26	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	183	6	185	_	560	562	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	clown	clown	NC	NC	n=s|g=m	24	prep	24	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	186	6	191	_	563	568	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	...	...	PONCT	PONCT		26	ponct	26	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	191	6	194	_	568	571	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	195	6	197	_	572	574	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	572-574	_	_	_	_
-2	prit	prendre	V	V	n=s|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	198	6	202	passeSimple	575	579	_	_	_	Err	prena	575-579	_	_	_	_	_	_	_	_
-3	un	un	DET	DET	n=s|g=m	4	det	4	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	203	6	205	_	580	582	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	couteau	couteau	NC	NC	n=s|g=m	2	obj	2	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	206	6	213	_	583	590	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	(	(	PONCT	PONCT		4	ponct	4	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	214	6	215	_	591	592	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	qui	qui	PROREL	PROREL	n=s	7	suj	7	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	215	6	218	_	592	595	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	sort	sortir	V	V	n=s|t=P|p=3	4	mod_rel	4	mod_rel	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	219	6	223	present	596	600	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	de	de	P	P		7	mod	7	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	224	6	226	_	601	603	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	nulle	nul	ADJ	ADJ	n=s|g=f	10	mod	10	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	227	6	232	_	604	609	_	_	_	Err	nul	604-609	_	_	_	_	_	_	_	_
-10	part	part	NC	NC	n=s	8	prep	8	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	233	6	237	_	610	614	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	)	)	PONCT	PONCT		10	ponct	10	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	237	6	238	_	614	615	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	il	il	CLS	CLS	n=s|g=m|p=3	13	suj	13	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	239	6	241	_	616	618	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	616-618	_	_	_	_
-13	tua	tuer	V	V	n=s|t=J|p=3	2	mod	2	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	242	6	245	passeSimple	619	622	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	le	le	DET	DET	n=s|g=m	15	det	15	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	246	6	248	_	623	625	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	clown	clown	NC	NC	n=s|g=m	13	obj	13	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	6	249	6	254	_	626	631	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	furieux	furieux	NC	NC	g=m	3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	2	7	9	_	632	639	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	632-642	_	_	_	_
-2	il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	10	7	12	_	640	642	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	632-642	_	_	_	_
-3	partit	partir	V	V	n=s|t=J|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	13	7	19	passeSimple	643	649	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	P	P		3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	20	7	22	_	650	652	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	courant	courant	NC	NC	n=s|g=m	4	prep	4	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	23	7	30	_	653	660	_	_	_	Err	corrant	653-660	_	_	_	_	_	_	_	_
-6	avec	avec	P	P		3	mod	3	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	31	7	35	_	661	665	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	8	det	8	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	36	7	38	_	666	668	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	666-673	is_GNon_incertDNon_incertRNon	666-668	_	_	_	_
-8	sœur	_	NC	NC		6	prep	6	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	39	7	43	_	669	673	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	666-673	_	_	_	_	_	_
-9	.	.	PONCT	PONCT		8	ponct	8	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	43	7	44	_	673	674	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Depuis	depuis	P	P		8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	45	7	51	_	675	681	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	52	7	57	_	682	687	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	58	7	66	_	688	696	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	66	7	67	_	696	697	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	68	7	71	_	698	701	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	698-709	in_GOui_incertDNon_incertRNon	698-709	in_GNon_incertDNon_incertRNon	698-709	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	72	7	79	_	702	709	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	698-709	in_GOui_incertDNon_incertRNon	698-709	in_GNon_incertDNon_incertRNon	698-709	_	_
-7	ne	ne	ADV	ADV		8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	80	7	82	_	710	712	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	83	7	90	present	713	720	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV		8	mod	8	mod	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	91	7	95	_	721	725	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	11	det	11	det	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	96	7	98	_	726	728	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	99	7	103	_	729	733	consigne	_	_	Err	nuit	729-734	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	EC-CE2-2018-TFPPX-D1-R3-V1_N.ac	7	103	7	104	_	733	734	consigne	_	_	Err	nuit	729-734	_	_	_	_	_	_	_	_
-"
-"
+1	La	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	2	0	2	_	_	_	Err	la	0-2	_	_	_	_	_	_	_	_
+2	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	8	3	7	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	d'	de	ADP	ADP	_	case	4	8	10	_	del	9-9	Err	d'	8-10	_	_	_	_	_	_	_	_
+4	horreurC	horreurC	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	2	10	18	_	del	17-17	Err	horeur	10-17	_	_	_	_	_	_	_	_
+5	'	'	PUNCT	PUNCT	_	punct	2	18	19	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	8	19	24	_	_	_	Err	étais	19-24	_	_	_	_	_	_	_	_
+7	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	8	25	27	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	28	32	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	10	33	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	parents	parent	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	12	37	44	_	_	_	Err	parent	37-44	_	_	_	_	_	_	_	_
+11	avaient	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	12	45	52	_	in_subst	44-59	Err	avez	45-52	_	_	_	_	_	_	_	_
+12	disparu	disparaître	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	parataxis	8	53	60	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dans	dans	ADP	ADP	_	case	16	61	65	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	16	66	68	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	petite	petit	ADJ	ADJ	Gender=Fem|Number=Sing	amod	16	69	75	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	12	76	82	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	à	à	ADP	ADP	_	case	19	84	84	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	19	85	85	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	milieu	milieu	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	12	86	92	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	case	22	93	95	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	22	96	98	_	del	98-98	_	_	_	_	_	_	_	_	_	_	_
+22	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	19	99	104	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	.	PUNCT	PUNCT	_	punct	8	104	105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	106	110	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	106-110	_	_	_	_	_	_
+2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	111	119	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	120	124	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	125	130	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	131	137	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	ADP	_	case	7	138	144	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	145	154	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	punct	2	154	155	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	C'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	5	156	158	_	_	_	Err	Cetais	156-163	_	_	_	_	_	_	_	_
+2	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	5	158	163	_	_	_	Err	Cetais	156-163	_	_	_	_	_	_	_	_
+3	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	5	164	167	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	164-180	_	_	_	_	_	_
+4	petite	petit	ADJ	ADJ	Gender=Fem|Number=Sing	amod	5	168	174	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	164-180	_	_	_	_	_	_
+5	fille	fille	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	175	180	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	164-180	_	_	_	_	_	_
+6	qui	qui	PRON	PRON	PronType=Rel	nsubj	8	181	184	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	181-184	_	_	_	_	_	_
+7	s'	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	8	185	187	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	appelait	appeler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	5	187	195	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Sandra	Sandra	PROPN	PROPN	_	xcomp	8	196	202	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	196-202	_	_	_	_	_	_
+10	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	11	203	207	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	203-207	_	_	_	_	_	_
+11	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	parataxis	5	208	213	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	10	10	NUM	NUM	Number=Plur	nummod	13	214	216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	obj	11	217	220	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	19	221	225	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	221-225	_	_	_	_	_	_
+15	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	19	226	231	_	_	_	Err	etait	226-231	_	_	_	_	_	_	_	_
+16	avec	avec	ADP	ADP	_	case	19	232	236	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	son	son	DET	DET	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	19	237	240	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	237-240	in_GNon_incertDNon_incertRNon	237-252	_	_	_	_
+18	petit	petit	ADJ	ADJ	Gender=Masc|Number=Sing	amod	19	241	246	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	237-252	_	_	_	_
+19	frère	frère	NOUN	NOUN	Gender=Masc|Number=Sing	conj	5	247	252	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	237-252	_	_	_	_
+20	qui	qui	PRON	PRON	PronType=Rel	nsubj	22	253	256	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	253-256	_	_	_	_
+21	s'	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	22	257	259	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	appelait	appeler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	19	259	267	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Laurent	Laurent	PROPN	PROPN	_	xcomp	22	268	275	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	268-275	_	_	_	_
+24	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	25	276	278	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	276-278	_	_	_	_
+25	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	22	279	284	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	4	4	NUM	NUM	Number=Plur	nummod	27	285	286	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	obj	25	287	290	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	.	PUNCT	PUNCT	_	punct	5	290	291	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	2	292	295	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	292-295	is_GOui_incertDNon_incertRNon	292-295	is_GNon_incertDNon_incertRNon	292-295	_	_
+2	sortirent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	root	0	296	305	_	_	_	Err	sortit	296-305	_	_	_	_	_	_	_	_
+3	en	en	ADP	ADP	_	case	4	306	308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	douce	doux	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	2	309	314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dans	dans	ADP	ADP	_	case	7	315	319	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	7	320	322	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	2	323	328	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	punct	2	328	329	_	del	329-329	_	_	_	_	_	_	_	_	_	_	_
+1	Sandra	Sandra	PROPN	PROPN	_	nsubj	2	330	336	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	330-336	_	_	_	_	_	_
+2	commençait	commencer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	337	347	_	_	_	Err	comnencai	337-347	_	_	_	_	_	_	_	_
+3	à	à	ADP	ADP	_	mark	4	348	349	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	courir	courir	VERB	VERB	VerbForm=Inf	xcomp	2	350	356	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	advmod	9	357	359	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	plus	plus	ADV	ADV	_	fixed	5	360	364	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	en	en	ADP	ADP	_	fixed	5	365	367	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	plus	plus	ADV	ADV	_	fixed	5	368	372	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vite	vite	ADV	ADV	_	advmod	4	373	377	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Laurent	Laurent	PROPN	PROPN	_	nsubj	3	378	385	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	378-385	_	_	_	_
+2	la	le	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	obj	3	386	388	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	386-388	_	_	_	_	_	_
+3	perdit	perdre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	389	395	_	_	_	Err	perda	389-395	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	case	5	396	398	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	vue	vue	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	3	399	402	_	_	_	Err	vu	399-402	_	_	_	_	_	_	_	_
+6	quand	quand	SCONJ	SCONJ	_	mark	7	403	408	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	soudain	soudain	ADJ	ADJ	Gender=Masc|Number=Sing	advcl	3	409	416	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	...	...	PUNCT	PUNCT	_	punct	3	416	419	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	420	422	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	420-422	_	_	_	_
+2	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	3	423	425	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	426	434	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	ADP	ADP	_	mark	5	435	437	consigne	del	436-436	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	438	447	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	448	450	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	8	451	456	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	5	457	462	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	PUNCT	_	punct	3	462	463	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	464	466	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	464-466	_	_	_	_
+2	commença	commencer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	467	475	_	_	_	Err	commenca	467-475	_	_	_	_	_	_	_	_
+3	à	à	ADP	ADP	_	mark	4	476	477	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	courir	courir	VERB	VERB	VerbForm=Inf	xcomp	2	478	484	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	(	(	PUNCT	PUNCT	_	punct	9	485	486	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	plus	plus	ADV	ADV	_	advmod	9	486	490	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	à	à	ADP	ADP	_	case	9	491	492	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	9	493	495	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vitesse	vitesse	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	4	496	503	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	d'	de	ADP	ADP	_	case	12	504	506	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	12	506	508	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-524	_	_	_	_
+12	enfant	enfant	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	9	509	515	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-524	_	_	_	_
+13	de	de	ADP	ADP	_	case	15	516	518	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-524	_	_	_	_
+14	4	4	NUM	NUM	Number=Plur	nummod	15	519	520	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-524	_	_	_	_
+15	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	nmod	12	521	524	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-524	_	_	_	_
+16	)	)	PUNCT	PUNCT	_	punct	9	524	525	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	18	526	528	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	526-528	_	_	_	_
+18	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	529	532	_	_	_	Err	vue	529-532	_	_	_	_	_	_	_	_
+19	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	20	533	535	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	533-540	is_GNon_incertDNon_incertRNon	533-535	_	_	_	_
+20	sœur	sœur	NOUN	NOUN	Gender=Fem|Number=Sing	obj	18	536	540	_	_	_	Err	soeur	536-540	in_GNon_incertDNon_incertRNon	533-540	_	_	_	_	_	_
+21	entre	entre	ADP	ADP	_	case	23	541	546	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	23	547	550	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	mains	main	NOUN	NOUN	Gender=Fem|Number=Plur	obl:mod	18	551	556	_	_	_	Err	main	551-556	_	_	_	_	_	_	_	_
+24	d'	de	ADP	ADP	_	case	26	557	559	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	26	559	561	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	clown	clown	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	23	562	567	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	...	...	PUNCT	PUNCT	_	punct	2	567	570	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	571	573	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	571-573	_	_	_	_
+2	prit	prendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	574	578	_	_	_	Err	prena	574-578	_	_	_	_	_	_	_	_
+3	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	4	579	581	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	couteau	couteau	NOUN	NOUN	Gender=Masc|Number=Sing	obj	2	582	589	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	(	(	PUNCT	PUNCT	_	punct	7	590	591	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	qui	qui	PRON	PRON	PronType=Rel	nsubj	7	591	594	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sort	sortir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	acl:relcl	4	595	599	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	case	10	600	602	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nulle	nul	ADJ	ADJ	Gender=Fem|Number=Sing	amod	10	603	608	_	_	_	Err	nul	603-608	_	_	_	_	_	_	_	_
+10	part	part	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	7	609	613	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	)	)	PUNCT	PUNCT	_	punct	7	613	614	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	13	615	617	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	615-617	_	_	_	_
+13	tua	tuer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	2	618	621	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	15	622	624	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	clown	clown	NOUN	NOUN	Gender=Masc|Number=Sing	obj	13	625	630	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	furieux	furieux	ADJ	ADJ	Gender=Masc	amod	15	631	638	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	631-641	_	_	_	_
+17	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	18	639	641	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	631-641	_	_	_	_
+18	partit	partir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	13	642	648	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	en	en	ADP	ADP	_	case	20	649	651	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	courant	courant	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	18	652	659	_	_	_	Err	corrant	652-659	_	_	_	_	_	_	_	_
+21	avec	avec	ADP	ADP	_	case	23	660	664	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	23	665	667	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	665-672	is_GNon_incertDNon_incertRNon	665-667	_	_	_	_
+23	sœur	sœur	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	18	668	672	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	665-672	_	_	_	_	_	_
+24	.	.	PUNCT	PUNCT	_	punct	2	672	673	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	674	680	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	681	686	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	687	695	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	695	696	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	697	700	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	697-708	in_GOui_incertDNon_incertRNon	697-708	in_GNon_incertDNon_incertRNon	697-708	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	701	708	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	697-708	in_GOui_incertDNon_incertRNon	697-708	in_GNon_incertDNon_incertRNon	697-708	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	709	711	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	712	719	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	720	724	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	725	727	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	728	732	consigne	_	_	Err	nuit	728-733	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	732	733	consigne	_	_	Err	nuit	728-733	_	_	_	_	_	_	_	_

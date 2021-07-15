@@ -1,207 +1,172 @@
-1	L'	le	DET	DET	n=s	2	det	2	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	1	1	1	3	_	1	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	aventure	aventure	NC	NC	n=s|g=f	0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	1	3	1	11	_	3	11	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	dep	2	dep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	1	12	1	16	_	12	16	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	la	DET	DET	n=s|g=f	5	det	5	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	1	17	1	19	_	17	19	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	forêt	forêt	NC	NC	n=s|g=f	3	prep	3	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	1	20	1	25	_	20	25	_	_	_	Err	fôret	20-25	_	_	_	_	_	_	_	_
-"
-"
-1	C'	ce	CLS	CLS		2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	2	1	2	3	_	25	27	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	2	3	2	8	imparfait	27	32	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	un	un	DET	DET	n=s|g=m	4	det	4	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	2	9	2	11	_	33	35	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	jour	jour	NC	NC	n=s|g=m	2	obj	2	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	2	12	2	16	_	36	40	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	horrible	horrible	ADJ	ADJ	n=s	4	mod	4	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	2	17	2	25	_	41	49	_	_	_	Err	horible	41-49	_	_	_	_	_	_	_	_
-"
-"
-1	je	je	CLS	CLS	n=s|p=1	3	suj	3	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	3	2	3	4	_	50	52	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	m'	me	CLO	CLO	n=s|p=1	3	aff	3	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	3	6	3	8	_	54	56	_	_	_	Err	m'appel	54-63	_	_	_	_	_	_	_	_
-3	appelle	appeler	V	V	n=s|t=P,S|p=1,3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	3	8	3	15	present	56	63	_	_	_	Err	m'appel	54-63	_	_	_	_	_	_	_	_
-4	Tom	Tom	NPP	NPP	n=s|g=m	3	obj	3	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	3	16	3	19	_	64	67	_	_	_	Err	tom	64-67	_	_	_	_	_	_	_	_
-"
-"
-1	j'	je	CLS	CLS	n=s|p=1	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	2	4	4	_	68	70	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	habite	habiter	V	V	n=s|t=P,S|p=1,3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	4	4	10	present	70	76	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	11	4	15	_	77	81	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	une	une	DET	DET	n=s|g=f	5	det	5	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	16	4	19	_	82	85	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	20	4	26	_	86	92	_	_	_	Err	maisondepuis	86-99	_	_	_	_	_	_	_	_
-6	depuis	depuis	P	P		2	mod	2	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	27	4	33	_	93	99	_	_	_	Err	maisondepuis	86-99	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV		0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	4	34	4	43	_	100	109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	je	je	CLS	CLS	n=s|p=1	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	5	2	5	4	_	110	112	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	suis	être	V	V	n=s|t=P|p=1	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	5	5	5	9	present	113	117	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	en	en	P	P		2	mod	2	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	5	10	5	12	_	118	120	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	CM1	_	NC	NC		3	prep	3	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	5	13	5	16	_	121	124	_	_	_	Err	cm1	121-124	_	_	_	_	_	_	_	_
-"
-"
-1	c'	ce	CLS	CLS		2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	6	3	6	5	_	126	128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	6	5	6	10	imparfait	128	133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	les	les	DET	DET	n=p	5	det	5	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	6	11	6	14	_	134	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	grandes	grand	ADJ	ADJ	n=p|g=f	5	mod	5	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	6	15	6	22	_	138	145	_	_	_	Err	grande	138-145	_	_	_	_	_	_	_	_
-5	vacances	vacance	NC	NC	n=p|g=f	2	obj	2	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	6	23	6	31	_	146	154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	j'	je	CLS	CLS	n=s|p=1	3	suj	3	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	2	7	4	_	155	157	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	ai	avoir	V	V	n=s|t=P|p=1	3	aux_tps	3	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	4	7	6	present	157	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	demandé	demander	VPP	VPP	n=s|g=m|t=K	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	7	7	14	_	160	167	_	_	_	Err	demande	160-167	_	_	_	_	_	_	_	_
-4	à	à	P	P		3	mod	3	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	15	7	16	_	168	169	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	mes	mes	DET	DET	n=p|p=1|poss=s	6	det	6	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	17	7	20	_	170	173	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	parents	parent	NC	NC	n=p|g=m	4	prep	4	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	21	7	28	_	174	181	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	si	si	CS	CS		3	mod	3	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	29	7	31	_	182	184	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	je	je	CLS	CLS	n=s|p=1	9	suj	9	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	32	7	34	_	185	187	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	pouvais	pouvoir	V	V	n=s|t=I|p=1,2	7	sub	7	sub	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	35	7	42	imparfait	188	195	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	aller	aller	VINF	VINF	t=W	9	obj	9	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	43	7	48	_	196	201	_	_	_	Err	allez	196-201	_	_	_	_	_	_	_	_
-11	dans	dans	P	P		10	mod	10	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	49	7	53	_	202	206	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	la	la	DET	DET	n=s|g=f	13	det	13	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	54	7	56	_	207	209	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	forêt	forêt	NC	NC	n=s|g=f	11	prep	11	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	57	7	62	_	210	215	_	_	_	Err	fôret	210-215	_	_	_	_	_	_	_	_
-14	avec	avec	P	P		10	mod	10	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	63	7	67	_	216	220	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	mes	mes	DET	DET	n=p|p=1|poss=s	16	det	16	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	68	7	71	_	221	224	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	amis	ami	NC	NC	n=p|g=m	14	prep	14	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	7	72	7	76	_	225	229	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	ils	ils	CLS	CLS	n=p|g=m|p=3	3	suj	3	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	2	8	5	_	230	233	_	_	_	Err	il	230-233	_	_	_	_	_	_	_	_
-2	ont	avoir	V	V	n=p|t=P|p=3	3	aux_tps	3	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	6	8	9	present	234	237	_	_	_	Err	on	234-237	_	_	_	_	_	_	_	_
-3	accepté	accepter	VPP	VPP	n=s|g=m|t=K	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	10	8	17	_	238	245	_	_	_	Err	accepte	238-245	_	_	_	_	_	_	_	_
-4	mais	mais	CC	CC		3	coord	3	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	18	8	22	_	246	250	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	m'	me	CLO	CLO	n=s|p=1	7	a_obj	7	a_obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	23	8	25	_	251	253	_	_	_	Err	mon	251-256	_	_	_	_	_	_	_	_
-6	ont	avoir	V	V	n=p|t=P|p=3	7	aux_tps	7	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	25	8	28	present	253	256	_	_	_	Err	mon	251-256	_	_	_	_	_	_	_	_
-7	affirmé	affirmer	VPP	VPP	n=s|g=m|t=K	4	dep_coord	4	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	29	8	36	_	257	264	_	_	_	Err	affirmer	257-264	_	_	_	_	_	_	_	_
-8	qu'	que	CS	CS		7	obj	7	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	37	8	40	_	265	268	_	_	_	Err	quil	265-270	_	_	_	_	_	_	_	_
-9	il	il	CLS	CLS	n=s|g=m|p=3	10	suj	10	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	40	8	42	_	268	270	_	_	_	Err	quil	265-270	_	_	_	_	_	_	_	_
-10	fallait	falloir	V	V	n=s|t=I|p=3	8	sub	8	sub	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	43	8	50	imparfait	271	278	_	_	_	Err	falait	271-278	_	_	_	_	_	_	_	_
-11	faire	faire	VINF	VINF	t=W	10	obj	10	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	51	8	56	_	279	284	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	très	très	ADV	ADV		11	mod	11	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	57	8	61	_	285	289	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	attention	_	I	I		0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	8	62	8	71	_	290	299	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	mes	mes	DET	DET	n=p|p=1|poss=s	2	det	2	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	9	2	9	5	_	300	303	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	amis	ami	NC	NC	n=p|g=m	4	suj	4	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	9	6	9	10	_	304	308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	sont	être	V	V	n=p|t=P|p=3	4	aux_tps	4	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	9	11	9	15	present	309	313	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	arrivés	arriver	VPP	VPP	n=p|g=m|t=K	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	9	16	9	23	_	314	321	_	_	_	Err	arrivé	314-321	_	_	_	_	_	_	_	_
-"
-"
-1	il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	3	10	5	_	323	325	_	_	_	Err	il avait	323-333	_	_	_	_	_	_	_	_
-2	y	y	CLO	CLO		3	aff	3	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	6	10	7	_	326	327	_	_	_	Err	il avait	323-333	_	_	_	_	_	_	_	_
-3	avait	avoir	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	8	10	13	imparfait	328	333	_	_	_	Err	il avait	323-333	_	_	_	_	_	_	_	_
-4	:	:	PONCT	PONCT		3	ponct	3	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	14	10	15	_	334	335	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	Jack	jack	NC	NC	n=s|g=m	3	obj	3	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	17	10	21	_	337	341	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-6	,	,	PONCT	PONCT		5	ponct	5	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	21	10	22	_	341	342	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-7	Inès	Inès	NPP	NPP	n=s|g=f	3	mod	3	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	23	10	27	_	343	347	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-8	,	,	PONCT	PONCT		7	ponct	7	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	27	10	28	_	347	348	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-9	Joe	Joe	NPP	NPP	n=s|g=m	7	mod	7	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	29	10	32	_	349	352	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-10	,	,	PONCT	PONCT		9	ponct	9	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	32	10	33	_	352	353	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-11	Sani	Sani	NPP	NPP	n=s|g=m	7	mod	7	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	34	10	38	_	354	358	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-12	,	,	PONCT	PONCT		11	ponct	11	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	38	10	39	_	358	359	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-13	Sa	_	NPP	NPP		7	mod	7	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	40	10	42	_	360	362	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-14	#	_	NPP	NPP		7	mod	7	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	42	10	43	_	362	363	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-15	#	_	NPP	NPP		7	mod	7	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	43	10	44	_	363	364	_	_	_	Err	- jack - inès - joe - sani - sa##	337-364	_	_	_	_	_	_	_	_
-16	.	.	PONCT	PONCT		15	ponct	15	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	44	10	45	_	364	365	_	_	_	Err	. nous	364-370	_	_	_	_	_	_	_	_
-"
-"
-1	Nous	nous	CLS	CLS	n=p|p=1	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	46	10	50	_	366	370	_	_	_	Err	. nous	364-370	_	_	_	_	_	_	_	_
-2	partons	partir	V	V	n=p|t=P|p=1	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	51	10	58	present	371	378	_	_	_	Err	part ons	371-379	_	_	_	_	_	_	_	_
-3	..	..	PONCT	PONCT		2	ponct	2	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	58	10	60	_	378	380	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	On	on	CLS	CLS	n=s|p=3	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	61	10	63	_	381	383	_	_	_	Err	arrive	381-390	_	_	_	_	_	_	_	_
-2	arrive	arriver	V	V	n=s|t=P,S|p=1,3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	64	10	70	present	384	390	_	subst	385-390	Err	arrive	381-390	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	71	10	75	_	391	395	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	la	DET	DET	n=s|g=f	5	det	5	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	76	10	78	_	396	398	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	forêt	forêt	NC	NC	n=s|g=f	3	prep	3	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	10	79	10	84	_	399	404	_	_	_	Err	fôret	399-404	_	_	_	_	_	_	_	_
-"
-"
-1	on	on	CLS	CLS	n=s|p=3	0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	11	2	11	4	_	405	407	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	s'	se	CLR	CLR	n=p,s|p=3	0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	11	5	11	7	_	408	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	assoit	_	NC	NC		0	_	0	_	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	11	7	11	13	_	410	416	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Jack	_	NPP	NPP		2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	12	2	12	6	_	417	421	_	_	_	Err	jack	417-421	_	_	_	_	_	_	_	_
-2	entend	entendre	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	12	8	12	14	present	423	429	_	_	_	Err	entends	423-429	_	_	_	_	_	_	_	_
-3	un	un	DET	DET	n=s|g=m	5	det	5	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	12	15	12	17	_	430	432	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	gros	gros	ADJ	ADJ	g=m	5	mod	5	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	12	18	12	22	_	433	437	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	bruit	bruit	NC	NC	n=s|g=m	2	obj	2	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	12	23	12	28	_	438	443	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Joe	Joe	NPP	NPP	n=s|g=m	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	2	13	5	_	444	447	_	_	_	Err	joe	444-447	_	_	_	_	_	_	_	_
-2	voit	voir	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	6	13	10	present	448	452	_	issubst	448-452	_	_	_	_	_	_	_	_	_	_	_
-3	une	une	DET	DET	n=s|g=f	4	det	4	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	11	13	14	_	453	456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	croix	croix	NC	NC	g=f	2	obj	2	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	15	13	20	_	457	462	_	_	_	Err	croit	457-462	_	_	_	_	_	_	_	_
-5	rouge	rouge	ADJ	ADJ	n=s	4	mod	4	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	21	13	26	_	463	468	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	et	et	CC	CC		2	coord	2	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	27	13	29	_	469	471	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	nous	nous	CLS	CLS	n=p|p=1	8	suj	8	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	30	13	34	_	472	476	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	courons	courir	V	V	n=p|t=P|p=1	6	dep_coord	6	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	35	13	42	present	477	484	_	_	_	Err	couront	477-484	_	_	_	_	_	_	_	_
-9	sans	sans	P	P		8	obj	8	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	43	13	47	_	485	489	_	_	_	Err	sens	485-489	_	_	_	_	_	_	_	_
-10	savoir	savoir	VINF	VINF	t=W	9	prep	9	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	48	13	54	_	490	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	où	où	PROREL	PROREL		13	mod	13	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	55	13	57	_	497	499	_	_	_	Err	ou	497-499	_	_	_	_	_	_	_	_
-12	on	on	CLS	CLS	n=s|p=3	13	suj	13	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	58	13	60	_	500	502	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	partait	partir	V	V	n=s|t=I|p=3	8	mod	8	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	61	13	68	imparfait	503	510	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	et	et	CC	CC		8	coord	8	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	69	13	71	_	511	513	_	_	_	Err	est	511-513	_	_	_	_	_	_	_	_
-15	on	on	CLS	CLS	n=s|p=3	17	suj	17	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	72	13	74	_	514	516	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	se	se	CLR	CLR	n=p,s|p=3	17	aff	17	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	75	13	77	_	517	519	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	retrouva	retrouver	V	V	n=s|t=J|p=3	14	dep_coord	14	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	78	13	86	passeSimple	520	528	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	devant	devant	P	P		17	mod	17	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	87	13	93	_	529	535	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	la	la	DET	DET	n=s|g=f	20	det	20	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	94	13	96	_	536	538	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	même	même	ADJ	ADJ	n=s	18	prep	18	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	97	13	101	_	539	543	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	que	que	CS	CS		17	mod	17	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	104	13	107	_	546	549	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	tout	tout	ADV	ADV		31	mod	31	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	108	13	112	_	550	554	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	à	à	P	P		31	mod	31	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	113	13	114	_	555	556	_	_	_	Err	a	555-556	_	_	_	_	_	_	_	_
-24	l'	le	DET	DET	n=s	25	det	25	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	115	13	117	_	557	559	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	heure	heure	NC	NC	n=s|g=f	23	prep	23	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	117	13	122	_	559	564	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	et	et	CC	CC		23	coord	23	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	123	13	125	_	565	567	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	en	en	P	P		26	dep_coord	26	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	126	13	128	_	568	570	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	plus	plus	ADV	ADV		27	mod	27	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	129	13	133	_	571	575	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	il	il	CLS	CLS	n=s|g=m|p=3	31	suj	31	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	134	13	136	_	576	578	_	_	_	Err	il avait	576-586	_	_	_	_	_	_	_	_
-30	y	y	CLO	CLO		31	aff	31	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	137	13	138	_	579	580	_	_	_	Err	il avait	576-586	_	_	_	_	_	_	_	_
-31	avait	avoir	V	V	n=s|t=I|p=3	21	sub	21	sub	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	139	13	144	imparfait	581	586	_	_	_	Err	il avait	576-586	_	_	_	_	_	_	_	_
-32	le	le	DET	DET	n=s|g=m	33	det	33	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	145	13	147	_	587	589	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-33	feu	feu	NC	NC	n=s|g=m	31	obj	31	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	148	13	151	_	590	593	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-34	allumé	allumer	VPP	VPP	n=s|g=m|t=K	33	mod	33	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	152	13	158	_	594	600	_	_	_	Err	allumez	594-600	_	_	_	_	_	_	_	_
-35	et	et	CC	CC		17	coord	17	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	159	13	161	_	601	603	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-36	du	de	P+D	P+D	n=s|g=m	35	dep_coord	35	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	162	13	164	_	604	606	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-37	bois	bois	NC	NC	g=m	36	prep	36	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	165	13	169	_	607	611	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-38	pour	pour	P	P		17	mod	17	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	170	13	174	_	612	616	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-39	s'	se	CLR	CLR	n=p,s|p=3	40	aff	40	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	175	13	177	_	617	619	_	_	_	Err	s'asoir	617-626	_	_	_	_	_	_	_	_
-40	asseoir	asseoir	VINF	VINF	t=W	38	prep	38	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	177	13	184	_	619	626	_	_	_	Err	s'asoir	617-626	_	_	_	_	_	_	_	_
-41	et	et	CC	CC		17	coord	17	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	185	13	187	_	627	629	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-42	nous	nous	CLS	CLS	n=p|p=1	43	suj	43	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	188	13	192	_	630	634	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-43	courons	courir	V	V	n=p|t=P|p=1	41	dep_coord	41	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	193	13	200	present	635	642	_	isadd	635-642	Err	couront	635-642	_	_	_	_	_	_	_	_
-44	vers	vers	P	P		43	mod	43	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	201	13	205	_	643	647	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-45	le	le	DET	DET	n=s|g=m	46	det	46	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	206	13	208	_	648	650	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-46	droit	droit	NC	NC	n=s|g=m	44	prep	44	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	209	13	214	_	651	656	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-47	chemin	chemin	NC	NC	n=s|g=m	46	mod	46	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	13	215	13	221	_	657	663	_	issubst	657-663	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	je	je	CLS	CLS	n=s|p=1	2	suj	2	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	2	14	4	_	664	666	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	vois	voir	V	V	n=s|t=P|p=1,2	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	5	14	9	present	667	671	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	mon	mon	DET	DET	n=s|g=m|p=1|poss=s	4	det	4	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	10	14	13	_	672	675	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	père	père	NC	NC	n=s|g=m	2	obj	2	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	14	14	18	_	676	680	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	et	et	CC	CC		2	coord	2	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	20	14	22	_	682	684	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	nous	nous	CLS	CLS	n=p|p=1	7	suj	7	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	23	14	27	_	685	689	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	rentrons	rentrer	V	V	n=p|t=P|p=1	5	dep_coord	5	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	28	14	36	present	690	698	_	_	_	Err	rentront	690-698	_	_	_	_	_	_	_	_
-8	et	et	CC	CC		7	coord	7	coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	37	14	39	_	699	701	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	puis	_	ADV	ADV		12	mod	12	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	40	14	44	_	702	706	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	j'	je	CLS	CLS	n=s|p=1	12	suj	12	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	45	14	47	_	707	709	_	in_add	707-711	_	_	_	_	_	_	_	_	_	_	_
-11	ai	avoir	V	V	n=s|t=P|p=1	12	aux_tps	12	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	47	14	49	present	709	711	_	in_add	707-711	Err	aiexpliquer	709-720	_	_	_	_	_	_	_	_
-12	expliqué	expliquer	VPP	VPP	n=s|g=m|t=K	8	dep_coord	8	dep_coord	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	50	14	58	_	712	720	_	_	_	Err	aiexpliquer	709-720	_	_	_	_	_	_	_	_
-13	tous	tout	ADJ	ADJ	n=p|g=m	14	mod	14	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	59	14	63	_	721	725	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	ce	ce	PRO	PRO	n=s	12	obj	12	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	64	14	66	_	726	728	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	qui	qui	PROREL	PROREL	n=s	18	suj	18	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	67	14	70	_	729	732	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	s'	se	CLR	CLR	n=p,s|p=3	18	aff	18	aff	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	71	14	73	_	733	735	_	_	_	Err	c'	733-735	_	_	_	_	_	_	_	_
-17	est	être	V	V	n=s|t=P|p=3	18	aux_tps	18	aux_tps	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	73	14	76	present	735	738	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	passé	passer	VPP	VPP	n=s|g=m|t=K	14	mod_rel	14	mod_rel	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	77	14	82	_	739	744	_	_	_	Err	passé.  depuis	739-752	_	_	_	_	_	_	_	_
-19	.	.	PONCT	PONCT		18	ponct	18	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	82	14	83	_	744	745	_	_	_	Err	passé.  depuis	739-752	_	_	_	_	_	_	_	_
-"
-"
-1	Depuis	depuis	P	P		8	mod	8	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	84	14	90	_	746	752	_	del	746-746	Err	passé.  depuis	739-752	_	_	_	_	_	_	_	_
-2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	91	14	96	_	753	758	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	97	14	105	_	759	767	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	105	14	106	_	767	768	consigne	_	_	Err	None	767-768	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	106	14	109	_	768	771	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	768-779	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	110	14	117	_	772	779	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	768-779	_	_
-7	ne	ne	ADV	ADV		8	mod	8	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	118	14	120	_	780	782	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	121	14	128	present	783	790	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV		8	mod	8	mod	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	129	14	133	_	791	795	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	11	det	11	det	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	134	14	136	_	796	798	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	137	14	141	_	799	803	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	EC-CM1-2018-SEZB-D1-R1-V1_N.ac	14	141	14	142	_	803	804	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
+1	L'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	2	0	2	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	9	2	10	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	11	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	16	18	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	forêtC	forêtC	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	2	19	25	_	_	_	Err	fôret	19-24	_	_	_	_	_	_	_	_
+6	'	'	PUNCT	PUNCT	_	punct	5	25	26	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	9	26	31	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	9	32	34	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	root	0	35	39	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	horrible	horrible	ADJ	ADJ	Gender=Masc|Number=Sing	amod	9	40	48	_	_	_	Err	horible	40-48	_	_	_	_	_	_	_	_
+11	je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	13	49	51	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	m'	lui	PRON	PRON	Number=Sing|Person=1|PronType=Prs	obl:arg	13	53	55	_	_	_	Err	m'appel	53-62	_	_	_	_	_	_	_	_
+13	appelle	appeler	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	conj	9	55	62	_	_	_	Err	m'appel	53-62	_	_	_	_	_	_	_	_
+14	Tom	Tom	PROPN	PROPN	_	obj	13	63	66	_	_	_	Err	tom	63-66	_	_	_	_	_	_	_	_
+15	j'	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	16	67	69	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	habite	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	conj	13	69	75	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dans	dans	ADP	ADP	_	case	19	76	80	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	19	81	84	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	16	85	91	_	_	_	Err	maisondepuis	85-98	_	_	_	_	_	_	_	_
+20	depuis	depuis	ADP	ADP	_	case	21	92	98	_	_	_	Err	maisondepuis	85-98	_	_	_	_	_	_	_	_
+21	longtemps	longtemps	ADV	ADV	_	obl:mod	23	99	108	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	23	109	111	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	suis	être	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	conj	16	112	116	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	en	en	ADP	ADP	_	case	25	117	119	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	CM1	CM1	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	23	120	123	_	_	_	Err	cm1	120-123	_	_	_	_	_	_	_	_
+26	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	30	125	127	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	30	127	132	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	30	133	136	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	grandes	grand	ADJ	ADJ	Gender=Fem|Number=Plur	amod	30	137	144	_	_	_	Err	grande	137-144	_	_	_	_	_	_	_	_
+30	vacances	vacance	NOUN	NOUN	Gender=Fem|Number=Plur	obl:mod	23	145	153	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	j'	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	33	154	156	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	ai	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	aux:tense	33	156	158	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	demandé	demander	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	23	159	166	_	_	_	Err	demande	159-166	_	_	_	_	_	_	_	_
+34	à	à	ADP	ADP	_	case	36	167	168	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	mes	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	det	36	169	172	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	parents	parent	NOUN	NOUN	Gender=Masc|Number=Plur	obl:arg	33	173	180	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	si	si	SCONJ	SCONJ	_	mark	39	181	183	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	39	184	186	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	pouvais	pouvoir	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	advcl	33	187	194	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	aller	aller	VERB	VERB	VerbForm=Inf	xcomp	39	195	200	_	_	_	Err	allez	195-200	_	_	_	_	_	_	_	_
+41	dans	dans	ADP	ADP	_	case	43	201	205	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	43	206	208	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	40	209	214	_	_	_	Err	fôret	209-214	_	_	_	_	_	_	_	_
+44	avec	avec	ADP	ADP	_	case	46	215	219	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	mes	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	det	46	220	223	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	amis	ami	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	40	224	228	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	49	229	232	_	_	_	Err	il	229-232	_	_	_	_	_	_	_	_
+48	ont	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	49	233	236	_	_	_	Err	on	233-236	_	_	_	_	_	_	_	_
+49	accepté	accepter	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	33	237	244	_	_	_	Err	accepte	237-244	_	_	_	_	_	_	_	_
+50	mais	mais	CCONJ	CCONJ	_	cc	53	245	249	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	m'	lui	PRON	PRON	Number=Sing|Person=1|PronType=Prs	obl:arg	53	250	252	_	_	_	Err	mon	250-255	_	_	_	_	_	_	_	_
+52	ont	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	53	252	255	_	_	_	Err	mon	250-255	_	_	_	_	_	_	_	_
+53	affirmé	affirmer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	49	256	263	_	_	_	Err	affirmer	256-263	_	_	_	_	_	_	_	_
+54	qu'	que	SCONJ	SCONJ	_	mark	56	264	267	_	_	_	Err	quil	264-269	_	_	_	_	_	_	_	_
+55	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	56	267	269	_	_	_	Err	quil	264-269	_	_	_	_	_	_	_	_
+56	fallait	falloir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	ccomp	53	270	277	_	_	_	Err	falait	270-277	_	_	_	_	_	_	_	_
+57	faire	faire	VERB	VERB	VerbForm=Inf	ccomp	56	278	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+58	très	très	ADV	ADV	_	advmod	59	284	288	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	attention	attention	NOUN	NOUN	Gender=Fem|Number=Sing	obj	57	289	298	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+60	mes	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	det	61	299	302	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+61	amis	ami	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	63	303	307	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+62	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	63	308	312	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+63	arrivés	arriver	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	parataxis	56	313	320	_	_	_	Err	arrivé	313-320	_	_	_	_	_	_	_	_
+64	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	66	322	324	_	_	_	Err	il avait	322-332	_	_	_	_	_	_	_	_
+65	y	y	PRON	PRON	Person=3|PronType=Prs	dep:comp	66	325	326	_	_	_	Err	il avait	322-332	_	_	_	_	_	_	_	_
+66	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	63	327	332	_	_	_	Err	il avait	322-332	_	_	_	_	_	_	_	_
+67	:	:	PUNCT	PUNCT	_	punct	68	333	334	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+68	Jack	Jack	PROPN	PROPN	_	nsubj	63	336	340	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+69	,	,	PUNCT	PUNCT	_	punct	70	340	341	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+70	Inès	Inès	PROPN	PROPN	_	conj	68	342	346	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+71	,	,	PUNCT	PUNCT	_	punct	72	346	347	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+72	Joe	Joe	PROPN	PROPN	_	conj	68	348	351	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+73	,	,	PUNCT	PUNCT	_	punct	74	351	352	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+74	Sani	Sani	PROPN	PROPN	_	conj	68	353	357	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+75	,	,	PUNCT	PUNCT	_	punct	76	357	358	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+76	Sa##	Sa##	PROPN	PROPN	_	conj	68	359	363	_	_	_	Err	- jack - inès - joe - sani - sa##	336-363	_	_	_	_	_	_	_	_
+77	.	.	PUNCT	PUNCT	_	punct	63	363	364	_	_	_	Err	. nous	363-369	_	_	_	_	_	_	_	_
+1	Nous	il	PRON	PRON	Number=Plur|Person=1|PronType=Prs	nsubj	2	365	369	_	_	_	Err	. nous	363-369	_	_	_	_	_	_	_	_
+2	partons	partir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	root	0	370	377	_	_	_	Err	part ons	370-378	_	_	_	_	_	_	_	_
+3	..	..	PUNCT	PUNCT	_	punct	2	377	379	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	On	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	2	380	382	_	_	_	Err	arrive	380-389	_	_	_	_	_	_	_	_
+2	arrive	arriver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	383	389	_	subst	384-389	Err	arrive	380-389	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	390	394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	395	397	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	398	403	_	_	_	Err	fôret	398-403	_	_	_	_	_	_	_	_
+6	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	8	404	406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	s'	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	8	407	409	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	assoit	asseoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	409	415	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Jack	Jack	PROPN	PROPN	_	nsubj	8	416	420	_	_	_	Err	jack	416-420	_	_	_	_	_	_	_	_
+10	entend	entendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	8	422	428	_	_	_	Err	entends	422-428	_	_	_	_	_	_	_	_
+11	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	13	429	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gros	gros	ADJ	ADJ	Gender=Masc	amod	13	432	436	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	15	437	442	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Joe	Joe	PROPN	PROPN	_	appos	13	443	446	_	_	_	Err	joe	443-446	_	_	_	_	_	_	_	_
+15	voit	voir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	447	451	_	issubst	447-451	_	_	_	_	_	_	_	_	_	_	_
+16	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	17	452	455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	croix	croix	NOUN	NOUN	Gender=Fem|Number=Sing	obj	15	456	461	_	_	_	Err	croit	456-461	_	_	_	_	_	_	_	_
+18	rouge	rouge	ADJ	ADJ	Gender=Fem|Number=Sing	amod	17	462	467	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	et	et	CCONJ	CCONJ	_	cc	21	468	470	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	nous	il	PRON	PRON	Number=Plur|Person=1|PronType=Prs	nsubj	21	471	475	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	courons	courir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	conj	2	476	483	_	_	_	Err	couront	476-483	_	_	_	_	_	_	_	_
+22	sans	sans	ADP	ADP	_	mark	23	484	488	_	_	_	Err	sens	484-488	_	_	_	_	_	_	_	_
+23	savoir	savoir	VERB	VERB	VerbForm=Inf	advcl	21	489	495	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	où	où	ADV	ADV	PronType=Rel	advmod	26	496	498	_	_	_	Err	ou	496-498	_	_	_	_	_	_	_	_
+25	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	26	499	501	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	partait	partir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	ccomp	23	502	509	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	et	et	CCONJ	CCONJ	_	cc	30	510	512	_	_	_	Err	est	510-512	_	_	_	_	_	_	_	_
+28	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	30	513	515	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	se	se	PRON	PRON	Person=3|PronType=Prs	expl:pass	30	516	518	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	retrouva	retrouver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	21	519	527	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	devant	devant	ADP	ADP	_	case	33	528	534	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	33	535	537	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	même	même	ADJ	ADJ	Gender=Fem|Number=Sing	obl:mod	30	538	542	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	que	que	SCONJ	SCONJ	_	mark	38	545	548	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	tout	tout	ADV	ADV	_	advmod	38	549	553	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	à	à	ADP	ADP	_	case	38	554	555	_	_	_	Err	a	554-555	_	_	_	_	_	_	_	_
+37	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	38	556	558	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	heure	heure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	30	558	563	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	et	et	CCONJ	CCONJ	_	cc	44	564	566	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	en	en	ADP	ADP	_	advmod	44	567	569	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	plus	plus	ADV	ADV	_	fixed	40	570	574	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	44	575	577	_	_	_	Err	il avait	575-585	_	_	_	_	_	_	_	_
+43	y	y	PRON	PRON	Person=3|PronType=Prs	dep:comp	44	578	579	_	_	_	Err	il avait	575-585	_	_	_	_	_	_	_	_
+44	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	30	580	585	_	_	_	Err	il avait	575-585	_	_	_	_	_	_	_	_
+45	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	46	586	588	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	feu	feu	NOUN	NOUN	Gender=Masc|Number=Sing	obj	44	589	592	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	allumé	allumer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	amod	46	593	599	_	_	_	Err	allumez	593-599	_	_	_	_	_	_	_	_
+48	et	et	CCONJ	CCONJ	_	cc	51	600	602	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	de	de	ADP	ADP	_	case	51	604	604	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	51	605	605	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	bois	bois	NOUN	NOUN	Gender=Masc|Number=Sing	conj	46	606	610	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	pour	pour	ADP	ADP	_	mark	54	611	615	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	s'	se	PRON	PRON	Person=3|PronType=Prs	obj	54	616	618	_	_	_	Err	s'asoir	616-625	_	_	_	_	_	_	_	_
+54	asseoir	asseoir	VERB	VERB	VerbForm=Inf	advcl	44	618	625	_	_	_	Err	s'asoir	616-625	_	_	_	_	_	_	_	_
+55	et	et	CCONJ	CCONJ	_	cc	57	626	628	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	nous	il	PRON	PRON	Number=Plur|Person=1|PronType=Prs	nsubj	57	629	633	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+57	courons	courir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	conj	63	634	641	_	isadd	634-641	Err	couront	634-641	_	_	_	_	_	_	_	_
+58	vers	vers	ADP	ADP	_	case	60	642	646	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	60	647	649	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+60	droit	droit	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	57	650	655	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+61	chemin	chemin	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	60	656	662	_	issubst	656-662	_	_	_	_	_	_	_	_	_	_	_
+62	je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	63	663	665	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+63	vois	voir	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	conj	54	666	670	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+64	mon	son	DET	DET	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	det	65	671	674	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+65	père	père	NOUN	NOUN	Gender=Masc|Number=Sing	obj	63	675	679	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+66	et	et	CCONJ	CCONJ	_	cc	68	681	683	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+67	nous	il	PRON	PRON	Number=Plur|Person=1|PronType=Prs	nsubj	68	684	688	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+68	rentrons	rentrer	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	conj	63	689	697	_	_	_	Err	rentront	689-697	_	_	_	_	_	_	_	_
+69	et	et	CCONJ	CCONJ	_	cc	73	698	700	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+70	puis	puis	CCONJ	CCONJ	_	cc	73	701	705	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+71	j'	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	73	706	708	_	in_add	706-710	_	_	_	_	_	_	_	_	_	_	_
+72	ai	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	aux:tense	73	708	710	_	in_add	706-710	Err	aiexpliquer	708-719	_	_	_	_	_	_	_	_
+73	expliqué	expliquer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	63	711	719	_	_	_	Err	aiexpliquer	708-719	_	_	_	_	_	_	_	_
+74	tous	tout	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	det	75	720	724	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+75	ce	ce	PRON	PRON	Gender=Masc|Person=3|PronType=Dem	obj	73	725	727	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+76	qui	qui	PRON	PRON	PronType=Rel	nsubj	79	728	731	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+77	s'	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	79	732	734	_	_	_	Err	c'	732-734	_	_	_	_	_	_	_	_
+78	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	79	734	737	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+79	passé	passer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	acl:relcl	75	738	743	_	_	_	Err	passé.  depuis	738-751	_	_	_	_	_	_	_	_
+80	.	.	PUNCT	PUNCT	_	punct	2	743	744	_	_	_	Err	passé.  depuis	738-751	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	745	751	_	del	745-745	Err	passé.  depuis	738-751	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	752	757	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	758	766	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	766	767	consigne	_	_	Err	None	766-767	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	767	770	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	767-778	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	771	778	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	767-778	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	779	781	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	782	789	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	790	794	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	795	797	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	798	802	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	802	803	_	_	_	_	_	_	_	_	_	_	_	_	_	_

@@ -1,208 +1,184 @@
-1	Le	le	DET	DET	n=s|g=m	2	det	2	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	1	1	1	3	_	1	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	monstre	monstre	NC	NC	n=s|g=m	0	_	0	_	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	1	4	1	11	_	4	11	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Dans	dans	P	P		8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	1	2	5	_	11	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	le	le	DET	DET	n=s|g=m	3	det	3	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	6	2	8	_	16	18	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	Nord	Nord	NPP	NPP	n=s|g=m	1	prep	1	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	9	2	13	_	19	23	_	_	_	Err	nord	19-23	_	_	_	_	_	_	_	_
-4	de	de	P	P		8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	14	2	16	_	24	26	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	la	la	DET	DET	n=s|g=f	6	det	6	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	17	2	19	_	27	29	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	France	France	NPP	NPP	n=s|g=f,m	4	prep	4	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	20	2	26	_	30	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	se	se	CLR	CLR	n=p,s|p=3	8	aff	8	aff	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	27	2	29	_	37	39	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	trouvait	trouver	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	30	2	38	imparfait	40	48	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	un	un	DET	DET	n=s|g=m	10	det	10	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	39	2	41	_	49	51	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	49-58	_	_	_	_
-10	paysan	paysan	NC	NC	n=s|g=m	8	obj	8	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	42	2	48	_	52	58	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	49-58	_	_	_	_
-11	dont	dont	PROREL	PROREL		15	mod	15	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	49	2	53	_	59	63	_	in_add	58-76	_	_	_	_	_	_	_	_	_	_	_
-12	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	13	det	13	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	54	2	56	_	64	66	_	in_add	58-76	_	_	_	in_GNon_incertDNon_incertRNon	64-77	is_GNon_incertDNon_incertRNon	64-66	_	_	_	_
-13	grand-mère	grand-mère	NC	NC	n=s|g=f	15	suj	15	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	57	2	67	_	67	77	_	_	_	Err	grand-mêre	67-77	in_GNon_incertDNon_incertRNon	64-77	_	_	_	_	_	_
-14	qui	qui	PROREL	PROREL	n=s	15	suj	15	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	68	2	71	_	78	81	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	78-81	_	_	_	_	_	_
-15	avait	avoir	V	V	n=s|t=I|p=3	10	mod_rel	10	mod_rel	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	72	2	77	imparfait	82	87	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	une	une	DET	DET	n=s|g=f	17	det	17	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	78	2	81	_	88	91	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	maison	maison	NC	NC	n=s|g=f	15	obj	15	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	82	2	88	_	92	98	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	blanche	blanc	ADJ	ADJ	n=s|g=f	17	mod	17	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	89	2	96	_	99	106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	.	.	PONCT	PONCT		18	ponct	18	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	96	2	97	_	106	107	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	98	2	102	_	108	112	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	108-112	_	_	_	_	_	_
-2	habitait	habiter	V	V	n=s|t=I|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	103	2	111	imparfait	113	121	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	112	2	116	_	122	126	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	cette	DET	DET	n=s|g=f	5	det	5	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	117	2	122	_	127	132	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	123	2	129	_	133	139	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	P	P		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	130	2	136	_	140	146	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV		6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	137	2	146	_	147	156	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	146	2	147	_	156	157	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Un	un	DET	DET	n=s|g=m	2	det	2	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	148	2	150	_	158	160	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	jour	jour	NC	NC	n=s|g=m	6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	151	2	155	_	161	165	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	,	,	PONCT	PONCT		2	ponct	2	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	155	2	156	_	165	166	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	le	le	DET	DET	n=s|g=m	5	det	5	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	157	2	159	_	167	169	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	167-176	_	_	_	_
-5	paysan	paysan	NC	NC	n=s|g=m	6	suj	6	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	160	2	166	_	170	176	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	167-176	_	_	_	_
-6	vit	vivre	V	V	n=s|t=P|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	167	2	170	present	177	180	_	_	_	Err	vue	177-180	_	_	_	_	_	_	_	_
-7	un	un	DET	DET	n=s|g=m	8	det	8	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	171	2	173	_	181	183	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	buisson	buisson	NC	NC	n=s|g=m	6	obj	6	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	174	2	181	_	184	191	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	bouger	bouger	VINF	VINF	t=W	6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	182	2	188	_	192	198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	pendant	pendant	P	P		9	mod	9	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	189	2	196	_	199	206	_	in_add	198-214	_	_	_	_	_	_	_	_	_	_	_
-11	une	une	DET	DET	n=s|g=f	12	det	12	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	197	2	200	_	207	210	_	in_add	198-214	_	_	_	_	_	_	_	_	_	_	_
-12	nuit	nuit	NC	NC	n=s|g=f	10	prep	10	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	201	2	205	_	211	215	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	,	,	PONCT	PONCT		12	ponct	12	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	205	2	206	_	215	216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	il	il	CLS	CLS	n=s|g=m|p=3	15	suj	15	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	207	2	209	_	217	219	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	217-219	_	_	_	_
-15	voulait	vouloir	V	V	n=s|t=I|p=3	6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	210	2	217	imparfait	220	227	_	_	_	Err	ne voulait	220-227	_	_	_	_	_	_	_	_
-16	en	en	CLO	CLO		17	aff	17	aff	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	218	2	220	_	228	230	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	savoir	savoir	VINF	VINF	t=W	15	obj	15	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	221	2	227	_	231	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	plus	plus	ADV	ADV		17	mod	17	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	228	2	232	_	238	242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	,	,	PONCT	PONCT		18	ponct	18	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	232	2	233	_	242	243	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	alors	alors	ADV	ADV		15	mod	15	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	234	2	239	_	244	249	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	,	,	PONCT	PONCT		20	ponct	20	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	239	2	240	_	249	250	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	il	il	CLS	CLS	n=s|g=m|p=3	23	suj	23	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	241	2	243	_	251	253	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	251-253	_	_	_	_
-23	sortit	sortir	V	V	n=s|t=J|p=3	6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	244	2	250	passeSimple	254	260	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	dehors	dehors	ADV	ADV		23	mod	23	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	251	2	257	_	261	267	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	avec	avec	P	P		23	mod	23	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	258	2	262	_	268	272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	un	un	DET	DET	n=s|g=m	27	det	27	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	263	2	265	_	273	275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	couteau	couteau	NC	NC	n=s|g=m	25	prep	25	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	266	2	273	_	276	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	et	et	CC	CC		23	coord	23	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	274	2	276	_	284	286	_	in_add	283-296	_	_	_	_	_	_	_	_	_	_	_
-29	une	une	DET	DET	n=s|g=f	30	det	30	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	277	2	280	_	287	290	_	in_add	283-296	_	_	_	_	_	_	_	_	_	_	_
-30	torche	torche	NC	NC	n=s|g=f	0	_	0	_	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	281	2	287	_	291	297	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-31	.	.	PONCT	PONCT		30	ponct	30	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	287	2	288	_	297	298	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	289	2	291	_	299	301	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	299-301	_	_	_	_
-2	regarda	regarder	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	292	2	299	passeSimple	302	309	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	300	2	304	_	310	314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	le	le	DET	DET	n=s|g=m	5	det	5	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	305	2	307	_	315	317	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	buisson	buisson	NC	NC	n=s|g=m	3	prep	3	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	308	2	315	_	318	325	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	et	et	CC	CC		2	coord	2	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	316	2	318	_	326	328	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	il	il	CLS	CLS	n=s|g=m|p=3	8	suj	8	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	319	2	321	_	329	331	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	329-331	_	_	_	_
-8	vit	vivre	V	V	n=s|t=P|p=3	6	dep_coord	6	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	322	2	325	present	332	335	_	_	_	Err	vi	332-335	_	_	_	_	_	_	_	_
-9	du	de	P+D	P+D	n=s|g=m	8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	326	2	328	_	336	338	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	sang	sang	NC	NC	n=s|g=m	9	prep	9	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	329	2	333	_	339	343	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	et	et	CC	CC		8	coord	8	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	334	2	336	_	344	346	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	des	de	P+D	P+D	n=p	11	dep_coord	11	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	337	2	340	_	347	350	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	pas	pas	ADV	ADV		19	mod	19	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	341	2	344	_	351	354	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	derrière	derrière	P	P		19	mod	19	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	345	2	353	_	355	363	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	la	la	DET	DET	n=s|g=f	16	det	16	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	354	2	356	_	364	366	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	clôture	clôture	NC	NC	n=s|g=f	14	prep	14	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	357	2	364	_	367	374	_	_	_	Err	cloture	367-374	_	_	_	_	_	_	_	_
-17	,	,	PONCT	PONCT		16	ponct	16	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	364	2	365	_	374	375	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	il	il	CLS	CLS	n=s|g=m|p=3	19	suj	19	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	366	2	368	_	376	378	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	376-378	_	_	_	_
-19	sortit	sortir	V	V	n=s|t=J|p=3	0	_	0	_	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	369	2	375	passeSimple	379	385	_	_	_	Err	sorti	379-385	_	_	_	_	_	_	_	_
-20	dehors	dehors	NC	NC	g=m	19	obj	19	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	376	2	382	_	386	392	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	et	et	CC	CC		19	coord	19	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	383	2	385	_	393	395	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	suivit	suivre	V	V	n=s|t=J|p=3	21	dep_coord	21	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	386	2	392	passeSimple	396	402	_	_	_	Err	suivi	396-402	_	_	is_GNon_incertDNon_incertRNon	396-402	_	_	_	_
-23	les	les	DET	DET	n=p	24	det	24	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	393	2	396	_	403	406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	pas	pas	NC	NC	g=m	22	obj	22	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	397	2	400	_	407	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	.	.	PONCT	PONCT		24	ponct	24	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	400	2	401	_	410	411	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	402	2	404	_	412	414	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	412-414	_	_	_	_
-2	s'	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	405	2	407	_	415	417	_	_	_	Err	sarretai -- alternatives : s'arrêtait	415-423	_	_	_	_	_	_	_	_
-3	arrêta	arrêter	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	407	2	413	passeSimple	417	423	_	_	_	Err	sarretai -- alternatives : s'arrêtait	415-423	_	_	_	_	_	_	_	_
-4	dans	dans	P	P		3	mod	3	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	414	2	418	_	424	428	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	un	un	DET	DET	n=s|g=m	6	det	6	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	419	2	421	_	429	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	buisson	buisson	NC	NC	n=s|g=m	4	prep	4	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	422	2	429	_	432	439	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	à	à	P	P		3	mod	3	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	430	2	431	_	440	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	l'	le	DET	DET	n=s	9	det	9	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	432	2	434	_	442	444	_	_	_	Err	l'interieur	442-453	_	_	_	_	_	_	_	_
-9	intérieur	intérieur	NC	NC	n=s|g=m	7	prep	7	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	434	2	443	_	444	453	_	_	_	Err	l'interieur	442-453	_	_	_	_	_	_	_	_
-10	de	de	P	P		3	mod	3	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	444	2	446	_	454	456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	la	la	DET	DET	n=s|g=f	12	det	12	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	447	2	449	_	457	459	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	forêt	forêt	NC	NC	n=s|g=f	10	prep	10	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	450	2	455	_	460	465	_	_	_	Err	forêt Il	460-469	_	_	_	_	_	_	_	_
-13	.	.	PONCT	PONCT		12	ponct	12	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	455	2	456	_	465	466	_	_	_	Err	forêt Il	460-469	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	457	2	459	_	467	469	_	_	_	Err	forêt Il	460-469	_	_	is_GNon_incertDNon_incertRNon	467-469	_	_	_	_
-2	regarda	regarder	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	460	2	467	passeSimple	470	477	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	468	2	472	_	478	482	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	le	le	DET	DET	n=s|g=m	5	det	5	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	473	2	475	_	483	485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	buisson	buisson	NC	NC	n=s|g=m	3	prep	3	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	476	2	483	_	486	493	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	et	et	CC	CC		2	coord	2	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	484	2	486	_	494	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	vit	vivre	V	V	n=s|t=P|p=3	6	dep_coord	6	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	487	2	490	present	497	500	_	_	_	Err	vue	497-500	_	_	is_GNon_incertDNon_incertRNon	497-500	_	_	_	_
-8	un	un	DET	DET	n=s|g=m	9	det	9	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	491	2	493	_	501	503	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	ours	ours	NC	NC	g=m	7	obj	7	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	494	2	498	_	504	508	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	mort	mort	ADJ	ADJ	n=s|g=m|t=K	9	mod	9	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	499	2	503	_	509	513	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	.	.	PONCT	PONCT		10	ponct	10	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	503	2	504	_	513	514	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	505	2	507	_	515	517	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	515-517	_	_	_	_
-2	repartit	repartir	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	508	2	516	passeSimple	518	526	_	_	_	Err	reparti	518-526	_	_	_	_	_	_	_	_
-3	alors	alors	ADV	ADV		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	517	2	522	_	527	532	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	.	.	PONCT	PONCT		3	ponct	3	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	522	2	523	_	532	533	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Tout	tout	PRO	PRO	n=s|g=m	8	suj	8	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	524	2	528	_	534	538	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	à	à	P	P		1	dep	1	dep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	529	2	530	_	539	540	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	coup	coup	NC	NC	n=s|g=m	2	prep	2	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	531	2	535	_	541	545	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	un	un	DET	DET	n=s|g=m	6	det	6	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	536	2	538	_	546	548	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	grand	grand	ADJ	ADJ	n=s|g=m	6	mod	6	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	539	2	544	_	549	554	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	bruit	bruit	NC	NC	n=s|g=m	1	mod	1	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	545	2	550	_	555	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	le	le	CLO	CLO	n=s|g=m|p=3	8	obj	8	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	551	2	553	_	561	563	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	561-563	_	_	_	_
-8	fit	faire	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	554	2	557	passeSimple	564	567	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	sursauter	sursauter	VINF	VINF	t=W	8	obj	8	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	558	2	567	_	568	577	_	_	_	Err	sursoter	568-577	_	_	_	_	_	_	_	_
-10	,	,	PONCT	PONCT		9	ponct	9	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	567	2	568	_	577	578	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	Il	_	NPP	NPP		13	suj	13	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	569	2	571	_	579	581	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	579-581	_	_	_	_
-12	se	se	CLR	CLR	n=p,s|p=3	13	aff	13	aff	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	572	2	574	_	582	584	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	retourna	retourner	V	V	n=s|t=J|p=3	8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	575	2	583	passeSimple	585	593	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	en	en	P	P		13	mod	13	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	584	2	586	_	594	596	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	entendant	entendre	VPR	VPR	t=G	14	prep	14	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	587	2	596	_	597	606	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	ce	ce	DET	DET	n=s|g=m	18	det	18	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	597	2	599	_	607	609	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	grand	grand	ADJ	ADJ	n=s|g=m	18	mod	18	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	600	2	605	_	610	615	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	bruit	bruit	NC	NC	n=s|g=m	15	obj	15	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	606	2	611	_	616	621	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	.	.	PONCT	PONCT		18	ponct	18	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	611	2	612	_	621	622	consigne	del	622-622	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	613	2	615	_	623	625	_	_	_	Err	et	623-625	_	_	_	_	_	_	_	_
-2	il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	616	2	618	_	626	628	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	626-628	_	_	_	_
-3	vit	vivre	V	V	n=s|t=P|p=3	1	dep_coord	1	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	619	2	622	present	629	632	_	_	_	Err	vue	629-632	_	_	_	_	_	_	_	_
-4	un	un	DET	DET	n=s|g=m	5	det	5	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	623	2	625	_	633	635	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	monstre	monstre	NC	NC	n=s|g=m	3	obj	3	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	626	2	633	_	636	643	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	dont	dont	PROREL	PROREL		10	mod	10	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	634	2	638	_	644	648	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	ses	ses	DET	DET	n=p|p=3|poss=s	8	det	8	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	639	2	642	_	649	652	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	doigts	doigt	NC	NC	n=p|g=m	10	suj	10	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	643	2	649	_	653	659	_	_	_	Err	doit	653-659	_	_	_	_	_	_	_	_
-9	griffés	griffer	ADJ	ADJ	n=p|g=m|t=K	8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	650	2	657	_	660	667	_	_	_	Err	griffes	660-667	_	_	_	_	_	_	_	_
-10	dégoulinaient	dégouliner	V	V	n=p|t=I|p=3	5	mod_rel	5	mod_rel	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	658	2	671	imparfait	668	681	_	_	_	Err	dégout##	668-681	_	_	_	_	_	_	_	_
-11	de	de	P	P		10	mod	10	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	672	2	674	_	682	684	_	_	_	Err	deont	682-689	_	_	_	_	_	_	_	_
-12	sang	sang	NC	NC	n=s|g=m	11	prep	11	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	675	2	679	_	685	689	_	_	_	Err	deont	682-689	_	_	_	_	_	_	_	_
-13	,	,	PONCT	PONCT		12	ponct	12	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	679	2	680	_	689	690	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	il	il	CLS	CLS	n=s|g=m|p=3	15	suj	15	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	681	2	683	_	691	693	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	était	être	V	V	n=s|t=I|p=3	3	mod	3	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	684	2	689	imparfait	694	699	_	_	_	Err	##	694-699	_	_	_	_	_	_	_	_
-16	vert	vert	ADJ	ADJ	n=s|g=m	15	ats	15	ats	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	690	2	694	_	700	704	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	gluant	gluant	ADJ	ADJ	n=s|g=m	15	mod	15	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	695	2	701	_	705	711	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	et	et	CC	CC		15	coord	15	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	702	2	704	_	712	714	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	n'	ne	ADV	ADV		20	mod	20	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	705	2	707	_	715	717	_	_	_	Err	a ## :	715-726	_	_	_	_	_	_	_	_
-20	avait	avoir	V	V	n=s|t=I|p=3	18	dep_coord	18	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	707	2	712	imparfait	717	722	_	_	_	Err	a ## :	715-726	_	_	_	_	_	_	_	_
-21	pas	pas	ADV	ADV		20	mod	20	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	713	2	716	_	723	726	_	_	_	Err	a ## :	715-726	_	_	_	_	_	_	_	_
-22	d'	de	P	P		20	mod	20	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	717	2	719	_	727	729	_	_	_	Err	dans	727-733	_	_	_	_	_	_	_	_
-23	œils	_	NC	NC		22	prep	22	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	719	2	723	_	729	733	_	_	_	Err	dans	727-733	_	_	_	_	_	_	_	_
-24	mais	mais	CC	CC		20	coord	20	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	724	2	728	_	734	738	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	avait	avoir	V	V	n=s|t=I|p=3	24	dep_coord	24	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	729	2	734	imparfait	739	744	_	_	_	Err	##	739-744	_	_	_	_	_	_	_	_
-26	un	un	DET	DET	n=s|g=m	27	det	27	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	735	2	737	_	745	747	_	_	_	Err	inoda ##t	745-754	_	_	_	_	_	_	_	_
-27	odorat	odorat	NC	NC	n=s|g=m	25	obj	25	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	738	2	744	_	748	754	_	_	_	Err	inoda ##t	745-754	_	_	_	_	_	_	_	_
-28	inimaginable	inimaginable	ADJ	ADJ	n=s	27	mod	27	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	745	2	757	_	755	767	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	.	.	PONCT	PONCT		28	ponct	28	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	757	2	758	_	767	768	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Je	je	CLS	CLS	n=s|p=1	2	suj	2	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	759	2	761	_	769	771	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	crie	crier	V	V	n=s|t=P,S|p=1,3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	762	2	766	present	772	776	_	_	_	Err	cri	772-776	_	_	_	_	_	_	_	_
-3	en	en	P	P		2	mod	2	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	767	2	769	_	777	779	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	voyant	voir	VPR	VPR	t=G	3	prep	3	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	770	2	776	_	780	786	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	le	le	DET	DET	n=s|g=m	6	det	6	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	777	2	779	_	787	789	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	monstre	monstre	NC	NC	n=s|g=m	4	obj	4	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	780	2	787	_	790	797	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	mais	mais	CC	CC		2	coord	2	coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	788	2	792	_	798	802	_	_	_	Err	il	798-805	_	_	_	_	_	_	_	_
-8	il	il	CLS	CLS	n=s|g=m|p=3	10	suj	10	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	793	2	795	_	803	805	_	_	_	Err	il	798-805	_	_	_	_	_	_	_	_
-9	le	le	CLO	CLO	n=s|g=m|p=3	10	obj	10	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	796	2	798	_	806	808	_	_	_	_	_	_	_	_	is_GNon_incertDOui_incertRNon	806-808	_	_	_	_
-10	tua	tuer	V	V	n=s|t=J|p=3	7	dep_coord	7	dep_coord	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	799	2	802	passeSimple	809	812	_	_	_	Err	tuer	809-812	_	_	_	_	_	_	_	_
-11	.	.	PONCT	PONCT		10	ponct	10	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	802	2	803	_	812	813	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Depuis	depuis	P	P		8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	804	2	810	_	814	820	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	811	2	816	_	821	826	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	817	2	825	_	827	835	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	825	2	826	_	835	836	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	827	2	830	_	837	840	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	837-848	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	831	2	838	_	841	848	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	837-848	_	_
-7	ne	ne	ADV	ADV		8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	839	2	841	_	849	851	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	842	2	849	present	852	859	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV		8	mod	8	mod	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	850	2	854	_	860	864	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	11	det	11	det	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	855	2	857	_	865	867	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	858	2	862	_	868	872	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	EC-CM2-2016-SGLEA-D1-R24-V1_N.ac	2	862	2	863	_	872	873	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
+1	Le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	2	0	2	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	monstreDans	monstreDans	PROPN	PROPN	Gender=Masc|Number=Sing	nsubj:pass	9	3	14	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	4	15	17	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Nord	nord	NOUN	NOUN	Gender=Masc|Number=Sing	appos	2	18	22	_	_	_	Err	nord	18-22	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	case	7	23	25	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	7	26	28	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	France	France	PROPN	PROPN	Gender=Fem|Number=Sing	nmod	2	29	35	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	se	se	PRON	PRON	Person=3|PronType=Prs	expl:pass	9	36	38	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	trouvait	trouver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	39	47	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	11	48	50	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	48-57	_	_	_	_
+11	paysan	paysan	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj:pass	9	51	57	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	48-57	_	_	_	_
+12	dont	dont	PRON	PRON	PronType=Rel	nmod	14	58	62	_	in_add	57-75	_	_	_	_	_	_	_	_	_	_	_
+13	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	14	63	65	_	in_add	57-75	_	_	_	in_GNon_incertDNon_incertRNon	63-76	is_GNon_incertDNon_incertRNon	63-65	_	_	_	_
+14	grand-mère	grand-mère	NOUN	NOUN	Gender=Fem|Number=Sing	acl:relcl	11	66	76	_	_	_	Err	grand-mêre	66-76	in_GNon_incertDNon_incertRNon	63-76	_	_	_	_	_	_
+15	qui	qui	PRON	PRON	PronType=Rel	nsubj	16	77	80	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	77-80	_	_	_	_	_	_
+16	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	14	81	86	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	18	87	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obj	16	91	97	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	blanche	blanc	ADJ	ADJ	Gender=Fem|Number=Sing	amod	18	98	105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	.	PUNCT	PUNCT	_	punct	9	105	106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	107	111	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	107-111	_	_	_	_	_	_
+2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	112	120	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	121	125	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	126	131	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	132	138	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	ADP	_	case	7	139	145	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	146	155	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	punct	2	155	156	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	2	157	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	6	160	164	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	,	PUNCT	PUNCT	_	punct	2	164	165	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	166	168	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	166-175	_	_	_	_
+5	paysan	paysan	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	6	169	175	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	166-175	_	_	_	_
+6	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	176	179	_	_	_	Err	vue	176-179	_	_	_	_	_	_	_	_
+7	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	8	180	182	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	buisson	buisson	NOUN	NOUN	Gender=Masc|Number=Sing	obj	6	183	190	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	bouger	bouger	VERB	VERB	VerbForm=Inf	xcomp	6	191	197	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	pendant	pendant	ADP	ADP	_	case	12	198	205	_	in_add	197-213	_	_	_	_	_	_	_	_	_	_	_
+11	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	12	206	209	_	in_add	197-213	_	_	_	_	_	_	_	_	_	_	_
+12	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	9	210	214	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	,	PUNCT	PUNCT	_	punct	15	214	215	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	15	216	218	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	216-218	_	_	_	_
+15	voulait	vouloir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	6	219	226	_	_	_	Err	ne voulait	219-226	_	_	_	_	_	_	_	_
+16	en	en	PRON	PRON	Person=3|PronType=Prs	obl:arg	17	227	229	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	savoir	savoir	VERB	VERB	VerbForm=Inf	xcomp	15	230	236	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	plus	plus	ADV	ADV	_	advmod	17	237	241	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	,	PUNCT	PUNCT	_	punct	23	241	242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	alors	alors	ADV	ADV	_	advmod	23	243	248	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	,	PUNCT	PUNCT	_	punct	20	248	249	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	23	250	252	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	250-252	_	_	_	_
+23	sortit	sortir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	6	253	259	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	dehors	dehors	ADV	ADV	_	advmod	23	260	266	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	avec	avec	ADP	ADP	_	case	27	267	271	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	27	272	274	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	couteau	couteau	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	23	275	282	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	et	et	CCONJ	CCONJ	_	cc	30	283	285	_	in_add	282-295	_	_	_	_	_	_	_	_	_	_	_
+29	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	30	286	289	_	in_add	282-295	_	_	_	_	_	_	_	_	_	_	_
+30	torche	torche	NOUN	NOUN	Gender=Fem|Number=Sing	conj	27	290	296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	.	PUNCT	PUNCT	_	punct	6	296	297	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	298	300	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	298-300	_	_	_	_
+2	regarda	regarder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	301	308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	309	313	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	314	316	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	buisson	buisson	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	2	317	324	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	et	et	CCONJ	CCONJ	_	cc	8	325	327	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	8	328	330	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	328-330	_	_	_	_
+8	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	331	334	_	_	_	Err	vi	331-334	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	case	11	336	336	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	11	337	337	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sang	sang	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	8	338	342	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	et	et	CCONJ	CCONJ	_	cc	20	343	345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	des	un	DET	DET	Definite=Ind|Number=Plur|PronType=Art	det	14	346	349	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	pas	pas	NOUN	NOUN	Gender=Masc|Number=Plur	conj	11	350	353	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	derrière	derrière	ADP	ADP	_	case	17	354	362	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	17	363	365	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	clôture	clôture	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	14	366	373	_	_	_	Err	cloture	366-373	_	_	_	_	_	_	_	_
+18	,	,	PUNCT	PUNCT	_	punct	20	373	374	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	20	375	377	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	375-377	_	_	_	_
+20	sortit	sortir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	2	378	384	_	_	_	Err	sorti	378-384	_	_	_	_	_	_	_	_
+21	dehors	dehors	ADV	ADV	_	advmod	20	385	391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	et	et	CCONJ	CCONJ	_	cc	23	392	394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	suivit	suivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	20	395	401	_	_	_	Err	suivi	395-401	_	_	is_GNon_incertDNon_incertRNon	395-401	_	_	_	_
+24	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	25	402	405	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	pas	pas	NOUN	NOUN	Gender=Masc|Number=Plur	obj	23	406	409	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	.	PUNCT	PUNCT	_	punct	2	409	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	411	413	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	411-413	_	_	_	_
+2	s'	se	PRON	PRON	Person=3|PronType=Prs	obj	3	414	416	_	_	_	Err	sarretai -- alternatives : s'arrêtait	414-422	_	_	_	_	_	_	_	_
+3	arrêta	arrêter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	416	422	_	_	_	Err	sarretai -- alternatives : s'arrêtait	414-422	_	_	_	_	_	_	_	_
+4	dans	dans	ADP	ADP	_	case	6	423	427	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	6	428	430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	buisson	buisson	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	3	431	438	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	à	à	ADP	ADP	_	case	9	439	440	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	9	441	443	_	_	_	Err	l'interieur	441-452	_	_	_	_	_	_	_	_
+9	intérieur	intérieur	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	3	443	452	_	_	_	Err	l'interieur	441-452	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	case	12	453	455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	12	456	458	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	9	459	464	_	_	_	Err	forêt Il	459-468	_	_	_	_	_	_	_	_
+13	.	.	PUNCT	PUNCT	_	punct	3	464	465	_	_	_	Err	forêt Il	459-468	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	466	468	_	_	_	Err	forêt Il	459-468	_	_	is_GNon_incertDNon_incertRNon	466-468	_	_	_	_
+2	regarda	regarder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	469	476	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	477	481	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	482	484	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	buisson	buisson	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	2	485	492	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	et	et	CCONJ	CCONJ	_	cc	7	493	495	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	2	496	499	_	_	_	Err	vue	496-499	_	_	is_GNon_incertDNon_incertRNon	496-499	_	_	_	_
+8	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	9	500	502	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ours	our	NOUN	NOUN	Gender=Masc|Number=Sing	obj	7	503	507	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	mort	mort	ADJ	ADJ	Gender=Masc|Number=Sing	amod	9	508	512	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	2	512	513	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	514	516	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	514-516	_	_	_	_
+2	repartit	repartir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	517	525	_	_	_	Err	reparti	517-525	_	_	_	_	_	_	_	_
+3	alors	alors	ADV	ADV	_	advmod	2	526	531	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	punct	2	531	532	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Tout	tout	ADV	ADV	_	advmod	9	533	537	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	à	à	ADP	ADP	_	fixed	1	538	539	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	coup	coup	NOUN	NOUN	Gender=Masc|Number=Sing	fixed	1	540	544	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	6	545	547	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	6	548	553	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj:caus	9	554	559	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	le	le	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obj:agent	9	560	562	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	560-562	_	_	_	_
+8	fit	faire	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	aux:caus	9	563	566	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sursauter	sursauter	VERB	VERB	VerbForm=Inf	root	0	567	576	_	_	_	Err	sursoter	567-576	_	_	_	_	_	_	_	_
+10	,	,	PUNCT	PUNCT	_	punct	13	576	577	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	13	578	580	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	578-580	_	_	_	_
+12	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	13	581	583	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	9	584	592	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	en	en	ADP	ADP	_	mark	15	593	595	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	13	596	605	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	18	606	608	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	18	609	614	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	15	615	620	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	.	PUNCT	PUNCT	_	punct	9	620	621	consigne	del	621-621	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	3	622	624	_	_	_	Err	et	622-624	_	_	_	_	_	_	_	_
+2	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	625	627	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	625-627	_	_	_	_
+3	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	628	631	_	_	_	Err	vue	628-631	_	_	_	_	_	_	_	_
+4	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	5	632	634	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	obj	3	635	642	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dont	dont	PRON	PRON	PronType=Rel	nmod	8	643	647	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	8	648	651	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	doigts	doigt	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	10	652	658	_	_	_	Err	doit	652-658	_	_	_	_	_	_	_	_
+9	griffés	griffé	ADJ	ADJ	Gender=Masc|Number=Plur	amod	8	659	666	_	_	_	Err	griffes	659-666	_	_	_	_	_	_	_	_
+10	dégoulinaient	dégouliner	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	acl:relcl	5	667	680	_	_	_	Err	dégout##	667-680	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	case	12	681	683	_	_	_	Err	deont	681-688	_	_	_	_	_	_	_	_
+12	sang	sang	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	10	684	688	_	_	_	Err	deont	681-688	_	_	_	_	_	_	_	_
+13	,	,	PUNCT	PUNCT	_	punct	16	688	689	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	16	690	692	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	16	693	698	_	_	_	Err	##	693-698	_	_	_	_	_	_	_	_
+16	vert	vert	ADJ	ADJ	Gender=Masc|Number=Sing	conj	3	699	703	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	gluant	gluant	ADJ	ADJ	Gender=Masc|Number=Sing	amod	16	704	710	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	et	et	CCONJ	CCONJ	_	cc	20	711	713	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	n'	ne	ADV	ADV	Polarity=Neg	advmod	20	714	716	_	_	_	Err	a ## :	714-725	_	_	_	_	_	_	_	_
+20	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	16	716	721	_	_	_	Err	a ## :	714-725	_	_	_	_	_	_	_	_
+21	pas	pas	ADV	ADV	Polarity=Neg	advmod	20	722	725	_	_	_	Err	a ## :	714-725	_	_	_	_	_	_	_	_
+22	d'	un	DET	DET	Definite=Ind|Number=Sing|PronType=Art	det	23	726	728	_	_	_	Err	dans	726-732	_	_	_	_	_	_	_	_
+23	œils	œil	NOUN	NOUN	Gender=Masc|Number=Plur	obj	20	728	732	_	_	_	Err	dans	726-732	_	_	_	_	_	_	_	_
+24	mais	mais	CCONJ	CCONJ	_	cc	25	733	737	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	avait	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	20	738	743	_	_	_	Err	##	738-743	_	_	_	_	_	_	_	_
+26	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	27	744	746	_	_	_	Err	inoda ##t	744-753	_	_	_	_	_	_	_	_
+27	odorat	odorat	NOUN	NOUN	Gender=Masc|Number=Sing	obj	25	747	753	_	_	_	Err	inoda ##t	744-753	_	_	_	_	_	_	_	_
+28	inimaginable	inimaginable	ADJ	ADJ	Gender=Masc|Number=Sing	amod	27	754	766	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	.	PUNCT	PUNCT	_	punct	3	766	767	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	2	768	770	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	crie	crier	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	root	0	771	775	_	_	_	Err	cri	771-775	_	_	_	_	_	_	_	_
+3	en	en	ADP	ADP	_	mark	4	776	778	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	voyant	voir	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	2	779	785	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	6	786	788	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	obj	4	789	796	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	mais	mais	CCONJ	CCONJ	_	cc	10	797	801	_	_	_	Err	il	797-804	_	_	_	_	_	_	_	_
+8	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	10	802	804	_	_	_	Err	il	797-804	_	_	_	_	_	_	_	_
+9	le	le	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obj	10	805	807	_	_	_	_	_	_	_	_	is_GNon_incertDOui_incertRNon	805-807	_	_	_	_
+10	tua	tuer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	2	808	811	_	_	_	Err	tuer	808-811	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	2	811	812	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	813	819	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	820	825	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	826	834	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	834	835	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	836	839	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	836-847	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	840	847	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	836-847	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	848	850	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	851	858	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	859	863	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	864	866	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	867	871	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	871	872	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_

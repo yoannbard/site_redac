@@ -1,564 +1,511 @@
-1	1939-1945	1939-1945	NC	NC		0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	1	1	10	_	1	10	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	(	(	PONCT	PONCT		1	ponct	1	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	11	1	12	_	11	12	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	plus	plus	ADV	ADV		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	12	1	16	_	12	16	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	précisément	_	ADV	ADV		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	17	1	28	_	17	28	_	_	_	Err	précit	17-28	_	_	_	_	_	_	_	_
-5	en	en	P	P		1	dep	1	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	29	1	31	_	29	31	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	1943	1943	NC	NC		5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	32	1	36	_	32	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	)	)	PONCT	PONCT		6	ponct	6	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	36	1	37	_	36	37	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	temps	temps	NC	NC	g=m	1	mod	1	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	38	1	43	_	38	43	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	de	de	P	P		8	dep	8	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	44	1	46	_	44	46	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	12	det	12	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	47	1	49	_	47	49	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	deuxième	deuxième	ADJ	ADJ	n=s	12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	50	1	58	_	50	58	_	_	_	Err	deuxiéme	50-58	_	_	_	_	_	_	_	_
-12	guerre	guerre	NC	NC	n=s|g=f	9	prep	9	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	59	1	65	_	59	65	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	mondiale	mondial	ADJ	ADJ	n=s|g=f	12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	66	1	74	_	66	74	_	_	_	Err	mondial	66-74	_	_	_	_	_	_	_	_
-14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	1	74	1	75	_	74	75	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	C'	ce	CLS	CLS		2	suj	2	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	1	2	3	_	75	77	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	est	être	V	V	n=s|t=P|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	3	2	6	present	77	80	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	l'	le	DET	DET	n=s	4	det	4	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	7	2	9	_	81	83	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	histoire	histoire	NC	NC	n=s|g=f	2	obj	2	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	9	2	17	_	83	91	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	d'	de	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	18	2	20	_	92	94	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	une	une	DET	DET	n=s|g=f	7	det	7	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	20	2	23	_	94	97	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	94-103	_	_	_	_	_	_
-7	fille	fille	NC	NC	n=s|g=f	5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	24	2	29	_	98	103	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	94-103	_	_	_	_	_	_
-8	dont	dont	PROREL	PROREL		13	mod	13	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	30	2	34	_	104	108	_	_	_	Err	Dont	104-108	is_GNon_incertDNon_incertRNon	104-108	_	_	_	_	_	_
-9	le	le	DET	DET	n=s|g=m	10	det	10	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	35	2	37	_	109	111	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	nom	nom	NC	NC	n=s|g=m	13	suj	13	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	38	2	41	_	112	115	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	m'	me	CLO	CLO	n=s|p=1	13	obj	13	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	42	2	44	_	116	118	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	a	avoir	V	V	n=s|t=P|p=3	13	aux_tps	13	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	44	2	45	present	118	119	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	échappé	échapper	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	46	2	53	_	120	127	_	_	_	Err	échapé	120-127	_	_	_	_	_	_	_	_
-14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	53	2	54	_	127	128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	55	2	57	_	129	131	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	il	il	CLS	CLS	n=s|g=m|p=3	4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	58	2	60	_	132	134	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	lui	lui	CLO	CLO	n=s|p=3	4	obj	4	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	61	2	64	_	135	138	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	135-138	_	_	_	_	_	_
-4	arrivait	arriver	V	V	n=s|t=I|p=3	1	dep_coord	1	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	65	2	73	imparfait	139	147	_	_	_	Err	arrivé	139-147	_	_	_	_	_	_	_	_
-5	de	de	P	P		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	74	2	76	_	148	150	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	déménager	déménager	VINF	VINF	t=W	5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	77	2	86	_	151	160	_	_	_	Err	démenagé	151-160	_	_	_	_	_	_	_	_
-7	à	à	P	P		6	mod	6	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	87	2	88	_	161	162	_	_	_	Err	a	161-162	_	_	_	_	_	_	_	_
-8	cause	cause	NC	NC	n=s|g=f	7	prep	7	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	89	2	94	_	163	168	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	d'	de	P	P		6	mod	6	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	95	2	97	_	169	171	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	affaires	affaire	NC	NC	n=p|g=f	9	prep	9	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	97	2	105	_	171	179	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	familiales	familial	ADJ	ADJ	n=p|g=f	10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	106	2	116	_	180	190	_	_	_	Err	familliales	180-190	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	116	2	117	_	190	191	_	_	_	Err	Et	190-194	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	118	2	120	_	192	194	_	_	_	Err	Et	190-194	_	_	_	_	_	_	_	_
-2	elle	elle	CLS	CLS	n=s|g=f|p=3	5	suj	5	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	121	2	125	_	195	199	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	195-199	_	_	_	_	_	_
-3	a	avoir	V	V	n=s|t=P|p=3	5	aux_tps	5	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	126	2	127	present	200	201	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	encore	encore	ADV	ADV		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	128	2	134	_	202	208	_	_	_	Err	encoe	202-208	_	_	_	_	_	_	_	_
-5	déménagé	déménager	VPP	VPP	n=s|g=m|t=K	1	dep_coord	1	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	135	2	143	_	209	217	_	_	_	Err	déménager	209-217	_	_	_	_	_	_	_	_
-6	,	,	PONCT	PONCT		5	ponct	5	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	143	2	144	_	217	218	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	mais	mais	CC	CC		5	coord	5	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	145	2	149	_	219	223	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	ce	ce	DET	DET	n=s|g=m	9	det	9	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	150	2	152	_	224	226	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	coup-ci	_	NC	NC		12	suj	12	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	153	2	160	_	227	234	_	_	_	Err	ci	231-234	_	_	_	_	_	_	_	_
-10	cette	cette	DET	DET	n=s|g=f	11	det	11	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	162	2	167	_	236	241	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	maison-là	_	NC	NC		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	168	2	177	_	242	251	_	_	_	Err	lâ	248-251	_	_	_	_	_	_	_	_
-12	avait	avoir	V	V	n=s|t=I|p=3	7	dep_coord	7	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	178	2	183	imparfait	252	257	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	durée	durée	NC	NC	n=s|g=f	12	obj	12	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	184	2	189	_	258	263	_	_	_	Err	duré	258-263	_	_	_	_	_	_	_	_
-14	plus	plus	ADV	ADV		12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	190	2	194	_	264	268	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	que	que	CS	CS		12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	195	2	198	_	269	272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	les	les	DET	DET	n=p	17	det	17	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	199	2	202	_	273	276	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	autres	autres	PRO	PRO	n=p|g=f,m	15	sub	15	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	203	2	209	_	277	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	.	.	PONCT	PONCT		17	ponct	17	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	209	2	210	_	283	284	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	211	2	215	_	285	289	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	285-289	_	_	_	_	_	_
-2	habitait	habiter	V	V	n=s|t=I|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	216	2	224	imparfait	290	298	consigne	_	_	Err	haBitait	290-298	_	_	_	_	_	_	_	_
-3	dans	dans	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	225	2	229	_	299	303	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	cette	DET	DET	n=s|g=f	5	det	5	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	230	2	235	_	304	309	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	236	2	242	_	310	316	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	243	2	249	_	317	323	consigne	_	_	Err	de puis	317-323	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV		6	mod	6	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	250	2	259	_	324	333	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	259	2	260	_	333	334	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	4	4	ADJ	ADJ		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	261	2	262	_	335	336	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	ans	an	NC	NC	n=p|g=m	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	263	2	266	_	337	340	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	plus	plus	ADV	ADV		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	267	2	271	_	341	345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	tard	tard	ADV	ADV		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	272	2	276	_	346	350	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	.	.	PONCT	PONCT		4	ponct	4	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	276	2	277	_	350	351	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	En	en	P	P		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	278	2	280	_	352	354	_	del	352-352	Err	En	352-354	_	_	_	_	_	_	_	_
-2	4	4	ADJ	ADJ		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	281	2	282	_	355	356	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	ans	an	NC	NC	n=p|g=m	1	prep	1	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	283	2	286	_	357	360	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	la	DET	DET	n=s|g=f	5	det	5	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	287	2	289	_	361	363	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NC	NC	n=s|g=f	11	suj	11	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	290	2	296	_	364	370	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	n'	ne	ADV	ADV		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	297	2	299	_	371	373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	a	avoir	V	V	n=s|t=P|p=3	11	aux_tps	11	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	299	2	300	present	373	374	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	toujours	toujours	ADV	ADV		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	301	2	309	_	375	383	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	pas	pas	ADV	ADV		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	310	2	313	_	384	387	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	été	être	VPP	VPP	t=K	11	aux_pass	11	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	314	2	317	_	388	391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	vendue	vendre	VPP	VPP	n=s|g=f|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	318	2	324	_	392	398	_	_	_	Err	vendu	392-398	_	_	_	_	_	_	_	_
-12	,	,	PONCT	PONCT		11	ponct	11	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	324	2	325	_	398	399	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	donc	donc	ADV	ADV		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	326	2	330	_	400	404	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	l'	le	DET	DET	n=s	15	det	15	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	331	2	333	_	405	407	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	agence	agence	NC	NC	n=s|g=f	16	suj	16	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	333	2	339	_	407	413	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	décide	décider	V	V	n=s|t=P,S|p=1,3	11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	340	2	346	present	414	420	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	de	de	P	P		16	mod	16	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	347	2	349	_	421	423	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	ne	ne	ADV	ADV		21	mod	21	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	350	2	352	_	424	426	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	plus	plus	ADV	ADV		21	mod	21	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	353	2	357	_	427	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	la	la	CLO	CLO	n=s|g=f|p=3	21	obj	21	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	358	2	360	_	432	434	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	mettre	mettre	VINF	VINF	t=W	17	prep	17	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	361	2	367	_	435	441	_	_	_	Err	maitre	435-441	_	_	_	_	_	_	_	_
-22	en	en	P	P		21	mod	21	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	368	2	370	_	442	444	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	vente	vente	NC	NC	n=s|g=f	22	prep	22	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	371	2	376	_	445	450	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	et	et	CC	CC		16	coord	16	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	377	2	379	_	451	453	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	l'	le	CLO	CLO	n=s|p=3	26	obj	26	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	380	2	382	_	454	456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	abandonne	abandonner	V	V	n=s|t=P,S|p=1,3	24	dep_coord	24	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	382	2	391	present	456	465	_	_	_	Err	abandone	456-465	_	_	_	_	_	_	_	_
-27	.	.	PONCT	PONCT		26	ponct	26	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	391	2	392	_	465	466	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Les	les	DET	DET	n=p	2	det	2	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	393	2	396	_	467	470	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	amis	ami	NC	NC	n=p|g=m	7	suj	7	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	397	2	401	_	471	475	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	de	de	P	P		2	dep	2	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	402	2	404	_	476	478	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	la	DET	DET	n=s|g=f	5	det	5	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	405	2	407	_	479	481	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	479-487	_	_	_	_	_	_
-5	fille	fille	NC	NC	n=s|g=f	3	prep	3	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	408	2	413	_	482	487	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	479-487	_	_	_	_	_	_
-6	ont	avoir	V	V	n=p|t=P|p=3	7	aux_tps	7	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	414	2	417	present	488	491	_	_	_	Err	on	488-491	_	_	_	_	_	_	_	_
-7	appris	apprendre	VPP	VPP	g=m|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	418	2	424	_	492	498	_	_	_	Err	apris	492-498	_	_	_	_	_	_	_	_
-8	dans	dans	P	P		7	mod	7	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	425	2	429	_	499	503	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	une	une	DET	DET	n=s|g=f	11	det	11	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	430	2	433	_	504	507	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	triste	triste	ADJ	ADJ	n=s	11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	434	2	440	_	508	514	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	lettre	lettre	NC	NC	n=s|g=f	8	prep	8	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	441	2	447	_	515	521	_	del	515-515	Err	lettres	515-521	_	_	_	_	_	_	_	_
-12	qu'	que	PROREL	PROREL		17	obj	17	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	448	2	451	_	522	525	_	_	_	Err	que elle	522-529	_	_	_	_	_	_	_	_
-13	elle	elle	CLS	CLS	n=s|g=f|p=3	17	suj	17	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	451	2	455	_	525	529	_	_	_	Err	que elle	522-529	is_GNon_incertDNon_incertRNon	525-529	_	_	_	_	_	_
-14	et	et	CC	CC		13	root	13	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	456	2	458	_	530	532	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	ses	ses	DET	DET	n=p|p=3|poss=s	16	det	16	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	459	2	462	_	533	536	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	533-536	_	_	_	_	_	_
-16	parents	parent	NC	NC	n=p|g=m	17	suj	17	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	463	2	470	_	537	544	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	allaient	aller	V	V	n=p|t=I|p=3	11	mod_rel	11	mod_rel	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	471	2	479	imparfait	545	553	_	_	_	Err	aller	545-553	_	_	_	_	_	_	_	_
-18	mourir	mourir	VINF	VINF	t=W	17	obj	17	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	480	2	486	_	554	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	dans	dans	P	P		18	mod	18	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	487	2	491	_	561	565	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	un	un	DET	DET	n=s|g=m	21	det	21	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	492	2	494	_	566	568	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	camp	camp	NC	NC	n=s|g=m	19	prep	19	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	495	2	499	_	569	573	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	de	de	P	P		18	mod	18	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	500	2	502	_	574	576	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	concentration	concentration	NC	NC	n=s|g=f	22	prep	22	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	503	2	516	_	577	590	_	_	_	Err	consantration	577-590	_	_	_	_	_	_	_	_
-24	à	à	P	P		18	mod	18	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	517	2	518	_	591	592	_	_	_	Err	a	591-592	_	_	_	_	_	_	_	_
-25	cause	cause	NC	NC	n=s|g=f	24	prep	24	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	519	2	524	_	593	598	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	de	de	P	P		18	mod	18	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	525	2	527	_	599	601	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	leur	leur	DET	DET	n=s|p=3|poss=p	28	det	28	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	528	2	532	_	602	606	_	_	_	Err	leurs	602-606	is_GOui_incertDNon_incertRNon	602-606	_	_	_	_	_	_
-28	religion	religion	NC	NC	n=s|g=f	26	prep	26	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	533	2	541	_	607	615	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	.	.	PONCT	PONCT		28	ponct	28	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	541	2	542	_	615	616	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	La	la	DET	DET	n=s|g=f	2	det	2	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	543	2	545	_	617	619	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	lettre	lettre	NC	NC	n=s|g=f	3	suj	3	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	546	2	552	_	620	626	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	vient	venir	V	V	n=s|t=P|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	553	2	558	present	627	632	_	_	_	Err	viens	627-632	_	_	_	_	_	_	_	_
-4	du	de	P+D	P+D	n=s|g=m	3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	559	2	561	_	633	635	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	général	général	NC	NC	n=s|g=m	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	564	2	571	_	638	645	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	de	de	P	P		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	572	2	574	_	646	648	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	la	la	DET	DET	n=s|g=f	8	det	8	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	575	2	577	_	649	651	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	guerre	guerre	NC	NC	n=s|g=f	6	prep	6	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	578	2	584	_	652	658	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	allemande	allemand	ADJ	ADJ	n=s|g=f	8	mod	8	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	585	2	594	_	659	668	_	_	_	Err	Allemande	659-668	_	_	_	_	_	_	_	_
-10	.	.	PONCT	PONCT		9	ponct	9	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	594	2	595	_	668	669	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Un	un	DET	DET	n=s|g=m	2	det	2	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	596	2	598	_	670	672	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	ami	ami	NC	NC	n=s|g=m	7	suj	7	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	599	2	602	_	673	676	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	attristé	attrister	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	604	2	612	_	678	686	_	_	_	Err	atristé	678-686	_	_	_	_	_	_	_	_
-4	de	de	P	P		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	613	2	615	_	687	689	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	6	det	6	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	616	2	618	_	690	692	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	690-692	_	_	_	_	_	_
-6	mort	mort	NC	NC	n=s|g=f,m	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	619	2	623	_	693	697	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	va	aller	V	V	n=s|t=P|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	624	2	626	present	698	700	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	se	se	CLR	CLR	n=p,s|p=3	9	aff	9	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	627	2	629	_	701	703	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	réfugier	réfugier	VINF	VINF	t=W	7	obj	7	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	630	2	638	_	704	712	_	_	_	Err	réfugié	704-712	_	_	_	_	_	_	_	_
-10	dans	dans	P	P		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	639	2	643	_	713	717	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	son	son	DET	DET	n=s|g=m|p=3|poss=s	13	det	13	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	644	2	647	_	718	721	_	subst	719-721	_	_	_	is_GNon_incertDNon_incertRNon	718-721	_	_	_	_	_	_
-12	ancienne	ancien	ADJ	ADJ	n=s|g=f	13	mod	13	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	648	2	656	_	722	730	_	del	722-722	Err	ancienne	722-730	_	_	_	_	_	_	_	_
-13	maison	maison	NC	NC	n=s|g=f	10	prep	10	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	657	2	663	_	731	737	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	663	2	664	_	737	738	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	665	2	667	_	739	741	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	partageait	partager	V	V	n=s|t=I|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	668	2	678	imparfait	742	752	_	_	_	Err	partagait	742-752	_	_	_	_	_	_	_	_
-3	la	la	DET	DET	n=s|g=f	5	det	5	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	679	2	681	_	753	755	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	même	même	ADJ	ADJ	n=s	5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	682	2	686	_	756	760	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	religion	religion	NC	NC	n=s|g=f	2	obj	2	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	687	2	695	_	761	769	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	qu'	que	PROREL	PROREL		0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	696	2	699	_	770	773	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	elle	elle	CLS	CLS	n=s|g=f|p=3	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	699	2	703	_	773	777	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	772-777	_	_	_	_	_	_
-8	mais	mais	CC	CC		7	root	7	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	704	2	708	_	778	782	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	il	il	CLS	CLS	n=s|g=m|p=3	14	suj	14	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	709	2	711	_	783	785	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	n'	ne	ADV	ADV		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	712	2	714	_	786	788	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	est	être	V	V	n=s|t=P|p=3	14	aux_tps	14	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	714	2	717	present	788	791	_	_	_	Err	ait	788-791	_	_	_	_	_	_	_	_
-12	toujours	toujours	ADV	ADV		13	mod	13	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	718	2	726	_	792	800	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	pas	pas	ADV	ADV		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	727	2	730	_	801	804	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	découvert	découvrir	VPP	VPP	n=s|g=m|t=K	8	dep_coord	8	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	731	2	740	_	805	814	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	par	par	P	P		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	741	2	744	_	815	818	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	l'	le	DET	DET	n=s	17	det	17	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	745	2	747	_	819	821	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	armée	armée	NC	NC	n=s|g=f	15	prep	15	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	747	2	752	_	821	826	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	allemande	allemand	ADJ	ADJ	n=s|g=f	17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	753	2	762	_	827	836	_	_	_	Err	Allemande	827-836	_	_	_	_	_	_	_	_
-19	.	.	PONCT	PONCT		18	ponct	18	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	762	2	763	_	836	837	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	764	2	766	_	838	840	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	n'	ne	ADV	ADV		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	767	2	769	_	841	843	_	del	843-843	_	_	_	_	_	_	_	_	_	_	_
-3	était	être	V	V	n=s|t=I|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	769	2	774	imparfait	843	848	_	del	843-843	Err	étaits	843-848	_	_	_	_	_	_	_	_
-4	pas	pas	ADV	ADV		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	775	2	778	_	849	852	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	seul	seul	ADJ	ADJ	n=s|g=m	3	ats	3	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	779	2	783	_	853	857	_	_	_	Err	seule	853-857	_	_	_	_	_	_	_	_
-6	à	à	P	P		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	784	2	785	_	858	859	_	_	_	Err	a	858-859	_	_	_	_	_	_	_	_
-7	avoir	avoir	VINF	VINF	t=W	6	prep	6	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	786	2	791	_	860	865	_	_	_	Err	avoirs	860-865	_	_	_	_	_	_	_	_
-8	la	la	DET	DET	n=s|g=f	10	det	10	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	792	2	794	_	866	868	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	même	même	ADJ	ADJ	n=s	10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	795	2	799	_	869	873	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	religion	religion	NC	NC	n=s|g=f	7	obj	7	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	800	2	808	_	874	882	_	_	_	Err	religions	874-882	_	_	_	_	_	_	_	_
-11	qu'	que	PROREL	PROREL		0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	809	2	812	_	883	886	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	elle	elle	CLS	CLS	n=s|g=f|p=3	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	812	2	816	_	886	890	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	886-890	_	_	_	_	_	_
-13	et	et	CC	CC		12	root	12	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	817	2	819	_	891	893	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	à	à	P	P		24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	820	2	821	_	894	895	_	_	_	Err	a	894-895	_	_	_	_	_	_	_	_
-15	aller	aller	VINF	VINF	t=W	14	prep	14	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	822	2	827	_	896	901	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	se	se	CLR	CLR	n=p,s|p=3	17	aff	17	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	828	2	830	_	902	904	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	réfugier	réfugier	VINF	VINF	t=W	15	obj	15	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	831	2	839	_	905	913	_	_	_	Err	réfugié	905-913	_	_	_	_	_	_	_	_
-18	chez	chez	P	P		17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	840	2	844	_	914	918	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	elle	elle	PRO	PRO	n=s|g=f|p=3	18	prep	18	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	845	2	849	_	919	923	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	919-923	_	_	_	_	_	_
-20	,	,	PONCT	PONCT		19	ponct	19	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	849	2	850	_	923	924	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	(	(	PONCT	PONCT		19	ponct	19	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	851	2	852	_	925	926	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	je	je	CLS	CLS	n=s|p=1	24	suj	24	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	852	2	854	_	926	928	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	ne	ne	ADV	ADV		24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	855	2	857	_	929	931	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	veux	vouloir	V	V	n=s|t=P|p=1,2	13	dep_coord	13	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	858	2	862	present	932	936	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	citer	citer	VINF	VINF	t=W	24	obj	24	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	863	2	868	_	937	942	_	_	_	Err	sité	937-942	_	_	_	_	_	_	_	_
-26	aucun	aucun	DET	DET	n=s|g=m	27	det	27	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	869	2	874	_	943	948	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	nom	nom	NC	NC	n=s|g=m	25	obj	25	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	875	2	878	_	949	952	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	)	)	PONCT	PONCT		27	ponct	27	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	878	2	879	_	952	953	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	et	et	CC	CC		24	coord	24	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	880	2	882	_	954	956	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	là	là	ADV	ADV		31	mod	31	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	883	2	885	_	957	959	_	_	_	Err	la	957-959	_	_	_	_	_	_	_	_
-31	tout	tout	ADV	ADV		29	mod	29	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	886	2	890	_	960	964	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-32	à	à	P	P		29	dep_coord	29	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	891	2	892	_	965	966	_	_	_	Err	a	965-966	_	_	_	_	_	_	_	_
-33	coup	coup	NC	NC	n=s|g=m	32	prep	32	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	893	2	897	_	967	971	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-34	un	un	DET	DET	n=s|g=m	35	det	35	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	898	2	900	_	972	974	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	972-981	_	_	_	_
-35	garçon	garçon	NC	NC	n=s|g=m	36	suj	36	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	901	2	907	_	975	981	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	972-981	_	_	_	_
-36	entendit	entendre	V	V	n=s|t=J|p=3	24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	908	2	916	passeSimple	982	990	_	_	_	Err	se entandit	982-990	_	_	_	_	_	_	_	_
-37	un	un	DET	DET	n=s|g=m	38	det	38	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	917	2	919	_	991	993	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-38	bruit	bruit	NC	NC	n=s|g=m	36	obj	36	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	920	2	925	_	994	999	_	_	_	Err	Bruit	994-1000	_	_	_	_	_	_	_	_
-39	.	.	PONCT	PONCT		38	ponct	38	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	925	2	926	_	999	1000	_	_	_	Err	Bruit	994-1000	_	_	_	_	_	_	_	_
-"
-"
-1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	927	2	929	_	1001	1003	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1001-1003	_	_	_	_
-2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	930	2	932	_	1004	1006	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	933	2	941	passeSimple	1007	1015	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	P	P		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	942	2	944	_	1016	1018	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VPR	VPR	t=G	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	945	2	954	_	1019	1028	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	n=s|g=m	8	det	8	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	955	2	957	_	1029	1031	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	n=s|g=m	8	mod	8	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	958	2	963	_	1032	1037	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	964	2	969	_	1038	1043	consigne	_	_	Err	bruit. En	1038-1046	_	_	_	_	_	_	_	_
-9	en	en	P	P		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	970	2	972	_	1044	1046	_	_	_	Err	bruit. En	1038-1046	_	_	_	_	_	_	_	_
-10	pensant	penser	VPR	VPR	t=G	9	prep	9	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	973	2	980	_	1047	1054	_	del	1047-1047	Err	pensent	1047-1054	_	_	_	_	_	_	_	_
-11	que	que	CS	CS		10	obj	10	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	981	2	984	_	1055	1058	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	c'	ce	CLS	CLS		13	suj	13	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	985	2	987	_	1059	1061	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	est	être	V	V	n=s|t=P|p=3	11	sub	11	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	987	2	990	present	1061	1064	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	l'	le	DET	DET	n=s	15	det	15	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	991	2	993	_	1065	1067	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	armée	armée	NC	NC	n=s|g=f	13	obj	13	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	993	2	998	_	1067	1072	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	allemande	allemand	ADJ	ADJ	n=s|g=f	15	mod	15	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	2	999	2	1008	_	1073	1082	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	de	de	P	P		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	2	3	4	_	1083	1085	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	plus	plus	ADV	ADV		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	5	3	9	_	1086	1090	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dehors	dehors	ADV	ADV		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	10	3	16	_	1091	1097	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	il	il	CLS	CLS	n=s|g=m|p=3	5	suj	5	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	17	3	19	_	1098	1100	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	fait	faire	V	V	n=s|t=P|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	20	3	24	present	1101	1105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	très	très	ADV	ADV		7	mod	7	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	25	3	29	_	1106	1110	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	sombre	sombre	ADJ	ADJ	n=s	5	ats	5	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	30	3	36	_	1111	1117	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	36	3	37	_	1117	1118	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Donc	donc	ADV	ADV		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	38	3	42	_	1119	1123	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	ils	ils	CLS	CLS	n=p|g=m|p=3	3	suj	3	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	43	3	46	_	1124	1127	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1124-1127	_	_	_	_
-3	décident	décider	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	47	3	55	present	1128	1136	_	_	_	Err	décide	1128-1136	_	_	_	_	_	_	_	_
-4	de	de	P	P		3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	56	3	58	_	1137	1139	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	tous	tout	PRO	PRO	n=p|g=m	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	59	3	63	_	1140	1144	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1140-1144	_	_	_	_
-6	se	se	CLR	CLR	n=p,s|p=3	7	aff	7	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	64	3	66	_	1145	1147	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	cacher	cacher	VINF	VINF	t=W	3	obj	3	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	67	3	73	_	1148	1154	_	_	_	Err	caché	1148-1154	_	_	_	_	_	_	_	_
-8	tout	tout	ADJ	ADJ	n=s|g=m	10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	74	3	78	_	1155	1159	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1155-1168	_	_	_	_
-9	le	le	DET	DET	n=s|g=m	10	det	10	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	79	3	81	_	1160	1162	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1155-1168	_	_	_	_
-10	monde	monde	NC	NC	n=s|g=m	7	obj	7	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	82	3	87	_	1163	1168	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1155-1168	_	_	_	_
-11	sauf	sauf	P	P		7	mod	7	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	88	3	92	_	1169	1173	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	une	une	DET	DET	n=s|g=f	13	det	13	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	93	3	96	_	1174	1177	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1174-1186
-13	personne	personne	NC	NC	n=s|g=f	11	prep	11	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	97	3	105	_	1178	1186	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1174-1186
-14	qui	qui	PROREL	PROREL	n=s	17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	106	3	109	_	1187	1190	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1187-1190
-15	elle	elle	CLS	CLS	n=s|g=f|p=3	17	suj	17	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	110	3	114	_	1191	1195	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1191-1195
-16	n'	ne	ADV	ADV		17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	115	3	117	_	1196	1198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	est	être	V	V	n=s|t=P|p=3	13	mod_rel	13	mod_rel	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	117	3	120	present	1198	1201	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	pas	pas	ADV	ADV		17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	121	3	124	_	1202	1205	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	juive	juif	ADJ	ADJ	n=s|g=f	17	ats	17	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	125	3	130	_	1206	1211	_	_	_	Err	JUIFF	1206-1211	_	_	_	_	_	_	_	_
-20	.	.	PONCT	PONCT		19	ponct	19	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	130	3	131	_	1211	1212	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Ainsi	ainsi	ADV	ADV		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	132	3	137	_	1213	1218	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	qu'	que	CS	CS		0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	138	3	141	_	1219	1222	_	_	_	Err	une	1219-1225	_	_	_	_	_	_	_	_
-3	une	une	DET	DET	n=s|g=f	5	det	5	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	141	3	144	_	1222	1225	_	_	_	Err	une	1219-1225	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1222-1236
-4	autre	autre	ADJ	ADJ	n=s	5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	145	3	150	_	1226	1231	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1222-1236
-5	amie	amie	NC	NC	n=s|g=f	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	151	3	155	_	1232	1236	_	_	_	Err	amis	1232-1236	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1222-1236
-6	qu'	que	CS	CS		5	dep	5	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	156	3	159	_	1237	1240	_	_	_	_	_	_	_	_	_	_	_	_	GNon_incertDNon_incertRNon	1237-1239
-7	une	une	DET	DET	n=s|g=f	8	det	8	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	159	3	162	_	1240	1243	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	juive	juif	ADJ	ADJ	n=s|g=f	10	suj	10	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	163	3	168	_	1244	1249	_	_	_	Err	Juif	1244-1249	_	_	_	_	_	_	_	_
-9	avait	avoir	V	V	n=s|t=I|p=3	10	aux_tps	10	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	169	3	174	imparfait	1250	1255	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	amenée	amener	VPP	VPP	n=s|g=f|t=K	6	sub	6	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	175	3	181	_	1256	1262	_	_	_	Err	amener	1256-1262	_	_	_	_	_	_	_	_
-11	.	.	PONCT	PONCT		10	ponct	10	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	181	3	182	_	1262	1263	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	183	3	185	_	1264	1266	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	là	là	ADV	ADV		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	186	3	188	_	1267	1269	_	_	_	Err	lâ	1267-1269	_	_	_	_	_	_	_	_
-3	c'	ce	CLS	CLS		4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	189	3	191	_	1270	1272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	est	être	V	V	n=s|t=P|p=3	1	dep_coord	1	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	191	3	194	present	1272	1275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	l'	le	DET	DET	n=s	6	det	6	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	195	3	197	_	1276	1278	_	del	1276-1276	Err	l'	1276-1278	_	_	_	_	_	_	_	_
-6	armée	armée	NC	NC	n=s|g=f	4	obj	4	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	197	3	202	_	1278	1283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	allemande	allemand	ADJ	ADJ	n=s|g=f	6	mod	6	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	203	3	212	_	1284	1293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	et	et	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	213	3	215	_	1294	1296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	ils	ils	CLS	CLS	n=p|g=m|p=3	10	suj	10	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	216	3	219	_	1297	1300	_	del	1297-1297	Err	save	1297-1307	_	_	is_GOui_incertDNon_incertRNon	1297-1300	_	_	_	_
-10	savent	savoir	V	V	n=p|t=P|p=3	8	dep_coord	8	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	220	3	226	present	1301	1307	_	_	_	Err	save	1297-1307	_	_	_	_	_	_	_	_
-11	qu'	que	CS	CS		10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	227	3	230	_	1308	1311	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	il	il	CLS	CLS	n=s|g=m|p=3	14	suj	14	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	230	3	232	_	1311	1313	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	y	y	CLO	CLO		14	aff	14	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	233	3	234	_	1314	1315	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	a	avoir	V	V	n=s|t=P|p=3	11	sub	11	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	235	3	236	present	1316	1317	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	des	des	DET	DET	n=p	16	det	16	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	237	3	240	_	1318	1321	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1318-1327	_	_	_	_
-16	juifs	juif	ADJ	ADJ	n=p|g=m	14	obj	14	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	241	3	246	_	1322	1327	_	_	_	Err	Juif	1322-1327	_	_	in_GOui_incertDNon_incertROui	1318-1327	_	_	_	_
-17	ici	ici	ADV	ADV		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	247	3	250	_	1328	1331	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	et	et	CC	CC		10	coord	10	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	251	3	253	_	1332	1334	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	menaçent	_	NC	NC		28	suj	28	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	254	3	262	_	1335	1343	_	_	_	Err	menace	1335-1343	_	_	_	_	_	_	_	_
-20	de	de	P	P		19	dep	19	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	263	3	265	_	1344	1346	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	tuer	tuer	VINF	VINF	t=W	20	prep	20	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	266	3	270	_	1347	1351	_	_	_	Err	tué	1347-1351	_	_	_	_	_	_	_	_
-22	les	les	DET	DET	n=p	23	det	23	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	271	3	274	_	1352	1355	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1352-1376	_	_
-23	personnes	personne	NC	NC	n=p|g=f	21	obj	21	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	275	3	284	_	1356	1365	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1352-1376	_	_
-24	non-juives	_	NPP	NPP		23	mod	23	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	285	3	295	_	1366	1376	_	_	_	Err	Juif	1370-1376	_	_	_	_	in_GNon_incertDNon_incertRNon	1352-1376	_	_
-25	s'	se	CLR	CLR	n=p,s|p=3	28	aff	28	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	296	3	298	_	1377	1379	_	_	_	Err	ci	1377-1379	_	_	_	_	_	_	_	_
-26	ils	ils	CLS	CLS	n=p|g=m|p=3	28	suj	28	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	298	3	301	_	1379	1382	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1378-1382	_	_
-27	ne	ne	ADV	ADV		28	mod	28	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	302	3	304	_	1383	1385	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	disent	dire	V	V	n=p|t=P,S|p=3	18	dep_coord	18	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	305	3	311	present	1386	1392	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	pas	pas	ADV	ADV		28	mod	28	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	312	3	315	_	1393	1396	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	où	où	PROREL	PROREL		32	mod	32	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	316	3	318	_	1397	1399	_	_	_	Err	ou	1397-1399	_	_	_	_	_	_	_	_
-31	sont	être	V	V	n=p|t=P|p=3	32	aux_tps	32	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	319	3	323	present	1400	1404	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-32	cachés	cacher	VPP	VPP	n=p|g=m|t=K	28	mod	28	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	324	3	330	_	1405	1411	_	_	_	Err	caché	1405-1411	_	_	_	_	_	_	_	_
-33	les	les	DET	DET	n=p	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	331	3	334	_	1412	1415	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1412-1421	_	_	_	_
-34	juifs	juif	ADJ	ADJ	n=p|g=m	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	335	3	340	_	1416	1421	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1412-1421	_	_	_	_
-35	.	.	PONCT	PONCT		34	ponct	34	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	340	3	341	_	1421	1422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Les	les	DET	DET	n=p	3	det	3	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	342	3	345	_	1423	1426	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1423-1436	_	_
-2	deux	deux	ADJ	ADJ	s=card|n=p	3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	346	3	350	_	1427	1431	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1423-1436	_	_
-3	amis	ami	NC	NC	n=p|g=m	4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	351	3	355	_	1432	1436	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1423-1436	_	_
-4	disent	dire	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	356	3	362	present	1437	1443	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	où	où	PROREL	PROREL		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	363	3	365	_	1444	1446	_	_	_	Err	ou	1444-1446	_	_	_	_	_	_	_	_
-6	les	les	DET	DET	n=p	7	det	7	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	366	3	369	_	1447	1450	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1447-1457	_	_	_	_
-7	autres	autres	PRO	PRO	n=p|g=f,m	9	suj	9	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	370	3	376	_	1451	1457	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1447-1457	_	_	_	_
-8	sont	être	V	V	n=p|t=P|p=3	9	aux_pass	9	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	377	3	381	present	1458	1462	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	cachés	cacher	VPP	VPP	n=p|g=m|t=K	4	ats	4	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	382	3	388	_	1463	1469	_	_	_	Err	caché	1463-1469	_	_	_	_	_	_	_	_
-10	et	et	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	389	3	391	_	1470	1472	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	c'	ce	CLS	CLS		12	suj	12	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	392	3	394	_	1473	1475	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	est	être	V	V	n=s|t=P|p=3	10	dep_coord	10	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	394	3	397	present	1475	1478	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	la	la	DET	DET	n=s|g=f	14	det	14	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	398	3	400	_	1479	1481	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	fin	fin	NC	NC	n=s	12	obj	12	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	401	3	404	_	1482	1485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	pour	pour	P	P		12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	405	3	409	_	1486	1490	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	eux	eux	PRO	PRO	n=p|g=m|p=3	15	prep	15	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	410	3	413	_	1491	1494	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1491-1494	_	_	_	_
-17	car	car	CS	CS		12	mod	12	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	414	3	417	_	1495	1498	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	au	à	P+D	P+D	n=s|g=m	30	mod	30	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	418	3	420	_	1499	1501	_	_	_	Err	aux	1499-1501	_	_	_	_	_	_	_	_
-19	lieu	lieu	NC	NC	n=s|g=m	18	prep	18	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	421	3	425	_	1502	1506	_	del	1506-1506	Err	lieux	1502-1506	_	_	_	_	_	_	_	_
-20	d'	de	P	P		19	dep	19	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	426	3	428	_	1507	1509	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	être	être	VINF	VINF	t=W	22	aux_pass	22	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	428	3	432	_	1509	1513	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	emmenés	emmener	VPP	VPP	n=p|g=m|t=K	20	prep	20	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	433	3	440	_	1514	1521	_	del	1514-1514	Err	amené -- alternatives : amenés	1514-1521	_	_	_	_	_	_	_	_
-23	dans	dans	P	P		22	mod	22	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	441	3	445	_	1522	1526	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	un	un	DET	DET	n=s|g=m	25	det	25	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	446	3	448	_	1527	1529	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	camp	camp	NC	NC	n=s|g=m	23	prep	23	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	449	3	453	_	1530	1534	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	de	de	P	P		22	mod	22	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	454	3	456	_	1535	1537	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	concentration	concentration	NC	NC	n=s|g=f	26	prep	26	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	457	3	470	_	1538	1551	_	_	_	Err	consantration	1538-1551	_	_	_	_	_	_	_	_
-28	ils	ils	CLS	CLS	n=p|g=m|p=3	30	suj	30	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	471	3	474	_	1552	1555	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1552-1555	_	_	_	_
-29	sont	être	V	V	n=p|t=P|p=3	30	aux_pass	30	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	475	3	479	present	1556	1560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	exécutés	exécuter	VPP	VPP	n=p|g=m|t=K	17	sub	17	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	480	3	488	_	1561	1569	_	_	_	Err	éxecuté	1561-1569	_	_	_	_	_	_	_	_
-31	.	.	PONCT	PONCT		30	ponct	30	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	488	3	489	_	1569	1570	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Les	les	DET	DET	n=p	3	det	3	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	490	3	493	_	1571	1574	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1571-1584	_	_
-2	deux	deux	ADJ	ADJ	s=card|n=p	3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	494	3	498	_	1575	1579	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1571-1584	_	_
-3	amis	ami	NC	NC	n=p|g=m	5	suj	5	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	499	3	503	_	1580	1584	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1571-1584	_	_
-4	sont	être	V	V	n=p|t=P|p=3	5	aux_pass	5	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	504	3	508	present	1585	1589	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	traumatisés	traumatiser	VPP	VPP	n=p|g=m|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	3	510	3	521	_	1591	1602	_	_	_	Err	tromatisés	1591-1602	_	_	_	_	_	_	_	_
-"
-"
-1	ils	ils	CLS	CLS	n=p|g=m|p=3	2	suj	2	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	2	4	5	_	1603	1606	_	_	_	Err	reparte	1603-1616	_	_	_	_	is_GNon_incertDNon_incertRNon	1603-1606	_	_
-2	repartent	repartir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	6	4	15	present	1607	1616	_	_	_	Err	reparte	1603-1616	_	_	_	_	_	_	_	_
-3	rapidement	_	ADV	ADV		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	16	4	26	_	1617	1627	_	_	_	Err	rapidements	1617-1627	_	_	_	_	_	_	_	_
-4	en	en	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	27	4	29	_	1628	1630	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	courant	courir	VPR	VPR	t=G	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	30	4	37	_	1631	1638	_	_	_	Err	courants	1631-1638	_	_	_	_	_	_	_	_
-6	avec	avec	P	P		5	mod	5	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	38	4	42	_	1639	1643	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	comme	comme	P	P		6	dep	6	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	43	4	48	_	1644	1649	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	souvenir	souvenir	NC	NC	n=s|g=m	7	prep	7	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	49	4	57	_	1650	1658	_	_	_	Err	souvenirs	1650-1658	_	_	_	_	_	_	_	_
-9	la	la	DET	DET	n=s|g=f	10	det	10	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	58	4	60	_	1659	1661	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	mort	mort	NC	NC	n=s|g=f,m	5	obj	5	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	61	4	65	_	1662	1666	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	et	et	CC	CC		10	coord	10	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	66	4	68	_	1667	1669	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	la	la	DET	DET	n=s|g=f	13	det	13	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	69	4	71	_	1670	1672	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	tristesse	tristesse	NC	NC	n=s|g=f	11	dep_coord	11	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	72	4	81	_	1673	1682	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	81	4	82	_	1682	1683	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Depuis	depuis	P	P		8	mod	8	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	83	4	89	_	1684	1690	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	90	4	95	_	1691	1696	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	96	4	104	_	1697	1705	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	104	4	105	_	1705	1706	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	106	4	109	_	1707	1710	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1707-1718	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	110	4	117	_	1711	1718	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1707-1718	_	_
-7	ne	ne	ADV	ADV		8	mod	8	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	118	4	120	_	1719	1721	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	121	4	128	present	1722	1729	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV		8	mod	8	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	129	4	133	_	1730	1734	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	la	DET	DET	n=s|g=f	11	det	11	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	134	4	136	_	1735	1737	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	137	4	141	_	1738	1742	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	141	4	142	_	1742	1743	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Et	et	CC	CC		0	aff	0	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	143	4	145	_	1744	1746	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	penseront	penser	V	V	n=p|t=F|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	146	4	155	autreTemps	1747	1756	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1747-1756	_	_
-3	à	à	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	156	4	157	_	1757	1758	_	_	_	Err	a	1757-1758	_	_	_	_	_	_	_	_
-4	eux	eux	PRO	PRO	n=p|g=m|p=3	3	prep	3	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	158	4	161	_	1759	1762	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1759-1762	_	_	_	_
-5	à	à	P	P		2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	162	4	163	_	1763	1764	_	_	_	Err	a	1763-1764	_	_	_	_	_	_	_	_
-6	jamais	jamais	ADV	ADV		5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	164	4	170	_	1765	1771	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	.	.	PONCT	PONCT		6	ponct	6	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	170	4	171	_	1771	1772	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Ces	ces	DET	DET	n=p	3	det	3	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	172	4	175	_	1773	1776	_	_	_	Err	Ce	1773-1776	_	_	_	_	in_GNon_incertDNon_incertRNon	1773-1792	_	_
-2	deux	deux	ADJ	ADJ	s=card|n=p	3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	176	4	180	_	1777	1781	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1773-1792	_	_
-3	enfants-là	_	NC	NC		4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	181	4	191	_	1782	1792	_	_	_	Err	lâ	1789-1792	_	_	_	_	in_GNon_incertDNon_incertRNon	1773-1792	_	_
-4	partent	partir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	192	4	199	present	1793	1800	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	en	en	P	P		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	200	4	202	_	1801	1803	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	Chine	Chine	NPP	NPP	n=s|g=f	5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	203	4	208	_	1804	1809	_	_	_	Err	chine	1804-1809	_	_	_	_	_	_	_	_
-7	à	à	P	P		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	209	4	210	_	1810	1811	_	_	_	Err	a	1810-1811	_	_	_	_	_	_	_	_
-8	Hiroshima	_	NPP	NPP		7	prep	7	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	212	4	221	_	1813	1822	_	_	_	Err	hirachima	1813-1822	_	_	_	_	_	_	_	_
-9	et	et	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	222	4	224	_	1823	1825	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	meurent	mourir	V	V	n=p|t=P,S|p=3	9	dep_coord	9	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	225	4	232	present	1826	1833	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1826-1833	_	_
-11	dans	dans	P	P		10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	233	4	237	_	1834	1838	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	le	le	DET	DET	n=s|g=m	13	det	13	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	238	4	240	_	1839	1841	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	bombardement	bombardement	NC	NC	n=s|g=m	11	prep	11	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	241	4	253	_	1842	1854	_	del	1850-1850	Err	dans le  Bombardement	1842-1854	_	_	_	_	_	_	_	_
-14	de	de	P	P		10	mod	10	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	254	4	256	_	1855	1857	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	la	la	DET	DET	n=s|g=f	16	det	16	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	257	4	259	_	1858	1860	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	bombe	bombe	NC	NC	n=s|g=f	14	prep	14	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	260	4	265	_	1861	1866	_	_	_	Err	Bombe	1861-1866	_	_	_	_	_	_	_	_
-17	atomique	_	V	V		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	266	4	274	autreTemps	1867	1875	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	ainsi	ainsi	ADV	ADV		17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	275	4	280	_	1876	1881	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	que	que	CS	CS		17	mod	17	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	281	4	284	_	1882	1885	_	_	_	Err	leurs	1882-1891	_	_	_	_	_	_	_	_
-20	leurs	leurs	DET	DET	n=p|p=3|poss=p	21	det	21	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	285	4	290	_	1886	1891	_	_	_	Err	leurs	1882-1891	_	_	_	_	is_GNon_incertDNon_incertRNon	1886-1891	_	_
-21	parents	parent	NC	NC	n=p|g=m	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	291	4	298	_	1892	1899	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	.	.	PONCT	PONCT		21	ponct	21	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	298	4	299	_	1899	1900	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Concernant	concerner	VPR	VPR	t=G	11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	300	4	310	_	1901	1911	_	_	_	Err	Consernant	1901-1911	_	_	_	_	_	_	_	_
-2	la	la	DET	DET	n=s|g=f	3	det	3	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	311	4	313	_	1912	1914	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-3	fille	fille	NC	NC	n=s|g=f	1	obj	1	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	314	4	319	_	1915	1920	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-4	morte	mort	ADJ	ADJ	n=s|g=f|t=K	3	mod	3	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	320	4	325	_	1921	1926	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-5	dans	dans	P	P		1	mod	1	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	326	4	330	_	1927	1931	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-6	un	un	DET	DET	n=s|g=m	7	det	7	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	331	4	333	_	1932	1934	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-7	camp	camp	NC	NC	n=s|g=m	5	prep	5	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	334	4	338	_	1935	1939	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-8	de	de	P	P		7	dep	7	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	339	4	341	_	1940	1942	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-9	concentration	concentration	NC	NC	n=s|g=f	8	prep	8	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	342	4	355	_	1943	1956	_	_	_	Err	consantration	1943-1956	in_GNon_incertDNon_incertRNon	1912-1956	_	_	_	_	_	_
-10	elle	elle	CLS	CLS	n=s|g=f|p=3	11	suj	11	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	356	4	360	_	1957	1961	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1957-1961	_	_	_	_	_	_
-11	est	être	V	V	n=s|t=P|p=3	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	361	4	364	present	1962	1965	_	_	_	Err	morte	1962-1971	_	_	_	_	_	_	_	_
-12	morte	mort	ADJ	ADJ	n=s|g=f|t=K	11	ats	11	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	365	4	370	_	1966	1971	_	_	_	Err	morte	1962-1971	_	_	_	_	_	_	_	_
-13	sur	sur	P	P		11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	371	4	374	_	1972	1975	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	le	le	DET	DET	n=s|g=m	15	det	15	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	375	4	377	_	1976	1978	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	coup	coup	NC	NC	n=s|g=m	13	prep	13	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	378	4	382	_	1979	1983	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	gazée	gazer	VPP	VPP	n=s|g=f|t=K	11	mod	11	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	383	4	388	_	1984	1989	_	_	_	Err	gazifié	1984-1989	_	_	_	_	_	_	_	_
-17	ainsi	ainsi	ADV	ADV		16	mod	16	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	389	4	394	_	1990	1995	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	que	que	CS	CS		16	mod	16	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	395	4	398	_	1996	1999	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	20	det	20	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	399	4	401	_	2000	2002	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2000-2002	_	_	_	_	_	_
-20	mère	mère	NC	NC	n=s|g=f	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	402	4	406	_	2003	2007	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	et	et	CC	CC		20	coord	20	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	407	4	409	_	2008	2010	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	24	det	24	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	410	4	412	_	2011	2013	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2011-2013	_	_	_	_	_	_
-23	petite	petit	ADJ	ADJ	n=s|g=f	24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	413	4	419	_	2014	2020	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	sœur	_	NC	NC		21	dep_coord	21	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	420	4	424	_	2021	2025	_	_	_	Err	soeur	2021-2025	_	_	_	_	_	_	_	_
-25	.	.	PONCT	PONCT		24	ponct	24	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	424	4	425	_	2025	2026	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Son	son	DET	DET	n=s|g=m|p=3|poss=s	2	det	2	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	426	4	429	_	2027	2030	_	_	_	Err	Sont	2027-2030	is_GNon_incertDNon_incertRNon	2027-2030	_	_	_	_	_	_
-2	père	père	NC	NC	n=s|g=m	4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	430	4	434	_	2031	2035	_	_	_	Err	pére	2031-2035	_	_	_	_	_	_	_	_
-3	a	avoir	V	V	n=s|t=P|p=3	4	aux_tps	4	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	435	4	436	present	2036	2037	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	survécu	survivre	VPP	VPP	n=s|g=m|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	437	4	444	_	2038	2045	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	mais	mais	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	445	4	449	_	2046	2050	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	il	il	CLS	CLS	n=s|g=m|p=3	9	suj	9	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	450	4	452	_	2051	2053	_	del	2051-2051	Err	il	2051-2053	_	_	_	_	_	_	_	_
-7	a	avoir	V	V	n=s|t=P|p=3	9	aux_tps	9	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	453	4	454	present	2054	2055	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	été	être	VPP	VPP	t=K	9	aux_pass	9	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	455	4	458	_	2056	2059	_	_	_	Err	était	2056-2059	_	_	_	_	_	_	_	_
-9	retrouvé	retrouver	VPP	VPP	n=s|g=m|t=K	5	dep_coord	5	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	459	4	467	_	2060	2068	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	vivant	vivant	ADJ	ADJ	n=s|g=m	9	ats	9	ats	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	468	4	474	_	2069	2075	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	dans	dans	P	P		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	475	4	479	_	2076	2080	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	la	la	DET	DET	n=s|g=f	13	det	13	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	480	4	482	_	2081	2083	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	chambre	chambre	NC	NC	n=s|g=f	11	prep	11	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	483	4	490	_	2084	2091	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	de	de	P	P		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	491	4	493	_	2092	2094	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	concentration	concentration	NC	NC	n=s|g=f	14	prep	14	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	495	4	508	_	2096	2109	_	_	_	Err	consantration	2096-2109	_	_	_	_	_	_	_	_
-16	,	,	PONCT	PONCT		15	ponct	15	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	508	4	509	_	2109	2110	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	donc	donc	ADV	ADV		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	510	4	514	_	2111	2115	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	on	on	CLS	CLS	n=s|p=3	21	suj	21	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	515	4	517	_	2116	2118	_	_	_	Err	ont	2116-2118	_	_	_	_	_	_	_	_
-19	l'	le	CLO	CLO	n=s|p=3	21	obj	21	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	518	4	520	_	2119	2121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	a	avoir	V	V	n=s|t=P|p=3	21	aux_tps	21	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	520	4	521	present	2121	2122	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	mis	mettre	VPP	VPP	g=m|t=K	9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	522	4	525	_	2123	2126	_	_	_	Err	mit	2123-2126	_	_	_	_	_	_	_	_
-22	dans	dans	P	P		21	mod	21	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	526	4	530	_	2127	2131	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	un	un	DET	DET	n=s|g=m	24	det	24	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	531	4	533	_	2132	2134	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	crématoire	crématoire	NC	NC	n=s|g=m	22	prep	22	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	534	4	544	_	2135	2145	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	(	(	PONCT	PONCT		24	ponct	24	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	545	4	546	_	2146	2147	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	brûlure	brûlure	NC	NC	n=s|g=f	24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	546	4	553	_	2147	2154	_	_	_	Err	Bruleure	2147-2154	_	_	_	_	_	_	_	_
-27	de	de	P	P		26	dep	26	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	554	4	556	_	2155	2157	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	corps	corps	NC	NC	g=m	27	prep	27	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	557	4	562	_	2158	2163	_	del	2163-2163	Err	coprs	2158-2163	_	_	_	_	_	_	_	_
-29	encore	encore	ADV	ADV		30	mod	30	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	563	4	569	_	2164	2170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	vivant	vivant	ADJ	ADJ	n=s|g=m	24	mod	24	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	570	4	576	_	2171	2177	_	_	_	Err	vivants	2171-2177	_	_	_	_	_	_	_	_
-31	pour	pour	P	P		21	mod	21	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	577	4	581	_	2178	2182	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-32	souffrir	souffrir	VINF	VINF	t=W	31	prep	31	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	582	4	590	_	2183	2191	_	_	_	Err	soufrire	2183-2191	_	_	_	_	_	_	_	_
-33	encore	encore	ADV	ADV		32	mod	32	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	591	4	597	_	2192	2198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-34	plus	plus	ADV	ADV		32	mod	32	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	598	4	602	_	2199	2203	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-35	ou	ou	CC	CC		34	coord	34	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	603	4	605	_	2204	2206	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-36	pas	pas	ADV	ADV		37	mod	37	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	606	4	609	_	2207	2210	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-37	vivant	vivant	ADJ	ADJ	n=s|g=m	35	dep_coord	35	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	610	4	616	_	2211	2217	_	_	_	Err	vivants	2211-2217	_	_	_	_	_	_	_	_
-38	)	)	PONCT	PONCT		37	ponct	37	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	616	4	617	_	2217	2218	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-39	.	.	PONCT	PONCT		37	ponct	37	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	617	4	618	_	2218	2219	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	Les	les	DET	DET	n=p	2	det	2	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	619	4	622	_	2220	2223	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-2	enfants	enfant	NC	NC	n=p	9	suj	9	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	623	4	630	_	2224	2231	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-3	morts	mort	ADJ	ADJ	n=p|g=m|t=K	2	mod	2	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	631	4	636	_	2232	2237	_	_	_	Err	mort	2232-2237	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-4	dans	dans	P	P		2	dep	2	dep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	637	4	641	_	2238	2242	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-5	la	la	DET	DET	n=s|g=f	6	det	6	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	642	4	644	_	2243	2245	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-6	maison	maison	NC	NC	n=s|g=f	4	prep	4	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	645	4	651	_	2246	2252	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2220-2252	_	_	_	_
-7	y	y	CLO	CLO		9	aff	9	aff	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	652	4	653	_	2253	2254	_	_	_	Err	sont y	2253-2259	_	_	_	_	_	_	_	_
-8	sont	être	V	V	n=p|t=P|p=3	9	aux_tps	9	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	654	4	658	present	2255	2259	_	_	_	Err	sont y	2253-2259	_	_	_	_	_	_	_	_
-9	restés	rester	VPP	VPP	n=p|g=m|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	659	4	665	_	2260	2266	_	_	_	Err	resté	2260-2266	_	_	_	_	_	_	_	_
-10	sauf	sauf	P	P		9	mod	9	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	666	4	670	_	2267	2271	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	un	un	PRO	PRO	n=s|g=m	10	prep	10	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	671	4	673	_	2272	2274	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	qui	qui	PROREL	PROREL	n=s	14	suj	14	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	674	4	677	_	2275	2278	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	a	avoir	V	V	n=s|t=P|p=3	14	aux_tps	14	aux_tps	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	678	4	679	present	2279	2280	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	survécu	survivre	VPP	VPP	n=s|g=m|t=K	11	mod_rel	11	mod_rel	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	680	4	687	_	2281	2288	_	_	_	Err	survécut	2281-2288	_	_	_	_	_	_	_	_
-15	à	à	P	P		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	688	4	689	_	2289	2290	_	_	_	Err	a	2289-2290	_	_	_	_	_	_	_	_
-16	une	une	DET	DET	n=s|g=f	17	det	17	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	690	4	693	_	2291	2294	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	balle	balle	NC	NC	n=s|g=f	15	prep	15	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	694	4	699	_	2295	2300	_	_	_	Err	Balle	2295-2300	_	_	_	_	_	_	_	_
-18	dans	dans	P	P		14	mod	14	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	700	4	704	_	2301	2305	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	le	le	DET	DET	n=s|g=m	20	det	20	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	705	4	707	_	2306	2308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	genou	genou	NC	NC	n=s|g=m	18	prep	18	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	708	4	713	_	2309	2314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	mais	mais	CC	CC		14	coord	14	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	714	4	718	_	2315	2319	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	il	il	CLS	CLS	n=s|g=m|p=3	23	suj	23	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	719	4	721	_	2320	2322	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	fut	être	V	V	n=s|t=J|p=3	21	dep_coord	21	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	722	4	725	passeSimple	2323	2326	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	quand	quand	CS	CS		23	mod	23	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	726	4	731	_	2327	2332	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	même	même	ADV	ADV		26	mod	26	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	732	4	736	_	2333	2337	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	tué	tuer	VPP	VPP	n=s|g=m|t=K	24	sub	24	sub	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	737	4	740	_	2338	2341	_	del	2338-2338	Err	tuer	2338-2341	_	_	_	_	_	_	_	_
-27	par	par	P	P		26	mod	26	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	741	4	744	_	2342	2345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	la	la	DET	DET	n=s|g=f	29	det	29	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	745	4	747	_	2346	2348	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-29	suite	suite	NC	NC	n=s|g=f	27	prep	27	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	748	4	753	_	2349	2354	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	à	à	P	P		26	mod	26	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	754	4	755	_	2355	2356	_	_	_	Err	a	2355-2356	_	_	_	_	_	_	_	_
-31	ses	ses	DET	DET	n=p|p=3|poss=s	33	det	33	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	756	4	759	_	2357	2360	_	_	_	Err	ces	2357-2360	_	_	_	_	_	_	_	_
-32	45	45	ADJ	ADJ		33	mod	33	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	760	4	762	_	2361	2363	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-33	ans	an	NC	NC	n=p|g=m	30	prep	30	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	4	763	4	766	_	2364	2367	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	il	il	CLS	CLS	n=s|g=m|p=3	4	suj	4	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	2	5	4	_	2368	2370	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	fut	être	V	V	n=s|t=J|p=3	4	aux_pass	4	aux_pass	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	5	5	8	passeSimple	2371	2374	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	encore	encore	ADV	ADV		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	9	5	15	_	2375	2381	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	exécuté	exécuter	VPP	VPP	n=s|g=m|t=K	0	root	0	root	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	16	5	23	_	2382	2389	_	_	_	Err	exécuter	2382-2389	_	_	_	_	_	_	_	_
-5	mais	mais	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	24	5	28	_	2390	2394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	d'	de	P	P		5	dep_coord	5	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	29	5	31	_	2395	2397	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	une	une	DET	DET	n=s|g=f	8	det	8	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	31	5	34	_	2397	2400	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	balle	balle	NC	NC	n=s|g=f	6	prep	6	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	35	5	40	_	2401	2406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	dans	dans	P	P		4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	41	5	45	_	2407	2411	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	le	le	DET	DET	n=s|g=m	11	det	11	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	46	5	48	_	2412	2414	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	cœur	_	NC	NC		9	prep	9	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	49	5	53	_	2415	2419	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	et	et	CC	CC		4	coord	4	coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	54	5	56	_	2420	2422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	sans	sans	P	P		12	dep_coord	12	dep_coord	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	57	5	61	_	2423	2427	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	15	det	15	det	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	62	5	64	_	2428	2430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	jambe	jambe	NC	NC	n=s|g=f	13	prep	13	prep	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	65	5	70	_	2431	2436	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	il	il	CLS	CLS	n=s|g=m|p=3	17	suj	17	suj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	71	5	73	_	2437	2439	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	allait	aller	V	V	n=s|t=I|p=3	4	mod	4	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	74	5	80	imparfait	2440	2446	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	mourir	mourir	VINF	VINF	t=W	17	obj	17	obj	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	81	5	87	_	2447	2453	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	bientôt	bientôt	ADV	ADV		18	mod	18	mod	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	88	5	95	_	2454	2461	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	.	.	PONCT	PONCT		19	ponct	19	ponct	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	5	95	5	96	_	2461	2462	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
-1	FIN	fin	NC	NC	n=s	0	_	0	_	CO-6e-2016-VTAC603-D1-R19-V1_N.ac	6	2	6	5	_	2463	2466	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-"
-"
+1	1939-1945	1939-1945	NUM	NUM	Number=Plur	root	0	0	9	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	(	(	PUNCT	PUNCT	_	punct	6	10	11	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	plus	plus	ADV	ADV	_	advmod	4	11	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	précisément	précisément	ADV	ADV	_	advmod	1	16	27	_	_	_	Err	précit	16-27	_	_	_	_	_	_	_	_
+5	en	en	ADP	ADP	_	case	6	28	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	1943	1943	NUM	NUM	Number=Plur	nmod	1	31	35	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	)	)	PUNCT	PUNCT	_	punct	6	35	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	temps	temps	NOUN	NOUN	Gender=Masc	nmod	1	37	42	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	case	12	43	45	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	12	46	48	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	deuxième	deuxième	ADJ	ADJ	Gender=Fem|Number=Sing	amod	12	49	57	_	_	_	Err	deuxiéme	49-57	_	_	_	_	_	_	_	_
+12	guerre	guerre	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	8	58	64	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	mondiale	mondial	ADJ	ADJ	Gender=Fem|Number=Sing	amod	12	65	73	_	_	_	Err	mondial	65-73	_	_	_	_	_	_	_	_
+1	C'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	4	74	76	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	4	76	79	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	4	80	82	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	histoire	histoire	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	82	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	d'	de	ADP	ADP	_	case	7	91	93	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	7	93	96	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	93-102	_	_	_	_	_	_
+7	fille	fille	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	4	97	102	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	93-102	_	_	_	_	_	_
+8	dont	dont	PRON	PRON	PronType=Rel	nmod	10	103	107	_	_	_	Err	Dont	103-107	is_GNon_incertDNon_incertRNon	103-107	_	_	_	_	_	_
+9	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	10	108	110	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nom	nom	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	13	111	114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	m'	lui	PRON	PRON	Number=Sing|Person=1|PronType=Prs	obl:arg	13	115	117	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	13	117	118	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	échappé	échapper	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	acl:relcl	7	119	126	_	_	_	Err	échapé	119-126	_	_	_	_	_	_	_	_
+14	.	.	PUNCT	PUNCT	_	punct	4	126	127	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	4	128	130	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	4	131	133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	4	134	137	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	134-137	_	_	_	_	_	_
+4	arrivait	arriver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	138	146	_	_	_	Err	arrivé	138-146	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	mark	6	147	149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	déménager	déménager	VERB	VERB	VerbForm=Inf	csubj	4	150	159	_	_	_	Err	démenagé	150-159	_	_	_	_	_	_	_	_
+7	à	à	ADP	ADP	_	advmod	6	160	161	_	_	_	Err	a	160-161	_	_	_	_	_	_	_	_
+8	cause	cause	NOUN	NOUN	Gender=Fem|Number=Sing	fixed	7	162	167	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	d'	de	ADP	ADP	_	case	10	168	170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	affaires	affaire	NOUN	NOUN	Gender=Fem|Number=Plur	obl:arg	7	170	178	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	familiales	familial	ADJ	ADJ	Gender=Fem|Number=Plur	amod	10	179	189	_	_	_	Err	familliales	179-189	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	4	189	190	_	_	_	Err	Et	189-193	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	5	191	193	_	_	_	Err	Et	189-193	_	_	_	_	_	_	_	_
+2	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	5	194	198	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	194-198	_	_	_	_	_	_
+3	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	5	199	200	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	encore	encore	ADV	ADV	_	advmod	5	201	207	_	_	_	Err	encoe	201-207	_	_	_	_	_	_	_	_
+5	déménagé	déménager	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	root	0	208	216	_	_	_	Err	déménager	208-216	_	_	_	_	_	_	_	_
+6	,	,	PUNCT	PUNCT	_	punct	14	216	217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	mais	mais	CCONJ	CCONJ	_	cc	14	218	222	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	9	223	225	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	coup-ci	coup-ci	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	14	226	233	_	_	_	Err	ci	230-233	_	_	_	_	_	_	_	_
+10	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	11	235	240	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	14	241	247	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	-là	là	ADV	ADV	_	advmod	11	247	250	_	_	_	Err	lâ	247-250	_	_	_	_	_	_	_	_
+13	avait	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	14	251	256	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	durée	durée	NOUN	NOUN	Gender=Fem|Number=Sing	conj	5	257	262	_	_	_	Err	duré	257-262	_	_	_	_	_	_	_	_
+15	plus	plus	ADV	ADV	_	advmod	14	263	267	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	que	que	SCONJ	SCONJ	_	case	18	268	271	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	18	272	275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	autres	autre	PRON	PRON	Number=Plur|Person=3|PronType=Ind	obj	15	276	282	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	.	PUNCT	PUNCT	_	punct	5	282	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	284	288	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	284-288	_	_	_	_	_	_
+2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	289	297	consigne	_	_	Err	haBitait	289-297	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	ADP	_	case	5	298	302	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	303	308	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	309	315	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	ADP	_	case	7	316	322	consigne	_	_	Err	de puis	316-322	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	323	332	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	punct	2	332	333	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	4	4	NUM	NUM	Number=Plur	nummod	2	334	335	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	root	0	336	339	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	plus	plus	ADV	ADV	_	advmod	4	340	344	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tard	tard	ADV	ADV	_	advmod	2	345	349	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	punct	2	349	350	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	En	en	ADP	ADP	_	case	3	351	353	_	del	351-351	Err	En	351-353	_	_	_	_	_	_	_	_
+2	4	4	NUM	NUM	Number=Plur	nummod	3	354	355	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	11	356	359	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	360	362	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj:pass	11	363	369	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	n'	ne	ADV	ADV	Polarity=Neg	advmod	11	370	372	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	11	372	373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	toujours	toujours	ADV	ADV	_	advmod	11	374	382	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	pas	pas	ADV	ADV	Polarity=Neg	advmod	11	383	386	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	été	être	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	aux:pass	11	387	390	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	vendue	vendre	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	root	0	391	397	_	_	_	Err	vendu	391-397	_	_	_	_	_	_	_	_
+12	,	,	PUNCT	PUNCT	_	punct	16	397	398	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	donc	donc	CCONJ	CCONJ	_	cc	16	399	403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	15	404	406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	agence	agence	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	16	406	412	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	décide	décider	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	11	413	419	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	mark	21	420	422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ne	ne	ADV	ADV	Polarity=Neg	advmod	21	423	425	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	plus	plus	ADV	ADV	Polarity=Neg	advmod	21	426	430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	la	le	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	obj	21	431	433	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mettre	mettre	VERB	VERB	VerbForm=Inf	xcomp	16	434	440	_	_	_	Err	maitre	434-440	_	_	_	_	_	_	_	_
+22	en	en	ADP	ADP	_	case	23	441	443	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	vente	vente	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	21	444	449	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	et	et	CCONJ	CCONJ	_	cc	26	450	452	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	l'	le	PRON	PRON	Number=Sing|Person=3|PronType=Prs	obj	26	453	455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	abandonne	abandonner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	conj	21	455	464	_	_	_	Err	abandone	455-464	_	_	_	_	_	_	_	_
+27	.	.	PUNCT	PUNCT	_	punct	11	464	465	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	2	466	469	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	amis	ami	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	7	470	474	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	case	5	475	477	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	478	480	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	478-486	_	_	_	_	_	_
+5	fille	fille	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	2	481	486	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	478-486	_	_	_	_	_	_
+6	ont	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	7	487	490	_	_	_	Err	on	487-490	_	_	_	_	_	_	_	_
+7	appris	apprendre	VERB	VERB	Gender=Masc|Tense=Past|VerbForm=Part	root	0	491	497	_	_	_	Err	apris	491-497	_	_	_	_	_	_	_	_
+8	dans	dans	ADP	ADP	_	case	11	498	502	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	11	503	506	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	triste	triste	ADJ	ADJ	Gender=Fem|Number=Sing	amod	11	507	513	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	lettre	lettre	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	7	514	520	_	del	514-514	Err	lettres	514-520	_	_	_	_	_	_	_	_
+12	qu'	que	SCONJ	SCONJ	_	mark	17	521	524	_	_	_	Err	que elle	521-528	_	_	_	_	_	_	_	_
+13	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	17	524	528	_	_	_	Err	que elle	521-528	is_GNon_incertDNon_incertRNon	524-528	_	_	_	_	_	_
+14	et	et	CCONJ	CCONJ	_	cc	16	529	531	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	16	532	535	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	532-535	_	_	_	_	_	_
+16	parents	parent	NOUN	NOUN	Gender=Masc|Number=Plur	conj	13	536	543	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	allaient	aller	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	ccomp	7	544	552	_	_	_	Err	aller	544-552	_	_	_	_	_	_	_	_
+18	mourir	mourir	VERB	VERB	VerbForm=Inf	xcomp	17	553	559	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	dans	dans	ADP	ADP	_	case	21	560	564	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	21	565	567	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	camp	camp	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	18	568	572	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	case	23	573	575	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	concentration	concentration	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	21	576	589	_	_	_	Err	consantration	576-589	_	_	_	_	_	_	_	_
+24	à	à	ADP	ADP	_	advmod	18	590	591	_	_	_	Err	a	590-591	_	_	_	_	_	_	_	_
+25	cause	cause	NOUN	NOUN	Gender=Fem|Number=Sing	fixed	24	592	597	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	case	28	598	600	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	leur	son	DET	DET	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	det	28	601	605	_	_	_	Err	leurs	601-605	is_GOui_incertDNon_incertRNon	601-605	_	_	_	_	_	_
+28	religion	religion	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	24	606	614	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	.	PUNCT	PUNCT	_	punct	7	614	615	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	La	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	2	616	618	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	lettre	lettre	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	3	619	625	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vient	venir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	626	631	_	_	_	Err	viens	626-631	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	case	6	633	633	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	6	634	634	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	général	général	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	3	637	644	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	case	9	645	647	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	9	648	650	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	guerre	guerre	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	6	651	657	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	allemande	allemand	ADJ	ADJ	Gender=Fem|Number=Sing	amod	9	658	667	_	_	_	Err	Allemande	658-667	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	3	667	668	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	2	669	671	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ami	ami	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	7	672	675	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	attristé	attrister	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	acl	2	677	685	_	_	_	Err	atristé	677-685	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	case	6	686	688	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	6	689	691	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	689-691	_	_	_	_	_	_
+6	mort	mort	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	2	692	696	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	va	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	697	699	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	se	se	PRON	PRON	Person=3|PronType=Prs	expl:pass	9	700	702	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	réfugier	réfugier	VERB	VERB	VerbForm=Inf	xcomp	7	703	711	_	_	_	Err	réfugié	703-711	_	_	_	_	_	_	_	_
+10	dans	dans	ADP	ADP	_	case	13	712	716	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	son	son	DET	DET	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	13	717	720	_	subst	718-720	_	_	_	is_GNon_incertDNon_incertRNon	717-720	_	_	_	_	_	_
+12	ancienne	ancien	ADJ	ADJ	Gender=Fem|Number=Sing	amod	13	721	729	_	del	721-721	Err	ancienne	721-729	_	_	_	_	_	_	_	_
+13	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	9	730	736	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	.	PUNCT	PUNCT	_	punct	7	736	737	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	738	740	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	partageait	partager	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	741	751	_	_	_	Err	partagait	741-751	_	_	_	_	_	_	_	_
+3	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	752	754	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	même	même	ADJ	ADJ	Gender=Fem|Number=Sing	amod	5	755	759	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	religion	religion	NOUN	NOUN	Gender=Fem|Number=Sing	obj	2	760	768	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	qu'	que	SCONJ	SCONJ	_	case	7	769	772	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	obl:arg	4	772	776	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	771-776	_	_	_	_	_	_
+8	mais	mais	CCONJ	CCONJ	_	cc	14	777	781	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj:pass	14	782	784	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	n'	ne	ADV	ADV	Polarity=Neg	advmod	14	785	787	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:pass	14	787	790	_	_	_	Err	ait	787-790	_	_	_	_	_	_	_	_
+12	toujours	toujours	ADV	ADV	_	advmod	14	791	799	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	pas	pas	ADV	ADV	Polarity=Neg	advmod	14	800	803	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	découvert	découvrir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	2	804	813	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	par	par	ADP	ADP	_	case	17	814	817	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	17	818	820	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	armée	armée	NOUN	NOUN	Gender=Fem|Number=Sing	obl:agent	14	820	825	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	allemande	allemand	ADJ	ADJ	Gender=Fem|Number=Sing	amod	17	826	835	_	_	_	Err	Allemande	826-835	_	_	_	_	_	_	_	_
+19	.	.	PUNCT	PUNCT	_	punct	2	835	836	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	5	837	839	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	n'	ne	ADV	ADV	Polarity=Neg	advmod	5	840	842	_	del	842-842	_	_	_	_	_	_	_	_	_	_	_
+3	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	5	842	847	_	del	842-842	Err	étaits	842-847	_	_	_	_	_	_	_	_
+4	pas	pas	ADV	ADV	Polarity=Neg	advmod	5	848	851	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	seul	seul	ADJ	ADJ	Gender=Masc|Number=Sing	root	0	852	856	_	_	_	Err	seule	852-856	_	_	_	_	_	_	_	_
+6	à	à	ADP	ADP	_	mark	7	857	858	_	_	_	Err	a	857-858	_	_	_	_	_	_	_	_
+7	avoir	avoir	VERB	VERB	VerbForm=Inf	csubj	5	859	864	_	_	_	Err	avoirs	859-864	_	_	_	_	_	_	_	_
+8	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	10	865	867	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	même	même	ADJ	ADJ	Gender=Fem|Number=Sing	amod	10	868	872	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	religion	religion	NOUN	NOUN	Gender=Fem|Number=Sing	obj	7	873	881	_	_	_	Err	religions	873-881	_	_	_	_	_	_	_	_
+11	qu'	que	SCONJ	SCONJ	_	case	12	882	885	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	obl:arg	9	885	889	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	885-889	_	_	_	_	_	_
+13	et	et	CCONJ	CCONJ	_	cc	15	890	892	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	à	à	ADP	ADP	_	mark	15	893	894	_	_	_	Err	a	893-894	_	_	_	_	_	_	_	_
+15	aller	aller	VERB	VERB	VerbForm=Inf	conj	7	895	900	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	se	se	PRON	PRON	Person=3|PronType=Prs	obj	17	901	903	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	réfugier	réfugier	VERB	VERB	VerbForm=Inf	xcomp	15	904	912	_	_	_	Err	réfugié	904-912	_	_	_	_	_	_	_	_
+18	chez	chez	ADP	ADP	_	case	19	913	917	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	obl:mod	17	918	922	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	918-922	_	_	_	_	_	_
+20	,	,	PUNCT	PUNCT	_	punct	24	922	923	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	(	(	PUNCT	PUNCT	_	punct	24	924	925	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	je	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	24	925	927	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ne	ne	ADV	ADV	Polarity=Neg	advmod	24	928	930	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	veux	vouloir	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	parataxis	5	931	935	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	citer	citer	VERB	VERB	VerbForm=Inf	xcomp	24	936	941	_	_	_	Err	sité	936-941	_	_	_	_	_	_	_	_
+26	aucun	aucun	DET	DET	Gender=Masc|Number=Sing|PronType=Neg	det	27	942	947	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	nom	nom	NOUN	NOUN	Gender=Masc|Number=Sing	obj	25	948	951	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	)	)	PUNCT	PUNCT	_	punct	24	951	952	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	et	et	CCONJ	CCONJ	_	cc	36	953	955	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	là	là	ADV	ADV	_	advmod	36	956	958	_	_	_	Err	la	956-958	_	_	_	_	_	_	_	_
+31	tout	tout	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	obl:mod	36	959	963	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	à	à	ADP	ADP	_	advmod	36	964	965	_	_	_	Err	a	964-965	_	_	_	_	_	_	_	_
+33	coup	coup	NOUN	NOUN	Gender=Masc|Number=Sing	fixed	32	966	970	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	35	971	973	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	971-980	_	_	_	_
+35	garçon	garçon	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	36	974	980	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	971-980	_	_	_	_
+36	entendit	entendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	5	981	989	_	_	_	Err	se entandit	981-989	_	_	_	_	_	_	_	_
+37	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	38	990	992	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	36	993	998	_	_	_	Err	Bruit	993-999	_	_	_	_	_	_	_	_
+39	.	.	PUNCT	PUNCT	_	punct	5	998	999	_	_	_	Err	Bruit	993-999	_	_	_	_	_	_	_	_
+1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	1000	1002	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1000-1002	_	_	_	_
+2	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	3	1003	1005	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	1006	1014	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	ADP	ADP	_	mark	5	1015	1017	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	1018	1027	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	1028	1030	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	8	1031	1036	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	5	1037	1042	consigne	_	_	Err	bruit. En	1037-1045	_	_	_	_	_	_	_	_
+9	en	en	ADP	ADP	_	mark	10	1043	1045	_	_	_	Err	bruit. En	1037-1045	_	_	_	_	_	_	_	_
+10	pensant	penser	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	1046	1053	_	del	1046-1046	Err	pensent	1046-1053	_	_	_	_	_	_	_	_
+11	que	que	SCONJ	SCONJ	_	mark	15	1054	1057	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	15	1058	1060	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	15	1060	1063	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	15	1064	1066	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	armée	armée	NOUN	NOUN	Gender=Fem|Number=Sing	ccomp	10	1066	1071	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	allemande	allemand	ADJ	ADJ	Gender=Fem|Number=Sing	amod	15	1072	1081	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	case	19	1082	1084	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	plus	plus	ADV	ADV	_	fixed	17	1085	1089	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	dehors	dehors	ADV	ADV	_	advmod	15	1090	1096	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	23	1097	1099	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	fait	faire	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	23	1100	1104	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	très	très	ADV	ADV	_	advmod	23	1105	1109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sombre	sombre	ADJ	ADJ	Gender=Masc|Number=Sing	amod	15	1110	1116	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	.	PUNCT	PUNCT	_	punct	3	1116	1117	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Donc	donc	ADV	ADV	_	advmod	3	1118	1122	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	3	1123	1126	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1123-1126	_	_	_	_
+3	décident	décider	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1127	1135	_	_	_	Err	décide	1127-1135	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	case	5	1136	1138	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	tous	tout	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Ind	obl:arg	3	1139	1143	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1139-1143	_	_	_	_
+6	se	se	PRON	PRON	Person=3|PronType=Prs	obj	7	1144	1146	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	cacher	cacher	VERB	VERB	VerbForm=Inf	xcomp	3	1147	1153	_	_	_	Err	caché	1147-1153	_	_	_	_	_	_	_	_
+8	tout	tout	ADJ	ADJ	Gender=Masc|Number=Sing	amod	10	1154	1158	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1154-1167	_	_	_	_
+9	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	10	1159	1161	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1154-1167	_	_	_	_
+10	monde	monde	NOUN	NOUN	Gender=Masc|Number=Sing	obj	7	1162	1167	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1154-1167	_	_	_	_
+11	sauf	sauf	ADP	ADP	_	case	13	1168	1172	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	13	1173	1176	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1173-1185
+13	personne	personne	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	7	1177	1185	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1173-1185
+14	qui	qui	PRON	PRON	PronType=Rel	nsubj	19	1186	1189	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1186-1189
+15	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	19	1190	1194	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1190-1194
+16	n'	ne	ADV	ADV	Polarity=Neg	advmod	19	1195	1197	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	19	1197	1200	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	pas	pas	ADV	ADV	Polarity=Neg	advmod	19	1201	1204	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	juive	juif	ADJ	ADJ	Gender=Fem|Number=Sing	acl:relcl	13	1205	1210	_	_	_	Err	JUIFF	1205-1210	_	_	_	_	_	_	_	_
+20	.	.	PUNCT	PUNCT	_	punct	3	1210	1211	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ainsi	ainsi	ADV	ADV	_	root	0	1212	1217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	qu'	que	SCONJ	SCONJ	_	fixed	1	1218	1221	_	_	_	Err	une	1218-1224	_	_	_	_	_	_	_	_
+3	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	5	1221	1224	_	_	_	Err	une	1218-1224	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1221-1235
+4	autre	autre	ADJ	ADJ	Gender=Fem|Number=Sing	amod	5	1225	1230	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1221-1235
+5	amie	amie	NOUN	NOUN	Gender=Fem|Number=Sing	obj	1	1231	1235	_	_	_	Err	amis	1231-1235	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1221-1235
+6	qu'	que	PRON	PRON	PronType=Rel	obj	10	1236	1239	_	_	_	_	_	_	_	_	_	_	_	_	GNon_incertDNon_incertRNon	1236-1238
+7	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	8	1239	1242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	juive	juif	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	10	1243	1248	_	_	_	Err	Juif	1243-1248	_	_	_	_	_	_	_	_
+9	avait	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	10	1249	1254	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	amenée	amener	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	acl:relcl	5	1255	1261	_	_	_	Err	amener	1255-1261	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	PUNCT	_	punct	1	1261	1262	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	6	1263	1265	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	là	là	ADV	ADV	_	advmod	6	1266	1268	_	_	_	Err	lâ	1266-1268	_	_	_	_	_	_	_	_
+3	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	6	1269	1271	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	6	1271	1274	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	l'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	6	1275	1277	_	del	1275-1275	Err	l'	1275-1277	_	_	_	_	_	_	_	_
+6	armée	armée	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	1277	1282	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	allemande	allemand	ADJ	ADJ	Gender=Fem|Number=Sing	amod	6	1283	1292	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	et	et	CCONJ	CCONJ	_	cc	10	1293	1295	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	10	1296	1299	_	del	1296-1296	Err	save	1296-1306	_	_	is_GOui_incertDNon_incertRNon	1296-1299	_	_	_	_
+10	savent	savoir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	6	1300	1306	_	_	_	Err	save	1296-1306	_	_	_	_	_	_	_	_
+11	qu'	que	SCONJ	SCONJ	_	mark	14	1307	1310	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	14	1310	1312	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	y	y	PRON	PRON	Person=3|PronType=Prs	dep:comp	14	1313	1314	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	a	avoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	ccomp	10	1315	1316	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	des	un	DET	DET	Definite=Ind|Number=Plur|PronType=Art	det	16	1317	1320	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1317-1326	_	_	_	_
+16	juifs	juif	NOUN	NOUN	Gender=Masc|Number=Plur	obj	14	1321	1326	_	_	_	Err	Juif	1321-1326	_	_	in_GOui_incertDNon_incertROui	1317-1326	_	_	_	_
+17	ici	ici	ADV	ADV	_	advmod	14	1327	1330	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	et	et	CCONJ	CCONJ	_	cc	19	1331	1333	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	menaçent	mener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	conj	14	1334	1342	_	_	_	Err	menace	1334-1342	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	mark	21	1343	1345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	tuer	tuer	VERB	VERB	VerbForm=Inf	xcomp	19	1346	1350	_	_	_	Err	tué	1346-1350	_	_	_	_	_	_	_	_
+22	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	23	1351	1354	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1351-1375	_	_
+23	personnes	personne	NOUN	NOUN	Gender=Fem|Number=Plur	obj	21	1355	1364	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1351-1375	_	_
+24	non-juives	non-juif	ADJ	ADJ	Gender=Fem|Number=Plur	amod	23	1365	1375	_	_	_	Err	Juif	1369-1375	_	_	_	_	in_GNon_incertDNon_incertRNon	1351-1375	_	_
+25	s'	si	SCONJ	SCONJ	_	mark	28	1376	1378	_	_	_	Err	ci	1376-1378	_	_	_	_	_	_	_	_
+26	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	28	1378	1381	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1377-1381	_	_
+27	ne	ne	ADV	ADV	Polarity=Neg	advmod	28	1382	1384	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	disent	dire	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	advcl	21	1385	1391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	pas	pas	ADV	ADV	Polarity=Neg	advmod	28	1392	1395	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	où	où	ADV	ADV	PronType=Rel	advmod	32	1396	1398	_	_	_	Err	ou	1396-1398	_	_	_	_	_	_	_	_
+31	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:pass	32	1399	1403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	cachés	cacher	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	ccomp	28	1404	1410	_	_	_	Err	caché	1404-1410	_	_	_	_	_	_	_	_
+33	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	34	1411	1414	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1411-1420	_	_	_	_
+34	juifs	juif	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj:pass	32	1415	1420	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1411-1420	_	_	_	_
+35	.	.	PUNCT	PUNCT	_	punct	6	1420	1421	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	3	1422	1425	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1422-1435	_	_
+2	deux	deux	NUM	NUM	Number=Plur	nummod	3	1426	1430	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1422-1435	_	_
+3	amis	ami	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	4	1431	1435	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1422-1435	_	_
+4	disent	dire	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1436	1442	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	où	où	ADV	ADV	PronType=Rel	advmod	9	1443	1445	_	_	_	Err	ou	1443-1445	_	_	_	_	_	_	_	_
+6	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	7	1446	1449	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1446-1456	_	_	_	_
+7	autres	autre	PRON	PRON	Number=Plur|Person=3|PronType=Ind	nsubj:pass	9	1450	1456	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	1446-1456	_	_	_	_
+8	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:pass	9	1457	1461	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	cachés	cacher	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	ccomp	4	1462	1468	_	_	_	Err	caché	1462-1468	_	_	_	_	_	_	_	_
+10	et	et	CCONJ	CCONJ	_	cc	14	1469	1471	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	nsubj	14	1472	1474	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	14	1474	1477	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	14	1478	1480	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	fin	fin	NOUN	NOUN	Gender=Fem|Number=Sing	conj	4	1481	1484	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	pour	pour	ADP	ADP	_	case	16	1485	1489	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	eux	lui	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nmod	14	1490	1493	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1490-1493	_	_	_	_
+17	car	car	CCONJ	CCONJ	_	cc	31	1494	1497	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	à	à	ADP	ADP	_	advmod	31	1499	1499	_	_	_	Err	aux	1498-1500	_	_	_	_	_	_	_	_
+19	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	fixed	18	1500	1500	_	_	_	Err	aux	1498-1500	_	_	_	_	_	_	_	_
+20	lieu	lieu	NOUN	NOUN	Gender=Masc|Number=Sing	fixed	18	1501	1505	_	del	1505-1505	Err	lieux	1501-1505	_	_	_	_	_	_	_	_
+21	d'	de	ADP	ADP	_	mark	23	1506	1508	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	être	être	AUX	AUX	VerbForm=Inf	aux:pass	23	1508	1512	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	emmenés	emmener	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	ccomp	18	1513	1520	_	del	1513-1513	Err	amené -- alternatives : amenés	1513-1520	_	_	_	_	_	_	_	_
+24	dans	dans	ADP	ADP	_	case	26	1521	1525	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	26	1526	1528	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	camp	camp	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	23	1529	1533	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	case	28	1534	1536	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	concentration	concentration	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	26	1537	1550	_	_	_	Err	consantration	1537-1550	_	_	_	_	_	_	_	_
+29	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj:pass	31	1551	1554	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1551-1554	_	_	_	_
+30	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:pass	31	1555	1559	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	exécutés	exécuter	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	conj	4	1560	1568	_	_	_	Err	éxecuté	1560-1568	_	_	_	_	_	_	_	_
+32	.	.	PUNCT	PUNCT	_	punct	4	1568	1569	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	3	1570	1573	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1570-1583	_	_
+2	deux	deux	NUM	NUM	Number=Plur	nummod	3	1574	1578	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1570-1583	_	_
+3	amis	ami	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj:pass	5	1579	1583	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1570-1583	_	_
+4	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:pass	5	1584	1588	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	traumatisés	traumatiser	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	root	0	1590	1601	_	_	_	Err	tromatisés	1590-1601	_	_	_	_	_	_	_	_
+6	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	7	1602	1605	_	_	_	Err	reparte	1602-1615	_	_	_	_	is_GNon_incertDNon_incertRNon	1602-1605	_	_
+7	repartent	repartir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	5	1606	1615	_	_	_	Err	reparte	1602-1615	_	_	_	_	_	_	_	_
+8	rapidement	rapidement	ADV	ADV	_	advmod	7	1616	1626	_	_	_	Err	rapidements	1616-1626	_	_	_	_	_	_	_	_
+9	en	en	ADP	ADP	_	case	10	1627	1629	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	courant	courant	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	7	1630	1637	_	_	_	Err	courants	1630-1637	_	_	_	_	_	_	_	_
+11	avec	avec	ADP	ADP	_	mark	13	1638	1642	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	comme	comme	ADP	ADP	_	mark	13	1643	1648	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	souvenir	souvenir	VERB	VERB	VerbForm=Inf	advcl	7	1649	1657	_	_	_	Err	souvenirs	1649-1657	_	_	_	_	_	_	_	_
+14	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	15	1658	1660	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	mort	mort	NOUN	NOUN	Gender=Fem|Number=Sing	obj	13	1661	1665	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	et	et	CCONJ	CCONJ	_	cc	18	1666	1668	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	18	1669	1671	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	tristesse	tristesse	NOUN	NOUN	Gender=Fem|Number=Sing	conj	15	1672	1681	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	.	PUNCT	PUNCT	_	punct	5	1681	1682	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	1683	1689	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	1690	1695	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	1696	1704	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	1704	1705	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	1706	1709	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1706-1717	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	1710	1717	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1706-1717	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	1718	1720	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1721	1728	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	1729	1733	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	1734	1736	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	1737	1741	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	1741	1742	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	2	1743	1745	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	penseront	penser	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	root	0	1746	1755	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1746-1755	_	_
+3	à	à	ADP	ADP	_	case	4	1756	1757	_	_	_	Err	a	1756-1757	_	_	_	_	_	_	_	_
+4	eux	lui	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	obl:arg	2	1758	1761	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	1758-1761	_	_	_	_
+5	à	à	ADP	ADP	_	case	6	1762	1763	_	_	_	Err	a	1762-1763	_	_	_	_	_	_	_	_
+6	jamais	jamais	ADV	ADV	Polarity=Neg	advmod	2	1764	1770	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	punct	2	1770	1771	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ces	ce	DET	DET	Number=Plur|PronType=Dem	det	3	1772	1775	_	_	_	Err	Ce	1772-1775	_	_	_	_	in_GNon_incertDNon_incertRNon	1772-1791	_	_
+2	deux	deux	NUM	NUM	Number=Plur	nummod	3	1776	1780	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1772-1791	_	_
+3	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	5	1781	1788	_	_	_	Err	enfant	1781-1788	_	_	_	_	in_GNon_incertDNon_incertRNon	1772-1791	_	_
+4	-là	là	ADV	ADV	_	advmod	3	1788	1791	_	_	_	Err	lâ	1788-1791	_	_	_	_	in_GNon_incertDNon_incertRNon	1772-1791	_	_
+5	partent	partir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	1792	1799	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	en	en	ADP	ADP	_	case	7	1800	1802	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Chine	Chine	PROPN	PROPN	_	obl:mod	5	1803	1808	_	_	_	Err	chine	1803-1808	_	_	_	_	_	_	_	_
+8	à	à	ADP	ADP	_	case	9	1809	1810	_	_	_	Err	a	1809-1810	_	_	_	_	_	_	_	_
+9	Hiroshima	Hiroshima	PROPN	PROPN	_	obl:mod	5	1812	1821	_	_	_	Err	hirachima	1812-1821	_	_	_	_	_	_	_	_
+10	et	et	CCONJ	CCONJ	_	cc	11	1822	1824	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	meurent	mourir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	5	1825	1832	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1825-1832	_	_
+12	dans	dans	ADP	ADP	_	case	14	1833	1837	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	14	1838	1840	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	bombardement	bombardement	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	11	1841	1853	_	del	1849-1849	Err	dans le  Bombardement	1841-1853	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	case	17	1854	1856	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	17	1857	1859	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bombe	bombe	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	14	1860	1865	_	_	_	Err	Bombe	1860-1865	_	_	_	_	_	_	_	_
+18	atomique	atomique	ADJ	ADJ	Gender=Fem|Number=Sing	amod	17	1866	1874	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ainsi	ainsi	ADV	ADV	_	cc	22	1875	1880	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	que	que	SCONJ	SCONJ	_	fixed	19	1881	1884	_	_	_	Err	leurs	1881-1890	_	_	_	_	_	_	_	_
+21	leurs	son	DET	DET	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	det	22	1885	1890	_	_	_	Err	leurs	1881-1890	_	_	_	_	is_GNon_incertDNon_incertRNon	1885-1890	_	_
+22	parents	parent	NOUN	NOUN	Gender=Masc|Number=Plur	conj	14	1891	1898	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	.	PUNCT	PUNCT	_	punct	5	1898	1899	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Concernant	concernant	ADP	ADP	_	case	3	1900	1910	_	_	_	Err	Consernant	1900-1910	_	_	_	_	_	_	_	_
+2	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	3	1911	1913	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+3	fille	fille	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	12	1914	1919	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+4	morte	mourir	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	acl	3	1920	1925	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+5	dans	dans	ADP	ADP	_	case	7	1926	1930	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+6	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	7	1931	1933	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+7	camp	camp	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	4	1934	1938	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	case	9	1939	1941	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+9	concentration	concentration	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	7	1942	1955	_	_	_	Err	consantration	1942-1955	in_GNon_incertDNon_incertRNon	1911-1955	_	_	_	_	_	_
+10	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	12	1956	1960	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1956-1960	_	_	_	_	_	_
+11	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	12	1961	1964	_	_	_	Err	morte	1961-1970	_	_	_	_	_	_	_	_
+12	morte	mourir	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	root	0	1965	1970	_	_	_	Err	morte	1961-1970	_	_	_	_	_	_	_	_
+13	sur	sur	ADP	ADP	_	case	15	1971	1974	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	15	1975	1977	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	coup	coup	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	12	1978	1982	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	gazée	gazé	ADJ	ADJ	Gender=Masc|Number=Sing	amod	15	1983	1988	_	_	_	Err	gazifié	1983-1988	_	_	_	_	_	_	_	_
+17	ainsi	ainsi	ADV	ADV	_	cc	20	1989	1994	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	que	que	SCONJ	SCONJ	_	fixed	17	1995	1998	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	20	1999	2001	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1999-2001	_	_	_	_	_	_
+20	mère	mère	NOUN	NOUN	Gender=Fem|Number=Sing	conj	15	2002	2006	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	et	et	CCONJ	CCONJ	_	cc	24	2007	2009	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	24	2010	2012	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2010-2012	_	_	_	_	_	_
+23	petite	petit	ADJ	ADJ	Gender=Fem|Number=Sing	amod	24	2013	2019	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sœur	sœur	NOUN	NOUN	Gender=Fem|Number=Sing	conj	20	2020	2024	_	_	_	Err	soeur	2020-2024	_	_	_	_	_	_	_	_
+25	.	.	PUNCT	PUNCT	_	punct	12	2024	2025	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Son	son	DET	DET	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	2	2026	2029	_	_	_	Err	Sont	2026-2029	is_GNon_incertDNon_incertRNon	2026-2029	_	_	_	_	_	_
+2	père	père	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	4	2030	2034	_	_	_	Err	pére	2030-2034	_	_	_	_	_	_	_	_
+3	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	4	2035	2036	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	survécu	survivre	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	root	0	2037	2044	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mais	mais	CCONJ	CCONJ	_	cc	9	2045	2049	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj:pass	9	2050	2052	_	del	2050-2050	Err	il	2050-2052	_	_	_	_	_	_	_	_
+7	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	9	2053	2054	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	été	être	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	aux:pass	9	2055	2058	_	_	_	Err	était	2055-2058	_	_	_	_	_	_	_	_
+9	retrouvé	retrouver	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	4	2059	2067	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	vivant	vivre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	9	2068	2074	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dans	dans	ADP	ADP	_	case	13	2075	2079	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	13	2080	2082	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	chambre	chambre	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	10	2083	2090	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	case	15	2091	2093	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	concentration	concentration	NOUN	NOUN	Gender=Fem|Number=Sing	nmod	13	2095	2108	_	_	_	Err	consantration	2095-2108	_	_	_	_	_	_	_	_
+16	,	,	PUNCT	PUNCT	_	punct	21	2108	2109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	donc	donc	CCONJ	CCONJ	_	cc	21	2110	2114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	21	2115	2117	_	_	_	Err	ont	2115-2117	_	_	_	_	_	_	_	_
+19	l'	le	PRON	PRON	Number=Sing|Person=3|PronType=Prs	obj	21	2118	2120	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	21	2120	2121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mis	mettre	VERB	VERB	Gender=Masc|Tense=Past|VerbForm=Part	conj	4	2122	2125	_	_	_	Err	mit	2122-2125	_	_	_	_	_	_	_	_
+22	dans	dans	ADP	ADP	_	case	24	2126	2130	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	24	2131	2133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	crématoire	crématoire	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	21	2134	2144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	(	(	PUNCT	PUNCT	_	punct	26	2145	2146	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	brûlure	brûlure	NOUN	NOUN	Gender=Fem|Number=Sing	appos	24	2146	2153	_	_	_	Err	Bruleure	2146-2153	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	case	28	2154	2156	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	corps	corps	NOUN	NOUN	Gender=Masc	nmod	26	2157	2162	_	del	2162-2162	Err	coprs	2157-2162	_	_	_	_	_	_	_	_
+29	encore	encore	ADV	ADV	_	advmod	30	2163	2169	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	vivant	vivant	ADJ	ADJ	Gender=Masc|Number=Sing	amod	26	2170	2176	_	_	_	Err	vivants	2170-2176	_	_	_	_	_	_	_	_
+31	pour	pour	ADP	ADP	_	mark	32	2177	2181	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	souffrir	souffrir	VERB	VERB	VerbForm=Inf	acl	26	2182	2190	_	_	_	Err	soufrire	2182-2190	_	_	_	_	_	_	_	_
+33	encore	encore	ADV	ADV	_	advmod	34	2191	2197	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	plus	plus	ADV	ADV	_	advmod	37	2198	2202	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	ou	ou	CCONJ	CCONJ	_	cc	36	2203	2205	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	pas	pas	ADV	ADV	Polarity=Neg	fixed	34	2206	2209	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	vivant	vivant	ADJ	ADJ	Gender=Masc|Number=Sing	xcomp	32	2210	2216	_	_	_	Err	vivants	2210-2216	_	_	_	_	_	_	_	_
+38	)	)	PUNCT	PUNCT	_	punct	26	2216	2217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	.	.	PUNCT	PUNCT	_	punct	4	2217	2218	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	2	2219	2222	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+2	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	9	2223	2230	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+3	morts	mourir	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	acl	2	2231	2236	_	_	_	Err	mort	2231-2236	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+4	dans	dans	ADP	ADP	_	case	6	2237	2241	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+5	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	6	2242	2244	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+6	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	3	2245	2251	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	2219-2251	_	_	_	_
+7	y	y	PRON	PRON	Person=3|PronType=Prs	obl:arg	9	2252	2253	_	_	_	Err	sont y	2252-2258	_	_	_	_	_	_	_	_
+8	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	9	2254	2258	_	_	_	Err	sont y	2252-2258	_	_	_	_	_	_	_	_
+9	restés	rester	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	root	0	2259	2265	_	_	_	Err	resté	2259-2265	_	_	_	_	_	_	_	_
+10	sauf	sauf	ADP	ADP	_	case	11	2266	2270	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	un	un	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	obl:mod	9	2271	2273	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	qui	qui	PRON	PRON	PronType=Rel	nsubj	14	2274	2277	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	14	2278	2279	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	survécu	survivre	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	acl:relcl	11	2280	2287	_	_	_	Err	survécut	2280-2287	_	_	_	_	_	_	_	_
+15	à	à	ADP	ADP	_	case	17	2288	2289	_	_	_	Err	a	2288-2289	_	_	_	_	_	_	_	_
+16	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	17	2290	2293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	balle	balle	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	14	2294	2299	_	_	_	Err	Balle	2294-2299	_	_	_	_	_	_	_	_
+18	dans	dans	ADP	ADP	_	case	20	2300	2304	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	20	2305	2307	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	genou	genou	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	14	2308	2313	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mais	mais	CCONJ	CCONJ	_	cc	26	2314	2318	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj:pass	26	2319	2321	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	fut	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	aux:pass	26	2322	2325	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	quand	quand	ADV	ADV	_	advmod	26	2326	2331	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	même	même	ADV	ADV	_	fixed	24	2332	2336	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	tué	tuer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	9	2337	2340	_	del	2337-2337	Err	tuer	2337-2340	_	_	_	_	_	_	_	_
+27	par	par	ADP	ADP	_	case	29	2341	2344	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	29	2345	2347	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	suite	suite	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	26	2348	2353	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	à	à	ADP	ADP	_	case	33	2354	2355	_	_	_	Err	a	2354-2355	_	_	_	_	_	_	_	_
+31	ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	33	2356	2359	_	_	_	Err	ces	2356-2359	_	_	_	_	_	_	_	_
+32	45	45	NUM	NUM	Number=Plur	nummod	33	2360	2362	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	ans	an	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	26	2363	2366	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj:pass	37	2367	2369	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	fut	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	aux:pass	37	2370	2373	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	encore	encore	ADV	ADV	_	advmod	37	2374	2380	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	exécuté	exécuter	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conj	26	2381	2388	_	_	_	Err	exécuter	2381-2388	_	_	_	_	_	_	_	_
+38	mais	mais	CCONJ	CCONJ	_	cc	50	2389	2393	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	d'	de	ADP	ADP	_	case	41	2394	2396	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	41	2396	2399	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	balle	balle	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	50	2400	2405	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	dans	dans	ADP	ADP	_	case	44	2406	2410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	44	2411	2413	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	cœur	cœur	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	41	2414	2418	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	et	et	CCONJ	CCONJ	_	cc	48	2419	2421	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	sans	sans	ADP	ADP	_	case	48	2422	2426	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	48	2427	2429	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	jambe	jambe	NOUN	NOUN	Gender=Fem|Number=Sing	conj	44	2430	2435	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	50	2436	2438	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	allait	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	37	2439	2445	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	mourir	mourir	VERB	VERB	VerbForm=Inf	xcomp	50	2446	2452	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	bientôt	bientôt	ADV	ADV	_	advmod	51	2453	2460	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	.	.	PUNCT	PUNCT	_	punct	9	2460	2461	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	FIN	FIN	NOUN	NOUN	Gender=Fem|Number=Sing	root	0	2462	2465	_	_	_	_	_	_	_	_	_	_	_	_	_	_

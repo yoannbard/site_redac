@@ -23,43 +23,64 @@
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
   <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
-    <a href="resolco.html" class="button_nav">Présentation</a>
-    <a href="constitution.html" class="button_nav">Constitution</a>
-    <a href="exploration.html" class="button_nav">Transcription</a>
-    <a href="exploration_coref.html" class="button_nav">Coréférence</a>
-    <a href="telechargement.html" class="button_nav">Téléchargement</a>
+    <ul id="menu-demo2">
+	<li><a href="./resolco.html">Présentation</a>
+	</li>
+	<li><a href="./constitution.html">Constitution</a>
+	</li>
+	<li><a href="#">Exploration</a>
+		<ul>
+			<li><a href="exploration.html">Transcription</a></li>
+			<li><a href="exploration_coref.html">Continuité référentielle</a></li>
+		</ul>
+	</li>
+	<li><a href="./telechargement.html">Téléchargement</a>
+	</li>
+</ul>
 </div>
 
-<!-- Les tableaux -->
 
-<div class="tables">
-   <ul class="flex-container2">
 
-<!-- Comment lire les noms des fichiers -->
 
-<div class="general-background page-transcriptions-background">
 
- <ul class="flex-container">
+	<!-- Tabulator -->
+<div class="general-background"><a name="filtre"/>
+	<ul>
 <a name="liste"/>
-	<li class="flex-item nom-des-fichiers">
+	<li>
 		
-			<h1>Exploration du corpus</h1>
+			<h1>Exploration du corpus transcrit</h1>
 			<hr/>
-			<p>Cette page vous permet d'explorer le corpus RésolCo.</p>
-			<p>La <b><a href="#liste">liste des identifiants</a></b> donne accès à toutes les versions digitalisées disponibles. Cliquer sur l'identifiant de la copie donne accès à une visualisation en parallèle du texte transcrit et du scan de la copie. L'explication du codage des identifiants est fournie ci-dessous.</p>
+			<p>Cette page vous permet d'explorer la transcription du corpus RésolCo.</p>
+			
 			<p>Un <b><a href="#filtre">tableau d'interrogation</a></b> est proposé en bas de cette page et permet une exploration et une sélection des copies actuellement transcrites et normalisées.</p>
 	</li>
 	</ul>
-	
-	<ul class="flex-container">
-
-	<li class="flex-item nom-des-fichiers">
+			<ul class="flex-container">
+			<li class="flex-item">
+	<!--<li class="flex-item Tabulator">-->
+		
+		<h1>Filtrer les copies</h1>
+		<hr/>
+		<p>Le <b>tableau d'interrogation</b> du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
+		<p>385 textes sont actuellement interrogeables, ce qui correspond au nombre de copies transcrites et normalisées. D'autres copies actuellement en cours de traitement seront ajoutées ultérieurement.</p> 
+		<p>Les critères proposés pour filtrer les textes sont&nbsp;:</p>
+		<ul>
+		<li><b>Nb erreurs</b>&nbsp;: le nombre minimum et maximum d'erreurs qui ont donné lieu à une normalisation orthographique.</li>
+		<li><b>Nb ratures</b>&nbsp;: le nombre minimum et maximum de ratures (traces de révision par insertion et/ou suppression de texte) encodées lors de la transcription.</li> 
+		<li>La colonne <b>Texte original</b> donne accès aux versions originales des textes ainsi qu'à une recherche par formes présentes dans le texte ;</li>
+		<li>La colonne <b>Texte normalisé</b> donne accès aux versions normalisées orthographiquement des textes ainsi qu'à une recherche par formes présentes dans le texte ;</li>
+		<li>La <b>liste des identifiants (ID)</b> donne accès à toutes les versions digitalisées disponibles. Cliquer sur l'identifiant de la copie donne accès à une visualisation en parallèle du texte transcrit et du scan de la copie.<br/> Il est possible de filtrer les copies par année, niveau scolaire, classe, devoir, version... (L'explication du codage des identifiants est fournie ci-contre.)</li>
+		<br/>
+	</ul>
+		</li>
+		<li class="flex-item-nom-fichier">
 			
 			<h1>Explication des identifiants des fichiers</h1>
 			<hr/>
 			<img src="images/schema.png" class="nom-fichier">
 	 
-				<ol>
+				<ol class="id-copies">
 					<li><b>ETAB :</b> le type d'établissement</li>
 						<ul class="petite_liste">
 							<li><strong>EC</strong> école</li>
@@ -77,285 +98,7 @@
 				</ol>
 			<br>
 		</li>
-
-		<li>
-			<h1>Composition du corpus</h1>
-		<hr/>
-		<table class="TableauQuantitatif3e" >		  
-			<thead>
-				<tr>
-				<th width="10%">Niveau Scolaire</th>	
-				<th width="12%">Année Scolaire</th>
-				<th width="12%">Nb. Textes</th>
-				<th width="12%">Nb. Mots</th>
-				<th width="12%">Nb. Ratures</th>
-				<th width="12%">Nb. Erreurs Ortho</th>
-				</tr>
-				<tr>
-				<th colspan="2"><strong>Total RésolCo</strong></th>
-				<th><strong>385</strong></th>
-				<th><strong>72&nbsp;873</strong></th>
-				<th><strong>1&nbsp;657</strong></th>
-				<th><strong>10&nbsp;985</strong></th>
-				</tr>
-			</thead>
-
-			<tbody>
-				
-				<tr>
-				<td rowspan="2"><strong>3e</strong></td>
-				<td>2016</td>
-				<td>27</td>
-				<td>6&nbsp;087</td>
-				<td>52</td>
-				<td>804</td>
-				</tr>
-				<tr>
-				
-				<td>2018</td>
-				<td>30</td>
-				<td>10&nbsp;466</td>
-				<td>290</td>
-				<td>1038</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 3e</strong></td>
-				<td>57</td>
-				<td>16&nbsp;553</td>
-				<td>342</td>
-				<td>1&nbsp;842</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td rowspan="1"><strong>4e</strong></td>
-				<td>2018</td>
-				<td>45</td>
-				<td>11&nbsp;689</td>
-				<td>311</td>
-				<td>1&nbsp;781</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 4e</strong></td>
-				<td>45</td>
-				<td>11&nbsp;689</td>
-				<td>311</td>
-				<td>1&nbsp;781</td>
-				
-				</tr>
-
-				<tr>
-				<td rowspan="1"><strong>5e</strong></td>
-				<td>2018</td>
-				<td>4</td>
-				<td>1&nbsp;061</td>
-				<td>41</td>
-				<td>148</td>
-				
-				</tr>
-
-				<tr>
-				<td colspan="2"><strong>Total 5e</strong></td>
-				<td>4</td>
-				<td>1&nbsp;061</td>
-				<td>41</td>
-				<td>148</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="3"><strong>6e</strong></td>
-				<td>2016</td>
-				<td>63</td>
-				<td>10&nbsp;837</td>
-				<td>223</td>
-				<td>1861</td>
-				
-				</tr>
-				
-				<tr>
-				<td>2017</td>
-				<td>19</td>
-				<td>3&nbsp;626</td>
-				<td>80</td>
-				<td>553</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>24</td>
-				<td>3&nbsp;797</td>
-				<td>56</td>
-				<td>916</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 6e</strong></td>
-				<td>106</td>
-				<td>18&nbsp;260</td>
-				<td>359</td>
-				<td>3&nbsp;330</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="1"><strong>CM2</strong></td>
-				
-				<td>2016</td>
-				<td>57</td>
-				<td>9&nbsp;365</td>
-				<td>143</td>
-				<td>1&nbsp;492</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td colspan="2"><strong>Total CM2</strong></td>
-				<td>57</td>
-				<td>9&nbsp;365</td>
-				<td>143</td>
-				<td>1&nbsp;492</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="4"><strong>CM1</strong></td>
-				<td>2015</td>
-				<td>20</td>
-				<td>2&nbsp;360</td>
-				<td>55</td>
-				<td>405</td>
-				
-				</tr>
-				<tr>
-				<td>2016</td>
-				<td>8</td>
-				<td>972</td>
-				<td>49</td>
-				<td>251</td>
-				
-				</tr>
-				<tr>
-				<td>2017</td>
-				<td>6</td>
-				<td>866</td>
-				<td>38</td>
-				<td>191</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>16</td>
-				<td>1&nbsp;249</td>
-				<td>72</td>
-				<td>319</td>
-				
-				</tr>
-				<tr>
-				<td colspan="2"><strong>Total CM1</strong></td>
-				<td>50</td>
-				<td>5&nbsp;447</td>
-				<td>214</td>
-				<td>1&nbsp;166</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td rowspan="4"><strong>CE2</strong></td>
-				<td>2015</td>
-				<td>21</td>
-				<td>1&nbsp;760</td>
-				<td>41</td>
-				<td>234</td>
-				
-				</tr>
-				<tr>
-				<td>2016</td>
-				<td>6</td>
-				<td>534</td>
-				<td>13</td>
-				<td>82</td>
-				
-				</tr>
-				<tr>
-				<td>2017</td>
-				<td>6</td>
-				<td>616</td>
-				<td>16</td>
-				<td>157</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>20</td>
-				<td>2&nbsp;424</td>
-				<td>117</td>
-				<td>609</td>
-				
-				</tr>
-
-				<tr>
-				<td colspan="2"><strong>Total CE2</strong></td>
-				<td>53</td>
-				<td>5&nbsp;334</td>
-				<td>187</td>
-				<td>1082</td>
-				
-				</tr>
-				
-				<tr>
-				<td><strong>M2</strong></td>
-				<td>2018</td>
-				<td>13</td>
-				<td>5&nbsp;164</td>
-				<td>60</td>
-				<td>153</td>
-				
-				</tr>
-				<tr>
-				<td colspan="2"><strong>Total M2</strong></td>
-				<td>13</td>
-				<td>5&nbsp;164</td>
-				<td>60</td>
-				<td>153</td>
-				
-				</tr>
-				<tr>Mis à jour le 01 juillet 2021</tr>
-			</tbody>
-			</table>
-
-		</li>
 	
-
-
-				</div>
-			</li>
-		</ul>	
-
-
-
-	<!-- Tabulator -->
-<div class="general-background"><a name="filtre"/>
-			<ul class="flex-container">
-			<li class="flex-item">
-	<!--<li class="flex-item Tabulator">-->
-		
-		<h1>Filtrer les copies</h1>
-		<hr/>
-		<p>Le <b>tableau d'interrogation</b> du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
-		<p>123 textes sont actuellement interrogeables, ce qui correspond au nombre de copies transcrites et normalisées. D'autres copies actuellement en cours de traitement seront ajoutées ultérieurement.</p> 
-		<p>Les critères proposés pour filtrer les textes sont&nbsp;: le <b>niveau</b> scolaire&nbsp;;  <b>Nb erreurs</b>&nbsp;: le nombre minimum et maximum d'erreurs qui ont donné lieu à une normalisation orthographique et <b>Nb ratures</b>&nbsp;: le nombre minimum et maximum de ratures (traces de révision par insertion et/ou suppression de texte) encodées lors de la transcription.</p> 
-		<p>Il est également possible de rechercher des mots directement dans le texte. La colonne <b>Texte original</b> donne accès aux versions originales des textes ; la colonne <b>Texte normalisé</b> permet d'effectuer la recherche sur les versions normalisées orthographiquement. 
-		</p>
-		</li>
 		</ul>
 		
 		
@@ -450,15 +193,15 @@
 	var table = new Tabulator("#tabulator-table", {
 		data:tableData,
 		height:"311px",
-		width:"100px",
+		width:"1200px",
 		layout:"fitColumns",
 		columns:[
-			{title:"Niveau", field:"niveau", width:80,editor:"select", editorParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}, headerFilter:true, headerFilterParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}},
+			//{title:"Niveau", field:"niveau", width:80,editor:"select", editorParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}, headerFilter:true, headerFilterParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}},//
 			{title:"Nb erreurs", field:"Nb_erreurs", width: 110,formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"Nb ratures", field:"Nb_ratures",width: 110, formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
-			{title:"Texte original", field:"texte_original", headerFilter:"input", width: 351},
-			{title:"Texte normalisé", field:"texte_normalisé", headerFilter:"input", width: 351},
-			{title:"ID", field:"code", width: 275,formatter:"link", formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_transcript/"+cell.getValue()+".html"}}},
+			{title:"Texte original", field:"texte_original", headerFilter:"input"},
+			{title:"Texte normalisé", field:"texte_normalisé", headerFilter:"input"},
+			{title:"ID", field:"code", width: 275,formatter:"link",headerFilter:true, formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_transcript/"+cell.getValue()+".html"}}},
 
 		],
 	});

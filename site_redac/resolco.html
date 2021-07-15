@@ -11,11 +11,20 @@
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
   <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
-    <a href="resolco.html" class="button_nav">Présentation</a>
-    <a href="constitution.html" class="button_nav">Constitution</a>
-    <a href="exploration.html" class="button_nav">Transcription</a>
-    <a href="exploration_coref.html" class="button_nav">Coréférence</a>
-    <a href="telechargement.html" class="button_nav">Téléchargement</a>
+    <ul id="menu-demo2">
+	<li><a href="./resolco.html">Présentation</a>
+	</li>
+	<li><a href="./constitution.html">Constitution</a>
+	</li>
+	<li><a href="#">Exploration</a>
+		<ul>
+			<li><a href="exploration.html">Transcription</a></li>
+			<li><a href="exploration_coref.html">Continuité référentielle</a></li>
+		</ul>
+	</li>
+	<li><a href="./telechargement.html">Téléchargement</a>
+	</li>
+</ul>
 </div>
 
 	
@@ -25,24 +34,35 @@
 	  <li class="flex-item">
 		<h1>Présentation du site</h1>
 		<hr/>
-		<p>Ce site met à disposition la ressource linguistique Resolco exploitée pour l'analyse de la cohérence discursive et de la continuité référentielle dans des productions écrites d'élèves et d'étudiants de différents niveaux de scolarité (du CE2 à l'Université).
+		<p>Ce site met à disposition la ressource ResolCo exploitée pour l'analyse de la cohérence discursive et de la continuité référentielle dans des productions écrites d'élèves et d'étudiants de différents niveaux de scolarité (du CE2 à l'Université).
 		<br/>
 		Ci-dessous la présentation des pages du site.
 		</p>
 		<ul>
-			<li><b>Constitution</b> : décrit les différentes étapes du processus de constitution du corpus, de la transcription à sa normalisation puis à l'annotation de la continuité référentielle.</li>
-			<li><b>Transcription</b> : permet d'explorer et de visualiser la transcription des copies du corpus.</li>
-			<li><b>Coréférence</b> : permet d'explorer et de visualiser les copies normalisées ainsi que leur annotation des chaines de continuités référentielles.</li>
+			<li><b>Constitution</b> : décrit les différentes étapes du processus de constitution du corpus, de la transcription à sa normalisation puis à l'annotation.</li>
+			<li><b>Exploration - Transcription</b> : permet d'explorer et de visualiser la transcription des copies du corpus.</li>
+			<li><b>Exploration - Continuité référentielle</b> : permet d'explorer et de visualiser les copies normalisées ainsi que leur annotation des chaines de continuités référentielles.</li>
 			<li><b>Téléchargement</b> : pour récupérer la ressource sous différents formats d'exploitation.</li>
 
 		</ul>
 		</li>
 	</ul>
+
 	<ul class="flex-container">
 	  <li class="flex-item">
 		<h1>Description du corpus</h1>
 		<hr/>
-		<p>Le Corpus RésolCo, constitué dans la cadre du projet <a title="Ecritures scolaires&nbsp;: Corpus, Analyses Linguistiques, Modélisations didactiques" href="http://e-calm.huma-num.fr/" target="blank">&Eacute;:calm</a>, naît de la volonté de mettre à disposition de la communauté scientifique et du grand public des transcriptions de manuscrits d'élèves et d'étudiants. Plusieurs couches d'annotation sont associées aux transcriptions. Ces différentes couches relèvent de niveaux d’analyse complémentaires&nbsp;: traces du processus d’écriture, normalisation orthographique, étiquetage morphosyntaxique, analyse syntaxique en dépendance et annotation de certaines structures discursives (<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank">Garcia-Debanc et al. 2017</a>).
+		<p>Le Corpus RésolCo, constitué dans la cadre du projet <a title="Ecritures scolaires&nbsp;: Corpus, Analyses Linguistiques, Modélisations didactiques" href="http://e-calm.huma-num.fr/" target="blank">&Eacute;:calm</a>, naît de la volonté de mettre à disposition de la communauté scientifique et du grand public des transcriptions de manuscrits d'élèves et d'étudiants.
+		<br/>Plusieurs couches d'annotation sont associées relevant de niveaux d’analyse complémentaires&nbsp; : 
+		<ul>
+			<li>traces du processus d’écriture</li>
+			<li>normalisation orthographique</li>
+			<li>étiquetage morphosyntaxique</li>
+			<li>analyse syntaxique en dépendance</li>
+			<li>annotation de structures discursives (voir<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank"> Garcia-Debanc et al. 2017</a>).</li>
+		</ul>
+		<p>
+		 
 		</p>
 	
 		<p>Actuellement ce corpus compte <span class="nbCorpus">385</span> textes transcrits et normalisés orthographiquement. Un certain nombre de copies est actuellement en cours de traitement et un récolte de nouvelles copies est encore prévue. 
@@ -50,250 +70,121 @@
 		<p>
 		Il est possible de contribuer à la récolte des copies en utilisant la consigne et les documents nécessaires à la collecte des textes. Cette consigne et ces documents sont disponibles au format .pdf au lien suivant&nbsp;: <a href="docs/documents_recolte.pdf">documents pour la récolte des textes d'élèves.</a>
 		</p>
-		</li>
-	</ul>	
 
-	<!-- Consigne -->
+	<p>Les annotations sont diffusées au format Glozz et XML normés selon la TEI-P5 sur la page <a href="telechargement.html">Téléchargement</a>.</p>
+	
 
-	<ul class="flex-container">
-		<li class="flex-item">
-		   <h1>Consigne</h1>
-				<hr/>
-				<p>L'originalité et la particularité du corpus RésolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.</p>
-				<p>Celle-ci est une tâche-problème imposant aux élèves la résolution de problèmes de cohésion textuelle (<a title="La gestion de la cohésion textuelle  par des élèves de 11-12 ans&nbsp;: réussites et difficultés" href="https://www.linguistiquefrancaise.org/articles/shsconf/pdf/2014/05/shsconf_cmlf14_01349.pdf" target="blank">Garcia-Debanc et Bonnemaison, 2014</a> ; <a title="Vers une cartographie des compétences de cohérence et  de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 -12 ans: indicateurs de maitrise et progressivité " href="https://hal.archives-ouvertes.fr/hal-01987031/" target="blank">Garcia-Debanc et Bras, 2016</a>)</p>
-				<p>L'objectif de cette consigne, fournie ci-dessous, est de provoquer chez le scripteur la mise en oeuvre de stratégies de Résolution des problèmes de Cohérence soulevés par l'intégration de trois phrases.</p>
-				<table align="center" border="1" width="70%">
-				<tr>
-					<td>
-					<i>
-				<p><font size="-.5"><b>Consigne&nbsp;:</b> Racontez une histoire dans laquelle vous insérerez, séparément et dans l'ordre donné, les trois phrases suivantes&nbsp;:</font></p>	
-				<p><img src="images/3phrases.png" width="90%"/></p>
-				<p><font size="-.5">Vous pouvez découper les bandelettes contenant les phrases ci-dessous ou bien recopier chaque phrase avec soin à l'identique de celles qui vous sont données.</font></p></i></td>
-				</tr>
-				</table>
-				<p>Les trois phrases en jeu dans cette consigne impliquent des stratégies discursives variées, amenant le scripteur à gérer plusieurs continuités référentielles et planifier son discours afin d'assurer la cohérence de son texte (<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank">Garcia-Debanc et al. 2017</a>).</p>
-
-				<!--img src="images/versionJolie.png" alt=""-->
-				<p>Ci-dessous un exemple de copie récoltée en 2016 dans une classe de CM2.
-					<a href="copies/html_transcript/EC-CM2-2016-VRX-D1-R4-V1_T.html"><img width="100%" title="EC-CM2-2016-VRX-D1-R4-V1-P1_S" src="copies/scans/EC-CM2-2016-VRX-D1-R4-V1-P1_S.png"/></a>.</p>
-				
-			  </li>
-
-
-				<li class="flex-item consigne">
-
-					<h1>Composition du corpus</h1>
-		<hr/>
-		<table class="TableauQuantitatif3e" >		  
-			<thead>
-				<tr>
-				<th width="10%">Niveau Scolaire</th>	
-				<th width="12%">Année Scolaire</th>
-				<th width="12%">Nb. Textes</th>
-				<th width="12%">Nb. Mots</th>
-				</tr>
-				<tr>
-				<th colspan="2"><strong>Total RésolCo</strong></th>
-				<th><strong>385</strong></th>
-				<th><strong>72&nbsp;873</strong></th>
-				</tr>
-			</thead>
-
-			<tbody>
-				
-				<tr>
-				<td rowspan="2"><strong>3e</strong></td>
-				<td>2016</td>
-				<td>27</td>
-				<td>6&nbsp;087</td>
-				
-				</tr>
-				<tr>
-				
-				<td>2018</td>
-				<td>30</td>
-				<td>10&nbsp;466</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 3e</strong></td>
-				<td>57</td>
-				<td>16&nbsp;553</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td rowspan="1"><strong>4e</strong></td>
-				<td>2018</td>
-				<td>45</td>
-				<td>11&nbsp;689</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 4e</strong></td>
-				<td>45</td>
-				<td>11&nbsp;689</td>
-				
-				</tr>
-
-				<tr>
-				<td rowspan="1"><strong>5e</strong></td>
-				<td>2018</td>
-				<td>4</td>
-				<td>1&nbsp;061</td>
-				
-				</tr>
-
-				<tr>
-				<td colspan="2"><strong>Total 5e</strong></td>
-				<td>4</td>
-				<td>1&nbsp;061</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="3"><strong>6e</strong></td>
-				<td>2016</td>
-				<td>63</td>
-				<td>10&nbsp;837</td>
-				
-				</tr>
-				
-				<tr>
-				<td>2017</td>
-				<td>19</td>
-				<td>3&nbsp;626</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>24</td>
-				<td>3&nbsp;797</td>
-				
-				</tr>
-				
-				<tr>
-				<td colspan="2"><strong>Total 6e</strong></td>
-				<td>106</td>
-				<td>18&nbsp;260</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="1"><strong>CM2</strong></td>
-				
-				<td>2016</td>
-				<td>57</td>
-				<td>9&nbsp;365</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td colspan="2"><strong>Total CM2</strong></td>
-				<td>57</td>
-				<td>9&nbsp;365</td>
-				
-				</tr>
-				
-				<tr>
-				<td rowspan="4"><strong>CM1</strong></td>
-				<td>2015</td>
-				<td>20</td>
-				<td>2&nbsp;360</td>
-				
-				</tr>
-				<tr>
-				<td>2016</td>
-				<td>8</td>
-				<td>972</td>
-				
-				</tr>
-				<tr>
-				<td>2017</td>
-				<td>6</td>
-				<td>866</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>16</td>
-				<td>1&nbsp;249</td>
-				
-				</tr>
-				<tr>
-				<td colspan="2"><strong>Total CM1</strong></td>
-				<td>50</td>
-				<td>5&nbsp;447</td>
-				
-				</tr>
-				
-				
-				<tr>
-				<td rowspan="4"><strong>CE2</strong></td>
-				<td>2015</td>
-				<td>21</td>
-				<td>1&nbsp;760</td>
-				
-				</tr>
-				<tr>
-				<td>2016</td>
-				<td>6</td>
-				<td>534</td>
-				
-				</tr>
-				<tr>
-				<td>2017</td>
-				<td>6</td>
-				<td>616</td>
-				
-				</tr>
-				<tr>
-				<td>2018</td>
-				<td>20</td>
-				<td>2&nbsp;424</td>
-				
-				</tr>
-
-				<tr>
-				<td colspan="2"><strong>Total CE2</strong></td>
-				<td>53</td>
-				<td>5&nbsp;334</td>
-				
-				</tr>
-				
-				<tr>
-				<td><strong>M2</strong></td>
-				<td>2018</td>
-				<td>13</td>
-				<td>5&nbsp;164</td>
-				
-				</tr>
-				<tr>
-				<td colspan="2"><strong>Total M2</strong></td>
-				<td>13</td>
-				<td>5&nbsp;164</td>
-				
-				</tr>
-				<tr>Mis à jour le 01 juillet 2021</tr>
-			</tbody>
-			</table>
-					
-
-				</li>
+  <h1>Droits</h1>
+  <hr/>
+ <table>
+      <tr>
+	  <td class="normal">
+	  La ressource ResolCo est disponible sous licence 
+	  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr" target="_blank">Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage à l'Identique 3.0 France<br/>
+	  </td>
+      </tr>
+ </table>
+<br/>
 
 
 
-		</ul>
+<h1>Partenaires du projet E-calm</h1>
+  <hr/>
 
-			 
-					
+<ul>
+  <li><a href="http://w3.erss.univ-tlse2.fr/" target="_blank">CLLE (UMR 5263)</a>, Université de Toulouse UTM
+(Myriam Bras, Lydia-Mai Ho-Dac, Josette Rebeyrolle, Claudine Garcia-Debanc, Véronique Paolacci, Laure Vieu, Chantal Dompmartin-Normand)</li>
+
+  <li><a href="http://www.circeft.org/?-accueil-escol-" target="_blank">CIRCEFT-ESCOL (EA 4384)</a> (Élise Vinel, Élisabeth Bautier, Catherine Delarue-Breton, Belinda Lavieu-Gwozdz)</li>
+
+  <li><a href="http://lidilem.u-grenoble3.fr/" target="_blank">Lidilem (EA 609)</a> Université de Grenoble (Catherine Brissaud, Marie-Paule Jacques, Claude Ponton, Fanny Rinck, Isabelle Rousset, Corinne Totereau, Claire Wolfarth)</li>
+
+  <li><a href="http://www.univ-paris3.fr/clesthia-langage-systemes-discours-ea-7345-98241.kjsp" target="_blank">Clesthia (EA 7345)</a> (Claire Doquet, Serge Fleury, Jacques David, Dominique Legallois, Olivier Lumbroso, Jean-Luc Pilorgé, Sara Maziotti, Enoiu Vanda, Arnaud Moysan, Chiara Mainardi)</li>
+</ul>
+
+
+  <h1>Articles présentant le projet E-calm / la ressource ResolCo</h1>
+    <hr/>
+
+  <ul>
+    <li>Afantenos S. D., Asher N., Benamara F., Bras M., Fabre C., Ho-Dac L.-M., Le Draoulec A. Muller P., Péry-Woodley M.-P., Prévot L., Rebeyrolle J., Tanguy L., Vergez-Couret M., Vieu L. (2012). An empirical resource for discovering cognitive principles of discourse organization: the ANNODIS corpus. <i>LREC 2012</i>, Istanbul, Turkey, July 2012. [&nbsp;<a href="biblio/afantenosEtAl2012_LREC.pdf">PDF</a>&nbsp;] </li>
+    <li>Péry-Woodley M.-P., Afantenos S. D., Ho-Dac L.-M., Asher N. (2011). La ressource ANNODIS, un corpus enrichi d'annotations discursives. <i>TAL 52(3)</i>, pp 71-101. [&nbsp;<a href="biblio/peryEtAl2011-TA52-3.pdf">PDF</a>&nbsp;]</li>
+    <li>Péry-Woodley M.-P., Asher N., Enjalbert P., Benamara F., Bras M., Fabre C., Ferrari S., Ho-Dac L.-M., Le Draoulec A. , Mathet Y., Muller P., Prévot L., Rebeyrolle J., Tanguy L., Vergez-Couret M., Vieu L., Wildöcher A. (2009). ANNODIS&nbsp;: une approche outillée de l'annotation de structures discursives,
+<i>TALN 2009</i>, Senlis, Juin, 2009. [&nbsp;<a href="biblio/peryEtAl2009_TALN.pdf">PDF</a>&nbsp;] </li>
+    </ul>
+  <h1>Guides d'annotation</h1>
+    <hr/>
+
+	<ul>
+		<li>Muller P., Vergez-Couret M., Prévot L., Asher N., Benamara F., Bras M., Le Draoulec A., Vieu L. (2012). Manuel d'annotation en relations de discours du projet ANNODIS. <i>Carnets de Grammaire 21</i>, 34p. [&nbsp;<a href="http://w3.erss.univ-tlse2.fr/textes/publications/CarnetsGrammaire/carnGram21.pdf">PDF</a>&nbsp;]</li>
+		<li>Colléter M., Fabre C., Ho-Dac L.-M., Péry-Woodley M.-P., Rebeyrolle J., Tanguy L. (2012). La ressource ANNODIS multi-échelle&nbsp;: guide d'annotation et "bonus" <i>Carnets de Grammaire 20</i>, 63p. [&nbsp;<a href="http://w3.erss.univ-tlse2.fr/textes/publications/CarnetsGrammaire/carnGram20.pdf">PDF</a>&nbsp;]</li>
+    </ul>
+
+
+  <h1>Responsable ressource</h1>
+
+    <a href="http://w3.erss.univ-tlse2.fr/membre/hodac/" target="_blank">Lydia-Mai Ho-Dac</a><br/>
+    
+
+  <br/>
 
 
 </div>
+		    <!-- Fin zone ppale -->
+
+		<center>
+		    <table cellpadding=0 cellspacing=0 class="footer">
+		        <tr>
+			    <td align="center" bgcolor="#000000" colspan="2" style="color:white">			    
+			        &copy;&nbsp;2008-2021&nbsp;CLLE, UMR&nbsp;5263<br/>
+				Maison de la Recherche, Universit&eacute; Toulouse 2 / 5, all&eacute;es Antonio Machado <br/>
+				F-31058 - Toulouse Cedex 9<br/>
+								
+								[&nbsp;<a href="/apropos/contact.html">Contact</a>&nbsp;]
+				<!--
+			        Contact&nbsp;:
+
+				<script type="text/javascript">
+				var blob=new Array(3,32,13,58,28,44,42,10,7,60,11,35,6,34,38,56,54,50,51,18,5,29,14,30,53,39,55,49,47,33,48,20,19,25,26,9,36,16,40,24,12,22,8,31,41,59,27,2,0,46,57,1,4,15,17,23,21,45,43,37,61,52);
+				var snort='vli<sul"ur=aj @e>2o2efo.a.fnrsusalti"/ois@f<er-ts-aj>nsv:thuma';
+				gnagnagna(snort,blob);
+				</script>
+				<noscript>
+				    <img src="img/sajous.jpg" style="background-color:white" class="adresse" alt=""/> 
+				</noscript>
+				-->
+			    </td>
+			</tr>
+			<tr><td><img src="img/transparent.gif" alt="" width="1px" height="30px"/><br/></td></tr>
+			<tr>
+			    <td align="center" colspan="2" style="font-size:10px; color:white">			    
+			    [&nbsp;<a href="/index.html">Accueil</a>&nbsp;] [&nbsp;<a href="/applications/index.html">Applications</a>&nbsp;] [&nbsp;<a href="/corpus/index.html">Corpus</a>&nbsp;] [&nbsp;<a href="/lexiques/index.html">Lexiques</a>&nbsp;]<br/>
+			    <!--[&nbsp;<a href="/domaines/discours.html">Discours</a>&nbsp;] [&nbsp;<a href="/domaines/morphologie.html">Morphologie</a>&nbsp;] [&nbsp;<a href="/domaines/syntaxe.html">Syntaxe</a>&nbsp;]<br/>-->
+			    [&nbsp;<a href="https://clle.univ-tlse2.fr/" target="_blank">CLLE</a>&nbsp;] [&nbsp;<a href="/apropos/site.html">Site</a>&nbsp;] [&nbsp;<a href="/apropos/legal.html">Mention l&eacute;gale</a>&nbsp;] [&nbsp;<a href="/apropos/contact.html">Contact</a>&nbsp;]
+<br/>
+			    </td>
+			</tr>
+		    </table>
+		</center>
+
+	    </td>
+	    <!-- // DEBUT 2eme TD de 2eme TR : partie ppale -->	    
+	    </tr>
+	</table>
+	</div>
+    </center>
+    </body>
+</html>
+ 
+
+		</li>
+	</ul>	
+</div>
+
+	<!-- Consigne -->
+
+	
+
 <div>
 <p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
 </div>
