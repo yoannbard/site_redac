@@ -56,30 +56,48 @@ function displayHTMLTable(data){
 		//var data = results.data;
 
 		var string="";
-		 
+
+    var cpt_word=0;
+    var cpt_elle=0;
+    var cpt_il=0;
+    var cpt_lenf=0;
+    
+		
 		for(i=0;i<data.length;i++){
 			var row = data[i];
       //console.log(row);
 			var word=row[1];
 			var num=row[0]
+      var pos=row[3]
       		//console.log(word);
-        var consigne =row[10]
+      var consigne =row[10]
 
-      		var annot_elle=row[16];
-      		var annot_il=row[18];
-		    var annot_lenf=row[20];
+    	var annot_elle=row[17];
+    	var annot_il=row[19];
+	    var annot_lenf=row[21];
+
+        if (pos!="PUNCT"){
+        cpt_word+=1;
+        }
+
 		    // cas 1 : on tombe sur une annotation ELLE
 		   	if (annot_elle!="_"){
 		    word='<mark name="ref_elle" style="background:transparent ;" >'+word+' </mark>'
-		    }
+        if (annot_elle!=data[i-1][17]){
+        cpt_elle+=1;
+		    }}
 		    // cas 2 : on tombe sur une annotation IL
 		    if (annot_il!="_"){
 		    word='<mark name="ref_il" style="background:transparent ;" >'+word+' </mark>'
-		    }
+        if (annot_il!=data[i-1][19]){
+        cpt_il+=1;
+		    }}
 		    // cas 3 : on tombe sur une annotation LENF
 	      if (annot_lenf!="_"){
 	      word='<mark name="ref_lenf" style="background:transparent ;" >'+word+' </mark>'
-	     		      }
+        if (annot_lenf!=data[i-1][21]){
+        cpt_lenf+=1;
+	     		      }}
 
         if (consigne=="consigne"){
           word='<mark name="consigne" style="background:transparent ;" >'+word+' </mark>'
@@ -98,11 +116,14 @@ function displayHTMLTable(data){
       
      
 			string=string+=word+" ";
+
       
 		}
 		para+=string+"</p>";
+    var stats="<p>Nombre de mots : "+cpt_word.toString()+"<br/>Nombre de maillons ELLE : "+cpt_elle.toString()+"<br/>Nombre de maillons IL : "+cpt_il.toString()+"<br/>Nombre de maillons Les enfants : "+cpt_lenf.toString()+"</p>"
     //console.log(para);
 		$("#parsed_csv").html(para);
+    $("#stats_texte").html(stats);
     }
 
 

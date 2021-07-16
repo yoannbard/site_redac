@@ -61,8 +61,12 @@ td p{
 			<table border="1">
 				<tr>
 					<td>
+						<div id="stats_texte">
+						</div>
 					</td>
-				<td></td></tr>
+				<td>
+					
+				</td></tr>
 				<tr>
 				<td width="50%">
 
