@@ -37,13 +37,7 @@
 			</xsl:element>)</font></h2>
 			
 			<p><font size="2" color="gray"><xsl:value-of select="teiHeader/fileDesc/sourceDesc/p"/></font></p>
-			<table>
-				<tr style="background: #F5F6CE">
-				<xsl:for-each select="teiHeader/profileDesc/settingDesc/setting/*">
-					<td ><font face="Courier New"><xsl:value-of select="."/></font></td>
-				</xsl:for-each>
-				</tr>
-			</table>
+			
 
 			<p><b>Codage des traces écrites</b> :</p>
 			<ul>
@@ -63,7 +57,13 @@
 						</font>
 					</td>
 				<td>
-					
+					<table>
+				<tr style="background: #F5F6CE">
+				<xsl:for-each select="teiHeader/profileDesc/settingDesc/setting/*">
+					<td ><font face="Courier New"><xsl:value-of select="."/></font></td>
+				</xsl:for-each>
+				</tr>
+			</table>
 				</td></tr>
 				<tr>
 				<td width="50%">

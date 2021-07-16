@@ -83,19 +83,19 @@ function displayHTMLTable(data){
 		    // cas 1 : on tombe sur une annotation ELLE
 		   	if (annot_elle!="_"){
 		    word='<mark name="ref_elle" style="background:transparent ;" >'+word+' </mark>'
-        if (annot_elle!=data[i-1][17]){
+        if ((i>0 && annot_elle!=data[i-1][17]) || (i==0 && annot_elle!=data[i+1][17])) {
         cpt_elle+=1;
 		    }}
 		    // cas 2 : on tombe sur une annotation IL
 		    if (annot_il!="_"){
 		    word='<mark name="ref_il" style="background:transparent ;" >'+word+' </mark>'
-        if (annot_il!=data[i-1][19]){
+        if ((i>0 && annot_il!=data[i-1][19]) || (i==0 && annot_il!=data[i+1][19])){
         cpt_il+=1;
 		    }}
 		    // cas 3 : on tombe sur une annotation LENF
 	      if (annot_lenf!="_"){
 	      word='<mark name="ref_lenf" style="background:transparent ;" >'+word+' </mark>'
-        if (annot_lenf!=data[i-1][21]){
+        if ((i>0 && annot_lenf!=data[i-1][21]) || (i==0 && annot_lenf!=data[i+1][21])){
         cpt_lenf+=1;
 	     		      }}
 
@@ -120,7 +120,7 @@ function displayHTMLTable(data){
       
 		}
 		para+=string+"</p>";
-    var stats="<p>Nombre de mots : "+cpt_word.toString()+"<br/>Nombre de maillons ELLE : "+cpt_elle.toString()+"<br/>Nombre de maillons IL : "+cpt_il.toString()+"<br/>Nombre de maillons Les enfants : "+cpt_lenf.toString()+"</p>"
+    var stats="<p>Nombre de <b>mots</b> : "+cpt_word.toString()+"<br/>Nombre de maillons <span style='color:#2e81f9'>Elle</span> : "+cpt_elle.toString()+"<br/>Nombre de maillons <span style='color:#2fcf42'> Il</span> : "+cpt_il.toString()+"<br/>Nombre de maillons <span style='color:#ff8d33'> Les Enfants </span> : "+cpt_lenf.toString()+"</p>"
     //console.log(para);
 		$("#parsed_csv").html(para);
     $("#stats_texte").html(stats);

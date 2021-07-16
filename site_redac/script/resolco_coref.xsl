@@ -44,17 +44,11 @@ td p{
 			</xsl:element>)</font></h2>
 			
 			<p><font size="2" color="gray"><xsl:value-of select="teiHeader/fileDesc/sourceDesc/p"/></font></p>
-			<table>
-				<tr style="background: #F5F6CE">
-				<xsl:for-each select="teiHeader/profileDesc/settingDesc/setting/*">
-					<td ><font face="Courier New"><xsl:value-of select="."/></font></td>
-				</xsl:for-each>
-				</tr>
-			</table>
+			
 			<p> Les maillons des chaînes de continuité référentielle (CR) correspondant aux trois référents de la consigne ainsi que les trois phrases consignes P1, P2 et P3 ont été annotés selon le code couleur ci-dessous :</p>
 			<ul>
-				<li style="color:#2e81f9">CR_ELLE</li>
-				<li style="color:#2fcf42">CR_IL</li>
+				<li style="color:#2e81f9">CR_Elle</li>
+				<li style="color:#2fcf42">CR_Il</li>
 				<li style="color:#ff8d33">CR_LesEnfants</li>
 				<li style="color:#cbcbcb">Phrases consigne</li>
 			</ul>
@@ -73,10 +67,10 @@ td p{
 					<div id="texte_normalise">
 
 						<input type="checkbox" id="color_elle" name="scales" onchange='handleChange_elle(this);' unchecked="true"></input>
-						<label for="scales">Références ELLE</label>
+						<label for="scales">Références Elle</label>
         
 						<input type="checkbox" id="color_il" name="scales" onchange='handleChange_il(this);' unchecked="true"></input>
-						<label for="scales">Références IL</label>
+						<label for="scales">Références Il</label>
         
 						<input type="checkbox" id="color_lenf" name="scales" onchange='handleChange_lenf(this);' unchecked="true"></input>
 						<label for="scales">Références Lenf</label>

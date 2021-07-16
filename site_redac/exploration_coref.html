@@ -62,7 +62,7 @@
 		La consigne contraint (dans la grande majorité des cas) à placer ces référents humains au centre du récit et nous nous intéressons aux stratégies mises en place par le scripteur pour développer et gérer ces personnages de manière cohérente. Ce sont ces référents qui sont annotés dans chaque texte normalisé du corpus.
 		</p>
 		
-		<p>Par exemple, tous les éléments référant au personnage <i>ELLE</i> sont annotés tel que :
+		<p>Par exemple, tous les éléments référant au personnage <i>Elle</i> sont annotés tel que :
 		</p>
 		<img src="images/3eR13_pronom_relatif.png" title="relative" style="width : 100%;max-width:800px;" />
 		<p>On obtient la <span style="color:#2e81f9">CR_ELLE</span> : <b>Elle - Cette femme mystérieuse et très âgée - dont - que.</b></p>
@@ -72,11 +72,15 @@
 		</p>
 		</li>
 	</ul>
+	<ul >
+	<h1>Exploration du corpus normalisé et annoté.</h1>
+			<hr/>
+			
+	</ul>
 		<ul class="flex-container">
 			<li class="flex-item">
 		
-			<h1>Exploration du corpus normalisé et annoté.</h1>
-			<hr/>
+			
 			<p>Cette page vous permet d'explorer les textes normalisés et annotés du corpus RésolCo.</p>
 			<p>Le <b>tableau d'interrogation</b> ci-contre du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
 		<p>358 textes sont actuellement interrogeables, ce qui correspond au nombre de testes transcrits, normalisés et annotés. D'autres textes actuellement en cours de traitement seront ajoutés ultérieurement.</p> 
@@ -322,7 +326,7 @@ var table = new Tabulator("#tabulator-table2", {
 		columns:[
 			
 			{title:"NB ELLE", field:"nb_elle",formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
-			{title:"NB IL", field:"nb_il",formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
+			{title:"NB IL", field:"nb_il",formatter:"progress", width:"18%", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"NB Les enfants", field:"nb_lenf",formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"ID", field:"id",formatter:"link", headerFilter:true, formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_normalise/"+cell.getValue()+".html"}}},
 			
