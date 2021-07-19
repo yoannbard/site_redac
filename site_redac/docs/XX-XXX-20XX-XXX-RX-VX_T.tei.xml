@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--?xml-stylesheet href="./resolco.xsl" type="text/xsl"?-->
+<TEI>
+<teiHeader>
+	<fileDesc>
+      <titleStmt>
+        <title><!-- Indiquer ici le nom du fichier XX-XXX-20XX-XXX-RX-VX.xml --></title>
+        <bibl>Claudine Garcia-Debanc, Lydia-Mai Ho-Dac, Myriam Bras et Josette Rebeyrolle, « Vers l’annotation discursive de textes d’élèves », Corpus [En ligne], 16 | 2017, mis en ligne le 09 janvier 2018, consulté le 31 mai 2018. URL : http://journals.openedition.org/corpus/2783</bibl>
+        <respStmt>
+          <resp>collecte et scan de la copie</resp>
+          <name><!-- Indiquer ici le nom de la personne ayant récolté le fichier .xml. --></name>
+        </respStmt>
+        <respStmt>
+          <resp>transcription et encodage au format XML - TEIP5</resp>
+          <name><!-- Indiquer ici le nom de la personne ayant réalisé la transcription du scan au format XML --></name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>CLLE-ERSS</orgName>
+          <address>
+            <street>5 Allées A. Machado</street>
+            <postCode>31058</postCode>
+            <settlement>Toulouse Cedex 9</settlement>
+          </address>
+        </publisher>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by-sa/3.0/legalcode.fr">
+            <p>Ce fichier numérique est mis à disposition selon les termes de la licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage à l'Identique 3.0 France (http://creativecommons.org/licenses/by-nc-sa/3.0/fr)</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+		<p>Copie d'élève récoltée dans l'académie de Toulouse selon la consigne Résolco décrite dans Claudine Garcia-Debanc, Lydia-Mai Ho-Dac, Myriam Bras et Josette Rebeyrolle, « Vers l’annotation discursive de textes d’élèves », Corpus [En ligne], 16 | 2017, mis en ligne le 09 janvier 2018, consulté le 31 mai 2018. URL : http://journals.openedition.org/corpus/2783</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+		Ce fichier a été produit dans le cadre du projet É:calm : "Écriture scolaire et universitaire : Corpus, Analyses Linguistiques, Modélisations didactiques" (ANR‐17‐CE28‐0004‐04) démarré en 2018 et achevé en 2022. http://e-calm.huma-num.fr/
+	 </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">french</language>
+      </langUsage>
+		<settingDesc> 
+		 <setting>
+			<name type="city"><!-- Indiquer ici la ville, quartier de l'école --></name>
+			<name type="region">Occitanie<!-- Modifier si nécessaire --></name>
+			<date><!-- Indiquer ici la date de production --></date>
+			<locale><!-- Indiquer ici le nom de l'école --></locale>
+			<activity>Rédaction</activity>
+			<p><!-- indiquer ici toute information complémentaire sur la situation de production --></p>
+		 </setting>
+		</settingDesc>
+      <textDesc n="schoolwork">
+        <channel mode="w">manuscript</channel>
+        <constitution type="single">chaque texte correspond à une copie produite en classe par un élève ou un étudiant. Pour certaines copies, des interventions de l'enseignant sont également présentes.</constitution>
+        <derivation type="original"/>
+        <domain type="education"/>
+        <factuality type="fiction">La consigne donnée aux enfants demande de raconter une histoire sans indication concernant la factualité.</factuality>
+        <interaction type="none"/>
+        <preparedness type="none"/>
+        <purpose degree="high" type="express">Le texte résulte d'un travail réalisé en classe selon une consigne précise demandant au locuteur de raconter une histoire.</purpose>
+      </textDesc>
+      <particDesc>
+        <listPerson>
+          <person age="na" id="XX" sex="X">élève né.e en XXXX au mois XX</person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+</teiHeader>
+<text>
+<front>	
+	<!-- Si des éléments ont été insérés avant le début à proprement parlé du texte (ex : la consigne, la date, etc.), les insérer ici -->
+</front>
+<body>
+<head><!-- Si un titre a été donné au texte, l'indiquer ici --></head>
+
+</body>
+<back>
+	<!-- Si des éléments ont été insérés après ou en marge du texte, les insérer ici -->
+	<metamark who="transcripteur"><!-- indiquer ici tout commentaire relatif à la transcription (ex : "les trois ajouts ont été rédigés dans la marge avec un renvoi *") --></metamark>
+	<metamark who="transcripteur"><!-- autant d'élément metamark que de commentaire --></metamark>
+</back>
+</text>
+</TEI>
