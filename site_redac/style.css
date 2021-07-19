@@ -101,7 +101,7 @@ a.button_nav {
 }
 
 .image_nav img{
-  width: 500px;
+  width: 450px;
 }
 
 .general-background {
@@ -153,6 +153,8 @@ text-align:center;
 display:inline-block;
 position:relative;
 border-radius:8px 8px 0 0;
+width:145px;
+height: 45px;
 }
 #menu-demo2 ul li{
 display:inherit;
@@ -229,9 +231,11 @@ background:#CFFF6A;
 #menu-demo2 a{
 text-decoration:none;
 display:block;
-padding:8px 32px;
+padding:6px 20px;
 color:#fff;
 font-family:arial;
+font-size: 16px;
+text-align: center;
 }
 #menu-demo2 ul a{
 padding:8px 0;
