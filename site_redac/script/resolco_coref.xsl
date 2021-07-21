@@ -257,7 +257,7 @@ td p{
 						</p>
 					</td>
 				<td>
-					<font color="gray">Si vous voyez une erreur dans la transcription, merci d'envoyer un mail à 
+					<font color="gray">Si vous voyez une erreur dans la transcription et/ou la normalisation, merci d'envoyer un mail à 
 
 					<xsl:element name="a">
 						<xsl:attribute name="href">

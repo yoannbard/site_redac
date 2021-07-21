@@ -16,6 +16,7 @@
 </head>
 
 
+
 <body>
 
 <!-- Navigation -->
@@ -44,66 +45,64 @@
 
 
 	<!-- Tabulator -->
-<div class="general-background"><a name="filtre"/>
-	<ul>
-<a name="liste"/>
-	<li>
+<div class="general-background">
+	
 		
 			<h1>Exploration du corpus transcrit</h1>
 			<hr/>
-			<p>Cette page vous permet d'explorer la transcription du corpus RésolCo.</p>
+			<p>Cette page vous permet d'explorer le corpus RésolCo via le <b><a href="#filtre">tableau d'interrogation</a></b> proposé ci-dessous. Ce tableau permet une exploration et une sélection des textes du corpus dans leur version brute (images et transcriptions) et annotée en traces d'écritures (ratures, insertions).</p>
 			
-			<p>Un <b><a href="#filtre">tableau d'interrogation</a></b> est proposé en bas de cette page et permet une exploration et une sélection des copies actuellement transcrites et normalisées.</p>
-	</li>
-	</ul>
-			<ul class="flex-container">
-			<li class="flex-item">
-	<!--<li class="flex-item Tabulator">-->
-		
-		<h1>Filtrer les copies</h1>
+			<p>Pour accéder à la visualisation des textes (images et transcription), cliquer sur l'identifiant dans la colonne <b>ID</b>.</p> 
+	
+			
+		<table>
+		<tr>
+		<td>		
+		<h1>Filtrer les textes</h1>
 		<hr/>
-		<p>Le <b>tableau d'interrogation</b> du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
-		<p>383 textes sont actuellement interrogeables.</p> 
-		<p>Les critères proposés pour filtrer les textes sont&nbsp;:</p>
+		
+		
+		
 		<ul>
-		<li><b>Nb erreurs</b>&nbsp;: le nombre minimum et maximum d'erreurs qui ont donné lieu à une normalisation orthographique.</li>
-		<li><b>Nb ratures</b>&nbsp;: le nombre minimum et maximum de ratures (traces de révision par insertion et/ou suppression de texte) encodées lors de la transcription.</li> 
-		<li>La colonne <b>Texte original</b> donne accès aux versions originales des textes ainsi qu'à une recherche par formes présentes dans le texte ;</li>
-		<li>La colonne <b>Texte normalisé</b> donne accès aux versions normalisées orthographiquement des textes ainsi qu'à une recherche par formes présentes dans le texte ;</li>
-		<li>La <b>liste des identifiants (ID)</b> donne accès à toutes les versions digitalisées disponibles. Cliquer sur l'identifiant de la copie donne accès à une visualisation en parallèle du texte transcrit et du scan de la copie.<br/> Il est possible de filtrer les copies par année, niveau scolaire, classe, devoir, version... (L'explication du codage des identifiants est fournie ci-contre.)</li>
-		<br/>
+		<li><b>ID (identifiants)</b> :
+		Permet de filtrer les textes par année, niveau scolaire, classe, devoir, version... (Voir explication du codage des identifiants ci-contre).<br/>
+		Par exemple en écrivant "CE2" dans la barre de recherche, seuls les textes récoltés dans des classes de CE2 seront sélectionnés
+	</li>
+		<li><b>Nb erreurs</b>&nbsp;: le nombre minimum et maximum d'erreurs qui ont donné lieu à une normalisation orthographique</li>
+		<li><b>Nb ratures</b>&nbsp;: le nombre minimum et maximum de ratures (traces de révision par insertion et/ou suppression de texte) encodées lors de la transcription</li> 
+		<li>La colonne <b>Texte original</b> donne accès aux versions originales des textes ainsi qu'à une recherche par formes présentes dans le texte. Par exemple la requête "il étais" permet une sélection des textes contenant cette chaine de caractères</li>
+		<li>La colonne <b>Texte normalisé</b> donne accès aux versions normalisées orthographiquement des textes ainsi qu'à une recherche par formes présentes dans le texte. Par exemple la requête "il était" permet une sélection des textes contenant cette chaine de caractères</li>
+		
+		
 	</ul>
-		</li>
-		<li class="flex-item-nom-fichier">
+		</td>
+		<td>
+		
 			
 			<h1>Explication des identifiants des fichiers</h1>
 			<hr/>
 			<img src="images/schema.png" class="nom-fichier">
 	 
 				<ul class="id-copies">
-					<li><b>ETAB :</b> le type d'établissement</li>
-						<ul class="petite_liste">
-							<li><strong>EC</strong> école</li>
-							<li><strong>CO</strong> collège</li>
-							<li><strong>LY</strong> lycée</li>
-							<li><strong>UN</strong> université</li>
-						</ul>
+					<li><b>ETAB :</b> le type d'établissement EC (école) ; CO (collège) ; UN (université)</li>
+						
 					<li><strong>NIV : </strong>le niveau scolaire</li>
-					<li><strong>ANNÉE : </strong>l'année scolaire de production (<em>par exemple</em> un texte écrit le 3 mars 2015 compte pour l'année scolaire 2014)</li>
-					<li><strong>CLASSE : </strong>l'identifiant de la classe (X si on ne connaît pas l'identifiant de la classe) et/ou de l'établissement. La liste des codes est donnée <a href="resolco.html#codesEcoles">ici</a></li>
-					<li><strong>DEVOIR : </strong>l'identifiant du devoir (<em>par exemple</em> D1, D2...)</li>
+					<li><strong>ANNÉE : </strong>l'année scolaire de production (un texte écrit le 3 mars 2015 compte pour l'année scolaire 2014)</li>
+					<li><strong>CLASSE : </strong>l'identifiant de la classe</li>
+					<li><strong>DEVOIR : </strong>l'identifiant du devoir</li>
 					<li><strong>ÉLÈVE : </strong>l'identifiant de l'élève précédé d'une indication sur la provenance du corpus.
 						La provenance est <strong>"R"</strong> (pour corpus <strong>R</strong>ésolCo) suivi du numéro de l'élève</li>
 					<li><strong>VERSION : </strong> V1, V2 ...</li>
 				</ul>
-			<br>
-		</li>
-	
-		</ul>
+			
+		</td>
+	</tr>
+</table>
 		
 		
 		
 		<div id="tabulator-table"></div>
+		<p>Le <b>tableau d'interrogation</b> du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
 	</li>
 
 	<script type="text/javascript">
@@ -197,11 +196,12 @@
 		layout:"fitColumns",
 		columns:[
 			//{title:"Niveau", field:"niveau", width:80,editor:"select", editorParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}, headerFilter:true, headerFilterParams:{values:{"3e":"3e", "4e":"4e", "6e":"6e", "CE2":"CE2","CM1":"CM1","CM2":"CM2","M2":"M2"}}},//
+			{title:"ID", field:"code", width: 275,formatter:"link",headerFilter:true, formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_transcript/"+cell.getValue()+".html"}}},
 			{title:"Nb erreurs", field:"Nb_erreurs", width: 110,formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"Nb ratures", field:"Nb_ratures",width: 110, formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"Texte original", field:"texte_original", headerFilter:"input"},
 			{title:"Texte normalisé", field:"texte_normalisé", headerFilter:"input"},
-			{title:"ID", field:"code", width: 275,formatter:"link",headerFilter:true, formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_transcript/"+cell.getValue()+".html"}}},
+			
 
 		],
 	});
@@ -230,7 +230,7 @@
 		</ul>
 		</div>
 <div>
-<p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
+<p><font size="-1">Site développé par Y. Bard, S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
 </div>
 </body>
 </html>

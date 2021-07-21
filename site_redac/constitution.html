@@ -10,7 +10,7 @@
 
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
-  <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
+  <div class="image_nav"><a href="./resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
     <ul id="menu-demo2">
 	<li><a href="./resolco.html">Présentation</a>
 	</li>
@@ -31,20 +31,18 @@
 <!--Historique-->
 <div class="general-background">
 
-<ul class="flex-container">
 
-	  <li class="flex-item">
 
-		<h1>Constitution du corpus RésolCo</h1>
+		<h1>Constitution de la ressource RésolCo</h1>
 		<hr/>
-		<p>La constitution du corpus RésolCo répond à la volonté de mettre à disposition un corpus d'écrits scolaires et permettre d'effectuer des analyses sur différents aspects, comme l'orthographe ou les structures discursives. Pour ce faire il est nécessaire de digitaliser le copies manuscrites des élèves.<br/>
-		Précédemment appelé "corpus Charolles", en hommage aux travaux de Michel Charolles sur les procédés anaphoriques utilisés par des élèves de fin d’école primaire et de début de collège dans des textes narratifs rédigés à partir d’images (Charolles, 1988), le corpus était constitué d'une trentaine des textes manuscrits, non numérisés.<br/>
-		La numérisation de ces 30 textes et des nouvelles copies récoltées a été effectuée en suivant différentes étapes, qui vont de la collecte à la transcription et l'encodage au format .xml jusqu'à l'analyse syntaxique automatique (<i>parsing</i>), en passant par une phrase de normalisation orthographique puis finalement à l'annotation de structures discursives, comme illustré dans la chaîne de traitement ci-dessous.<br/>
+		<p>
+		Cette page décrit les différentes étapes du processus de constitution de la ressource, de la transcription à sa normalisation puis à l'annotation.<br/>
+		Ces étapes sont illustrées dans le schéma ci-dessous.<br/>
 		</p>
 		
 			<img class="chaineTraitement" src="images/chaine_traitementEcalm_v2.jpg" alt="">
 			
-		<p>La chaîne de traitement consiste en 8 étapes principales : 
+		<p>Les principales étapes sont : 
 		<ol start="0">
 			<li><b>Collecte</b> des copies : les élèves produisent un texte suivant une consigne (expliquée ci-dessous) et les copies sont numérisées au format .png ;</li>
 			<li><b>Préparation</b> des copies : il s'agit de dissocier les scans reçus et de préparer les fichiers .xml, qui seront utilisés pour la transcription ;</li>
@@ -58,45 +56,47 @@
 		</ol>
 		 </p>
 
-	</ul>
+	
 
-
-		<ul class="flex-container">
-
-<li class="flex-item">
 		   <h1>Consigne et collecte des copies</h1>
 				<hr/>
 				<p>L'originalité et la particularité du corpus RésolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.</p>
 				<p>Celle-ci est une tâche-problème imposant aux élèves la résolution de problèmes de cohésion textuelle (<a title="La gestion de la cohésion textuelle  par des élèves de 11-12 ans&nbsp;: réussites et difficultés" href="https://www.linguistiquefrancaise.org/articles/shsconf/pdf/2014/05/shsconf_cmlf14_01349.pdf" target="blank">Garcia-Debanc et Bonnemaison, 2014</a> ; <a title="Vers une cartographie des compétences de cohérence et  de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 -12 ans: indicateurs de maitrise et progressivité " href="https://hal.archives-ouvertes.fr/hal-01987031/" target="blank">Garcia-Debanc et Bras, 2016</a>)</p>
 				<p>L'objectif de cette consigne, fournie ci-dessous, est de provoquer chez le scripteur la mise en oeuvre de stratégies de résolution des problèmes de cohérence soulevés par l'intégration de trois phrases.</p>
-				<table align="center" border="1" width="55%">
+				<table align="center" border="1" width="100%">
 				<tr>
 					<td>
 					<i>
 				<p><font size="-.5"><b>Consigne&nbsp;:</b> Racontez une histoire dans laquelle vous insérerez, séparément et dans l'ordre donné, les trois phrases suivantes&nbsp;:</font></p>	
 				<p><img src="images/3phrases.png" width="90%"/></p>
-				<p><font size="-.5">Vous pouvez découper les bandelettes contenant les phrases ci-dessous ou bien recopier chaque phrase avec soin à l'identique de celles qui vous sont données.</font></p></i></td>
+				<p><font size="-.5">Vous pouvez découper les bandelettes contenant les phrases ci-dessous ou bien recopier chaque phrase avec soin à l'identique de celles qui vous sont données.</font></p>
+
+			</td>
+
+
+				<td width="60%"><p>Ci-dessous un exemple de copie récoltée en 2016 dans une classe de CE2.</p><a href="copies/html_transcript/EC-CE2-2017-TBZX-D1-R7-V1_T.html"><img width="100%" align="center" title="EC-CE2-2017-TBZX-D1-R7-P1_S" src="images/EC-CE2-2017-TBZX-D1-R7-V1_S.png"/></a>.</p></td>
+				</td>
 				</tr>
 				</table>
 				<p>Les trois phrases en jeu dans cette consigne impliquent des stratégies discursives variées, amenant le scripteur à gérer plusieurs continuités référentielles et planifier son discours afin d'assurer la cohérence de son texte (<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank">Garcia-Debanc et al. 2017</a>).</p>
 
 				<!--img src="images/versionJolie.png" alt=""-->
 				<p>Les copies sont ensuite numérisées au format .png pour la collecte des données.</p>
-				<p>Ci-dessous un exemple de copie récoltée en 2016 dans une classe de CM2.</p>
-					<a href="copies/html_transcript/EC-CM2-2016-VRX-D1-R4-V1_T.html"><img width="70%" align="center" title="EC-CM2-2016-VRX-D1-R4-V1-P1_S" src="copies/scans/EC-CM2-2016-VRX-D1-R4-V1-P1_S.png"/></a>.
 				
-			  </li>
-		</ul>
-	
-	<!--Transcription-->
+					
+				<p>
+		Il est possible de contribuer à la récolte des copies en utilisant la consigne et les documents nécessaires à la collecte des textes. Cette consigne et ces documents sont disponibles au format .pdf au lien suivant&nbsp;: <a href="docs/documents_recolte.pdf">documents pour la récolte des textes d'élèves.</a>
+		</p>
+			  
 
+	<!--Transcription-->
+</div>
 
 <!-- Description du processus de transcription -->
 
 <div class="general-background">
 	
-	<ul class="flex-container">
-		<li class="flex-item">
+	
 		<h1>Transcription des textes d'élèves</h1>
 		<hr/>
 		<p>Afin de transformer les copies en une ressource exploitable par la communauté scientifique, et y appliquer des méthodes de linguistique de corpus et de TAL, il est nécessaire de passer par une étape de transcription des scans de copies. </p>
@@ -115,15 +115,14 @@
 				<li>l'exploration du <a href="exploration.html"><b>corpus transcrit</b></a></li>
 			</ul>
 		</p>
-	</ul>
+	
 </div>
 		
 	<!-- Normalisation -->
 
 	<div class="general-background">
 	
-	<ul class="flex-container">
-		<li class="flex-item">
+	
 		<h1>Normalisation des textes d'élèves</h1>
 		<hr/>
 		<p>Afin de faciliter l'analyse des erreurs orthographiques et pour pouvoir appliquer des méthodes de linguistique de corpus et de TAL, une étape de normalisation des transcriptions de copies a été prévue.<br/>
@@ -145,11 +144,9 @@
 				
 			</ul>
 		</p>
-	</ul>
 		
 
-<ul class="flex-container">
-		<li class="flex-item">
+
 		<h1>Annotation de la continuité référentielle.</h1>
 		<hr/>
 		<p>
@@ -165,14 +162,10 @@
 		
 		
 		</p>
-	</ul>
 
 </div>
 				
 
-		</li>
-	</ul>
-</div>
 <div>
 <p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
 </div>

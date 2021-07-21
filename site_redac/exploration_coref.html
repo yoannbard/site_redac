@@ -24,7 +24,7 @@
 
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
-  <div class="image_nav"><a href="/corpus/resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
+  <div class="image_nav"><a href="./resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
     <ul id="menu-demo2">
 	<li><a href="./resolco.html">Présentation</a>
 	</li>
@@ -43,100 +43,70 @@
 
 <!-- Les tableaux -->
 
-<div class="tables">
-   <ul class="flex-container2">
+
 
 <!-- Comment lire les noms des fichiers -->
 
-<div class="general-background page-transcriptions-background">
+<div class="general-background">
 
- <ul class="flex-container">
-	<li class="flex-item nom-des-fichiers">
 
-		<h1>Annotation de la continuité référentielle.</h1>
+
+		<h1>Exploration de la ressource normalisée et annotée</h1>
+			<hr/>
+			<p>Cette page vous permet d'explorer la ressource RésolCo via le <b><a href="#tabulator-table2">tableau d'interrogation</a></b>. Ce tableau permet une exploration et une sélection des textes de la ressource dans leur version normalisée orthographiquement et annotée au niveau des continuités référentielles.</p>
+			
+			<p>Pour accéder à la visualisation des textes (images et annotations), cliquer sur l'identifiant dans la colonne <b>ID</b>.</p> 
+
+		<h1 id="annot_section">Annotation de la continuité référentielle</h1>
 		<hr/>
 		<p>
-		L'exercice d'écriture demandé dans les récits Resolco impose trois phrases à introduire dans l'ordre au cours d'un récit.<br/> Chaque phrase consigne contient un référent humain : "<b><i>Elle</i></b> habitait dans cette maison depuis longtemps" ; "<b><i>il</i></b> se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <b><i>les enfants</i></b> ne sortent plus la nuit".
+		La consigne Resolco impose trois phrases à introduire dans l'ordre au cours d'un récit.<br/> Chaque phrase consigne contient un référent humain : "<b><i>Elle</i></b> habitait dans cette maison depuis longtemps" ; "<b><i>il</i></b> se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <b><i>les enfants</i></b> ne sortent plus la nuit".
 		</p>
 		<p>
-		La consigne contraint (dans la grande majorité des cas) à placer ces référents humains au centre du récit et nous nous intéressons aux stratégies mises en place par le scripteur pour développer et gérer ces personnages de manière cohérente. Ce sont ces référents qui sont annotés dans chaque texte normalisé du corpus.
+		L'annotation de la continuité référentielle proposée dans la ressource ResolCo se concentre sur ces trois référents humains.
 		</p>
-		
-		<p>Par exemple, tous les éléments référant au personnage <i>Elle</i> sont annotés tel que :
+		L'exemple ci-dessous illustre une continuité référentielle liée au personnage <i>Elle</i> annotée dans un texte de 3ème (seul le début du texte est affiché, cliquer dessus pour l'afficher entièrement) :
 		</p>
-		<img src="images/3eR13_pronom_relatif.png" title="relative" style="width : 100%;max-width:800px;" />
-		<p>On obtient la <span style="color:#2e81f9">CR_ELLE</span> : <b>Elle - Cette femme mystérieuse et très âgée - dont - que.</b></p>
+		<img src="images/exemple_coref.png" title="relative" style="width : 100%;max-width:800px;" />
+		<p>Dans ce début de texte, la <span style="color:#2e81f9">CR_ELLE</span> annotée est constituée des maillons : <b>Une jeune femme - qui - son - ses - ils - elle - elle - cette famille</b></p>
+		<p>Toutes les expressions référant aux personnages <i>Elle</i> ont été systématiquement annotées, y compris les expressions "collectives", c'est-à-dire les expressions référant à un groupe incluant entre autre le référent ELLE. Ces expressions collectives ont été distinguées des autres maillons par un trait <b>Groupe</b>. Dans l'exemple ci-dessus, les maillons "ils" et "cette famille" sont annotés comme des maillons de la CR_ELLE de type groupe.</p>
+
 		<p> Chaque texte a été annoté par un ou plusieurs annotateurs francophones et un "gold standard" (ou adjudication) a été décidé pour gérer des cas d'incertitude ou d'ambiguïté au sein de l'annotation.
 			<br/>
 		Pour plus de détails concernant l'annotation des chaînes de continuité référentielle vous pouvez consulter le <a href="https://hodaclm.github.io/resolco/">guide d'annotation</a> ainsi que le <a href="https://github.com/hodaclm/resolco/wiki/Cas-d'incertitudes-et-de-d%C3%A9saccord-dans-le-corpus-ResolCo">Wiki</a> pour des exemples de cas d'incertitudes gérés lors de l'adjudication.
 		</p>
-		</li>
-	</ul>
-	<ul >
-	<h1>Exploration du corpus normalisé et annoté.</h1>
+		
+	<h1>Filtrer les textes</h1>
 			<hr/>
 
-	</ul>
-		<ul class="flex-container">
-			<li class="flex-item">
+	<table>
+		<tr>
+			<td>
 		
-			
-			<p>Cette page vous permet d'explorer les textes normalisés et annotés du corpus RésolCo.</p>
-			<p>Le <b>tableau d'interrogation</b> ci-contre du corpus a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
-		<p>358 textes sont actuellement interrogeables, ce qui correspond au nombre de testes transcrits, normalisés et annotés. D'autres textes actuellement en cours de traitement seront ajoutés ultérieurement.</p> 
-
-		<p>Ce tableau permet de filtrer les textes par :</p>
-
+		
 		<ul>
-		<li><b>Nb Elle</b>&nbsp;: le nombre minimum de maillons du référent ELLE (ainsi que ceux avec le trait groupe).</li>
-		<li><b>Nb Il</b>&nbsp;: le nombre minimum de maillons du référent IL (ainsi que ceux avec le trait groupe).</li>
-		<li><b>Nb Les enfants</b>&nbsp;: le nombre minimum de maillons du référent Les Enfants (ainsi que ceux avec le trait groupe).</li>  
-		<li>La <b>liste des identifiants (ID)</b> donne accès à toutes les versions numérisées disponibles. Cliquer sur l'identifiant de la copie donne accès à une visualisation en parallèle du texte annoté et du scan de la copie.<br/> Il est possible de filtrer les copies par année, niveau scolaire, classe, devoir, version...</li>
-		</ul>
-		
+		<li><b>ID (identifiants)</b> :
+		Permet de filtrer les textes par année, niveau scolaire, classe, devoir, version... (Voir explication du codage des identifiants sur la page <a href="./exploration.html">Exploration - Transcription</a>).<br/>
+		Par exemple en écrivant "CE2" dans la barre de recherche, seuls les textes récoltés dans des classes de CE2 seront sélectionnés
 	</li>
-	<li>
-		<div id="tabulator-table2"></div>
-
-	</li>
-
+		<li><b>Nb Elle</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent ELLE. (<i>Groupe</i>) : le nombre minimum de maillons du référent ELLE de type groupe (référent collectif incluant le référent ELLE, par exemple "les deux soeurs")</li>
+		<li><b>Nb Il</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent IL. (<i>Groupe</i>) : le nombre minimum de maillons du référent ELLE de type groupe (référent collectif incluant le référent IL, par exemple "la bande de copains")</li>
+		<li><b>Nb Les enfants</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent LES ENFANTS. (<i>Groupe</i>) : le nombre minimum de maillons du référent ELLE de type groupe (référent collectif incluant entre autres LES ENFANTS, par exemple "toute la famille")</li>  
+</ul>
+<ul>
+		<h3>Filtre avancé</h3>
+		<p>
+		Ce filtre permet de sélectionner les textes en fonction de la position du premier maillon d'une CR (équivalent à son introduction dans le texte) par rapport à la position des phrases de la consigne (P1, P2, P3).
+		Trois opérateurs à utiliser :</p>
 	</ul>
-	
-
-
-	<!-- Tabulator -->
-<div class="general-background">
-			<ul class="flex-container">
-			<li class="flex-item">
-	<!--<li class="flex-item Tabulator">-->
-		
-		<h1>Aller plus loin</h1>
-		<hr/>
-		
-		<p>Lors de notre analyse nous avons abordé la question des différentes stratégies mises en place par le scripteur pour introduire ses personnages.<br/>
-		Se rapproche t-il de la <i>planification</i> : les trois référents sont introduits en tout début de texte (donc avant la consigne P1)
-		<br/>
-		ou au contraire le <i>pas à pas</i> : les trois référents sont introduits les uns à la suite des autres après ou pendant leur phrase consigne respective.</p>
-	</p>
-	<p>Pour une première esquisse des stratégies utilisées par les élèves pour construire des continuités référentielles, veuillez consulter : <br/> (À venir) Ho-Dac, L.-M., Rebeyrolle, J. (2021) La continuité référentielle dans le corpus Résolco : méthode d’annotation et premières analyses. <a href="#">DOC</a> </p>
-		
-		<p>Un outil pour filtrer les textes selon la position du premier maillon d'une CR (équivalent à son introduction dans le texte) par rapport à la position des différentes phrases consignes a été mis en place pour discerner les différents cas de figure.
-		<br/>
-		Exemple : dans une stratégie de planification les premiers maillons des CR auront la configuration suivante : <br/> <b> Ref ELLE - Ref IL - Ref Lenf < P1.</b>
-	</p>
-	<li class="flex-item-nom-fichier">
-	<p>
-
-		<br/>
-		<br/>
-		<br/>
-		Le filtre fonctionne avec trois opérateurs :
+		<table width="100%">
+			<tr><td width="50%">
 		<ul class="operators">
 			<li> <b> < </b> : le maillon 1 est avant P</li>
-			<li> <b> = </b> : le maillon 1 est le même que P</li>
+			<li> <b> = </b> : le maillon 1 est celui de P</li>
 			<li> <b> > </b> : le maillon 1 est après P</li>
 		</ul>
-		</p>
+		</td><td>
 
 		<div>
   <select id="filter-ref">
@@ -195,40 +165,64 @@
     clear filter
 </button>
 </div>
-		
-		
-	</li>
-</ul>
+<br/>
 
-<ul class="flex-container">
-	<li class="flex-item">
+</td></tr>
+
+</table>	
+		
+	</td>
+	<td width="55%">
+		<div id="tabulator-table2"></div>
+		<p>Le <b>tableau d'interrogation</b> a été créé à l'aide de l'outil <a href="http://tabulator.info">Tabulator</a>.</p>
+
+	</td>
+
+	</table>
+	<p>Ce filtre avancé répond à un certain type d'analyse présenté ci-dessous.</p>
+
+	<!-- Tabulator -->
+	<!--<li class="flex-item Tabulator">-->
+		
+		<h1>Aller plus loin</h1>
+		<hr/>
+		
+		<p>Lors de notre analyse nous avons abordé la question des différentes stratégies mises en place par le scripteur pour introduire ses personnages.<br/>
+		Se rapproche t-il de la <i>planification</i> : les trois référents sont introduits en tout début de texte (donc avant la consigne P1)
+		<br/>
+		ou au contraire le <i>pas à pas</i> : les trois référents sont introduits les uns à la suite des autres après ou pendant leur phrase consigne respective.</p>
+	</p>
+	<p>Pour une première esquisse des stratégies utilisées par les élèves pour construire des continuités référentielles, veuillez consulter : <br/> (À venir) Ho-Dac, L.-M., Rebeyrolle, J. (2021) La continuité référentielle dans le corpus Résolco : méthode d’annotation et premières analyses. <a href="#">DOC</a> </p>
+		
+		<p>Le filtre avancé ci-dessus a été mis en place pour discerner différents cas de figure.
+		<br/>
+		Exemple : dans une stratégie de planification les premiers maillons des CR auront la configuration suivante : <br/>
+		<ul><li> Ref ELLE &lt; P1</li> <li> Ref IL &lt; P1</li> <li> Ref Lenf &lt; P1</li></ul>
+	</p>
+	
 		<h1>Divers travaux sur la continuité référentielle.</h1>
 		<hr/>
 		
-		<ul>
-    <li>Schnedecker C. (1995), « Besoins didactiques en matière de cohésion textuelle : les problèmes de continuité référentielle », Pratiques, 85, 3-25. <a href="https://www.persee.fr/doc/prati_0338-2389_1995_num_85_1_1734">PDF</a></li>
+		<ul>    
     
-    <li>Landragin F. (2011). « Une procédure d’analyse et d’annotation des chaînes de coréférence dans des textes écrits », Corpus, 10, 61-80. <a href="https://halshs.archives-ouvertes.fr/halshs-00658362/document">PDF</a></li>
-    
-    <li>Péry-Woodley M.-P., Afantenos S., Ho-Dac L.-M. & Asher N. (2011), « La ressource ANNODIS, un corpus enrichi d’annotations discursives », Traitement Automatique des Langues, 52 (3), 71-101.
-    <a href="https://halshs.archives-ouvertes.fr/halshs-00935201/document">PDF</a></li>
     <li>Garcia-Debanc, C., Bras, M. (2016). Vers une cartographie des compétences de cohérence et de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 à 12 ans: Indicateurs de maîtrise et progressivité. In S. Plane, C. Bazerman et al. (eds). Recherches en écriture: Regards pluriels, Actes du Colloque Writing Research Across Boarders 2014, Recherches textuelles 13, Metz: 39- 62.
-    <a href="https://hal.archives-ouvertes.fr/hal-01987031">PDF</a></li>
+    <a href="https://hal.archives-ouvertes.fr/hal-01987031">HAL</a></li>
     <li>Garcia-Debanc, C., Ho-Dac, L-M., Bras, M. & Rebeyrolle, J. (2017). Vers l’annotation discursive de textes d’élèves. Corpus, Bases, Corpus, Langage – UMR 6039, 16, pp. 157-184.
-    <a href="https://hal.archives-ouvertes.fr/hal-01558836">PDF</a></li>
+    <a href="https://hal.archives-ouvertes.fr/hal-01558836">HAL</a></li>
+    <li>Peres Bonnemaison, Karine (2018) Anaphore et référence en production écrite : étude de textes narratifs d'élèves de 9 à 11 ans, du CE2 au CM2. <a href="http://dante.univ-tlse2.fr/9764/">[Thèse] Document en accès restreint</a></li>
     <li>(À venir) Ho-Dac, L.-M., Rebeyrolle, J. (2021) La continuité référentielle dans le corpus Résolco : méthode d’annotation et premières analyses.</li>
     </ul>
 
     <p><b>Travaux de mémoire : </b></p>
 
     <ul>
-    <li>Pons M., (2019) Étude des incipit de productions écrites d'élèves : comparaison des relations de référence dans des textes rédigés par des élèves de CE2 et de 3e.</li>
-    <li>Roudaut L., (2020) Les traces de continuité référentielle dans les écrits scolaires. </li>
-    <li>Aubertin L., (2021) Les cohabitations des continuités référentielles dans le corpus RésolCo : modélisations et détection automatique</li>
+    <li>Lala, M., (2017) Outils linguistiques pour l'analyse de la cohérence et de la cohésion dans les textes d'enfants. <a href="http://dante.univ-tlse2.fr/4500/">[Mémoire]</a></li>
+    <li>Pons M., (2019) Étude des incipit de productions écrites d'élèves : comparaison des relations de référence dans des textes rédigés par des élèves de CE2 et de 3e. <a href="">[Mémoire]</a></li>
+    <li>Roudaut L., (2020) Les traces de continuité référentielle dans les écrits scolaires. <a href="">[Mémoire]</a></li>
+    <li>Aubertin L., (2021) Les cohabitations des continuités référentielles dans le corpus RésolCo : modélisations et détection automatique. <a href="">[Mémoire]</a></li>
     </ul>
 
-	</li>
-</ul>
+	
 
 
 	<script type="text/javascript">
@@ -355,13 +349,14 @@ var resolco=str2int(local_data)
 var table = new Tabulator("#tabulator-table2", {
 		data:resolco,
 		height:"311px",
-    	layout:"fitDataTable",
+    	layout:"fitColumns",
 		columns:[
 			
+			{title:"ID", field:"id",formatter:"link", headerFilter:true,width:"35%", formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_normalise/"+cell.getValue()+".html"}}},
 			{title:"NB ELLE", field:"nb_elle",formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"NB IL", field:"nb_il",formatter:"progress", width:"18%", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
 			{title:"NB Les enfants", field:"nb_lenf",formatter:"progress", sorter:"number", headerFilter:minMaxFilterEditor, headerFilterFunc:minMaxFilterFunction},
-			{title:"ID", field:"id",formatter:"link", headerFilter:true, formatterParams:{label:function(cell){return cell.getValue()},url:function(cell){return "./copies/html_normalise/"+cell.getValue()+".html"}}},
+			
 			
 			
 			
@@ -544,12 +539,8 @@ function filterPosition(data, filterParams){
 	  });
 	});
 </script>
-</div>
-</div>
 
-	</ul>
-</li>
-		</ul>
+
 		</div>
 <div>
 <p><font size="-1">Site développé par S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
