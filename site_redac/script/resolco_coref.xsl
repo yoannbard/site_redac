@@ -40,12 +40,12 @@ td p{
 							<xsl:attribute name="href">
 								<xsl:text>../../exploration_coref.html</xsl:text>
 							</xsl:attribute>
-			<xsl:text>Retour à la page exploration de la coréférence</xsl:text>
+			<xsl:text>Retour à la page exploration de la continuité référentielle</xsl:text>
 			</xsl:element>)</font></h2>
 			
 			<p><font size="2" color="gray"><xsl:value-of select="teiHeader/fileDesc/sourceDesc/p"/></font></p>
 			
-			<p> Les maillons des chaînes de continuité référentielle (CR) correspondant aux trois référents de la consigne ainsi que les trois phrases consignes P1, P2 et P3 ont été annotés selon le code couleur ci-dessous :</p>
+			<p> Les maillons des chaînes de continuité référentielle (CR) correspondant aux trois référents humains de la consigne ainsi que les trois phrases consignes P1, P2 et P3 ont été annotés selon le code couleur ci-dessous :</p>
 			<ul>
 				<li style="color:#2e81f9">CR_Elle</li>
 				<li style="color:#2fcf42">CR_Il</li>

@@ -47,7 +47,7 @@
 			<li><font color="gray"><i><xsl:text>&#9646;</xsl:text></i></font> : espace entre les mots incertain</li>
 			<li>passage illisible : <font color="gray"><i>xx</i></font>.</li>
 		</ul>
-			<p>Chaque ligne correspond à une ligne sur la copie. Les paragraphes identifiées sont séparés d'un espacement.</p>
+			<p>Chaque ligne correspond à une ligne sur la copie. Les paragraphes identifiés sont séparés d'un espacement.</p>
 
 			<table border="1">
 				<tr>
@@ -73,7 +73,7 @@
 					<p>
 						<xsl:element name="a">
 						<xsl:attribute name="href">../html_normalise/<xsl:value-of select="$transcript"/>_N.html</xsl:attribute>
-						<xsl:text>Lien vers la version normalisé.</xsl:text>						
+						<xsl:text>Lien vers la version normalisée.</xsl:text>						
 					</xsl:element>
 				</p>
 				</td>
