@@ -49,7 +49,7 @@ td p{
 			<ul>
 				<li style="color:#2e81f9">CR_Elle</li>
 				<li style="color:#2fcf42">CR_Il</li>
-				<li style="color:#ff8d33">CR_LesEnfants</li>
+				<li style="color:#ff8d33">CR_Les Enfants</li>
 				<li style="color:#cbcbcb">Phrases consigne</li>
 			</ul>
 			<table border="1">
@@ -73,7 +73,7 @@ td p{
 						<label for="scales">Références Il</label>
         
 						<input type="checkbox" id="color_lenf" name="scales" onchange='handleChange_lenf(this);' unchecked="true"></input>
-						<label for="scales">Références Lenf</label>
+						<label for="scales">Références Les Enfants</label>
 
 						<input type="checkbox" id="consigne" name="scales" onchange='handleChange_consigne(this);' unchecked="false"></input>
 						<label for="scales">Phrases consignes</label>
