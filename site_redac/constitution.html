@@ -33,7 +33,7 @@
 
 
 
-		<h1>Constitution de la ressource RésolCo</h1>
+		<h1>Constitution de la ressource ResolCo</h1>
 		<hr/>
 		<p>
 		Cette page décrit les différentes étapes du processus de constitution de la ressource, de la transcription à sa normalisation puis à l'annotation.<br/>
@@ -51,7 +51,7 @@
 			<li><b>Normalisation orthographique</b> : il s'agit d'annoter les erreurs d'orthographe et en indiquer la version corrigée. Si les annotateurs rencontrent des erreurs provenant de la transcription, on revient à l'étape 2 pour corriger les .xml ;</li>
 			<li><b>Génération</b> des fichiers normalisés : un script python permet de générer les fichiers normalisés, c'est-à-dire sans erreurs d'orthographe ;</li>
 			<li><b>Vérification</b> des fichiers normalisés : la vérification est effectuée par une personne différente de celle qui a réalisé l'annotation. Si des erreurs de normalisation sont rencontrés, on revient à l'étape 4 ;</li>
-			<li><b>Parsing</b> des fichiers normalisés : pour le parsing nous utilisons <a href="https://stanfordnlp.github.io/stanza/index.html">Stanza (Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning., 2020).</a></li>
+			<li><b>Parsing</b> des fichiers normalisés : pour le parsing nous utilisons <a href="https://arxiv.org/abs/2003.07082">Stanza (Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning., 2020).</a></li>
 			<li><b>Annotation de la continuité référentielle</b> des textes normalisés grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz (Widlöcher A. and  Mathet Y.,  2009).</a></li>
 		</ol>
 		 </p>
@@ -61,7 +61,7 @@
 
 		   <h1>Consigne et collecte des textes</h1>
 				<hr/>
-				<p>L'originalité du corpus RésolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.
+				<p>L'originalité du corpus ResolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.
 				<br/>Celle-ci est une tâche-problème imposant aux élèves la résolution de problèmes de cohésion textuelle (<a title="La gestion de la cohésion textuelle  par des élèves de 11-12 ans&nbsp;: réussites et difficultés" href="https://www.linguistiquefrancaise.org/articles/shsconf/pdf/2014/05/shsconf_cmlf14_01349.pdf" target="blank">Garcia-Debanc et Bonnemaison, 2014</a> ; <a title="Vers une cartographie des compétences de cohérence et  de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 -12 ans: indicateurs de maitrise et progressivité " href="https://hal.archives-ouvertes.fr/hal-01987031/" target="blank">Garcia-Debanc et Bras, 2016</a>).<br/>
 				L'objectif de cette consigne, fournie ci-dessous, est de provoquer chez le scripteur la mise en oeuvre de stratégies de résolution des problèmes de cohérence soulevés par l'intégration de trois phrases dans un récit.</p>
 				<table align="center" border="1" width="100%">
@@ -100,13 +100,12 @@
 	
 		<h1>Transcription des textes d'élèves</h1>
 		<hr/>
-		<p>Afin de transformer les textes en une ressource exploitable par la communauté scientifique, et y appliquer des méthodes de linguistique de corpus et de TAL, il est nécessaire de passer par une étape de transcription des scans de textes. </p>
-		<p>Le format choisi pour la transcription est le format XML, selon la norme TEI-P5.
+		<p>Afin de transformer les textes en une ressource exploitable par la communauté scientifique, et y appliquer des méthodes de linguistique de corpus et de TAL, il est nécessaire de passer par une étape de transcription des scans de textes.<br/>
+		Le format choisi pour la transcription est le format XML, selon la norme TEI-P5.
 		</p>
-		<p>Toute transcription est assortie de métadonnées fournissant des informations sur la collecte et la numérisation de la copie, sur les conditions d'écriture et sur l'école qui a participé à la récolte des textes.</p>
-		<p>Les transcriptions sont anonymisées.</p>
+		<p>Toute transcription est anonymisée et assortie de métadonnées fournissant des informations sur la collecte et la numérisation du texte, sur les conditions d'écriture et sur l'école qui a participé à la récolte des textes. La vérification est effectuée par un correcteur différent du transcripteur.<br/>
+		</p>
 		<p>Pour ce qui concerne le corps du texte, l'objectif de la transcription est de reproduire le plus fidèlement possible le texte de l'élève ou de l'étudiant. Afin d'obtenir une reproduction fidèle, la mise en page ligne par ligne est renseignée ainsi que toute trace du processus d'écriture comme les ratures, les ajouts, les soulignements, etc. Aucune erreur d'orthographe n'est corrigée lors de la transcription.</p>
-		<p>Toute transcription est vérifiée par une personne différente de celle qui a transcrit le texte.</p>
 		<p>
 			Pour plus de détails sur les éléments transcrits et les balises utilisées vous pouvez consulter : 
 			<ul>
@@ -131,7 +130,7 @@
 		</p>
 
 		<p>Pour ce qui concerne l'annotation des erreurs d'orthographe, il a été décidé de ne pas classer les erreurs. En effet, la catégorisation des erreurs orthographiques sera effectuée par les experts du projet E-Calm qui travaillent sur l'orthographe.<br/>
-		La normalisation du corpus RésolCo est effectuée par des annotateurs francophones. <br/>
+		La normalisation du corpus ResolCo est effectuée par des annotateurs francophones. <br/>
 		En cas d'incertitude, les annotateurs peuvent indiquer une incertitude concernant la détection et/ou la correction de l'erreur.<br/>
 		Si plusieurs solutions de correction sont possibles, elles sont indiquées.<br/>
 		</p>
