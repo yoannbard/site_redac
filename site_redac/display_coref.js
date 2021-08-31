@@ -224,31 +224,4 @@ function handleChange_lenf(checkbox) {
 }
 
 
-//function handleChange_text_transcrit(checkbox) {
-// //CHECKING boxes
-//     var div = document.querySelector('div[id="texte_transcrit"]');
-//     if(checkbox.checked == true){    
-//         console.log(div);
-//         div.style.display="block";
 
-//         }
-//     else if (checkbox.checked==false){
-//       div.style.display="none";
-//     }
-// }
-
-// function handleChange_text_normalise(checkbox) {
-// //CHECKING boxes
-//     var div = document.querySelector('div[id="texte_normalise"]');
-//     var texte = document.querySelector('div[id="parsed_csv"]');
-//     if(checkbox.checked == true){
-//         console.log(div);
-//         div.style.display="block";
-//         texte.style.display="block";
-//         }
-//     else if (checkbox.checked==false){
-//       div.style.display="none";
-//       texte.style.display="none";
-//     }
-  
-// }
