@@ -74,3 +74,39 @@
 21	en	en	ADP	ADP	_	mark	22	360	362	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 22	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	20	363	372	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 23	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	25	373	375	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	25	376	381	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	22	382	387	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	.	PUNCT	PUNCT	_	punct	5	387	388	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	CCONJ	_	cc	4	389	391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	c'	ce	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	expl:subj	4	392	394	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	est	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	cop	4	394	397	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	là	là	ADV	ADV	_	root	0	398	400	_	_	_	Err	la	398-400	_	_	_	_	_	_	_	_
+5	qu'	que	SCONJ	SCONJ	_	mark	8	401	404	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	8	404	406	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	404-406	_	_	_	_
+7	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	8	407	408	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	vu	voir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	advcl:cleft	4	409	411	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	10	412	415	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	personne	personne	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	416	424	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	!	!	PUNCT	PUNCT	_	punct	4	425	426	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	2	427	430	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	427-438	in_GOui_incertDNon_incertRNon	427-438	in_GNon_incertDNon_incertRNon	427-438	_	_
+2	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	6	431	438	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	427-438	in_GOui_incertDNon_incertRNon	427-438	in_GNon_incertDNon_incertRNon	427-438	_	_
+3	se	se	PRON	PRON	Person=3|PronType=Prs	expl:pass	6	439	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sont	être	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	6	442	446	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	vite	vite	ADV	ADV	_	advmod	6	447	451	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	cachés	cacher	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	root	0	452	458	_	_	_	Err	cacher	452-458	_	_	_	_	_	_	_	_
+7	dans	dans	ADP	ADP	_	case	9	459	463	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	9	464	466	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	buisson	buisson	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	6	467	474	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	.	PUNCT	PUNCT	_	punct	6	474	475	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	ADP	_	case	3	476	482	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	483	488	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	489	497	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	PUNCT	_	punct	3	497	498	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	499	502	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	499-510	in_GOui_incertDNon_incertRNon	499-510	in_GNon_incertDNon_incertRNon	499-510	_	_
+6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	503	510	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	in_GOui_incertDNon_incertRNon	499-510	in_GOui_incertDNon_incertRNon	499-510	in_GNon_incertDNon_incertRNon	499-510	_	_
+7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	511	513	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	514	521	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	522	526	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
+10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	527	529	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	530	534	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	punct	8	534	535	consigne	_	_	Err	e -- alternatives : <nonfini/>	503-535	_	_	_	_	_	_	_	_
