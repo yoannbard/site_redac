@@ -122,8 +122,8 @@ function displayHTMLTable(data){
 		para+=string+"</p>";
     positions=get_positions(data)
 
-    var stats="<p>Nombre de <b>mots</b> : "+cpt_word.toString()+"<br/>Nombre de maillons <span style='color:#2e81f9'>Elle</span> : "+cpt_elle.toString()+"<br/>Nombre de maillons <span style='color:#2fcf42'> Il</span> : "+cpt_il.toString()+"<br/>Nombre de maillons <span style='color:#ff8d33'> Les Enfants </span> : "+cpt_lenf.toString()+"<br/>Configuration du texte : "+positions
-    "</p>"
+    var stats="<p>Nombre de mots : <b>"+cpt_word.toString()+"</b><br/>Nombre de maillons <span style='color:#2e81f9'>Elle</span> : <b>"+cpt_elle.toString()+"</b><br/>Nombre de maillons <span style='color:#2fcf42'> Il</span> : <b>"+cpt_il.toString()+"</b><br/>Nombre de maillons <span style='color:#ff8d33'> Les Enfants </span> : <b>"+cpt_lenf.toString()+"</b><br/>Configuration de l'introduction des référents : <b>"+positions
+    "</b></p>"
     //console.log(para);
 		$("#parsed_csv").html(para);
     $("#stats_texte").html(stats);
@@ -167,50 +167,40 @@ function get_positions(data){
   }
 
 function get_Pfirsts(data){
-  for(i=0;i<data.length;i++){
-      var row = data[i];
-      
-      var annot_elle=row[17];
-      var annot_il=row[19];
-      var annot_lenf=row[21];
-      var consigne =row[10]
-
-      console.log(consigne,annot_lenf);
 
       const regex_coord = /(?<start>\d+)-\d+/gm;
 
-      if (consigne=="consigne" & annot_elle!="_"){
-          let match_elle = regex_coord.exec(annot_elle)
-          var P1=parseInt(match_elle.groups.start)
-          console.log("trouve elle");
-        }
-        else if (consigne=="consigne" & annot_il!="_"){
-          console.log("trouve il")
-          let match_il = regex_coord.exec(annot_il)
-          var P2=parseInt(match_il.groups.start)
-        }
-        else if (consigne=="consigne" & annot_lenf!="_"){
-          console.log("trouve lenf")
-          let match_lenf = regex_coord.exec(annot_lenf)
-          var P3=parseInt(match_lenf.groups.start)
-          console.log(P3);
-        }
-        else{
-          console.log("pas de positions")
-        }
+      var P1 = data.find(function (row){
+          return row[17]!="_" & row[10]!="_"
+      });
+
+      var P2 = data.find(function (row){
+        return row[19]!="_" & row[10]!="_"
+      });
+
+      var P3 = data.find(function (row){
+          return row[21]!="_" & row[10]!="_"
+      });
       
-    }
+    
     if (P1 === undefined) {
         P1=null;
+      }else{
+        P1=P1[8];
       }
     if (P2 === undefined) {
         P2=null;
+      }else{
+        P2=P2[8]
       }
     if (P3 === undefined) {
         P3=null;
+      }else{
+        P3=P3[8]
       }
+      console.log(P1,P2,P3)
     return {"P1":P1,"P2":P2,"P3":P3};
-}
+  }
 
 function get_maillons_firsts(data){
       var first_elle = data.find(function (row){
