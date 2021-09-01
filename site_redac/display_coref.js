@@ -48,7 +48,7 @@ function chargeCSV(url,callBack){
       }
     });
   }
-
+//consigne =row[10]
 
 function displayHTMLTable(data){
   	//console.log("fonction display")
@@ -61,8 +61,8 @@ function displayHTMLTable(data){
     var cpt_elle=0;
     var cpt_il=0;
     var cpt_lenf=0;
+
     
-		
 		for(i=0;i<data.length;i++){
 			var row = data[i];
       //console.log(row);
@@ -120,18 +120,136 @@ function displayHTMLTable(data){
       
 		}
 		para+=string+"</p>";
-    var stats="<p>Nombre de <b>mots</b> : "+cpt_word.toString()+"<br/>Nombre de maillons <span style='color:#2e81f9'>Elle</span> : "+cpt_elle.toString()+"<br/>Nombre de maillons <span style='color:#2fcf42'> Il</span> : "+cpt_il.toString()+"<br/>Nombre de maillons <span style='color:#ff8d33'> Les Enfants </span> : "+cpt_lenf.toString()+"</p>"
+    positions=get_positions(data)
+
+    var stats="<p>Nombre de <b>mots</b> : "+cpt_word.toString()+"<br/>Nombre de maillons <span style='color:#2e81f9'>Elle</span> : "+cpt_elle.toString()+"<br/>Nombre de maillons <span style='color:#2fcf42'> Il</span> : "+cpt_il.toString()+"<br/>Nombre de maillons <span style='color:#ff8d33'> Les Enfants </span> : "+cpt_lenf.toString()+"<br/>Configuration du texte : "+positions
+    "</p>"
     //console.log(para);
 		$("#parsed_csv").html(para);
     $("#stats_texte").html(stats);
     }
+
+function get_positions(data){
+  
+  //ON RECUP LES POSITIONS PUIS ON LES TRIE PAR VALEURS
+    var consigne_firsts=get_Pfirsts(data);
+    var maillons_firsts=get_maillons_firsts(data);
+
+    var positions = Object.assign({}, consigne_firsts, maillons_firsts);
+    for (const [key, value] of Object.entries(positions)) {
+      if(value===null){
+        delete positions[key];
+      }
+    }
+
+    var keyValues = []
+
+    for (var key in positions) {
+      keyValues.push([ key, positions[key] ])
+    }
+
+    keyValues.sort(function compare(kv1, kv2) {
+    // This comparison function has 3 return cases:
+    // - Negative number: kv1 should be placed BEFORE kv2
+    // - Positive number: kv1 should be placed AFTER kv2
+    // - Zero: they are equal, any order is ok between these 2 items
+    return kv1[1] - kv2[1]
+    })
+    //on retourne la string de sortie : 
+    var string=String(keyValues[0][0])
+    for (index = 1; index < keyValues.length; index++) {
+      
+      string=string+" < "+String(keyValues[index][0])
+    }
+    
+    return string;
+
+  }
+
+function get_Pfirsts(data){
+  for(i=0;i<data.length;i++){
+      var row = data[i];
+      
+      var annot_elle=row[17];
+      var annot_il=row[19];
+      var annot_lenf=row[21];
+      var consigne =row[10]
+
+      console.log(consigne,annot_lenf);
+
+      const regex_coord = /(?<start>\d+)-\d+/gm;
+
+      if (consigne=="consigne" & annot_elle!="_"){
+          let match_elle = regex_coord.exec(annot_elle)
+          var P1=parseInt(match_elle.groups.start)
+          console.log("trouve elle");
+        }
+        else if (consigne=="consigne" & annot_il!="_"){
+          console.log("trouve il")
+          let match_il = regex_coord.exec(annot_il)
+          var P2=parseInt(match_il.groups.start)
+        }
+        else if (consigne=="consigne" & annot_lenf!="_"){
+          console.log("trouve lenf")
+          let match_lenf = regex_coord.exec(annot_lenf)
+          var P3=parseInt(match_lenf.groups.start)
+          console.log(P3);
+        }
+        else{
+          console.log("pas de positions")
+        }
+      
+    }
+    if (P1 === undefined) {
+        P1=null;
+      }
+    if (P2 === undefined) {
+        P2=null;
+      }
+    if (P3 === undefined) {
+        P3=null;
+      }
+    return {"P1":P1,"P2":P2,"P3":P3};
+}
+
+function get_maillons_firsts(data){
+      var first_elle = data.find(function (row){
+          return row[17]!="_"
+      });
+
+      var first_il = data.find(function (row){
+        return row[19]!="_"
+      });
+
+      var first_lenf = data.find(function (row){
+          return row[21]!="_"
+      });
+
+      if (first_elle === undefined) {
+        f_elle=null;
+      }else{
+        f_elle=parseInt(first_elle[8])
+      }
+      if (first_il === undefined) {
+        f_il=null;
+      }else{
+        f_il=parseInt(first_il[8])
+      }
+      if (first_lenf === undefined) {
+        f_lenf=null;
+      }else{
+        f_lenf=parseInt(first_lenf[8])
+      }
+      
+      return {"Elle":f_elle,"Il":f_il,"Les enfants":f_lenf};
+}
 
 
 function handleChange_consigne(checkbox) {
 //CHECKING boxes
     var maillons = document.querySelectorAll('mark[name="consigne"]');
     if(checkbox.checked == true && checkbox.id == "consigne"){    
-        console.log(maillons);
+        //console.log(maillons);
         for(var x=0;x< maillons.length;x++){
         
           maillons[x].style.background = '#cbcbcb '
@@ -141,7 +259,7 @@ function handleChange_consigne(checkbox) {
 
         }
     else if (checkbox.checked==false && checkbox.id == "consigne"){
-      console.log("ok")
+      //console.log("ok")
       for(var x=0;x< maillons.length;x++){
         
           maillons[x].style.background = 'transparent'
