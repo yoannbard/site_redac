@@ -24,7 +24,7 @@
 
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
-  <div class="image_nav"><a href="./resolco.html"><img src="images/logo_v2.png" alt="resolco"/></a></div>
+  <div class="image_nav"><a href="./resolco.html"><img src="images/logo.png" alt="resolco"/></a></div>
     <ul id="menu-demo2">
 	<li><a href="./resolco.html">Présentation</a>
 	</li>
@@ -51,7 +51,7 @@
 
 		<h1>Exploration de la ressource normalisée et annotée</h1>
 			<hr/>
-			<p>Cette page permet d'explorer la ressource ResolCo via le <b><a href="#tabulator-table2">tableau d'interrogation</a></b>. Ce tableau rassemble des textes de la ressource dans leur version normalisée orthographiquement et annotée au niveau des continuités référentielles.</p>
+			<p>Cette page permet d'explorer la ressource RésolCo via le <b><a href="#tabulator-table2">tableau d'interrogation</a></b>. Ce tableau rassemble des textes de la ressource dans leur version normalisée orthographiquement et annotée au niveau des continuités référentielles.</p>
 			
 			<p>Pour accéder à la visualisation des textes, cliquez sur l'identifiant dans la colonne <b>ID</b>.</p> 
 </div>
@@ -59,20 +59,21 @@
 		<h1 id="annot_section">Annotation de la continuité référentielle</h1>
 		<hr/>
 		<p>
-		La tâche d'écriture décrite dans la consigne ResolCo impose l'insertion de trois phrases dans un récit narratif fictionnel.<br/> Chaque phrase contient un référent humain : "<b><i>Elle</i></b> habitait dans cette maison depuis longtemps" ; "<b><i>Il</i></b> se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <b><i>les enfants</i></b> ne sortent plus la nuit".
+		La tâche d'écriture décrite dans la consigne RésolCo impose l'insertion de trois phrases dans un récit narratif fictionnel.<br/> Chaque phrase contient un référent humain : "<span style="color:#2e81f9">Elle</span> habitait dans cette maison depuis longtemps" ; "<span style="color:#2fcf42">Il</span>
+ se retourna en entendant ce grand bruit" ; "Depuis cette aventure, <span style="color:#ff8d33">les enfants</span> ne sortent plus la nuit".
 		</p>
 		<p>
 		L'annotation de la continuité référentielle décrite dans le guide d'annotation se focalise sur ces trois référents humains.
 		</p>
-		L'exemple ci-dessous illustre une continuité référentielle liée au personnage <i>Elle</i> annotée dans un texte de 3ème (seul le début du texte est affiché, cliquez dessus pour l'afficher entièrement) :
+		L'exemple ci-dessous illustre une continuité référentielle liée au personnage <span style="color:#2e81f9">Elle</span> annotée dans un texte de 3ème (seul le début du texte est affiché, cliquez dessus pour l'afficher entièrement) :
 		</p>
 		<a href="copies/html_normalise/CO-4e-2018-LSPJJRC-D1-R3-V1_N.html"><img src="images/exemple_coref.png" title="relative" style="width : 100%;max-width:800px;" /></a>
 		<p>Dans ce début de texte, la <span style="color:#2e81f9">CR_Elle</span> annotée est composée des maillons : <b>Une jeune femme - qui - son - ses - ils - elle - elle - cette famille</b></p>
-		<p>Toutes les expressions référant au personnage <i>Elle</i> ont été systématiquement annotées, y compris les expressions "collectives", c'est-à-dire les expressions référant à un groupe incluant entre autre le référent Elle. Ces expressions ont été distinguées des autres maillons par un trait <b>Groupe</b>. Dans l'exemple ci-dessus, les maillons "ils" et "cette famille" sont annotés comme des maillons de la CR_Elle ayant un trait groupe.</p>
+		<p>Toutes les expressions référant au personnage <span style="color:#2e81f9">Elle</span> ont été systématiquement annotées, y compris les expressions "collectives", c'est-à-dire les expressions référant à un groupe incluant entre autre le référent <span style="color:#2e81f9">Elle</span>. Ces expressions ont été distinguées des autres maillons par un trait <b>Groupe</b>. Dans l'exemple ci-dessus, les maillons "ils" et "cette famille" sont annotés comme des maillons de la <span style="color:#2e81f9">CR_Elle</span> ayant un trait groupe.</p>
 
 		<p> Chaque texte a été annoté par un ou plusieurs annotateurs francophones et un "gold standard" (ou adjudication) a été constitué pour trancher les cas d'incertitude ou d'ambiguïté.
 			<br/>
-		Pour plus de détails concernant l'annotation des chaînes de continuité référentielle vous pouvez consulter le <a href="https://hodaclm.github.io/resolco/">guide d'annotation</a> ainsi que le <a href="https://github.com/hodaclm/resolco/wiki/Cas-d'incertitudes-et-de-d%C3%A9saccord-dans-le-corpus-ResolCo">Wiki</a> où vous trouverez des exemples de cas d'incertitudes discutés lors de l'adjudication.
+		Pour plus de détails concernant l'annotation des chaînes de continuité référentielle vous pouvez consulter le <a href="https://hodaclm.github.io/resolco/">guide d'annotation</a> ainsi que le <a href="https://github.com/hodaclm/resolco/wiki/Cas-d'incertitudes-et-de-d%C3%A9saccord-dans-le-corpus-RésolCo">Wiki</a> où vous trouverez des exemples de cas d'incertitudes discutés lors de l'adjudication.
 		</p>
 		
 	<h1>Filtrer les textes</h1>
@@ -88,9 +89,9 @@
 		permet de filtrer les textes par année, niveau scolaire, classe, devoir, version... (Voir explication du codage des identifiants sur la page <a href="./exploration.html">Exploration - Transcription</a>).<br/>
 		Par exemple en écrivant "CE2" dans la barre de recherche, seuls les textes récoltés dans des classes de CE2 seront sélectionnés
 	</li>
-		<li><b>Nb Elle</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent Elle. (<i>Groupe</i>) : le nombre minimum de maillons du référent Elle de type groupe (référent collectif incluant le référent Elle, par exemple "les deux soeurs")</li>
-		<li><b>Nb Il</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent Il. (<i>Groupe</i>) : le nombre minimum de maillons du référent Elle de type groupe (référent collectif incluant le référent Il, par exemple "la bande de copains")</li>
-		<li><b>Nb Les enfants</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent LES ENFANTS. (<i>Groupe</i>) : le nombre minimum de maillons du référent Elle de type groupe (référent collectif incluant entre autres LES ENFANTS, par exemple "toute la famille")</li>  
+		<li><b>Nb Elle</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent <span style="color:#2e81f9">Elle</span>. (<i>Groupe</i>) : le nombre minimum de maillons du référent <span style="color:#2e81f9">Elle</span> de type groupe (référent collectif incluant le référent <span style="color:#2e81f9">Elle</span>, par exemple "les deux soeurs")</li>
+		<li><b>Nb Il</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent <span style="color:#2fcf42">Il</span>. (<i>Groupe</i>) : le nombre minimum de maillons du référent <span style="color:#2fcf42">Il</span> de type groupe (référent collectif incluant le référent <span style="color:#2fcf42">Il</span>, par exemple "la bande de copains")</li>
+		<li><b>Nb Les enfants</b>&nbsp;: (<i>Min</i>) le nombre minimum de maillons du référent <span style="color:#ff8d33">Les enfants</span>. (<i>Groupe</i>) : le nombre minimum de maillons du référent <span style="color:#ff8d33">Les enfants</span> de type groupe (référent collectif incluant entre autres <span style="color:#ff8d33">Les enfants</span>, par exemple "toute la famille")</li>  
 </ul>
 <ul>
 		<h3>Filtre avancé</h3>
@@ -191,12 +192,12 @@
 		<br/>
 		ou au contraire s'il procède <i>pas à pas</i> en introduisant les référents l'un après l'autre au fur et à mesure de l'insertion des trois phrases dans son récit.</p>
 	</p>
-	<p>Pour une première esquisse des stratégies utilisées par les élèves pour construire des continuités référentielles, veuillez consulter : <br/> Garcia-debanc, C.,  Ho-Dac, L.-M., Rebeyrolle, J. (À paraître) La continuité référentielle dans le corpus ResolCo : méthode d’annotation et premières analyses. <a href="#">DOC</a> </p>
+	<p>Pour une première esquisse des stratégies utilisées par les élèves pour construire des continuités référentielles, veuillez consulter : <br/> Garcia-debanc, C.,  Ho-Dac, L.-M., Rebeyrolle, J. (À paraître) La continuité référentielle dans le corpus RésolCo : méthode d’annotation et premières analyses. <a href="#">DOC</a> </p>
 		
 		<p>Le filtre avancé ci-dessus décrit différents cas de figure.
 		<br/>
 		Exemple : dans le cas d'une stratégie de planification les premiers maillons des CR auront la configuration suivante : <br/>
-		<ul><li> Ref Elle &lt; P1</li> <li> Ref Il &lt; P1</li> <li> Ref Les enfants &lt; P1</li></ul>
+		<ul><li> <span style="color:#2e81f9">Ref Elle</span> &lt; P1</li> <li><span style="color:#2fcf42">Ref Il</span> &lt; P1</li> <li> <span style="color:#ff8d33">Ref Les enfants</span> &lt; P1</li></ul>
 	</p>
 	
 		<h1>Divers travaux sur la continuité référentielle</h1>
@@ -209,7 +210,7 @@
     <li>Garcia-Debanc, C., Ho-Dac, L-M., Bras, M. & Rebeyrolle, J. (2017). Vers l’annotation discursive de textes d’élèves. Corpus, 16, pp. 157-184.
     <a href="https://hal.archives-ouvertes.fr/hal-01558836">HAL</a></li>
     <li>Perez-Bonnemaison, Karine (2018) Anaphore et référence en production écrite : étude de textes narratifs d'élèves de 9 à 11 ans, du CE2 au CM2. <a href="http://dante.univ-tlse2.fr/9764/">[Thèse] Document en accès restreint</a></li>
-    <li>Garcia-debanc, C.,  Ho-Dac, L.-M., Rebeyrolle, J. (À paraître) La continuité référentielle dans le corpus ResolCo : méthode d’annotation et premières analyses. <a href="#">DOC</a></li>
+    <li>Garcia-debanc, C.,  Ho-Dac, L.-M., Rebeyrolle, J. (À paraître) La continuité référentielle dans le corpus RésolCo : méthode d’annotation et premières analyses. <a href="#">DOC</a></li>
     </ul>
 
     <p><b>Travaux de mémoire : </b></p>
@@ -218,7 +219,7 @@
     <li>Lala, M., (2017) Outils linguistiques pour l'analyse de la cohérence et de la cohésion dans les textes d'enfants. <a href="http://dante.univ-tlse2.fr/4500/">[Mémoire]</a></li>
     <li>Pons M., (2019) Étude des incipit de productions écrites d'élèves : comparaison des relations de référence dans des textes rédigés par des élèves de CE2 et de 3e. <a href="docs/memoire_manonPons.pdf">[Mémoire]</a></li>
     <li>Roudaut L., (2020) Les traces de continuité référentielle dans les écrits scolaires. <a href="http://dante.univ-tlse2.fr/11334/">[Mémoire]</a></li>
-    <li>Aubertin L., (2021) Les cohabitations des continuités référentielles dans le corpus ResolCo : modélisations et détection automatique. <a href="docs/Mémoire_AUBERTIN_depot.pdf">[Mémoire]</a></li>
+    <li>Aubertin L., (2021) Les cohabitations des continuités référentielles dans le corpus RésolCo : modélisations et détection automatique. <a href="docs/Mémoire_AUBERTIN_depot.pdf">[Mémoire]</a></li>
     </ul>
 
 	
