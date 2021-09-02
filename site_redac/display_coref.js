@@ -158,8 +158,13 @@ function get_positions(data){
     //on retourne la string de sortie : 
     var string=String(keyValues[0][0])
     for (index = 1; index < keyValues.length; index++) {
-      
-      string=string+" < "+String(keyValues[index][0])
+      var operator=""
+      if (keyValues[index][1]==keyValues[index-1][1]){
+        operator=" = "
+      }else{
+        operator=" < "
+      }
+      string=string+operator+String(keyValues[index][0])
     }
     
     return string;
