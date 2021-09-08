@@ -70,7 +70,7 @@ function displayHTMLTable(data){
 			var num=row[0]
       var pos=row[3]
       		//console.log(word);
-      var consigne =row[10]
+      var consigne =row[11]
 
     	var annot_elle=row[17];
     	var annot_il=row[19];
@@ -175,31 +175,31 @@ function get_Pfirsts(data){
       const regex_coord = /(?<start>\d+)-\d+/gm;
 
       var P1 = data.find(function (row){
-          return row[17]!="_" & row[10]!="_"
+          return row[17]!="_" & row[11]=="consigne"
       });
 
       var P2 = data.find(function (row){
-        return row[19]!="_" & row[10]!="_"
+        return row[19]!="_" & row[11]=="consigne"
       });
 
       var P3 = data.find(function (row){
-          return row[21]!="_" & row[10]!="_"
+          return row[21]!="_" & row[11]=="consigne"
       });
-      
+      //console.log(P1,P2,P3)
     if (P1 === undefined) {
         P1=null;
       }else{
-        P1=P1[8];
+        P1=P1[9];
       }
     if (P2 === undefined) {
         P2=null;
       }else{
-        P2=P2[8]
+        P2=P2[9]
       }
     if (P3 === undefined) {
         P3=null;
       }else{
-        P3=P3[8]
+        P3=P3[9]
       }
       console.log(P1,P2,P3)
     return {"P1":P1,"P2":P2,"P3":P3};
