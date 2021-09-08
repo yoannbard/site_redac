@@ -65,7 +65,7 @@ function displayHTMLTable(data){
     
 		for(i=0;i<data.length;i++){
 			var row = data[i];
-      //console.log(row);
+      console.log(row);
 			var word=row[1];
 			var num=row[0]
       var pos=row[3]
@@ -75,7 +75,6 @@ function displayHTMLTable(data){
     	var annot_elle=row[17];
     	var annot_il=row[19];
 	    var annot_lenf=row[21];
-
         if (pos!="PUNCT"){
         cpt_word+=1;
         }
@@ -187,7 +186,6 @@ function get_Pfirsts(data){
           return row[21]!="_" & row[10]!="_"
       });
       
-    
     if (P1 === undefined) {
         P1=null;
       }else{
@@ -223,17 +221,17 @@ function get_maillons_firsts(data){
       if (first_elle === undefined) {
         f_elle=null;
       }else{
-        f_elle=parseInt(first_elle[8])
+        f_elle=parseInt(first_elle[9])
       }
       if (first_il === undefined) {
         f_il=null;
       }else{
-        f_il=parseInt(first_il[8])
+        f_il=parseInt(first_il[9])
       }
       if (first_lenf === undefined) {
         f_lenf=null;
       }else{
-        f_lenf=parseInt(first_lenf[8])
+        f_lenf=parseInt(first_lenf[9])
       }
       
       return {"Elle":f_elle,"Il":f_il,"Les enfants":f_lenf};
