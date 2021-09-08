@@ -2,7 +2,7 @@
 var copie=document.querySelector("title").textContent;
 
 var url="https://raw.githubusercontent.com/yoannbard/site_redac/main/site_redac/annotations_csv/"+copie+"_N_withAnnotations.csv";
-
+console.log(url)
 //https://github.com/yoannbard/site_redac/tree/main/site_redac/annotations_csv
 //console.log(url);
 
@@ -65,7 +65,7 @@ function displayHTMLTable(data){
     
 		for(i=0;i<data.length;i++){
 			var row = data[i];
-      console.log(row);
+      //console.log(row);
 			var word=row[1];
 			var num=row[0]
       var pos=row[3]
