@@ -6,83 +6,81 @@
 3	dans	dans	ADP	_	5	maison	case	O	32	36	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	5	maison	det	O	37	42	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	maison	maison	NOUN	Gender=Fem|Number=Sing	2	habitait	obl:arg	O	43	49	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	ADP	_	7	longtemps\	case	O	50	56	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps\	longtemps\	NOUN	Gender=Masc|Number=Sing	2	habitait	obl:mod	O	57	67	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PUNCT	_	2	habitait	punct	O	67	68	_	_	_	Err	## Elle	67-71	in_GNon_incertDNon_incertRNon	67-71	_	_	_	_	_	_
-1	Elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	jolie	nsubj	O	69	73	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	est	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	jolie	cop	O	74	77	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	jolie	joli	ADJ	Gender=Fem|Number=Sing	0	root	root	O	78	83	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PUNCT	_	5	belle	punct	O	83	84	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	belle	beau	ADJ	Gender=Fem|Number=Sing	3	jolie	conj	O	85	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	,	,	PUNCT	_	9	robe	punct	O	90	91	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	et	et	CCONJ	_	11	colorée	cc	O	92	94	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sa	son	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	robe	det	O	95	97	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	robe	robe	NOUN	Gender=Fem|Number=Sing	11	colorée	nsubj	O	98	102	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	très	très	ADV	_	11	colorée	advmod	O	103	107	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	colorée	colorer	ADJ	Gender=Fem|Number=Sing	3	jolie	conj	O	108	115	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	_	3	jolie	punct	O	115	116	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	jour	det	B-MISC	117	119	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	jour	jour	NOUN	Gender=Masc|Number=Sing	4	sort	obl:mod	E-MISC	120	124	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	sort	nsubj	O	125	129	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	sort	sortir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	130	134	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	dans	dans	ADP	_	7	nuit	case	O	135	139	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	nuit	det	O	140	142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	nuit	nuit	NOUN	Gender=Fem|Number=Sing	4	sort	obl:arg	O	143	147	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	mais	mais	CCONJ	_	11	savait	cc	O	148	152	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	savait	nsubj	O	153	157	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	ne	ne	ADV	Polarity=Neg	11	savait	advmod	O	158	160	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	savait	savoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	sort	conj	O	161	167	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	pas	pas	ADV	Polarity=Neg	11	savait	advmod	O	168	171	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	qu'	que	SCONJ	_	21	entendit	mark	O	172	175	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	entendit	nsubj	O	175	179	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	était	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	entendit	aux:tense	O	180	185	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	en	en	ADP	_	17	danger	case	O	186	188	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	danger	danger	NOUN	Gender=Masc|Number=Sing	21	entendit	obl:mod	O	189	195	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	monstre	det	O	196	198	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	194-204	_	_	_	_
-19	monstre	monstre	NOUN	Gender=Masc|Number=Sing	21	entendit	nsubj	O	199	206	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	l'	le	PRON	Number=Sing|Person=3|PronType=Prs	21	entendit	obj	O	207	209	_	_	_	Err	l'entenda	205-215	_	_	_	_	_	_	_	_
-21	entendit	entendre	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	savait	ccomp	O	209	217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	car	car	CCONJ	_	24	faisait	cc	O	218	221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	faisait	nsubj	O	222	226	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	faisait	faire	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	entendit	conj	O	227	234	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	27	bruit	case	O	235	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-26	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	bruit	det	O	235	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-27	bruit	bruit	NOUN	Gender=Masc|Number=Sing	24	faisait	obl:arg	O	238	243	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-28	,	,	PUNCT	_	31	retourna	punct	O	243	244	consigne	_	_	Err	Il	243-245	_	_	in_GNon_incertDNon_incertRNon	243-245	_	_	_	_
-29	il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	retourna	nsubj	O	245	247	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-30	se	se	PRON	Person=3|PronType=Prs	31	retourna	dep:comp	O	248	250	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-31	retourna	retourner	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	sort	conj	O	251	259	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-32	en	en	ADP	_	33	entendant	mark	O	260	262	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-33	entendant	entendre	VERB	Tense=Pres|VerbForm=Part	31	retourna	advcl	O	263	272	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-34	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	36	bruit\	det	O	273	275	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-35	grand	grand	ADJ	Gender=Masc|Number=Sing	36	bruit\	amod	O	276	281	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-36	bruit\	bruit\	NOUN	Gender=Masc|Number=Sing	33	entendant	obj	O	282	288	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-37	.	.	PUNCT	_	4	sort	punct	O	288	289	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Et	et	CCONJ	_	4	croqua	cc	O	290	292	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	après	après	ADP	_	4	croqua	case	O	293	298	_	_	_	_	_	_	GNon_incertDNon_incertRNon	295-297	_	_	_	_	_	_
-3	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	croqua	det	O	299	301	_	_	_	Err	croca	298-304	_	_	in_GNon_incertDNon_incertRNon	298-304	_	_	_	_
-4	croqua	croqua	NOUN	Gender=Fem|Number=Sing	0	root	root	O	302	308	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	;	;	PUNCT	_	4	croqua	punct	O	309	310	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Depuis	depuis	ADP	_	3	aventure	case	O	311	317	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	3	aventure	det	O	318	323	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-3	aventure	aventure	NOUN	Gender=Fem|Number=Sing	8	sortent	obl:mod	O	324	332	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-4	,	,	PUNCT	_	3	aventure	punct	O	332	333	_	_	_	Err	cette .	314-366	_	_	_	_	in_GNon_incertDNon_incertRNon	330-341	_	_
-5	les	le	DET	Definite=Def|Number=Plur|PronType=Art	6	enfants	det	O	334	337	_	_	_	Err	cette .	314-366	_	_	_	_	in_GNon_incertDNon_incertRNon	330-341	_	_
-6	enfants	enfant	NOUN	Number=Plur	8	sortent	nsubj	O	338	345	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-7	ne	ne	ADV	Polarity=Neg	8	sortent	advmod	O	346	348	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-8	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	349	356	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	Polarity=Neg	8	sortent	advmod	O	357	361	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit	det	O	362	364	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
-11	nuit	nuit	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	365	369	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	_	8	sortent	punct	O	369	370	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Mais	mais	CCONJ	_	7	fausse	cc	O	371	375	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	qui	qui	PRON	PronType=Rel	3	sait	nsubj	O	376	379	_	_	_	Err	c'est	376-380	_	_	_	_	_	_	_	_
-3	sait	savoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fausse	parataxis	O	380	384	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	fausse	nsubj	O	385	389	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	est	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fausse	cop	O	390	393	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	peut-être	peut-être	ADV	_	7	fausse	advmod	O	394	403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	fausse	faux	ADJ	Gender=Fem|Number=Sing	0	root	root	O	404	410	_	_	_	Err	fausse. cette	400-413	_	_	_	_	_	_	_	_
-8	,	,	PUNCT	_	10	histoire	punct	O	410	411	_	_	_	Err	fausse. cette	400-413	_	_	_	_	_	_	_	_
-9	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	10	histoire	det	O	412	417	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	histoire	histoire	NOUN	Gender=Fem|Number=Sing	7	fausse	nsubj	O	418	426	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	.	.	PUNCT	_	7	fausse	punct	O	426	427	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	_	7	longtemps	case	O	50	56	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	_	2	habitait	obl:mod	O	57	66	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	jolie	nsubj	O	67	71	_	_	_	Err	## Elle	67-71	is_GNon_incertDNon_incertRNon	67-71	_	_	_	_	_	_
+2	est	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	jolie	cop	O	72	75	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	jolie	joli	ADJ	Gender=Fem|Number=Sing	0	root	root	O	76	81	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	_	5	belle	punct	O	81	82	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	belle	beau	ADJ	Gender=Fem|Number=Sing	3	jolie	conj	O	83	88	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	,	PUNCT	_	9	robe	punct	O	88	89	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	et	et	CCONJ	_	11	colorée	cc	O	90	92	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sa	son	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	robe	det	O	93	95	_	_	_	Err	sà	93-95	is_GNon_incertDNon_incertRNon	93-95	_	_	_	_	_	_
+9	robe	robe	NOUN	Gender=Fem|Number=Sing	11	colorée	nsubj	O	96	100	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	très	très	ADV	_	11	colorée	advmod	O	101	105	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	colorée	colorer	ADJ	Gender=Fem|Number=Sing	3	jolie	conj	O	106	113	_	_	_	Err	coloré	106-113	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	_	3	jolie	punct	O	113	114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	jour	det	O	115	117	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NOUN	Gender=Masc|Number=Sing	4	sort	obl:mod	O	118	122	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	sort	nsubj	O	123	127	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	123-127	_	_	_	_	_	_
+4	sort	sortir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	128	132	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dans	dans	ADP	_	7	nuit	case	O	133	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	nuit	det	O	138	140	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nuit	nuit	NOUN	Gender=Fem|Number=Sing	4	sort	obl:arg	O	141	145	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mais	mais	CCONJ	_	11	savait	cc	O	146	150	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	savait	nsubj	O	151	155	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	151-155	_	_	_	_	_	_
+10	ne	ne	ADV	Polarity=Neg	11	savait	advmod	O	156	158	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	savait	savoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	sort	conj	O	159	165	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	pas	pas	ADV	Polarity=Neg	11	savait	advmod	O	166	169	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	qu'	que	SCONJ	_	21	entendit	mark	O	170	173	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	entendit	nsubj	O	173	177	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	173-177	_	_	_	_	_	_
+15	était	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	entendit	aux:tense	O	178	183	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	en	en	ADP	_	17	danger	case	O	184	186	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	danger	danger	NOUN	Gender=Masc|Number=Sing	21	entendit	obl:mod	O	187	193	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	monstre	det	O	194	196	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	194-204	_	_	_	_
+19	monstre	monstre	NOUN	Gender=Masc|Number=Sing	21	entendit	nsubj	O	197	204	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	194-204	_	_	_	_
+20	l'	le	PRON	Number=Sing|Person=3|PronType=Prs	21	entendit	obj	O	205	207	_	_	_	Err	l'entenda	205-215	is_GNon_incertDNon_incertRNon	205-207	_	_	_	_	_	_
+21	entendit	entendre	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	savait	ccomp	O	207	215	_	_	_	Err	l'entenda	205-215	_	_	_	_	_	_	_	_
+22	car	car	CCONJ	_	24	faisait	cc	O	216	219	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	faisait	nsubj	O	220	224	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	220-224	_	_	_	_	_	_
+24	faisait	faire	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	entendit	conj	O	225	232	_	_	_	Err	fesait	225-232	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	27	bruit	case	O	233	235	_	_	_	Err	dû	233-235	_	_	_	_	_	_	_	_
+26	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	bruit	det	O	233	235	_	_	_	Err	dû	233-235	_	_	_	_	_	_	_	_
+27	bruit	bruit	NOUN	Gender=Masc|Number=Sing	24	faisait	obl:arg	O	236	241	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	,	PUNCT	_	31	retourna	punct	O	241	242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	retourna	nsubj	O	243	245	consigne	_	_	Err	Il	243-245	_	_	is_GNon_incertDNon_incertRNon	243-245	_	_	_	_
+30	se	se	PRON	Person=3|PronType=Prs	31	retourna	dep:comp	O	246	248	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	retourna	retourner	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	sort	conj	O	249	257	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	en	en	ADP	_	33	entendant	mark	O	258	260	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	entendant	entendre	VERB	Tense=Pres|VerbForm=Part	31	retourna	advcl	O	261	270	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	36	bruit	det	O	271	273	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	grand	grand	ADJ	Gender=Masc|Number=Sing	36	bruit	amod	O	274	279	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	bruit	bruit	NOUN	Gender=Masc|Number=Sing	33	entendant	obj	O	280	285	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Et	et	CCONJ	_	4	croqua	cc	O	286	288	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	après	après	ADP	_	4	croqua	case	O	289	294	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	croqua	det	O	295	297	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	295-297	_	_	_	_	_	_
+4	croqua	croqua	NOUN	Gender=Fem|Number=Sing	0	root	root	O	298	304	_	_	_	Err	croca	298-304	_	_	is_GNon_incertDNon_incertRNon	298-304	_	_	_	_
+5	;	;	PUNCT	_	4	croqua	punct	O	305	306	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	_	3	aventure	case	O	307	313	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	3	aventure	det	O	314	319	consigne	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	Gender=Fem|Number=Sing	8	sortent	obl:mod	O	320	328	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	_	3	aventure	punct	O	328	329	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+5	les	le	DET	Definite=Def|Number=Plur|PronType=Art	6	enfants	det	O	330	333	_	_	_	Err	cette .	314-366	_	_	_	_	in_GNon_incertDNon_incertRNon	330-341	_	_
+6	enfants	enfant	NOUN	Number=Plur	8	sortent	nsubj	O	334	341	_	_	_	Err	cette .	314-366	_	_	_	_	in_GNon_incertDNon_incertRNon	330-341	_	_
+7	ne	ne	ADV	Polarity=Neg	8	sortent	advmod	O	342	344	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	345	352	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	Polarity=Neg	8	sortent	advmod	O	353	357	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit	det	O	358	360	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	361	365	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	_	8	sortent	punct	O	365	366	_	_	_	Err	cette .	314-366	_	_	_	_	_	_	_	_
+1	Mais	mais	CCONJ	_	7	fausse	cc	O	367	371	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	qui	qui	PRON	PronType=Rel	3	sait	nsubj	O	372	375	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sait	savoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fausse	parataxis	O	376	380	_	_	_	Err	c'est	376-380	_	_	_	_	_	_	_	_
+4	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	fausse	nsubj	O	381	385	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	est	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fausse	cop	O	386	389	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	peut-être	peut-être	ADV	_	7	fausse	advmod	O	390	399	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	fausse	faux	ADJ	Gender=Fem|Number=Sing	0	root	root	O	400	406	_	_	_	Err	fausse. cette	400-413	_	_	_	_	_	_	_	_
+8	,	,	PUNCT	_	10	histoire	punct	O	406	407	_	_	_	Err	fausse. cette	400-413	_	_	_	_	_	_	_	_
+9	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	10	histoire	det	O	408	413	_	_	_	Err	fausse. cette	400-413	_	_	_	_	_	_	_	_
+10	histoire	histoire	NOUN	Gender=Fem|Number=Sing	7	fausse	nsubj	O	414	422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	.	PUNCT	_	7	fausse	punct	O	422	423	_	_	_	_	_	_	_	_	_	_	_	_	_	_

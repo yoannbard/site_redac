@@ -1,80 +1,80 @@
-1	Autrefois	autrefois	ADV	ADV	_	advmod	4	0	9	_	_	_	Err	Atrefois	0-9	_	_	_	_	_	_	_	_
-2	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	3	10	13	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	10-19	_	_	_	_	_	_
-3	mamie	mamie	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	4	14	19	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	10-19	_	_	_	_	_	_
-4	devait	devoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	20	26	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	garder	garder	VERB	VERB	VerbForm=Inf	xcomp	4	27	33	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	7	34	37	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	34-37	in_GOui_incertDNon_incertRNon	34-52	in_GNon_incertDNon_incertRNon	34-52	_	_
-7	petits-enfants	petit-enfant	NOUN	NOUN	Gender=Masc|Number=Plur	obj	5	38	52	_	_	_	Err	petits enfants	38-52	_	_	in_GOui_incertDNon_incertRNon	34-52	in_GNon_incertDNon_incertRNon	34-52	_	_
-8	.	.	PUNCT	PUNCT	_	punct	4	52	53	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	54	58	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	54-58	_	_	_	_	_	_
-2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	59	67	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	ADP	ADP	_	case	5	68	72	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	73	78	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	79	85	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	ADP	ADP	_	case	7	86	92	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	93	102	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Ses	son	DET	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	2	103	106	_	del	106-106	_	_	_	is_GNon_incertDNon_incertRNon	103-106	in_GOui_incertDNon_incertRNon	103-118	in_GNon_incertDNon_incertRNon	103-118	_	_
-2	petits-fils	petits-fils	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	3	107	118	_	_	_	Err	petits fils	107-118	_	_	in_GOui_incertDNon_incertRNon	103-118	in_GNon_incertDNon_incertRNon	103-118	_	_
-3	dormaient	dormir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	root	0	119	128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	dans	dans	ADP	ADP	_	case	6	129	133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	6	134	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	cabane	cabane	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	3	138	144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Mais	mais	CCONJ	CCONJ	_	cc	5	145	149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	3	150	152	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj:pass	5	153	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	aux:pass	5	160	165	_	del	165-165	_	_	_	_	_	_	_	_	_	_	_
-5	hantée	hanter	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	root	0	166	172	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	case	7	173	175	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	fantômes	fantôme	NOUN	NOUN	Gender=Masc|Number=Plur	obl:arg	5	176	184	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Un	un	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	3	185	187	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	185-187	_	_	_	_
-2	n'	ne	ADV	ADV	Polarity=Neg	advmod	3	188	190	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	arrivait	arriver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	190	198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	pas	pas	ADV	ADV	Polarity=Neg	advmod	3	199	202	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	à	à	ADP	ADP	_	mark	6	203	204	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	dormir	dormir	VERB	VERB	VerbForm=Inf	xcomp	3	205	211	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	.	.	PUNCT	PUNCT	_	punct	3	211	212	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	213	215	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	213-215	_	_	_	_
-2	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	3	216	218	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	219	227	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	ADP	ADP	_	mark	5	228	230	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	231	240	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	241	243	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	8	244	249	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	5	250	255	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	PUNCT	_	punct	3	255	256	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	257	259	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	257-259	_	_	_	_
-2	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	3	260	263	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	260-263
-3	réveille	réveiller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	264	272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	et	et	CCONJ	CCONJ	_	cc	6	273	275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	6	276	279	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	276-279	is_GNon_incertDNon_incertRNon	276-279	_	_
-6	partent	partir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	3	280	287	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	jouer	jouer	VERB	VERB	VerbForm=Inf	xcomp	6	288	293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	en	en	ADP	ADP	_	case	9	294	296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	forêt	forêt	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	7	297	302	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	2	303	306	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	fantômes	fantôme	NOUN	NOUN	Gender=Masc|Number=Plur	nsubj	5	307	315	_	_	_	Err	fantôme	307-315	_	_	_	_	_	_	_	_
-3	les	le	PRON	PRON	Number=Plur|Person=3|PronType=Prs	obj	5	316	319	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	316-319	is_GNon_incertDNon_incertRNon	316-319	_	_
-4	avaient	avoir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	aux:tense	5	320	327	_	_	_	Err	avait	320-327	_	_	_	_	_	_	_	_
-5	suivis	suivre	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	root	0	328	334	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	.	.	PUNCT	PUNCT	_	punct	5	334	335	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Depuis	depuis	ADP	ADP	_	case	3	336	342	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	343	348	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	349	357	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PUNCT	PUNCT	_	punct	3	357	358	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	359	362	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	359-370	in_GNon_incertDNon_incertRNon	359-370	_	_
-6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	363	370	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	359-370	in_GNon_incertDNon_incertRNon	359-370	_	_
-7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	371	373	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	374	381	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	382	386	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	387	389	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	390	394	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	PUNCT	_	punct	8	394	395	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	3	396	399	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	396-399	is_GNon_incertDNon_incertRNon	396-399	_	_
-2	ne	ne	ADV	ADV	Polarity=Neg	advmod	3	400	402	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	403	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	plus	plus	ADV	ADV	Polarity=Neg	advmod	3	411	415	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	même	même	ADV	ADV	_	advmod	3	416	420	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	avec	avec	ADP	ADP	_	case	8	421	425	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	leur	son	DET	DET	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	det	8	426	430	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	426-436	is_GOui_incertDNon_incertRNon	426-430	is_GNon_incertDNon_incertRNon	426-430	_	_
-8	mamie	mamie	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	3	431	436	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	426-436	_	_	_	_	_	_
-9	.	.	PUNCT	PUNCT	_	punct	3	436	437	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Autrefois	autrefois	ADV	_	4	devait	advmod	O	0	9	_	_	_	Err	Atrefois	0-9	_	_	_	_	_	_	_	_
+2	une	un	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	mamie	det	O	10	13	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	10-19	_	_	_	_	_	_
+3	mamie	mamie	NOUN	Gender=Fem|Number=Sing	4	devait	nsubj	O	14	19	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	10-19	_	_	_	_	_	_
+4	devait	devoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	20	26	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	garder	garder	VERB	VerbForm=Inf	4	devait	xcomp	O	27	33	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ses	son	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	petits-enfants	det	O	34	37	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	34-37	in_GOui_incertDNon_incertRNon	34-52	in_GNon_incertDNon_incertRNon	34-52	_	_
+7	petits-enfants	petit-enfant	NOUN	Gender=Masc|Number=Plur	5	garder	obj	O	38	52	_	_	_	Err	petits enfants	38-52	_	_	in_GOui_incertDNon_incertRNon	34-52	in_GNon_incertDNon_incertRNon	34-52	_	_
+8	.	.	PUNCT	_	4	devait	punct	O	52	53	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	habitait	nsubj	O	54	58	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	54-58	_	_	_	_	_	_
+2	habitait	habiter	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	59	67	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	_	5	maison	case	O	68	72	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	5	maison	det	O	73	78	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	Gender=Fem|Number=Sing	2	habitait	obl:arg	O	79	85	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	_	7	longtemps	case	O	86	92	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	_	2	habitait	obl:mod	O	93	102	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ses	son	DET	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	petits-fils	det	O	103	106	_	del	106-106	_	_	_	is_GNon_incertDNon_incertRNon	103-106	in_GOui_incertDNon_incertRNon	103-118	in_GNon_incertDNon_incertRNon	103-118	_	_
+2	petits-fils	petits-fils	NOUN	Gender=Masc|Number=Plur	3	dormaient	nsubj	O	107	118	_	_	_	Err	petits fils	107-118	_	_	in_GOui_incertDNon_incertRNon	103-118	in_GNon_incertDNon_incertRNon	103-118	_	_
+3	dormaient	dormir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	119	128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	dans	dans	ADP	_	6	cabane	case	O	129	133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	une	un	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	cabane	det	O	134	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	cabane	cabane	NOUN	Gender=Fem|Number=Sing	3	dormaient	obl:mod	O	138	144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Mais	mais	CCONJ	_	5	hantée	cc	O	145	149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	maison	det	O	150	152	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	maison	maison	NOUN	Gender=Fem|Number=Sing	5	hantée	nsubj:pass	O	153	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	était	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	hantée	aux:pass	O	160	165	_	del	165-165	_	_	_	_	_	_	_	_	_	_	_
+5	hantée	hanter	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	root	O	166	172	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	7	fantômes	case	O	173	175	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	fantômes	fantôme	NOUN	Gender=Masc|Number=Plur	5	hantée	obl:arg	O	176	184	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	arrivait	nsubj	O	185	187	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	185-187	_	_	_	_
+2	n'	ne	ADV	Polarity=Neg	3	arrivait	advmod	O	188	190	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	arrivait	arriver	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	190	198	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	pas	pas	ADV	Polarity=Neg	3	arrivait	advmod	O	199	202	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	6	dormir	mark	O	203	204	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dormir	dormir	VERB	VerbForm=Inf	3	arrivait	xcomp	O	205	211	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	_	3	arrivait	punct	O	211	212	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	retourna	nsubj	O	213	215	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	213-215	_	_	_	_
+2	se	se	PRON	Person=3|PronType=Prs	3	retourna	dep:comp	O	216	218	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	219	227	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	ADP	_	5	entendant	mark	O	228	230	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VERB	Tense=Pres|VerbForm=Part	3	retourna	advcl	O	231	240	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	8	bruit	det	O	241	243	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	Gender=Masc|Number=Sing	8	bruit	amod	O	244	249	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NOUN	Gender=Masc|Number=Sing	5	entendant	obj	O	250	255	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	_	3	retourna	punct	O	255	256	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	réveille	nsubj	O	257	259	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	257-259	_	_	_	_
+2	les	le	PRON	Number=Plur|Person=3|PronType=Prs	3	réveille	obj	O	260	263	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	260-263
+3	réveille	réveiller	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	264	272	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	et	et	CCONJ	_	6	partent	cc	O	273	275	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ils	il	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	partent	nsubj	O	276	279	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	276-279	is_GNon_incertDNon_incertRNon	276-279	_	_
+6	partent	partir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	réveille	conj	O	280	287	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	jouer	jouer	VERB	VerbForm=Inf	6	partent	xcomp	O	288	293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	en	en	ADP	_	9	forêt	case	O	294	296	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	forêt	forêt	NOUN	Gender=Fem|Number=Sing	7	jouer	obl:mod	O	297	302	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	le	DET	Definite=Def|Number=Plur|PronType=Art	2	fantômes	det	S-LOC	303	306	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fantômes	fantôme	NOUN	Gender=Masc|Number=Plur	5	suivis	nsubj	O	307	315	_	_	_	Err	fantôme	307-315	_	_	_	_	_	_	_	_
+3	les	le	PRON	Number=Plur|Person=3|PronType=Prs	5	suivis	obj	O	316	319	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	316-319	is_GNon_incertDNon_incertRNon	316-319	_	_
+4	avaient	avoir	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	suivis	aux:tense	O	320	327	_	_	_	Err	avait	320-327	_	_	_	_	_	_	_	_
+5	suivis	suivre	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	root	O	328	334	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	_	5	suivis	punct	O	334	335	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	_	3	aventure	case	O	336	342	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	3	aventure	det	O	343	348	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	Gender=Fem|Number=Sing	8	sortent	obl:mod	O	349	357	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	_	3	aventure	punct	O	357	358	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	Definite=Def|Number=Plur|PronType=Art	6	enfants	det	O	359	362	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	359-370	in_GNon_incertDNon_incertRNon	359-370	_	_
+6	enfants	enfant	NOUN	Number=Plur	8	sortent	nsubj	O	363	370	consigne	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	359-370	in_GNon_incertDNon_incertRNon	359-370	_	_
+7	ne	ne	ADV	Polarity=Neg	8	sortent	advmod	O	371	373	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	374	381	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	Polarity=Neg	8	sortent	advmod	O	382	386	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit	det	O	387	389	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	390	394	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	_	8	sortent	punct	O	394	395	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ils	il	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	sortent	nsubj	O	396	399	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	396-399	is_GNon_incertDNon_incertRNon	396-399	_	_
+2	ne	ne	ADV	Polarity=Neg	3	sortent	advmod	O	400	402	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	403	410	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	plus	plus	ADV	Polarity=Neg	3	sortent	advmod	O	411	415	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	même	même	ADV	_	3	sortent	advmod	O	416	420	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	avec	avec	ADP	_	8	mamie	case	O	421	425	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	leur	son	DET	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	8	mamie	det	O	426	430	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	426-436	is_GOui_incertDNon_incertRNon	426-430	is_GNon_incertDNon_incertRNon	426-430	_	_
+8	mamie	mamie	NOUN	Gender=Fem|Number=Sing	3	sortent	obl:arg	O	431	436	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	426-436	_	_	_	_	_	_
+9	.	.	PUNCT	_	3	sortent	punct	O	436	437	_	_	_	_	_	_	_	_	_	_	_	_	_	_

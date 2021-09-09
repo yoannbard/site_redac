@@ -1,187 +1,187 @@
-1	Estelle	Estelle	PROPN	PROPN	_	nsubj	7	0	7	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-2	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	4	8	11	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-3	jeune	jeune	ADJ	ADJ	Gender=Fem|Number=Sing	amod	4	12	17	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-4	fille	fille	NOUN	NOUN	Gender=Fem|Number=Sing	appos	1	18	23	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-5	très	très	ADV	ADV	_	advmod	6	24	28	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-6	polie	poli	ADJ	ADJ	Gender=Fem|Number=Sing	amod	4	29	34	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
-7	vit	vivre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	35	38	_	del	38-38	Err	vive -- alternatives : vivait	35-38	_	_	_	_	_	_	_	_
-8	sur	sur	ADP	ADP	_	case	10	39	42	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	10	43	46	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	montagnes	montagne	NOUN	NOUN	Gender=Fem|Number=Plur	obl:mod	7	47	56	_	_	_	Err	montagne.	47-56	_	_	_	_	_	_	_	_
-1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	57	61	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	57-61	_	_	_	_	_	_
-2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	62	70	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	ADP	ADP	_	case	5	71	75	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	76	81	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	82	88	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	ADP	ADP	_	case	7	89	95	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	96	105	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	.	.	PUNCT	PUNCT	_	punct	2	105	106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	2	107	109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	4	110	114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	4	115	119	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	115-119	_	_	_	_	_	_
-4	dut	devoir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	120	123	_	_	_	Err	du	120-123	_	_	_	_	_	_	_	_
-5	déménager	déménager	VERB	VERB	VerbForm=Inf	xcomp	4	124	133	_	_	_	Err	démenage	124-133	_	_	_	_	_	_	_	_
-6	dans	dans	ADP	ADP	_	case	8	134	138	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	une	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	det	8	139	142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	ville	ville	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	5	143	148	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	,	,	PUNCT	PUNCT	_	punct	12	148	149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	sa	son	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	11	150	152	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	150-152	_	_	_	_	_	_
-11	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	12	153	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	allait	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	conj	4	160	166	_	_	_	Err	aller	160-166	_	_	_	_	_	_	_	_
-13	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	14	167	170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	manquer	manquer	VERB	VERB	VerbForm=Inf	xcomp	12	171	178	_	_	_	Err	manque	171-178	_	_	_	_	_	_	_	_
-15	.	.	PUNCT	PUNCT	_	punct	4	178	179	_	del	179-179	_	_	_	_	_	_	_	_	_	_	_
-1	Quelques	quelque	DET	DET	Number=Plur|PronType=Ind	det	2	180	188	_	_	_	Err	Quelque	180-188	_	_	_	_	_	_	_	_
-2	jours	jour	NOUN	NOUN	Gender=Masc|Number=Plur	obl:mod	7	189	194	_	_	_	Err	jour	189-194	_	_	_	_	_	_	_	_
-3	après	après	ADP	ADP	_	case	2	195	200	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	201	203	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	7	204	210	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	7	211	216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	vide	vide	ADJ	ADJ	Gender=Masc|Number=Sing	root	0	217	221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	alors	alors	ADV	ADV	_	advmod	10	222	227	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	10	228	232	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	228-232	_	_	_	_	_	_
-10	alla	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	7	233	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	avec	avec	ADP	ADP	_	case	14	238	242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	son	son	DET	DET	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	det	14	243	246	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	243-246	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
-13	meilleur	meilleur	ADJ	ADJ	Gender=Masc|Number=Sing	amod	14	247	255	_	del	255-255	_	_	_	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
-14	ami	ami	NOUN	NOUN	Gender=Masc|Number=Sing	obl:arg	10	256	259	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
-15	Théo	Théo	PROPN	PROPN	_	appos	14	260	264	_	_	_	Err	Thèo	260-264	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
-16	.	.	PUNCT	PUNCT	_	punct	7	264	265	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	2	266	269	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	266-269	is_GOui_incertDNon_incertRNon	266-269	_	_	_	_
-2	rentrent	rentrer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	270	278	_	subst	275-278	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	ADP	ADP	_	case	5	279	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	5	284	286	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	287	293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	.	.	PUNCT	PUNCT	_	punct	2	293	294	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	295	297	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	295-297	_	_	_	_
-2	se	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	3	298	300	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	301	309	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	ADP	ADP	_	mark	5	310	312	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	3	313	322	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	323	325	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	8	326	331	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	5	332	337	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	.	.	PUNCT	PUNCT	_	punct	3	337	338	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Alors	alors	ADV	ADV	_	advmod	3	339	344	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	3	345	347	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	345-347	_	_	_	_
-3	appela	appeler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	348	354	_	_	_	Err	appella	348-354	_	_	_	_	_	_	_	_
-4	Estelle	Estelle	PROPN	PROPN	_	obj	3	355	362	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	355-362	_	_	_	_	_	_
-5	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	7	363	365	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	363-365	_	_	_	_
-6	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	7	366	369	_	_	_	Err	luit dise	366-373	is_GNon_incertDNon_incertRNon	366-369	_	_	_	_	_	_
-7	dit	dire	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	parataxis	3	370	373	_	_	_	Err	luit dise	366-373	_	_	_	_	_	_	_	_
-8	«	«	PUNCT	PUNCT	_	punct	11	374	375	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	J'	il	PRON	PRON	Number=Sing|Person=1|PronType=Prs	nsubj	11	376	378	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	376-378	_	_	_	_
-10	ai	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	aux:tense	11	378	380	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	entendu	entendre	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	ccomp	7	381	388	_	_	_	Err	entenduu	381-388	_	_	_	_	_	_	_	_
-12	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	14	389	391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	14	392	397	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	11	398	403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	!	!	PUNCT	PUNCT	_	punct	11	404	405	_	_	_	Err	! »	404-405	_	_	_	_	_	_	_	_
-16	-	-	PUNCT	PUNCT	_	punct	11	405	406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Mais	mais	CCONJ	CCONJ	_	cc	4	407	411	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	quel	quel	DET	DET	Gender=Masc|Number=Sing|PronType=Int	det	4	412	416	_	_	_	Err	quelle	412-416	_	_	_	_	_	_	_	_
-3	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	4	417	422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	root	0	423	428	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	?	?	PUNCT	PUNCT	_	punct	4	429	430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	-	-	PUNCT	PUNCT	_	punct	4	430	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Celui	celui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	root	0	432	437	_	_	_	Err	Se lui	432-437	_	_	_	_	_	_	_	_
-2	que	que	PRON	PRON	PronType=Rel	obj	7	438	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	ta	ta	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs	det	4	442	444	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	442-444	_	_	_	_	_	_
-4	grand-mère	grand-mère	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	7	445	455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	nous	il	PRON	PRON	Number=Plur|Person=1|PronType=Prs	nsubj	7	456	460	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	456-460	is_GOui_incertDNon_incertRNon	456-460	_	_	_	_
-6	a	avoir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aux:tense	7	461	462	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	raconté	raconter	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	acl:relcl	1	463	470	_	_	_	Err	raconte	463-470	_	_	_	_	_	_	_	_
-8	!	!	PUNCT	PUNCT	_	punct	7	471	472	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	-	-	PUNCT	PUNCT	_	punct	1	472	473	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	expl:subj	2	474	476	_	_	_	Err	Ils faux	474-481	_	_	_	_	_	_	_	_
-2	faut	falloir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	477	481	_	_	_	Err	Ils faux	474-481	_	_	_	_	_	_	_	_
-3	qu'	que	SCONJ	SCONJ	_	mark	5	482	485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	on	on	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	nsubj	5	485	487	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	485-487	is_GNon_incertDNon_incertRNon	485-487	_	_	_	_
-5	parte	partir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	csubj	2	488	493	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	à	à	ADP	ADP	_	case	9	495	495	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	advmod	9	496	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	plus	plus	ADV	ADV	_	fixed	6	497	501	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	vite	vite	ADV	ADV	_	obl:mod	5	502	506	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	!	!	PUNCT	PUNCT	_	punct	2	507	508	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	!	!	PUNCT	PUNCT	_	punct	2	508	509	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	»	»	PUNCT	PUNCT	_	punct	4	510	511	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	Alors	alors	ADV	ADV	_	advmod	4	511	516	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	4	517	520	_	_	_	Err	il parti	517-530	is_GOui_incertDNon_incertRNon	517-520	is_GOui_incertDNon_incertRNon	517-520	_	_	_	_
-4	partirent	partir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	root	0	521	530	_	_	_	Err	il parti	517-530	_	_	_	_	_	_	_	_
-5	en	en	ADP	ADP	_	mark	6	531	533	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	courant	courir	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	4	534	541	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	voir	voir	VERB	VERB	VerbForm=Inf	xcomp	6	542	546	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	9	547	549	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	grand-mère	grand-mère	NOUN	NOUN	Gender=Fem|Number=Sing	obj	7	550	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	à	à	ADP	ADP	_	case	11	561	562	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	Estelle	Estelle	PROPN	PROPN	_	obl:arg	7	563	570	_	_	_	Err	Estelle Ils	563-575	is_GNon_incertDNon_incertRNon	563-570	_	_	_	_	_	_
-12	.	.	PUNCT	PUNCT	_	punct	4	570	571	_	_	_	Err	Estelle Ils	563-575	_	_	_	_	_	_	_	_
-1	Ils	il	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	nsubj	3	572	575	_	_	_	Err	Estelle Ils	563-575	is_GOui_incertDNon_incertRNon	572-575	is_GOui_incertDNon_incertRNon	572-575	_	_	_	_
-2	lui	lui	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obl:arg	3	576	579	_	_	_	Err	lors	576-579	_	_	_	_	_	_	_	_
-3	expliquèrent	expliquer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	root	0	580	592	_	_	_	Err	éxplica	580-592	_	_	_	_	_	_	_	_
-4	tout	tout	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	obj	3	593	597	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	PUNCT	_	punct	3	597	598	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	L'	le	DET	DET	Definite=Def|Number=Sing|PronType=Art	det	2	599	601	_	_	_	Err	L'Histoire	599-609	_	_	_	_	_	_	_	_
-2	histoire	histoire	NOUN	NOUN	Gender=Fem|Number=Sing	nsubj	3	601	609	_	_	_	Err	L'Histoire	599-609	_	_	_	_	_	_	_	_
-3	raconte	raconter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	root	0	610	617	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	que	que	SCONJ	SCONJ	_	mark	7	618	621	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	6	622	624	_	_	_	Err	se	622-624	_	_	_	_	_	_	_	_
-6	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	7	625	630	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	voulait	vouloir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	ccomp	3	631	638	_	_	_	Err	voules	631-638	_	_	_	_	_	_	_	_
-8	dire	dire	VERB	VERB	VerbForm=Inf	xcomp	7	639	643	_	_	_	Err	dit	639-643	_	_	_	_	_	_	_	_
-9	qu'	que	SCONJ	SCONJ	_	mark	12	644	647	_	del	647-647	Err	que un	644-649	_	_	_	_	_	_	_	_
-10	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	11	647	649	_	del	647-647	Err	que un	644-649	_	_	_	_	_	_	_	_
-11	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	12	650	657	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	allait	aller	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	ccomp	8	658	664	_	_	_	Err	alle	658-664	_	_	_	_	_	_	_	_
-13	venir	venir	VERB	VERB	VerbForm=Inf	xcomp	12	665	670	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	en	en	ADP	ADP	_	case	15	671	673	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	ville	ville	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	13	674	679	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	17	680	682	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	19	683	690	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	s'	se	PRON	PRON	Person=3|PronType=Prs	dep:comp	19	691	693	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	appelle	appeler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	ccomp	8	693	700	_	del	700-700	_	_	_	_	_	_	_	_	_	_	_
-20	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	21	701	703	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	19	704	708	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	case	24	710	710	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	24	711	711	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-24	Diable	Diable	PROPN	PROPN	Gender=Masc|Number=Sing	nmod	21	712	718	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-25	.	.	PUNCT	PUNCT	_	punct	3	718	719	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Depuis	depuis	ADP	ADP	_	case	3	720	726	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	3	727	730	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	727-738	in_GOui_incertDNon_incertRNon	727-738	in_GNon_incertDNon_incertRNon	727-738	_	_
-3	enfants	enfant	NOUN	NOUN	Number=Plur	obl:mod	4	731	738	_	_	_	Err	enfant	731-738	in_GOui_incertDNon_incertRNon	727-738	in_GOui_incertDNon_incertRNon	727-738	in_GNon_incertDNon_incertRNon	727-738	_	_
-4	décidèrent	décider	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	root	0	739	749	_	_	_	Err	désida	739-749	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	mark	6	750	752	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	tuer	tuer	VERB	VERB	VerbForm=Inf	xcomp	4	753	757	_	_	_	Err	tue	753-757	_	_	_	_	_	_	_	_
-7	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	8	758	760	_	_	_	Err	se	758-760	_	_	_	_	_	_	_	_
-8	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	obj	6	761	768	_	_	_	Err	montre	761-768	_	_	_	_	_	_	_	_
-9	tous	tout	ADJ	ADJ	Gender=Masc|Number=Plur	amod	11	769	773	_	_	_	Err	tout	769-773	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
-10	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	11	774	777	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
-11	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	13	778	785	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
-12	l'	le	PRON	PRON	Number=Sing|Person=3|PronType=Prs	obj	13	786	788	_	_	_	Err	l'attendes -- alternatives : l'attendent	786-799	_	_	_	_	_	_	_	_
-13	attendaient	attendre	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	conj	4	788	799	_	_	_	Err	l'attendes -- alternatives : l'attendent	786-799	_	_	_	_	_	_	_	_
-14	.	.	PUNCT	PUNCT	_	punct	4	799	800	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	2	801	803	_	del	803-803	_	_	_	_	_	_	_	_	_	_	_
-2	arriva	arriver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	root	0	804	810	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	4	811	814	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	811-822	in_GOui_incertDNon_incertRNon	811-822	in_GNon_incertDNon_incertRNon	811-822	_	_
-4	enfants	enfant	NOUN	NOUN	Number=Plur	obj	2	815	822	_	del	821-821	_	_	_	in_GOui_incertDNon_incertRNon	811-822	in_GOui_incertDNon_incertRNon	811-822	in_GNon_incertDNon_incertRNon	811-822	_	_
-5	le	le	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	obj	6	823	825	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	tua	tuer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	2	826	829	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	.	.	PUNCT	PUNCT	_	punct	2	829	830	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Depuis	depuis	ADP	ADP	_	case	3	831	837	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	3	838	843	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	8	844	852	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	,	,	PUNCT	PUNCT	_	punct	3	852	853	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	6	854	857	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	854-865	in_GOui_incertDNon_incertRNon	854-865	in_GNon_incertDNon_incertRNon	854-865	_	_
-6	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	8	858	865	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	854-865	in_GOui_incertDNon_incertRNon	854-865	in_GNon_incertDNon_incertRNon	854-865	_	_
-7	ne	ne	ADV	ADV	Polarity=Neg	advmod	8	866	868	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	root	0	869	876	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	plus	plus	ADV	ADV	Polarity=Neg	advmod	8	877	881	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	11	882	884	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit	nuit	NOUN	NOUN	Gender=Fem|Number=Sing	obj	8	885	889	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	PUNCT	_	punct	8	889	890	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Car	car	CCONJ	CCONJ	_	cc	5	891	894	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	3	895	897	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	monstre	monstre	NOUN	NOUN	Gender=Masc|Number=Sing	nsubj	5	898	905	_	_	_	Err	montre	898-905	_	_	_	_	_	_	_	_
-4	était	être	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	cop	5	906	911	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	immortel	immortel	ADJ	ADJ	Gender=Masc|Number=Sing	root	0	912	920	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	.	.	PUNCT	PUNCT	_	punct	5	920	921	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Estelle	Estelle	PROPN	_	7	vit	nsubj	S-PER	0	7	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+2	une	un	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	fille	det	O	8	11	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+3	jeune	jeune	ADJ	Gender=Fem|Number=Sing	4	fille	amod	O	12	17	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+4	fille	fille	NOUN	Gender=Fem|Number=Sing	1	Estelle	appos	O	18	23	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+5	très	très	ADV	_	6	polie	advmod	O	24	28	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+6	polie	poli	ADJ	Gender=Fem|Number=Sing	4	fille	amod	O	29	34	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	0-34	_	_	_	_	_	_
+7	vit	vivre	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	35	38	_	del	38-38	Err	vive -- alternatives : vivait	35-38	_	_	_	_	_	_	_	_
+8	sur	sur	ADP	_	10	montagnes	case	O	39	42	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	les	le	DET	Definite=Def|Number=Plur|PronType=Art	10	montagnes	det	O	43	46	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	montagnes	montagne	NOUN	Gender=Fem|Number=Plur	7	vit	obl:mod	O	47	56	_	_	_	Err	montagne.	47-56	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	habitait	nsubj	O	57	61	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	57-61	_	_	_	_	_	_
+2	habitait	habiter	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	62	70	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	_	5	maison	case	O	71	75	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	5	maison	det	O	76	81	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	Gender=Fem|Number=Sing	2	habitait	obl:arg	O	82	88	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	_	7	longtemps	case	O	89	95	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	_	2	habitait	obl:mod	O	96	105	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	.	PUNCT	_	2	habitait	punct	O	105	106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	jour	det	O	107	109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NOUN	Gender=Masc|Number=Sing	4	dut	obl:mod	O	110	114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	dut	nsubj	O	115	119	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	115-119	_	_	_	_	_	_
+4	dut	devoir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	120	123	_	_	_	Err	du	120-123	_	_	_	_	_	_	_	_
+5	déménager	déménager	VERB	VerbForm=Inf	4	dut	xcomp	O	124	133	_	_	_	Err	démenage	124-133	_	_	_	_	_	_	_	_
+6	dans	dans	ADP	_	8	ville	case	O	134	138	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	une	un	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	ville	det	O	139	142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ville	ville	NOUN	Gender=Fem|Number=Sing	5	déménager	obl:arg	O	143	148	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	,	PUNCT	_	12	allait	punct	O	148	149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sa	son	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	11	maison	det	O	150	152	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	150-152	_	_	_	_	_	_
+11	maison	maison	NOUN	Gender=Fem|Number=Sing	12	allait	nsubj	O	153	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	allait	aller	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	dut	conj	O	160	166	_	_	_	Err	aller	160-166	_	_	_	_	_	_	_	_
+13	lui	lui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	manquer	obl:arg	O	167	170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	manquer	manquer	VERB	VerbForm=Inf	12	allait	xcomp	O	171	178	_	_	_	Err	manque	171-178	_	_	_	_	_	_	_	_
+15	.	.	PUNCT	_	4	dut	punct	O	178	179	_	del	179-179	_	_	_	_	_	_	_	_	_	_	_
+1	Quelques	quelque	DET	Number=Plur|PronType=Ind	2	jours	det	O	180	188	_	_	_	Err	Quelque	180-188	_	_	_	_	_	_	_	_
+2	jours	jour	NOUN	Gender=Masc|Number=Plur	7	vide	obl:mod	O	189	194	_	_	_	Err	jour	189-194	_	_	_	_	_	_	_	_
+3	après	après	ADP	_	2	jours	case	O	195	200	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	maison	det	O	201	203	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	Gender=Fem|Number=Sing	7	vide	nsubj	O	204	210	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	était	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	vide	cop	O	211	216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	vide	vide	ADJ	Gender=Masc|Number=Sing	0	root	root	O	217	221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	alors	alors	ADV	_	10	alla	advmod	O	222	227	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	alla	nsubj	O	228	232	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	228-232	_	_	_	_	_	_
+10	alla	aller	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	vide	conj	O	233	237	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	avec	avec	ADP	_	14	ami	case	O	238	242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	son	son	DET	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	14	ami	det	O	243	246	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	243-246	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
+13	meilleur	meilleur	ADJ	Gender=Masc|Number=Sing	14	ami	amod	O	247	255	_	del	255-255	_	_	_	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
+14	ami	ami	NOUN	Gender=Masc|Number=Sing	10	alla	obl:arg	O	256	259	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
+15	Théo	Théo	PROPN	_	14	ami	appos	S-PER	260	264	_	_	_	Err	Thèo	260-264	_	_	in_GNon_incertDNon_incertRNon	243-264	_	_	_	_
+16	.	.	PUNCT	_	7	vide	punct	O	264	265	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Ils	il	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	rentrent	nsubj	O	266	269	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	266-269	is_GOui_incertDNon_incertRNon	266-269	_	_	_	_
+2	rentrent	rentrer	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	270	278	_	subst	275-278	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	_	5	maison	case	O	279	283	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	maison	det	O	284	286	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	Gender=Fem|Number=Sing	2	rentrent	obl:arg	O	287	293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	_	2	rentrent	punct	O	293	294	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	retourna	nsubj	O	295	297	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	295-297	_	_	_	_
+2	se	se	PRON	Person=3|PronType=Prs	3	retourna	dep:comp	O	298	300	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	301	309	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	ADP	_	5	entendant	mark	O	310	312	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VERB	Tense=Pres|VerbForm=Part	3	retourna	advcl	O	313	322	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	8	bruit	det	O	323	325	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	Gender=Masc|Number=Sing	8	bruit	amod	O	326	331	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NOUN	Gender=Masc|Number=Sing	5	entendant	obj	O	332	337	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	.	PUNCT	_	3	retourna	punct	O	337	338	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Alors	alors	ADV	_	3	appela	advmod	O	339	344	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	appela	nsubj	O	345	347	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	345-347	_	_	_	_
+3	appela	appeler	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	348	354	_	_	_	Err	appella	348-354	_	_	_	_	_	_	_	_
+4	Estelle	Estelle	PROPN	_	3	appela	obj	S-PER	355	362	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	355-362	_	_	_	_	_	_
+5	il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dit	nsubj	O	363	365	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	363-365	_	_	_	_
+6	lui	lui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dit	obl:arg	O	366	369	_	_	_	Err	luit dise	366-373	is_GNon_incertDNon_incertRNon	366-369	_	_	_	_	_	_
+7	dit	dire	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	appela	parataxis	O	370	373	_	_	_	Err	luit dise	366-373	_	_	_	_	_	_	_	_
+8	«	«	PUNCT	_	11	entendu	punct	O	374	375	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	J'	il	PRON	Number=Sing|Person=1|PronType=Prs	11	entendu	nsubj	O	376	378	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	376-378	_	_	_	_
+10	ai	avoir	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	entendu	aux:tense	O	378	380	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	entendu	entendre	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	dit	ccomp	O	381	388	_	_	_	Err	entenduu	381-388	_	_	_	_	_	_	_	_
+12	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	bruit	det	O	389	391	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	grand	grand	ADJ	Gender=Masc|Number=Sing	14	bruit	amod	O	392	397	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	bruit	bruit	NOUN	Gender=Masc|Number=Sing	11	entendu	obj	O	398	403	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	!	!	PUNCT	_	11	entendu	punct	O	404	405	_	_	_	Err	! »	404-405	_	_	_	_	_	_	_	_
+16	-	-	PUNCT	_	11	entendu	punct	O	405	406	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Mais	mais	CCONJ	_	4	bruit	cc	O	407	411	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	quel	quel	DET	Gender=Masc|Number=Sing|PronType=Int	4	bruit	det	O	412	416	_	_	_	Err	quelle	412-416	_	_	_	_	_	_	_	_
+3	grand	grand	ADJ	Gender=Masc|Number=Sing	4	bruit	amod	O	417	422	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	bruit	bruit	NOUN	Gender=Masc|Number=Sing	0	root	root	O	423	428	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	?	?	PUNCT	_	4	bruit	punct	O	429	430	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	-	-	PUNCT	_	4	bruit	punct	O	430	431	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Celui	celui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	root	O	432	437	_	_	_	Err	Se lui	432-437	_	_	_	_	_	_	_	_
+2	que	que	PRON	PronType=Rel	7	raconté	obj	O	438	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ta	ta	DET	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs	4	grand-mère	det	O	442	444	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	442-444	_	_	_	_	_	_
+4	grand-mère	grand-mère	NOUN	Gender=Fem|Number=Sing	7	raconté	nsubj	O	445	455	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nous	il	PRON	Number=Plur|Person=1|PronType=Prs	7	raconté	nsubj	O	456	460	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	456-460	is_GOui_incertDNon_incertRNon	456-460	_	_	_	_
+6	a	avoir	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	raconté	aux:tense	O	461	462	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	raconté	raconter	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	Celui	acl:relcl	O	463	470	_	_	_	Err	raconte	463-470	_	_	_	_	_	_	_	_
+8	!	!	PUNCT	_	7	raconté	punct	O	471	472	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	-	-	PUNCT	_	1	Celui	punct	O	472	473	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	faut	expl:subj	O	474	476	_	_	_	Err	Ils faux	474-481	_	_	_	_	_	_	_	_
+2	faut	falloir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	477	481	_	_	_	Err	Ils faux	474-481	_	_	_	_	_	_	_	_
+3	qu'	que	SCONJ	_	5	parte	mark	O	482	485	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	on	on	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	parte	nsubj	O	485	487	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	485-487	is_GNon_incertDNon_incertRNon	485-487	_	_	_	_
+5	parte	partir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	faut	csubj	O	488	493	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	à	à	ADP	_	9	vite	case	O	494	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	vite	advmod	O	494	496	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	plus	plus	ADV	_	6	à	fixed	O	497	501	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vite	vite	ADV	_	5	parte	obl:mod	O	502	506	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	!	!	PUNCT	_	2	faut	punct	O	507	508	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	!	!	PUNCT	_	2	faut	punct	O	508	509	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	»	»	PUNCT	_	4	partirent	punct	O	510	511	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Alors	alors	ADV	_	4	partirent	advmod	O	511	516	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ils	il	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	partirent	nsubj	O	517	520	_	_	_	Err	il parti	517-530	is_GOui_incertDNon_incertRNon	517-520	is_GOui_incertDNon_incertRNon	517-520	_	_	_	_
+4	partirent	partir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	521	530	_	_	_	Err	il parti	517-530	_	_	_	_	_	_	_	_
+5	en	en	ADP	_	6	courant	mark	O	531	533	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	courant	courir	VERB	Tense=Pres|VerbForm=Part	4	partirent	advcl	O	534	541	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	voir	voir	VERB	VerbForm=Inf	6	courant	xcomp	O	542	546	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	grand-mère	det	O	547	549	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	grand-mère	grand-mère	NOUN	Gender=Fem|Number=Sing	7	voir	obj	O	550	560	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	à	à	ADP	_	11	Estelle	case	O	561	562	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Estelle	Estelle	PROPN	_	7	voir	obl:arg	S-PER	563	570	_	_	_	Err	Estelle Ils	563-575	is_GNon_incertDNon_incertRNon	563-570	_	_	_	_	_	_
+12	.	.	PUNCT	_	4	partirent	punct	O	570	571	_	_	_	Err	Estelle Ils	563-575	_	_	_	_	_	_	_	_
+1	Ils	il	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expliquèrent	nsubj	O	572	575	_	_	_	Err	Estelle Ils	563-575	is_GOui_incertDNon_incertRNon	572-575	is_GOui_incertDNon_incertRNon	572-575	_	_	_	_
+2	lui	lui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expliquèrent	obl:arg	O	576	579	_	_	_	Err	lors	576-579	_	_	_	_	_	_	_	_
+3	expliquèrent	expliquer	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	580	592	_	_	_	Err	éxplica	580-592	_	_	_	_	_	_	_	_
+4	tout	tout	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	expliquèrent	obj	O	593	597	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	.	PUNCT	_	3	expliquèrent	punct	O	597	598	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	L'	le	DET	Definite=Def|Number=Sing|PronType=Art	2	histoire	det	O	599	601	_	_	_	Err	L'Histoire	599-609	_	_	_	_	_	_	_	_
+2	histoire	histoire	NOUN	Gender=Fem|Number=Sing	3	raconte	nsubj	O	601	609	_	_	_	Err	L'Histoire	599-609	_	_	_	_	_	_	_	_
+3	raconte	raconter	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	610	617	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	que	SCONJ	_	7	voulait	mark	O	618	621	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	6	bruit	det	O	622	624	_	_	_	Err	se	622-624	_	_	_	_	_	_	_	_
+6	bruit	bruit	NOUN	Gender=Masc|Number=Sing	7	voulait	nsubj	O	625	630	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	voulait	vouloir	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	raconte	ccomp	O	631	638	_	_	_	Err	voules	631-638	_	_	_	_	_	_	_	_
+8	dire	dire	VERB	VerbForm=Inf	7	voulait	xcomp	O	639	643	_	_	_	Err	dit	639-643	_	_	_	_	_	_	_	_
+9	qu'	que	SCONJ	_	12	allait	mark	O	644	647	_	del	647-647	Err	que un	644-649	_	_	_	_	_	_	_	_
+10	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	monstre	det	O	647	649	_	del	647-647	Err	que un	644-649	_	_	_	_	_	_	_	_
+11	monstre	monstre	NOUN	Gender=Masc|Number=Sing	12	allait	nsubj	O	650	657	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	allait	aller	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	dire	ccomp	O	658	664	_	_	_	Err	alle	658-664	_	_	_	_	_	_	_	_
+13	venir	venir	VERB	VerbForm=Inf	12	allait	xcomp	O	665	670	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	en	en	ADP	_	15	ville	case	O	671	673	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ville	ville	NOUN	Gender=Fem|Number=Sing	13	venir	obl:mod	O	674	679	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	monstre	det	O	680	682	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	monstre	monstre	NOUN	Gender=Masc|Number=Sing	19	appelle	nsubj	O	683	690	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	s'	se	PRON	Person=3|PronType=Prs	19	appelle	dep:comp	O	691	693	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	appelle	appeler	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	dire	ccomp	O	693	700	_	del	700-700	_	_	_	_	_	_	_	_	_	_	_
+20	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	nuit	det	O	701	703	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	nuit	nuit	NOUN	Gender=Fem|Number=Sing	19	appelle	obj	O	704	708	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	24	Diable	case	O	709	711	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	Diable	det	O	709	711	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Diable	Diable	PROPN	Gender=Masc|Number=Sing	21	nuit	nmod	S-PER	712	718	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	.	PUNCT	_	3	raconte	punct	O	718	719	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	_	3	enfants	case	O	720	726	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	les	le	DET	Definite=Def|Number=Plur|PronType=Art	3	enfants	det	O	727	730	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	727-738	in_GOui_incertDNon_incertRNon	727-738	in_GNon_incertDNon_incertRNon	727-738	_	_
+3	enfants	enfant	NOUN	Number=Plur	4	décidèrent	obl:mod	O	731	738	_	_	_	Err	enfant	731-738	in_GOui_incertDNon_incertRNon	727-738	in_GOui_incertDNon_incertRNon	727-738	in_GNon_incertDNon_incertRNon	727-738	_	_
+4	décidèrent	décider	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	739	749	_	_	_	Err	désida	739-749	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	6	tuer	mark	O	750	752	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	tuer	tuer	VERB	VerbForm=Inf	4	décidèrent	xcomp	O	753	757	_	_	_	Err	tue	753-757	_	_	_	_	_	_	_	_
+7	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	8	monstre	det	O	758	760	_	_	_	Err	se	758-760	_	_	_	_	_	_	_	_
+8	monstre	monstre	NOUN	Gender=Masc|Number=Sing	6	tuer	obj	O	761	768	_	_	_	Err	montre	761-768	_	_	_	_	_	_	_	_
+9	tous	tout	ADJ	Gender=Masc|Number=Plur	11	enfants	amod	O	769	773	_	_	_	Err	tout	769-773	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
+10	les	le	DET	Definite=Def|Number=Plur|PronType=Art	11	enfants	det	O	774	777	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
+11	enfants	enfant	NOUN	Number=Plur	13	attendaient	nsubj	O	778	785	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	769-785	in_GOui_incertDNon_incertRNon	769-785	in_GNon_incertDNon_incertRNon	769-785	_	_
+12	l'	le	PRON	Number=Sing|Person=3|PronType=Prs	13	attendaient	obj	O	786	788	_	_	_	Err	l'attendes -- alternatives : l'attendent	786-799	_	_	_	_	_	_	_	_
+13	attendaient	attendre	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	décidèrent	conj	O	788	799	_	_	_	Err	l'attendes -- alternatives : l'attendent	786-799	_	_	_	_	_	_	_	_
+14	.	.	PUNCT	_	4	décidèrent	punct	O	799	800	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	arriva	nsubj	O	801	803	_	del	803-803	_	_	_	_	_	_	_	_	_	_	_
+2	arriva	arriver	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	root	O	804	810	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	les	le	DET	Definite=Def|Number=Plur|PronType=Art	4	enfants	det	O	811	814	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	811-822	in_GOui_incertDNon_incertRNon	811-822	in_GNon_incertDNon_incertRNon	811-822	_	_
+4	enfants	enfant	NOUN	Number=Plur	2	arriva	obj	O	815	822	_	del	821-821	_	_	_	in_GOui_incertDNon_incertRNon	811-822	in_GOui_incertDNon_incertRNon	811-822	in_GNon_incertDNon_incertRNon	811-822	_	_
+5	le	le	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	tua	obj	O	823	825	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	tua	tuer	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	arriva	conj	O	826	829	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	.	PUNCT	_	2	arriva	punct	O	829	830	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Depuis	depuis	ADP	_	3	aventure	case	O	831	837	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	3	aventure	det	O	838	843	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aventure	aventure	NOUN	Gender=Fem|Number=Sing	8	sortent	obl:mod	O	844	852	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	_	3	aventure	punct	O	852	853	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	les	le	DET	Definite=Def|Number=Plur|PronType=Art	6	enfants	det	O	854	857	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	854-865	in_GOui_incertDNon_incertRNon	854-865	in_GNon_incertDNon_incertRNon	854-865	_	_
+6	enfants	enfant	NOUN	Number=Plur	8	sortent	nsubj	O	858	865	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	854-865	in_GOui_incertDNon_incertRNon	854-865	in_GNon_incertDNon_incertRNon	854-865	_	_
+7	ne	ne	ADV	Polarity=Neg	8	sortent	advmod	O	866	868	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	869	876	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	plus	plus	ADV	Polarity=Neg	8	sortent	advmod	O	877	881	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit	det	O	882	884	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	885	889	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	.	PUNCT	_	8	sortent	punct	O	889	890	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Car	car	CCONJ	_	5	immortel	cc	O	891	894	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	monstre	det	O	895	897	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	monstre	monstre	NOUN	Gender=Masc|Number=Sing	5	immortel	nsubj	O	898	905	_	_	_	Err	montre	898-905	_	_	_	_	_	_	_	_
+4	était	être	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	immortel	cop	O	906	911	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	immortel	immortel	ADJ	Gender=Masc|Number=Sing	0	root	root	O	912	920	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	_	5	immortel	punct	O	920	921	_	_	_	_	_	_	_	_	_	_	_	_	_	_

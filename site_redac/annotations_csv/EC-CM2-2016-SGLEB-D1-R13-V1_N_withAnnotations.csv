@@ -192,7 +192,6 @@
 7	ne	ne	ADV	Polarity=Neg	8	sortent	advmod	O	930	932	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	root	O	933	940	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	plus	plus	ADV	Polarity=Neg	8	sortent	advmod	O	941	945	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit\	det	O	946	948	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	nuit\	nuit\	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	949	954	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	.	.	PUNCT	_	8	sortent	punct	O	954	955	_	_	_	Err	fin	954-957	_	_	_	_	_	_	_	_
-1	Fin	fin	NOUN	Gender=Fem|Number=Sing	0	root	root	O	956	959	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nuit	det	O	946	948	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nuit	nuit	NOUN	Gender=Fem|Number=Sing	8	sortent	obj	O	949	953	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Fin	fin	NOUN	Gender=Fem|Number=Sing	8	sortent	obl:mod	S-MISC	954	957	_	_	_	Err	fin	954-957	_	_	_	_	_	_	_	_

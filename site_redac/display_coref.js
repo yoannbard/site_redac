@@ -72,9 +72,9 @@ function displayHTMLTable(data){
       		//console.log(word);
       var consigne =row[11]
 
-    	var annot_elle=row[17];
-    	var annot_il=row[19];
-	    var annot_lenf=row[21];
+    	var annot_elle=row[18];
+    	var annot_il=row[20];
+	    var annot_lenf=row[22];
         if (pos!="PUNCT"){
         cpt_word+=1;
         }
@@ -82,19 +82,19 @@ function displayHTMLTable(data){
 		    // cas 1 : on tombe sur une annotation ELLE
 		   	if (annot_elle!="_"){
 		    word='<mark name="ref_elle" style="background:transparent ;" >'+word+' </mark>'
-        if ((i>0 && annot_elle!=data[i-1][17]) || (i==0 && annot_elle!=data[i+1][17])) {
+        if ((i>0 && annot_elle!=data[i-1][18]) || (i==0 && annot_elle!=data[i+1][18])) {
         cpt_elle+=1;
 		    }}
 		    // cas 2 : on tombe sur une annotation IL
 		    if (annot_il!="_"){
 		    word='<mark name="ref_il" style="background:transparent ;" >'+word+' </mark>'
-        if ((i>0 && annot_il!=data[i-1][19]) || (i==0 && annot_il!=data[i+1][19])){
+        if ((i>0 && annot_il!=data[i-1][20]) || (i==0 && annot_il!=data[i+1][20])){
         cpt_il+=1;
 		    }}
 		    // cas 3 : on tombe sur une annotation LENF
 	      if (annot_lenf!="_"){
 	      word='<mark name="ref_lenf" style="background:transparent ;" >'+word+' </mark>'
-        if ((i>0 && annot_lenf!=data[i-1][21]) || (i==0 && annot_lenf!=data[i+1][21])){
+        if ((i>0 && annot_lenf!=data[i-1][22]) || (i==0 && annot_lenf!=data[i+1][22])){
         cpt_lenf+=1;
 	     		      }}
 
@@ -175,17 +175,17 @@ function get_Pfirsts(data){
       const regex_coord = /(?<start>\d+)-\d+/gm;
 
       var P1 = data.find(function (row){
-          return row[17]!="_" & row[11]=="consigne"
+          return row[18]!="_" & row[11]=="consigne"
       });
 
       var P2 = data.find(function (row){
-        return row[19]!="_" & row[11]=="consigne"
+        return row[20]!="_" & row[11]=="consigne"
       });
 
       var P3 = data.find(function (row){
-          return row[21]!="_" & row[11]=="consigne"
+          return row[22]!="_" & row[11]=="consigne"
       });
-      //console.log(P1,P2,P3)
+      console.log(P1,P2,P3)
     if (P1 === undefined) {
         P1=null;
       }else{
@@ -207,15 +207,15 @@ function get_Pfirsts(data){
 
 function get_maillons_firsts(data){
       var first_elle = data.find(function (row){
-          return row[17]!="_"
+          return row[18]!="_"
       });
 
       var first_il = data.find(function (row){
-        return row[19]!="_"
+        return row[20]!="_"
       });
 
       var first_lenf = data.find(function (row){
-          return row[21]!="_"
+          return row[22]!="_"
       });
 
       if (first_elle === undefined) {

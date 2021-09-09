@@ -1,48 +1,48 @@
-1	Un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	2	0	2	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	root	0	3	7	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	depuis	depuis	ADP	ADP	_	case	5	8	14	_	_	_	Err	de puis	8-14	_	_	_	_	_	_	_	_
-4	le	le	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	det	5	15	17	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	passé	passé	NOUN	NOUN	Gender=Masc|Number=Sing	nmod	2	18	23	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	.	.	PUNCT	PUNCT	_	punct	2	23	24	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Elle	il	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	nsubj	2	25	29	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	25-29	_	_	_	_	_	_
-2	habitait	habiter	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	root	0	30	38	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	dans	dans	ADP	ADP	_	case	5	39	43	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	5	44	49	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	maison	maison	NOUN	NOUN	Gender=Fem|Number=Sing	obl:arg	2	50	56	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	depuis	depuis	ADP	ADP	_	case	7	57	63	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	longtemps	longtemps	ADV	ADV	_	obl:mod	2	64	73	consigne	_	_	Err	longtemps Mais	64-78	_	_	_	_	_	_	_	_
-8	mais	mais	CCONJ	CCONJ	_	cc	20	74	78	_	_	_	Err	longtemps Mais	64-78	_	_	_	_	_	_	_	_
-9	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	10	79	81	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	jour	jour	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	20	82	86	_	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
-11	,	,	PUNCT	PUNCT	_	punct	13	86	87	_	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
-12	en	en	ADP	ADP	_	mark	13	88	90	consigne	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
-13	entendant	entendre	VERB	VERB	Tense=Pres|VerbForm=Part	advcl	20	91	100	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	ce	ce	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	det	16	101	103	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	16	104	109	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-16	bruit	bruit	NOUN	NOUN	Gender=Masc|Number=Sing	obj	13	110	115	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	,	,	PUNCT	PUNCT	_	punct	13	115	116	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	il	il	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	nsubj	20	117	119	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	117-119	_	_	_	_
-19	se	se	PRON	PRON	Person=3|PronType=Prs	obj	20	120	122	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	retourna	retourner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	conj	2	123	131	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	.	.	PUNCT	PUNCT	_	punct	2	131	132	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-1	Puis	puis	CCONJ	CCONJ	_	cc	9	133	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	3	138	140	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	soir	soir	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	9	141	145	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	det	6	146	148	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	grand	grand	ADJ	ADJ	Gender=Masc|Number=Sing	amod	6	149	154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	soir	soir	NOUN	NOUN	Gender=Masc|Number=Sing	obl:mod	9	155	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	8	160	163	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	160-171	_	_
-8	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	9	164	171	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	160-171	_	_
-9	faisaient	faire	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	root	0	172	181	_	_	_	Err	fessais	172-181	_	_	_	_	_	_	_	_
-10	et	et	CCONJ	CCONJ	_	cc	18	182	184	_	_	_	Err	et Depuis	182-191	_	_	_	_	_	_	_	_
-11	depuis	depuis	ADP	ADP	_	case	13	185	191	consigne	_	_	Err	et Depuis	182-191	_	_	_	_	_	_	_	_
-12	cette	ce	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	det	13	192	197	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	aventure	aventure	NOUN	NOUN	Gender=Fem|Number=Sing	obl:mod	18	198	206	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	,	,	PUNCT	PUNCT	_	punct	13	206	207	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	les	le	DET	DET	Definite=Def|Number=Plur|PronType=Art	det	16	208	211	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	208-219	_	_
-16	enfants	enfant	NOUN	NOUN	Number=Plur	nsubj	18	212	219	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	208-219	_	_
-17	ne	ne	ADV	ADV	Polarity=Neg	advmod	18	220	222	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	sortent	sortir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	conj	9	223	230	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	plus	plus	ADV	ADV	Polarity=Neg	advmod	18	231	235	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	la	le	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	det	21	236	238	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	nuit..	nuit..	NOUN	NOUN	Gender=Fem|Number=Sing	obj	18	239	245	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	jour	det	O	0	2	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	jour	jour	NOUN	Gender=Masc|Number=Sing	0	root	root	O	3	7	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	depuis	depuis	ADP	_	5	passé	case	O	8	14	_	_	_	Err	de puis	8-14	_	_	_	_	_	_	_	_
+4	le	le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	passé	det	O	15	17	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	passé	passé	NOUN	Gender=Masc|Number=Sing	2	jour	nmod	O	18	23	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	.	PUNCT	_	2	jour	punct	O	23	24	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elle	il	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	habitait	nsubj	O	25	29	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	25-29	_	_	_	_	_	_
+2	habitait	habiter	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	30	38	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dans	dans	ADP	_	5	maison	case	O	39	43	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	5	maison	det	O	44	49	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	maison	maison	NOUN	Gender=Fem|Number=Sing	2	habitait	obl:arg	O	50	56	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	depuis	depuis	ADP	_	7	longtemps	case	O	57	63	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longtemps	longtemps	ADV	_	2	habitait	obl:mod	O	64	73	consigne	_	_	Err	longtemps Mais	64-78	_	_	_	_	_	_	_	_
+8	mais	mais	CCONJ	_	20	retourna	cc	O	74	78	_	_	_	Err	longtemps Mais	64-78	_	_	_	_	_	_	_	_
+9	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	jour	det	O	79	81	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	jour	jour	NOUN	Gender=Masc|Number=Sing	20	retourna	obl:mod	O	82	86	_	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
+11	,	,	PUNCT	_	13	entendant	punct	O	86	87	_	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
+12	en	en	ADP	_	13	entendant	mark	O	88	90	consigne	_	_	Err	jour. En	82-90	_	_	_	_	_	_	_	_
+13	entendant	entendre	VERB	Tense=Pres|VerbForm=Part	20	retourna	advcl	O	91	100	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ce	ce	DET	Gender=Masc|Number=Sing|PronType=Dem	16	bruit	det	O	101	103	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	grand	grand	ADJ	Gender=Masc|Number=Sing	16	bruit	amod	O	104	109	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bruit	bruit	NOUN	Gender=Masc|Number=Sing	13	entendant	obj	O	110	115	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	,	PUNCT	_	13	entendant	punct	O	115	116	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	il	il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	retourna	nsubj	O	117	119	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	117-119	_	_	_	_
+19	se	se	PRON	Person=3|PronType=Prs	20	retourna	obj	O	120	122	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	retourna	retourner	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	habitait	conj	O	123	131	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	.	PUNCT	_	2	habitait	punct	O	131	132	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Puis	puis	CCONJ	_	9	faisaient	cc	O	133	137	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	soir	det	O	138	140	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	soir	soir	NOUN	Gender=Masc|Number=Sing	9	faisaient	obl:mod	O	141	145	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	un	un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	soir	det	O	146	148	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	grand	grand	ADJ	Gender=Masc|Number=Sing	6	soir	amod	O	149	154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	soir	soir	NOUN	Gender=Masc|Number=Sing	9	faisaient	obl:mod	O	155	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	les	le	DET	Definite=Def|Number=Plur|PronType=Art	8	enfants	det	O	160	163	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	160-171	_	_
+8	enfants	enfant	NOUN	Number=Plur	9	faisaient	nsubj	O	164	171	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	160-171	_	_
+9	faisaient	faire	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	root	O	172	181	_	_	_	Err	fessais	172-181	_	_	_	_	_	_	_	_
+10	et	et	CCONJ	_	18	sortent	cc	O	182	184	_	_	_	Err	et Depuis	182-191	_	_	_	_	_	_	_	_
+11	depuis	depuis	ADP	_	13	aventure	case	O	185	191	consigne	_	_	Err	et Depuis	182-191	_	_	_	_	_	_	_	_
+12	cette	ce	DET	Gender=Fem|Number=Sing|PronType=Dem	13	aventure	det	O	192	197	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	aventure	aventure	NOUN	Gender=Fem|Number=Sing	18	sortent	obl:mod	O	198	206	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	,	PUNCT	_	13	aventure	punct	O	206	207	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	les	le	DET	Definite=Def|Number=Plur|PronType=Art	16	enfants	det	O	208	211	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	208-219	_	_
+16	enfants	enfant	NOUN	Number=Plur	18	sortent	nsubj	O	212	219	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	208-219	_	_
+17	ne	ne	ADV	Polarity=Neg	18	sortent	advmod	O	220	222	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	sortent	sortir	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	faisaient	conj	O	223	230	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	plus	plus	ADV	Polarity=Neg	18	sortent	advmod	O	231	235	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	la	le	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	nuit..	det	O	236	238	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	nuit..	nuit..	NOUN	Gender=Fem|Number=Sing	18	sortent	obj	O	239	245	_	_	_	_	_	_	_	_	_	_	_	_	_	_
