@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html><head>
+
+
+
+
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet"><!-- Navigation --></head><body><div class="container_nav">
+<a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"></a>
+  <div class="image_nav"><a href="./resolco.html"><img src="images/logo_V3.png" alt="resolco"></a></div>
+    <ul id="menu-demo2">
+	<li><a href="./resolco.html">Présentation</a>
+	</li>
+	<li><a href="./constitution.html">Constitution</a>
+	</li>
+	<li><a href="#">Exploration</a>
+		<ul>
+			<li><a href="exploration.html">Transcription</a></li>
+			<li><a href="exploration_coref.html">Continuité référentielle</a></li>
+		</ul>
+	</li>
+	<li><a href="./telechargement.html">Téléchargement</a>
+	</li>
+</ul>
+</div>
+
+
+<!--Historique-->
+<div class="general-background">
+
+
+
+		<h1>Constitution de la ressource RésolCo</h1>
+		<hr>
+		<p>
+Cette page décrit les différentes étapes du processus de constitution
+de la ressource, de la transcription à sa normalisation puis à
+l'annotation. Ces étapes sont illustrées dans le schéma ci-dessous.<br>
+		</p>
+		
+			<img class="chaineTraitement" src="images/chaine_traitementEcalm_V3.jpg" alt="">
+			
+		<p>Les étapes préliminaires sont les suivantes :</p>
+<ol start="0">
+<li><b>Collecte</b> : les textes sont produits en suivant une consigne d'écriture (décrite ci-dessous) puis numérisés au format .png ;</li><li><b>Préparation</b>
+des textes : il s'agit de dissocier les scans reçus et de préparer les
+fichiers .xml, qui seront utilisés pour la transcription ;</li><li><b>Transcription</b> et <b>vérification</b> des transcriptions : la transcription et la vérification sont effectuées par deux personnes différentes ;</li>
+</ol>
+<p>A partir de là, deux processus parallèles d'annotation ont été mis en place :</p><p>1) P<span style="font-weight: bold;">our l'annotation de la continuité référentielle</span>:<br>
+</p>
+<ol style="list-style-type: decimal;" start="3"><li type="1"><b>Génération</b>
+des fichiers pour l'annotation des erreurs d'orthographe : un script
+python permet de transformer les fichiers .xml au format exploitable
+par l'interface d'annotation utilisée pour l'annotation de la
+continuité référentielle <br>
+</li>
+			<li><b>Normalisation orthographique</b> : il s'agit d'annoter
+les erreurs d'orthographe et en indiquer la version corrigée. Si les
+annotateurs rencontrent des erreurs provenant de la transcription, on
+revient à l'étape 2 pour corriger les .xml ;</li>
+			<li><b>Génération</b> des fichiers normalisés : un script python permet de générer les fichiers normalisés, c'est-à-dire sans erreurs d'orthographe ;</li>
+			<li><b>Vérification</b>
+des fichiers normalisés : la vérification est effectuée par une
+personne différente de celle qui a réalisé l'annotation. Si des erreurs
+de normalisation sont rencontrés, on revient à l'étape 4 ;</li>
+			<li><b>Parsing</b> des fichiers normalisés : pour le parsing <a href="https://arxiv.org/abs/2003.07082">Stanza (Peng Qi, et al., 2020)</a> a été utilisé ;</li>
+			<li><span style="font-weight: bold;">Annotation</span><b style="font-weight: bold;"> de la continuité référentielle</b> des textes normalisés grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz (Widlöcher A. and  Mathet Y.,  2009).</a> <br>
+</li></ol>
+2) <span style="font-weight: bold;">Pour l'annotation de la cohérence</span> :<br>
+
+<ol style="list-style-type: upper-alpha;">
+<li>Passage des textes au format txt</li><li><span style="font-weight: bold;">Segmentation</span> en Unités de Discours Elémentaires</li><li><span style="font-weight: bold;">Annotation</span> de la <span style="font-weight: bold;">Cohérence</span> : Relations de Discours et Problèmes de Cohérence</li>
+</ol>
+<ol style="list-style-type: decimal;" start="3">
+<br>
+  <br>
+
+		
+</ol>
+
+		 
+</div>
+<div class="general-background">
+	
+
+		   <h1>Consigne et collecte des textes</h1>
+				<hr>
+				<p>L'originalité du corpus RésolCo réside dans le fait que les textes produits répondent tous à une même consigne d'écriture.
+				Celle-ci est une tâche-problème imposant aux élèves la résolution de problèmes de cohésion textuelle (<a title="La gestion de la cohésion textuelle  par des élèves de 11-12 ans&nbsp;: réussites et difficultés" href="https://www.linguistiquefrancaise.org/articles/shsconf/pdf/2014/05/shsconf_cmlf14_01349.pdf" target="blank">Garcia-Debanc et Bonnemaison, 2014</a> ; <a title="Vers une cartographie des compétences de cohérence et  de cohésion textuelle dans une tâche-problème de production écrite réalisée par des élèves de 9 -12 ans: indicateurs de maitrise et progressivité " href="https://hal.archives-ouvertes.fr/hal-01987031/" target="blank">Garcia-Debanc et Bras, 2016</a>).<br>
+L'objectif de cette consigne, fournie ci-dessous et accompagnée d'un
+texte réalisé par un élève de CE2, est de provoquer chez le scripteur
+la mise en oeuvre de stratégies de résolution des problèmes de
+cohérence soulevés par l'intégration de trois phrases dans un récit.</p>
+				<table align="center" border="1" width="100%">
+				<tbody><tr>
+					<td>
+					<i>
+				</i><p><i><font size="-5"><b>Consigne&nbsp;:</b> Racontez une histoire dans laquelle vous insérerez, séparément et dans l'ordre donné, les trois phrases suivantes&nbsp;:</font></i></p><i>	
+				</i><p><i><img src="images/3phrases.png" width="90%"></i></p>
+<i>				</i><p><i><font size="-5">Vous pouvez découper les bandelettes
+contenant les phrases ci-dessous ou bien recopier chaque phrase avec
+soin à l'identique de celles qui vous sont données.</font></i></p>
+
+<i>			</i></td>
+
+
+				<td width="60%"><p>Ci-dessous un exemple de texte récolté en 2016 dans une classe de CE2.</p><a href="copies/html_transcript/EC-CE2-2017-TBZX-D1-R7-V1_N.html"><img title="EC-CE2-2017-TBZX-D1-R7-P1_S" src="images/EC-CE2-2017-TBZX-D1-R7-V1_S.png" align="middle" width="100%"></a>.</td>
+				
+				</tr>
+				</tbody></table>
+				<p>Les
+trois phrases impliquent des stratégies discursives variées, amenant le
+scripteur à gérer plusieurs continuités référentielles et planifier son
+discours afin d'assurer la cohérence de son texte (<a title="Vers l’annotation discursive de textes d’élèves" href="https://journals.openedition.org/corpus/2783#tocto2n6" target="blank">Garcia-Debanc et al. 2017</a>).</p>
+
+				<!--img src="images/versionJolie.png" alt=""-->
+				<p>
+Il est possible de contribuer à la récolte des textes en utilisant la
+consigne et les documents nécessaires à la collecte des textes. Cette
+consigne et ces documents sont disponibles au format .pdf en suivant le
+lien &nbsp;: <a href="docs/documents_recolte.pdf">documents pour la récolte des textes d'élèves.</a>
+		</p>
+			  
+
+	<!--Transcription-->
+</div>
+
+<!-- Description du processus de transcription -->
+
+<div class="general-background">
+	
+	
+		<h1>Transcription des textes d'élèves</h1>
+		<hr>
+		<p>Afin
+de transformer les textes en une ressource exploitable par la
+communauté scientifique, et y appliquer des méthodes de linguistique de
+corpus et de TAL, il est nécessaire de passer par une étape de
+transcription des scans de textes. Le format choisi pour la
+transcription est le format XML, selon la norme TEI-P5. </p>
+		<p>Toute transcription est anonymisée et assortie de
+métadonnées fournissant des informations sur la collecte et la
+numérisation du texte, sur les conditions d'écriture et sur l'école qui
+a participé à la récolte des textes. La vérification est effectuée par
+un correcteur différent du transcripteur.<br>
+		</p>
+		<p>Pour ce qui
+concerne le corps du texte, l'objectif de la transcription est de
+reproduire le plus fidèlement possible le texte du scripteur. Afin
+d'obtenir une reproduction fidèle, la mise en page ligne par ligne est
+renseignée ainsi que toute trace du processus d'écriture comme les
+ratures, les ajouts, les soulignements, etc. Aucune erreur
+d'orthographe n'est corrigée lors de la transcription.</p>
+		<p>
+			Pour plus de détails concernant les éléments transcrits et les balises utilisées vous pouvez consulter : 
+			</p><ul>
+				<li>la version actuelle du <a href="docs/Guide_transcription.pdf"><b>guide de transcription</b></a>.</li>
+				<!--li><a href="docs/Frama_transcription.html">le <b>Framapad de transcription</b></a></li-->
+				<li>le <a href="docs/XX-XXX-20XX-XXX-RX-VX_T.tei.xml"><b>canevas</b></a> d'une transcription au format XML qui liste tous les éléments saisis dans le <i>teiHeader</i> qui contient les métadonnées associées à chaque texte.</li>
+				<li>l'exploration du <a href="exploration.html"><b>corpus transcrit</b></a></li>
+			</ul>
+		
+	
+</div>
+		
+	<!-- Normalisation -->
+
+	<div class="general-background">
+	
+	
+		<h1>Normalisation des textes d'élèves</h1>
+		<hr>
+		<p>
+		Cette phase consiste en un étiquetage des erreurs d'orthographe grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).
+		</p>
+
+		<p>Pour
+ce qui concerne l'annotation des erreurs d'orthographe, il a été décidé
+de ne pas classer les erreurs. En effet, la catégorisation des erreurs
+orthographiques sera effectuée par les experts du projet E-Calm qui
+travaillent sur l'orthographe.<br> La normalisation du corpus RésolCo
+est effectuée par des annotateurs francophones. Lorsqu'ils ont un
+doute, les annotateurs peuvent indiquer une incertitude concernant la
+détection et/ou la correction de l'erreur. Si plusieurs solutions de
+correction sont possibles, elles sont indiquées.<br>
+		</p>
+		<p>Toute normalisation est vérifiée par une personne différente de celle qui a annoté le texte.</p>
+		<p>
+			Pour plus de détails concernant les éléments normalisés et les décisions prises 
+			vous pouvez consulter : 
+			</p><ul>
+				<li><a href="docs/Guide_normalisation.pdf">la version actuelle du <b>guide de normalisation</b></a> proposé dans le cadre du projet <a href="http://e-calm.huma-num.fr/" target="_blank">E:Calm</a> qui sera publié une fois finalisé sur le site du projet.</li>
+				<!--li><a href="docs/Frama_normalisation.html">le <b>Framapad de normalisation</b></a></li-->
+				
+			</ul>
+		
+		
+</div>
+<div class="general-background">
+
+		<h1>Annotation de la cohérence</h1>
+		<hr>
+		<p>L'étude
+de la cohérence discursive dans les écrits d'élèves et
+d'étudiants est au coeur du projet E-calm. Afin d'analyser l'évolution
+de la cohérence dans les textes entre l'école primaire et le collège,
+une annotation de la cohérence a été réalisée sur des textes d'élèves
+de CE2, 6ème et 3ème. Elle comporte une
+segmentation des textes en Unités de Discours Elémentaires et une
+annotation en Relations de Discours accompagnée d'une annotation des
+problèmes de
+cohérence rencontrés. </p><p>Pour obtenir le corpus annoté veuillez consulter la page <a href="telechargement.html"><b>Téléchargement<br>
+</b></a></p>
+
+		
+		
+		
+
+</div>
+				
+
+<div>
+<h1>Annotation de la continuité référentielle</h1>
+
+		
+<hr>
+		
+<p> L'étude
+de la compétence discursive des élèves et d'étudiants est
+une des tâches principales du projet E-calm. Afin d'obtenir un
+aperçu de la maîtrise et de l'évolution de cette compétence,
+l'annotation de la continuité référentielle vise à décrire de façon
+exhaustive et systématique les formes linguistiques utilisées pour
+construire la référence dans les textes. </p>
+
+		
+<p>Une annotation de chaque "maillon" des chaînes
+référentielles correspondant aux trois référents humains de la consigne
+a été effectuée pour les textes normalisés grâce à l'interface
+d'annotation <a href="http://glozz.free.fr/">Glozz</a> (Widlöcher A. and  Mathet Y.,  2009).
+			<br>
+
+		</p>
+<p>L'alignement
+de ces textes annotés avec les textes parsés avec Stanza permet de
+récupérer les informations morpho-syntaxiques afin de réaliser une
+analyse plus fine des chaines.</p>Pour plus de détails concernant l'annotation ou pour explorer le corpus normalisé et annoté veuillez consulter la page <a href="../FichiersYoann/exploration_coref.html"><b>Exploration CR</b></a> <p><font size="-1">Site développé par Y. Bard, S. Federzoni et L.M. Ho-Dac (<a href="http://redac.univ-tlse2.fr/corpus/resolco.html">contact</a>).</font></p>
+</div>
+</body></html>

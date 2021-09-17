@@ -10,9 +10,9 @@
 
 <div class="container_nav">
 <a href="http://redac.univ-tlse2.fr"><img src="http://redac.univ-tlse2.fr/img/redac140.png" alt="redac"/></a>
-  <div class="image_nav"><a href="./resolco.html"><img src="images/logo_V3.png" alt="resolco"/></a></div>
+  <div class="image_nav"><a href="./presentation.html"><img src="images/logo_V3.png" alt="resolco"/></a></div>
     <ul id="menu-demo2">
-	<li><a href="./resolco.html">Présentation</a>
+	<li><a href="./presentation.html">Présentation</a>
 	</li>
 	<li><a href="./constitution.html">Constitution</a>
 	</li>
@@ -42,19 +42,43 @@
 		
 			<img class="chaineTraitement" src="images/chaine_traitementEcalm_V3.jpg" alt="">
 			
-		<p>Les principales étapes sont : 
-		<ol start="0">
-			<li><b>Collecte</b> : les textes sont produits en suivant une consigne d'écriture (décrite ci-dessous) puis numérisés au format .png ;</li>
-			<li><b>Préparation</b> des textes : il s'agit de dissocier les scans reçus et de préparer les fichiers .xml, qui seront utilisés pour la transcription ;</li>
-			<li><b>Transcription</b> et <b>vérification</b> des transcriptions : la transcription et la vérification sont effectuées par deux personnes différentes ;</li>
-			<li><b>Génération</b> des fichiers pour l'annotation des erreurs d'orthographe : un script python permet de transformer les fichiers .xml au format exploitable par l'interface d'annotation utilisée ;</li>
-			<li><b>Normalisation orthographique</b> : il s'agit d'annoter les erreurs d'orthographe et en indiquer la version corrigée. Si les annotateurs rencontrent des erreurs provenant de la transcription, on revient à l'étape 2 pour corriger les .xml ;</li>
+		<p>Les étapes préliminaires sont les suivantes :</p>
+<ol start="0">
+<li><b>Collecte</b> : les textes sont produits en suivant une consigne d'écriture (décrite ci-dessous) puis numérisés au format .png ;</li><li><b>Préparation</b>
+des textes : il s'agit de dissocier les scans reçus et de préparer les
+fichiers .xml, qui seront utilisés pour la transcription ;</li><li><b>Transcription</b> et <b>vérification</b> des transcriptions : la transcription et la vérification sont effectuées par deux personnes différentes ;</li>
+</ol>
+<p>A partir de là, deux processus parallèles d'annotation ont été mis en place :</p><p>1) P<span style="font-weight: bold;">our l'annotation de la continuité référentielle</span>:<br>
+</p>
+<ol style="list-style-type: decimal;" start="3"><li type="1"><b>Génération</b>
+des fichiers pour l'annotation des erreurs d'orthographe : un script
+python permet de transformer les fichiers .xml au format exploitable
+par l'interface d'annotation utilisée pour l'annotation de la
+continuité référentielle <br>
+</li>
+			<li><b>Normalisation orthographique</b> : il s'agit d'annoter
+les erreurs d'orthographe et en indiquer la version corrigée. Si les
+annotateurs rencontrent des erreurs provenant de la transcription, on
+revient à l'étape 2 pour corriger les .xml ;</li>
 			<li><b>Génération</b> des fichiers normalisés : un script python permet de générer les fichiers normalisés, c'est-à-dire sans erreurs d'orthographe ;</li>
-			<li><b>Vérification</b> des fichiers normalisés : la vérification est effectuée par une personne différente de celle qui a réalisé l'annotation. Si des erreurs de normalisation sont rencontrés, on revient à l'étape 4 ;</li>
+			<li><b>Vérification</b>
+des fichiers normalisés : la vérification est effectuée par une
+personne différente de celle qui a réalisé l'annotation. Si des erreurs
+de normalisation sont rencontrés, on revient à l'étape 4 ;</li>
 			<li><b>Parsing</b> des fichiers normalisés : pour le parsing <a href="https://arxiv.org/abs/2003.07082">Stanza (Peng Qi, et al., 2020)</a> a été utilisé ;</li>
-			<li><b>Annotation de la continuité référentielle</b> des textes normalisés grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz (Widlöcher A. and  Mathet Y.,  2009).</a> ;</li>
-		</ol>
-		 </p>
+			<li><span style="font-weight: bold;">Annotation</span><b style="font-weight: bold;"> de la continuité référentielle</b> des textes normalisés grâce à l'interface d'annotation <a href="http://glozz.free.fr/">Glozz (Widlöcher A. and  Mathet Y.,  2009).</a> <br>
+</li></ol>
+2) <span style="font-weight: bold;">Pour l'annotation de la cohérence</span> :<br>
+
+<ol style="list-style-type: upper-alpha;">
+<li>Passage des textes au format txt</li><li><span style="font-weight: bold;">Segmentation</span> en Unités de Discours Elémentaires</li><li><span style="font-weight: bold;">Annotation</span> de la <span style="font-weight: bold;">Cohérence</span> : Relations de Discours et Problèmes de Cohérence</li>
+</ol>
+<ol style="list-style-type: decimal;" start="3">
+<br>
+  <br>
+
+		
+</ol>
 </div>
 <div class="general-background">
 	
@@ -143,6 +167,29 @@
 		</p>
 		
 </div>
+
+<div class="general-background">
+
+		<h1>Annotation de la cohérence</h1>
+		<hr>
+		<p>L'étude
+de la cohérence discursive dans les écrits d'élèves et
+d'étudiants est au coeur du projet E-calm. Afin d'analyser l'évolution
+de la cohérence dans les textes entre l'école primaire et le collège,
+une annotation de la cohérence a été réalisée sur des textes d'élèves
+de CE2, 6ème et 3ème. Elle comporte une
+segmentation des textes en Unités de Discours Elémentaires et une
+annotation en Relations de Discours accompagnée d'une annotation des
+problèmes de
+cohérence rencontrés. </p><p>Pour obtenir le corpus annoté veuillez consulter la page <a href="telechargement.html"><b>Téléchargement<br>
+</b></a></p>
+
+		
+		
+		
+
+</div>
+
 <div class="general-background">
 
 		<h1>Annotation de la continuité référentielle</h1>
